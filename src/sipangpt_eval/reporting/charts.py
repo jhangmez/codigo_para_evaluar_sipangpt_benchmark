@@ -16,18 +16,26 @@ def generate_accuracy_chart(
     pairs: Sequence[EvaluatedPair],
     output_path: Path = settings.figures_dir / "curva_exactitud_comparada.png",
 ) -> None:
-    """Genera gráfico comparativo de exactitud global y por módulo a 300 DPI."""
+    """Genera gráfico comparativo de exactitud fáctica por módulo a 300 DPI."""
     output_path.parent.mkdir(parents=True, exist_ok=True)
 
-    # Calcular exactitud por modulo
-    mod_scores_ft: Dict[str, List[float]] = {}
-    mod_scores_rag: Dict[str, List[float]] = {}
+    # Orden canónico de los 5 módulos académicos USS
+    mod_order: List[str] = [
+        "Matrícula y Registros",
+        "Campus Virtual y Aprendizaje",
+        "Pagos y Cobranzas",
+        "Biblioteca Virtual",
+        "Normativa y Trámites",
+    ]
 
     pts_map: Dict[ScoreCategory, float] = {
         ScoreCategory.CORRECTA: 1.0,
         ScoreCategory.PARCIAL: 0.5,
         ScoreCategory.INCORRECTA: 0.0,
     }
+
+    mod_scores_ft: Dict[str, List[float]] = {}
+    mod_scores_rag: Dict[str, List[float]] = {}
 
     for pair in pairs:
         mod_name: str = pair.caso.modulo.value
@@ -39,7 +47,9 @@ def generate_accuracy_chart(
         mod_scores_rag[mod_name].append(pts_map[pair.score_rag])
 
     mod_data: List[Dict[str, str | float]] = []
-    for mod in mod_scores_ft.keys():
+    # Filtrar solo módulos que existan en el conjunto evaluado preservando orden
+    active_mods: List[str] = [m for m in mod_order if m in mod_scores_ft]
+    for mod in active_mods:
         pct_ft: float = (sum(mod_scores_ft[mod]) / len(mod_scores_ft[mod])) * 100.0
         pct_rag: float = (sum(mod_scores_rag[mod]) / len(mod_scores_rag[mod])) * 100.0
 
@@ -56,16 +66,19 @@ def generate_accuracy_chart(
         "Sipán-STAIR (RAG)": "#0275D8",
     }
 
+    from matplotlib.container import BarContainer
+
     ax = sns.barplot(
         data=df_plot,
         x="Exactitud (%)",
         y="Módulo",
         hue="Modelo",
+        order=active_mods,
         palette=palette,
     )
 
     plt.title(
-        "Exactitud Comparada por Módulo Académico (Fine-Tuning vs RAG)",
+        "Exactitud Fáctica Comparada por Módulo Académico (50 Preguntas)",
         fontsize=13,
         fontweight="bold",
         pad=15,
@@ -74,11 +87,9 @@ def generate_accuracy_chart(
     plt.ylabel("Módulo Evaluado", fontsize=11, fontweight="bold")
     plt.xlim(0, 100)
 
-    from matplotlib.container import BarContainer
-
     for container in ax.containers:
         if isinstance(container, BarContainer):
-            ax.bar_label(container, fmt="%.1f%%", padding=3, fontsize=9)
+            ax.bar_label(container, fmt="%.1f%%", padding=4, fontsize=10, fontweight="bold")
 
     plt.tight_layout()
     plt.savefig(output_path, dpi=300)
@@ -89,52 +100,74 @@ def generate_latency_boxplot(
     pairs: Sequence[EvaluatedPair],
     output_path: Path = settings.figures_dir / "latencia_boxplots.png",
 ) -> None:
-    """Genera gráfico de caja (boxplot) comparativo de latencias a 300 DPI."""
+    """Genera gráfico comparativo de latencia media de inferencia por módulo en segundos a 300 DPI."""
     output_path.parent.mkdir(parents=True, exist_ok=True)
 
-    latency_records: List[Dict[str, str | float]] = []
+    mod_order: List[str] = [
+        "Matrícula y Registros",
+        "Campus Virtual y Aprendizaje",
+        "Pagos y Cobranzas",
+        "Biblioteca Virtual",
+        "Normativa y Trámites",
+    ]
+
+    mod_lat_ft: Dict[str, List[float]] = {}
+    mod_lat_rag: Dict[str, List[float]] = {}
+
     for pair in pairs:
-        latency_records.append(
-            {
-                "Modelo": "Gemma-4 Fine-Tuned",
-                "Latencia (ms)": pair.inferencia_finetuned.tiempo_total_ms,
-            }
-        )
-        latency_records.append(
-            {
-                "Modelo": "Sipán-STAIR (RAG)",
-                "Latencia (ms)": pair.inferencia_rag.tiempo_total_ms,
-            }
-        )
+        mod_name: str = pair.caso.modulo.value
+        if mod_name not in mod_lat_ft:
+            mod_lat_ft[mod_name] = []
+            mod_lat_rag[mod_name] = []
 
-    df_lat = pd.DataFrame(latency_records)
+        mod_lat_ft[mod_name].append(pair.inferencia_finetuned.tiempo_total_ms / 1000.0)
+        mod_lat_rag[mod_name].append(pair.inferencia_rag.tiempo_total_ms / 1000.0)
 
-    plt.figure(figsize=(8, 5), dpi=300)
+    mod_data: List[Dict[str, str | float]] = []
+    active_mods: List[str] = [m for m in mod_order if m in mod_lat_ft]
+    for mod in active_mods:
+        sec_ft: float = sum(mod_lat_ft[mod]) / len(mod_lat_ft[mod])
+        sec_rag: float = sum(mod_lat_rag[mod]) / len(mod_lat_rag[mod])
+
+        mod_data.append({"Módulo": mod, "Modelo": "Gemma-4 Fine-Tuned", "Latencia (s)": round(sec_ft, 1)})
+        mod_data.append({"Módulo": mod, "Modelo": "Sipán-STAIR (RAG)", "Latencia (s)": round(sec_rag, 1)})
+
+    df_lat = pd.DataFrame(mod_data)
+
+    plt.figure(figsize=(10, 6), dpi=300)
     sns.set_theme(style="whitegrid")
 
     palette: Dict[str, str] = {
-        "Gemma-4 Fine-Tuned": "#5CB85C",
-        "Sipán-STAIR (RAG)": "#F0AD4E",
+        "Gemma-4 Fine-Tuned": "#D9534F",
+        "Sipán-STAIR (RAG)": "#0275D8",
     }
 
-    sns.boxplot(
+    from matplotlib.container import BarContainer
+
+    ax = sns.barplot(
         data=df_lat,
-        x="Modelo",
-        y="Latencia (ms)",
+        x="Latencia (s)",
+        y="Módulo",
         hue="Modelo",
+        order=active_mods,
         palette=palette,
-        legend=False,
-        width=0.4,
     )
 
     plt.title(
-        "Distribución de Latencia de Inferencia (ms)",
+        "Latencia Media de Inferencia por Módulo Académico (Segundos)",
         fontsize=13,
         fontweight="bold",
         pad=15,
     )
-    plt.xlabel("Modelo Evaluado", fontsize=11, fontweight="bold")
-    plt.ylabel("Tiempo de Respuesta (ms)", fontsize=11, fontweight="bold")
+    plt.xlabel("Tiempo de Respuesta Promedio (Segundos)", fontsize=11, fontweight="bold")
+    plt.ylabel("Módulo Evaluado", fontsize=11, fontweight="bold")
+
+    max_lat: float = float(df_lat["Latencia (s)"].max()) if not df_lat.empty else 100.0
+    plt.xlim(0, max(max_lat * 1.18, 15.0))
+
+    for container in ax.containers:
+        if isinstance(container, BarContainer):
+            ax.bar_label(container, fmt="%.1fs", padding=4, fontsize=10, fontweight="bold")
 
     plt.tight_layout()
     plt.savefig(output_path, dpi=300)
@@ -220,9 +253,13 @@ def generate_markdown_table(
 
 
 def generate_all_reports_and_charts(
-    metrics: BenchmarkSummaryMetrics, pairs: Sequence[EvaluatedPair]
+    metrics: BenchmarkSummaryMetrics,
+    pairs: Sequence[EvaluatedPair],
+    accuracy_path: Path = settings.figures_dir / "curva_exactitud_comparada.png",
+    latency_path: Path = settings.figures_dir / "latencia_boxplots.png",
+    table_path: Path = settings.tables_dir / "tabla_exactitud_50_preguntas.md",
 ) -> None:
     """Genera todos los reportes, figuras a 300 DPI y tablas Markdown."""
-    generate_accuracy_chart(metrics, pairs)
-    generate_latency_boxplot(pairs)
-    generate_markdown_table(metrics, pairs)
+    generate_accuracy_chart(metrics, pairs, output_path=accuracy_path)
+    generate_latency_boxplot(pairs, output_path=latency_path)
+    generate_markdown_table(metrics, pairs, output_path=table_path)

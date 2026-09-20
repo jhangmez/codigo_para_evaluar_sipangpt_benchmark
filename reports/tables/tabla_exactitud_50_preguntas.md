@@ -4,23 +4,23 @@
 
 | Métrica / Dimensión de Evaluación | Gemma-4 Fine-Tuned (LoRA) | Sipán-STAIR (RAG Architecture) | Diferencia (%) |
 | :--- | :---: | :---: | :---: |
-| **Total de Casos Evaluados** | 3 | 3 | - |
-| **Respuestas Correctas (C - 1.0 pt)** | 0 (0.0%) | 2 (66.7%) | +66.7% |
-| **Respuestas Parciales (P - 0.5 pt)** | 0 (0.0%) | 1 (33.3%) | 33.3% |
-| **Respuestas Incorrectas / Alucinaciones (I - 0.0 pt)** | 3 (100.0%) | 0 (0.0%) | -100.0% |
-| **Porcentaje Global de Exactitud** | **0.00%** | **83.33%** | **+83.33%** |
-| **Latencia Media por Consulta** | 450.00 ms | 820.00 ms | +370.00 ms |
+| **Total de Casos Evaluados** | 50 | 50 | - |
+| **Respuestas Correctas (C - 1.0 pt)** | 3 (6.0%) | 22 (44.0%) | +38.0% |
+| **Respuestas Parciales (P - 0.5 pt)** | 8 (16.0%) | 11 (22.0%) | 6.0% |
+| **Respuestas Incorrectas / Alucinaciones (I - 0.0 pt)** | 39 (78.0%) | 17 (34.0%) | -44.0% |
+| **Porcentaje Global de Exactitud** | **14.00%** | **55.00%** | **+41.00%** |
+| **Latencia Media por Consulta** | 11893.38 ms | 91755.90 ms | +79862.52 ms |
 
 ## Tabla V.2: Evaluación de Decisiones Tipadas con TypeSafe AI Jev (System One)
 
 | Métrica / Dimensión Jev (System One) | Gemma-4 Fine-Tuned (LoRA) | Sipán-STAIR (RAG Architecture) | Diferencia (%) |
 | :--- | :---: | :---: | :---: |
-| **Veredicto Jev Correcto ('C')** | 0 (0.0%) | 1 (33.3%) | +33.3% |
-| **Veredicto Jev Parcial ('P')** | 0 (0.0%) | 1 (33.3%) | +33.3% |
-| **Veredicto Jev Incorrecto ('I')** | 3 (100.0%) | 1 (33.3%) | -66.7% |
-| **Exactitud Calibrada Jev (%)** | **0.00%** | **50.00%** | **+50.00%** |
-| **Alucinaciones Detectadas (Prob >= 0.50)** | 3 (100.0%) | 3 (100.0%) | -0.0% |
-| **Calidad Técnica Media (Escala 0-3)** | 0.23 | 1.32 | +1.08 |
+| **Veredicto Jev Correcto ('C')** | 0 (0.0%) | 5 (10.0%) | +10.0% |
+| **Veredicto Jev Parcial ('P')** | 1 (2.0%) | 16 (32.0%) | +30.0% |
+| **Veredicto Jev Incorrecto ('I')** | 49 (98.0%) | 29 (58.0%) | -40.0% |
+| **Exactitud Calibrada Jev (%)** | **1.00%** | **26.00%** | **+25.00%** |
+| **Alucinaciones Detectadas (Prob >= 0.50)** | 49 (98.0%) | 41 (82.0%) | -16.0% |
+| **Calidad Técnica Media (Escala 0-3)** | 0.33 | 1.06 | +0.73 |
 
 ---
 

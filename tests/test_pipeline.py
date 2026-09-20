@@ -52,20 +52,26 @@ def test_full_evaluation_pipeline(tmp_path: Path) -> None:
     generate_comparative_excel(pairs, metrics, output_path=excel_file)
     assert excel_file.exists()
 
-    # 5. Generar reportes y gráficos
+    # 5. Generar reportes y gráficos en directorio temporal
     fig_dir = tmp_path / "reports" / "figures"
     tab_dir = tmp_path / "reports" / "tables"
+    fig_dir.mkdir(parents=True, exist_ok=True)
+    tab_dir.mkdir(parents=True, exist_ok=True)
 
-    # Redireccionar temporales en settings para la prueba
-    orig_fig_dir = settings.figures_dir
-    orig_tab_dir = settings.tables_dir
-    try:
-        generate_all_reports_and_charts(metrics, pairs)
-        assert (settings.figures_dir / "curva_exactitud_comparada.png").exists()
-        assert (settings.figures_dir / "latencia_boxplots.png").exists()
-        assert (settings.tables_dir / "tabla_exactitud_50_preguntas.md").exists()
-    finally:
-        pass
+    acc_file = fig_dir / "curva_exactitud_comparada.png"
+    lat_file = fig_dir / "latencia_boxplots.png"
+    tab_file = tab_dir / "tabla_exactitud_50_preguntas.md"
+
+    generate_all_reports_and_charts(
+        metrics,
+        pairs,
+        accuracy_path=acc_file,
+        latency_path=lat_file,
+        table_path=tab_file,
+    )
+    assert acc_file.exists()
+    assert lat_file.exists()
+    assert tab_file.exists()
 
 
 def test_jev_evaluation_pipeline(tmp_path: Path) -> None:
