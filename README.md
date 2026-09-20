@@ -38,6 +38,21 @@ La siguiente tabla resume los resultados cuantitativos obtenidos tras evaluar la
 
 ---
 
+### 📐 Criterios de Calificación y Leyenda de la Rúbrica (C, P, I)
+
+La evaluación cuantitativa del desempeño de cada modelo frente al conjunto de prueba (*Ground Truth*) se rige bajo la rúbrica objetiva implementada en `BenchmarkScorer`, aplicando los siguientes criterios y puntajes:
+
+| Categoría | Puntaje | Criterio de Asignación y Verificación Fáctica | Leyenda y Explicación |
+| :--- | :---: | :--- | :--- |
+| **Correcta (C)** | **1.0 pt** | Coincidencia fáctica alta ($\ge 50\%$ de términos clave fácticos). | Respuesta totalmente precisa acorde a los reglamentos y guías USS. En la arquitectura RAG, requiere citación explícita de fuentes. |
+| **Parcial (P)** | **0.5 pt** | Coincidencia intermedia ($25\% \le \text{coincidencia} < 50\%$). | Orientación general adecuada con tono institucional, pero con omisión menor de pasos o falta de citas en RAG. |
+| **Incorrecta (I)** | **0.0 pt** | Coincidencia baja ($< 25\%$) o error fáctico. | Alucinación fáctica, imprecisión en fechas/montos, contradicción reglamentaria o respuesta errónea. |
+
+> 📌 **Cálculo de Exactitud Global:**
+> $$\text{Porcentaje Global de Exactitud (\%)} = \left( \frac{\sum \text{Puntos Obtenidos}}{\text{Total de Preguntas (50)} \times 1.0} \right) \times 100$$
+
+---
+
 ## 🖥️ Condiciones y Entorno Experimental de la Prueba
 
 Para garantizar la **reproducibilidad científica** de los experimentos reportados en el Capítulo V de la tesis, las pruebas fueron ejecutadas bajo las siguientes condiciones controladas de hardware y software:
