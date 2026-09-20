@@ -94,6 +94,22 @@ $$\text{Exactitud Global (\%)} = \frac{\sum \text{Puntos Obtenidos}}{50} \times 
 
 ---
 
+## ⚙️ Conexión e Inferencia con Modelos Reales
+
+### A. Modelo Gemma-4 Fine-Tuned (Unsloth GGUF)
+Para inferir sobre la versión fine-tuned (`unsloth_gemma-4-E2B-it_1789791679-GGUF`):
+* Se puede utilizar **LM Studio** o **Ollama / llama.cpp** como servidor de inferencia API REST local.
+* En **LM Studio**, inicie el servidor local en el puerto `1234` (o `11434` en Ollama).
+* **System Prompt Oficial:** La suite envía automáticamente en cada consulta el prompt del sistema oficial de SipánGPT:
+  > *"Eres SipánGPT, el Asistente Virtual Oficial de la Universidad Señor de Sipán (USS) basado en inteligencia artificial generativa, experto en soporte técnico informático, plataformas digitales (Campus Virtual, Aula Virtual, Sistema de Registros Académicos, Biblioteca Virtual) y normativas institucionales..."*
+
+### B. Modelo Sipán-STAIR (RAG en Next.js)
+El sistema RAG se ejecuta desde la aplicación Next.js (`/Users/jhan/Documents/Proyectos/Nextjs/sipangpt`):
+* Levantar el servidor dev de Next.js en `http://localhost:3000`.
+* **Manejo de Autenticación / Sesión:** La ruta `/api/chat` de Next.js requiere sesión activa mediante NextAuth. En la variable de entorno `SIPAN_RAG_COOKIE` de la suite, configure la cookie `next-auth.session-token` obtenida desde el navegador al iniciar sesión en la aplicación.
+
+---
+
 ## 🛠️ Instalación y Configuración
 
 ```bash

@@ -13,19 +13,33 @@ class Settings(BaseSettings):
 
     gemma_api_url: str = Field(
         default="http://localhost:11434/api/generate",
-        description="URL del endpoint local para Ollama / llama.cpp / Gemma-4"
+        description="URL del endpoint local para Ollama / LM Studio / llama.cpp / Gemma-4"
     )
     gemma_model_name: str = Field(
-        default="gemma4:finetuned",
-        description="Nombre del modelo fine-tuned"
+        default="unsloth_gemma-4-E2B-it_1789791679-GGUF",
+        description="Nombre del modelo fine-tuned en LM Studio / Ollama"
+    )
+    gemma_system_prompt: str = Field(
+        default=(
+            "Eres SipánGPT, el Asistente Virtual Oficial de la Universidad Señor de Sipán (USS) "
+            "basado en inteligencia artificial generativa, experto en soporte técnico informático, "
+            "plataformas digitales (Campus Virtual, Aula Virtual, Sistema de Registros Académicos, "
+            "Biblioteca Virtual) y normativas institucionales. Tu deber es brindar respuestas precisas, "
+            "empáticas, estructuradas y estrictamente apegadas a los reglamentos y manuales oficiales de la USS."
+        ),
+        description="System prompt oficial para la inferencia del modelo fine-tuned"
     )
     sipan_rag_api_url: str = Field(
-        default="http://localhost:8000/api/v1/query",
-        description="URL del endpoint API de SipánGPT RAG (STAIR)"
+        default="http://localhost:3000/api/chat",
+        description="URL del endpoint de la app Next.js SipánGPT (RAG STAIR)"
     )
     sipan_rag_api_token: str = Field(
         default="",
         description="Token opcional de autorización para la API de SipánGPT"
+    )
+    sipan_rag_cookie: str = Field(
+        default="",
+        description="Cookie de sesión de NextAuth para autenticación en /api/chat"
     )
     hf_dataset_name: str = Field(
         default="ussipan/sipangpt-V2",
