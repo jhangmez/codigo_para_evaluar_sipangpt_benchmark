@@ -61,6 +61,8 @@ def test_full_evaluation_pipeline(tmp_path: Path) -> None:
     acc_file = fig_dir / "curva_exactitud_comparada.png"
     lat_file = fig_dir / "latencia_boxplots.png"
     tab_file = tab_dir / "tabla_exactitud_50_preguntas.md"
+    jev_acc_file = fig_dir / "jev_exactitud_comparada.png"
+    jev_qual_file = fig_dir / "jev_calidad_tecnica.png"
 
     generate_all_reports_and_charts(
         metrics,
@@ -68,10 +70,14 @@ def test_full_evaluation_pipeline(tmp_path: Path) -> None:
         accuracy_path=acc_file,
         latency_path=lat_file,
         table_path=tab_file,
+        jev_accuracy_path=jev_acc_file,
+        jev_quality_path=jev_qual_file,
     )
     assert acc_file.exists()
     assert lat_file.exists()
     assert tab_file.exists()
+    assert jev_acc_file.exists()
+    assert jev_qual_file.exists()
 
 
 def test_jev_evaluation_pipeline(tmp_path: Path) -> None:

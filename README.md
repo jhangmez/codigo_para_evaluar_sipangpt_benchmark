@@ -314,9 +314,11 @@ pytest -v
 
 ### 3. Datasets y Repositorios Oficiales del Proyecto
 
-* Gómez Padilla, J. (2026). *SipánGPT Benchmark Test Dataset (ussipan/sipangpt-V2)* [Conjunto de datos]. Hugging Face Hub. https://huggingface.co/datasets/ussipan/sipangpt-V2
-* Gómez Padilla, J. (2026). *Suite de Evaluación Comparativa de Rigor Científico: Gemma-4 Fine-Tuned vs. Sipán-STAIR (RAG)* [Código fuente]. GitHub. https://github.com/jhangmez/codigo_para_evaluar_sipangpt_benchmark
-* Gómez Padilla, J. (2026). *SipánGPT: Asistente Virtual Oficial Inteligente de la Universidad Señor de Sipán basado en RAG y Next.js* [Código fuente]. Repositorio Institucional de Software de Tesis, Universidad Nacional Pedro Ruiz Gallo.
+* Gomez, J. (2026). *SipánGPT Benchmark Test Dataset (ussipan/sipangpt-V2)* [Conjunto de datos]. Hugging Face Hub. https://huggingface.co/datasets/ussipan/sipangpt-V2
+* Gomez, J. (2026). *Suite de Evaluación Comparativa de Rigor Científico: Gemma-4 Fine-Tuned vs. Sipán-STAIR (RAG)* [Código fuente]. GitHub (rama main). https://github.com/jhangmez/codigo_para_evaluar_sipangpt_benchmark/tree/main
+* Gomez, J. (2026). *Pipeline de Síntesis y Transformación de Dataset Multiturno en Formato ShareGPT* [Código fuente]. GitHub. https://github.com/jhangmez/codigo_para_sintesis_dataset_sharegpt
+* Gomez, J. (2026). *Generador y Validador de Dataset para Fine-Tuning de Modelos Gemma* [Código fuente]. GitHub. https://github.com/jhangmez/codigo_para_generar_dataset_finetuning
+* Gomez, J. (2026). *SipánGPT: Asistente Virtual Oficial Inteligente de la Universidad Señor de Sipán basado en RAG y Next.js* [Código fuente]. GitHub (rama feature/V2). https://github.com/jhangmez/sipangpt/tree/feature/V2
 
 ### 4. Especificaciones Tecnológicas, APIs y Frameworks
 
@@ -324,3 +326,12 @@ pytest -v
 * TypeSafe AI. (2024). *Jev: The first System One decision model for typed software evaluations*. TypeSafe AI Inc. https://jevtypesafeai.com/
 * Unsloth AI. (2024). *Unsloth: Fast and memory-efficient LLM fine-tuning with 4-bit LoRA and GGUF export*. https://github.com/unslothai/unsloth
 * Vercel. (2024). *Vercel AI SDK & AI Gateway: Unified specification for model inference and evaluation routing*. Vercel Inc. https://ai-gateway.vercel.sh/
+
+---
+
+## SipánGPT
+
+<div style="display: flex; align-items: center; height: fit-content;">
+  <img src="https://avatars.githubusercontent.com/u/60937214?v=4" width="40" style="margin-right: 10px;"/>
+  <span>Hecho con ❤️ por Jhan Gómez P.</span>
+</div>
