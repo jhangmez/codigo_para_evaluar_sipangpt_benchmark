@@ -8,6 +8,15 @@ from sipangpt_eval.schemas.evaluation import (
 from sipangpt_eval.schemas.inference import InferenceOutput
 
 
+import unicodedata
+
+
+def _normalize_text(text: str) -> str:
+    """Normaliza texto eliminando diacríticos (tildes) y convirtiendo a minúsculas."""
+    nfd = unicodedata.normalize("NFD", text.lower())
+    return "".join(c for c in nfd if unicodedata.category(c) != "Mn")
+
+
 class BenchmarkScorer:
     """Rúbrica de evaluación objetiva y métricas de desempeño."""
 
@@ -21,26 +30,28 @@ class BenchmarkScorer:
         P (Parcial = 0.5): Idea general adecuada con omisión menor.
         I (Incorrecta = 0.0): Alucinación o error fáctico.
         """
-        resp: str = output.respuesta_generada.lower()
-        expected: str = case.respuesta_esperada.lower()
+        resp: str = _normalize_text(output.respuesta_generada)
+        expected: str = _normalize_text(case.respuesta_esperada)
 
         # Extraer palabras clave de la respuesta esperada
-        keywords: List[str] = [w for w in expected.split() if len(w) > 3]
+        keywords: List[str] = [
+            w.strip(".,;:()") for w in expected.split() if len(w.strip(".,;:()")) > 3
+        ]
         matches: int = sum(1 for kw in keywords if kw in resp)
         ratio: float = matches / max(1, len(keywords))
 
         if is_rag:
             has_citations: bool = len(output.citas) > 0
-            if ratio >= 0.6 and has_citations:
+            if ratio >= 0.5 and has_citations:
                 return ScoreCategory.CORRECTA
-            elif ratio >= 0.3:
+            elif ratio >= 0.25:
                 return ScoreCategory.PARCIAL
             else:
                 return ScoreCategory.INCORRECTA
         else:
-            if ratio >= 0.7:
+            if ratio >= 0.5:
                 return ScoreCategory.CORRECTA
-            elif ratio >= 0.4:
+            elif ratio >= 0.25:
                 return ScoreCategory.PARCIAL
             else:
                 return ScoreCategory.INCORRECTA
