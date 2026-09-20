@@ -19,7 +19,7 @@ def _get_official_50_cases() -> List[BenchmarkCase]:
         ModuleCategory.CAMPUS_VIRTUAL,
         ModuleCategory.PAGOS,
         ModuleCategory.BIBLIOTECA,
-        ModuleCategory.TRAMITES_GRADOS,
+        ModuleCategory.NORMATIVA,
     ]
 
     cases: List[BenchmarkCase] = []
@@ -119,13 +119,24 @@ def load_or_generate_test_benchmark(dataset_name: str = settings.hf_dataset_name
             preg_user: str = next((c.get("value", "") for c in convs if c.get("from") == "human"), "")
             resp_gpt: str = next((c.get("value", "") for c in convs if c.get("from") == "gpt"), "")
             tipo: TurnType = TurnType.MULTITURNO if len(convs) > 3 else TurnType.MONOTURNO
-            mod_str: str = item.get("modulo", ModuleCategory.MATRICULA.value)
+            mod_str: str = str(item.get("module") or item.get("modulo") or ModuleCategory.MATRICULA.value)
 
             modulo_enum: ModuleCategory
             try:
                 modulo_enum = ModuleCategory(mod_str)
             except ValueError:
-                modulo_enum = ModuleCategory.MATRICULA
+                # Mapeo flexible por palabra clave
+                mod_lower = mod_str.lower()
+                if "pago" in mod_lower or "cobranza" in mod_lower:
+                    modulo_enum = ModuleCategory.PAGOS
+                elif "campus" in mod_lower or "aprendizaje" in mod_lower or "aula" in mod_lower:
+                    modulo_enum = ModuleCategory.CAMPUS_VIRTUAL
+                elif "biblioteca" in mod_lower:
+                    modulo_enum = ModuleCategory.BIBLIOTECA
+                elif "normat" in mod_lower or "trámite" in mod_lower or "grado" in mod_lower:
+                    modulo_enum = ModuleCategory.NORMATIVA
+                else:
+                    modulo_enum = ModuleCategory.MATRICULA
 
             messages: List[ConversationMessage] = [
                 ConversationMessage(

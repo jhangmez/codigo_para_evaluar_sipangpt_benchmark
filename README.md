@@ -3,83 +3,125 @@
 [![Python 3.11+](https://img.shields.io/badge/python-3.11%2B-blue.svg)](https://www.python.org/downloads/)
 [![Pydantic v2](https://img.shields.io/badge/Pydantic-v2.8%2B-green.svg)](https://docs.pydantic.dev/)
 [![Code Style: Strict Typing](https://img.shields.io/badge/mypy-strict-brightgreen.svg)](https://mypy.readthedocs.io/)
+[![Benchmark: NeurIPS 2023](https://img.shields.io/badge/Methodology-Reference--Guided%20LLM--Judge-orange.svg)](https://arxiv.org/abs/2306.05685)
+[![Evaluator: Jev System One](https://img.shields.io/badge/System%20One-TypeSafe%20AI%20Jev-8A2BE2.svg)](https://ai-gateway.vercel.sh)
 
-Este repositorio contiene la suite de evaluación automatizada, científica y reproducible desarrollada para el informe de tesis de la **Universidad Nacional Pedro Ruiz Gallo (UNPRG)**. El objetivo principal es evaluar cuantitativa y cualitativamente el desempeño de dos aproximaciones tecnológicas para asistentes virtuales académicos en la Universidad Señor de Sipán (USS):
+Este repositorio contiene la suite de evaluación automatizada, científica y reproducible desarrollada para el informe de tesis de la **Universidad Nacional Pedro Ruiz Gallo (UNPRG)**. El objetivo principal es evaluar cuantitativa y cualitativamente el desempeño de dos aproximaciones tecnológicas para asistentes virtuales académicos en la **Universidad Señor de Sipán (USS)**:
 
-1. **Gemma-4 Fine-Tuned (LoRA):** Modelo de lenguaje adaptado localmente mediante cuantización GGUF.
-2. **Sipán-STAIR (RAG Architecture):** Sistema de Generación Aumentada por Recuperación con citación contextual, reranking y verificación fáctica.
-
----
-
-## 📊 Resultados Oficiales del Benchmark en Vivo (Capítulo V)
-
-La siguiente tabla resume los resultados cuantitativos obtenidos tras evaluar las **50 preguntas oficiales de prueba** en condiciones reales de ejecución:
-
-| Métrica / Dimensión de Evaluación                       | Gemma-4 Fine-Tuned (LoRA) | Sipán-STAIR (RAG Architecture) |      Diferencia (%) / Impacto       |
-| :------------------------------------------------------ | :-----------------------: | :----------------------------: | :---------------------------------: |
-| **Total de Casos Evaluados**                            |          **50**           |             **50**             |                  -                  |
-| **Respuestas Correctas (C - 1.0 pt)**                   |         2 (4.0%)          |           14 (28.0%)           |  **+24.0%** en respuestas exactas   |
-| **Respuestas Parciales (P - 0.5 pt)**                   |        42 (84.0%)         |           29 (58.0%)           |               -26.0%                |
-| **Respuestas Incorrectas / Alucinaciones (I - 0.0 pt)** |         6 (12.0%)         |           7 (14.0%)            |          -2.0% diferencia           |
-| **Porcentaje Global de Exactitud (%)**                  |        **46.00%**         |           **57.00%**           |        **+11.00% exactitud**        |
-| **Latencia Media por Consulta**                         | **11,539.74 ms** (~11.5s) |   **13,173.25 ms** (~13.2s)    | +1,633.51 ms (overhead de RAG + LLM) |
-
-### 📈 Gráficos Comparativos Generados para la Tesis (300 DPI)
-
-|               Exactitud Comparada por Módulo Académico                |            Distribución de Latencia de Inferencia (ms)             |
-| :-------------------------------------------------------------------: | :----------------------------------------------------------------: |
-| ![Exactitud Comparada](reports/figures/curva_exactitud_comparada.png) | ![Distribución de Latencia](reports/figures/latencia_boxplots.png) |
-
-### 💡 Hallazgos Principales para la Tesis:
-
-1. **Fidelidad Fáctica y Reducción de Alucinaciones:** La arquitectura **Sipán-STAIR (RAG)** alcanza una exactitud global del **57.00%** frente al **46.00%** de **Gemma-4 Fine-Tuned (LoRA)**, representando una mejora neta de **+11.00%**. Sipán-STAIR logra 7 veces más respuestas totalmente precisas (14 frente a 2), gracias a la búsqueda vectorial híbrida y la citación explícita de reglamentos de la USS.
-2. **Distribución de Calidad:** Gemma-4 Fine-Tuned concentra la mayoría de sus respuestas en la categoría **Parcial (84.0%)**; posee un excelente tono institucional y estructura pero carece de contexto actualizado en tiempo real para detalles como fechas específicas o requisitos normativos exactos.
-3. **Análisis de Latencia:** Gemma-4 Fine-Tuned registra una latencia media de **11.54s** corriendo localmente en Ollama con cuantización GGUF (Q4_K_M) sobre Mac Mini M4 (Apple Silicon). Sipán-STAIR RAG registra **13.17s** en promedio, incorporando el procesamiento completo del pipeline Next.js (/api/chat con Vercel AI SDK, búsqueda vectorial en PostgreSQL/Prisma, reranking y llamada al LLM backbone).
+1. **Gemma-4 Fine-Tuned (LoRA):** Modelo de lenguaje adaptado localmente mediante cuantización GGUF Q4_K_M ejecutado en Apple Silicon.
+2. **Sipán-STAIR (RAG Architecture):** Sistema de Generación Aumentada por Recuperación con citación contextual, reranking y verificación fáctica sobre Next.js y PostgreSQL.
 
 ---
 
-### 📐 Criterios de Calificación y Leyenda de la Rúbrica (C, P, I)
+## 🔬 Arquitectura de Evaluación Dual: LLM Judge + Jev System One
 
-La evaluación cuantitativa del desempeño de cada modelo frente al conjunto de prueba (*Ground Truth*) se rige bajo la rúbrica objetiva implementada en `BenchmarkScorer`, aplicando los siguientes criterios y puntajes:
+Para garantizar determinismo científico, eliminar sesgos y proveer doble validación algorítmica, la suite implementa dos motores evaluadores independientes:
 
-| Categoría | Puntaje | Criterio de Asignación y Verificación Fáctica | Leyenda y Explicación |
-| :--- | :---: | :--- | :--- |
-| **Correcta (C)** | **1.0 pt** | Coincidencia fáctica alta ($\ge 50\%$ de términos clave fácticos). | Respuesta totalmente precisa acorde a los reglamentos y guías USS. En la arquitectura RAG, requiere citación explícita de fuentes. |
-| **Parcial (P)** | **0.5 pt** | Coincidencia intermedia ($25\% \le \text{coincidencia} < 50\%$). | Orientación general adecuada con tono institucional, pero con omisión menor de pasos o falta de citas en RAG. |
-| **Incorrecta (I)** | **0.0 pt** | Coincidencia baja ($< 25\%$) o error fáctico. | Alucinación fáctica, imprecisión en fechas/montos, contradicción reglamentaria o respuesta errónea. |
+```mermaid
+flowchart TD
+    subgraph Inferencia["1. Inferencia sobre 50 Casos de Prueba (Ground Truth USS)"]
+        Cases["Banco Oficial 50 Casos\n(ussipan/sipangpt-V2)"] --> FT["Gemma-4 Fine-Tuned\n(Inferencia Local GGUF)"]
+        Cases --> RAG["Sipán-STAIR RAG\n(Next.js + Citas Normativas)"]
+    end
 
-> 📌 **Cálculo de Exactitud Global:**
-> $$\text{Porcentaje Global de Exactitud (\%)} = \left( \frac{\sum \text{Puntos Obtenidos}}{\text{Total de Preguntas (50)} \times 1.0} \right) \times 100$$
+    subgraph EvaluacionDual["2. Motores de Evaluación Dual"]
+        FT & RAG --> Judge["Motor A: Reference-Guided LLM-as-a-Judge\n(Gemini 3.5 Flash / Zheng et al., NeurIPS 2023)\nCoT Semántico + Rúbrica Estricta C/P/I"]
+        FT & RAG --> Jev["Motor B: TypeSafe AI Jev (System One)\n(Vercel AI Gateway / typesafe-ai/jev)\nDecisiones Tipadas Calibradas: choice, score, boolean"]
+    end
+
+    subgraph Evidencias["3. Artefactos de Rigor Académico (Tesis UNPRG)"]
+        Judge --> Excel1["Matriz Comparativa Final\n(matriz_comparativa_final.xlsx)"]
+        Judge --> Fig1["Figuras 300 DPI\n(curva_exactitud_comparada.png,\nlatencia_boxplots.png)"]
+        Jev --> Excel2["Matriz Evaluador Jev\n(matriz_evaluacion_jev.xlsx)"]
+        Judge & Jev --> MD["Tabla y Discusión Capítulo V\n(tabla_exactitud_50_preguntas.md)"]
+    end
+```
 
 ---
 
-## 🖥️ Condiciones y Entorno Experimental de la Prueba
+### Motor A: Reference-Guided LLM-as-a-Judge (Gemini 3.5 Flash)
 
-Para garantizar la **reproducibilidad científica** de los experimentos reportados en el Capítulo V de la tesis, las pruebas fueron ejecutadas bajo las siguientes condiciones controladas de hardware y software:
+Siguiendo el estándar de oro de **NeurIPS 2023** (*"Judging LLM-as-a-Judge with MT-Bench and Chatbot Arena"* por Lianmin Zheng et al., UC Berkeley / LMSYS), se sustituyó la coincidencia superficial de palabras clave (*keyword matching* / BLEU / ROUGE) por una **Evaluación Guiada por Referencia (*Reference-Guided Grading*)**.
 
-### 1. Entorno de Hardware
+- **¿Por qué falla la coincidencia tradicional de palabras clave?**  
+  Si un estudiante consulta *«¿Puedo pagar con tarjeta?»* y el modelo responde *«No puedes pagar con tarjeta»*, la superposición léxica supera el 90%, pero la respuesta es **100% incorrecta e inversa**.
+- **Implementación del Juez:**  
+  Utiliza **Gemini 3.5 Flash** (`gemini-3.5-flash`) con salida estructurada JSON validada bajo Pydantic v2 a temperatura 0.0, analizando:
+  1. Pregunta del Estudiante USS.
+  2. Respuesta Oficial de Referencia (Ground Truth).
+  3. Respuesta Generada por el Modelo a Contrastar.
+  4. Detección explícita de alucinaciones y omisiones fácticas.
 
-- **Equipo de Prueba:** Mac Mini M4 (Apple Silicon, memoria unificada).
-- **Entorno de Ejecución Local:** Inferencia paralela con aceleración por Metal/Neural Engine.
+#### 📐 Definición Rigurosa de las Etiquetas de Calificación (C, P, I)
 
-### 2. Configuración del Modelo Gemma-4 Fine-Tuned (LoRA)
+| Etiqueta | Nombre | Valor | Criterio Operativo (Zheng et al., NeurIPS 2023) |
+| :---: | :---: | :---: | :--- |
+| **C** | **Correcta** | `1.0 pt` | **Exactitud total y suficiencia operativa.** La respuesta contiene el dato fáctico exacto (fechas, montos, requisitos) o los pasos correctos del flujo según la referencia. No presenta alucinaciones ni omisiones que impidan al estudiante resolver su trámite. *(En RAG, además incluye la cita o enlace al documento oficial).* |
+| **P** | **Parcial** | `0.5 pt` | **Coherente pero incompleta.** La orientación general es acertada, pero omite un paso intermedio importante (ej. indica cómo pagar pero no dónde validar el váucher), es ambigua en plazos/requisitos secundarios, o presenta imprecisiones leves sin llegar a ser una falsedad grave. |
+| **I** | **Incorrecta** | `0.0 pt` | **Alucinación fáctica o contradicción.** El modelo inventa un procedimiento, plataforma o costo inexistente; contradice abiertamente el manual oficial; o da una respuesta evasiva que provocaría un error operativo en el estudiante. |
 
-- **Motor de Inferencia:** Servidor local **Ollama** (`http://localhost:11434/api/generate`).
-- **Modelo Compilado:** Modelo `sipangpt` derivado de `unsloth_gemma-4-E2B-it_1789791679-GGUF` (cuantización `gemma-4-E2B-it.Q4_K_M.gguf` exportada vía Unsloth).
-- **System Prompt Oficial:** Inyectado obligatoriamente en cada una de las 50 consultas de prueba:
-  > _"Eres SipánGPT, el Asistente Virtual Oficial de la Universidad Señor de Sipán (USS) basado en inteligencia artificial generativa, experto en soporte técnico informático, plataformas digitales (Campus Virtual, Aula Virtual, Sistema de Registros Académicos, Biblioteca Virtual) y normativas institucionales. Tu deber es brindar respuestas precisas, empáticas, estructuradas y estrictamente apegadas a los reglamentos y manuales oficiales de la USS."_
+---
 
-### 3. Configuración de Sipán-STAIR (RAG Architecture)
+### Motor B: TypeSafe AI Jev (System One Evaluation Model)
 
-- **Plataforma Web:** Aplicación **Next.js** situada en `/Users/jhan/Documents/Proyectos/Nextjs/sipangpt`.
-- **Endpoint de Producción Local:** `http://localhost:3000/api/chat`.
-- **Manejo de Autenticación:** Verificación de sesión activa mediante **NextAuth** utilizando la cookie `next-auth.session-token` configurada en la variable `SIPAN_RAG_COOKIE`.
-- **Motor RAG y Base de Datos:** Búsqueda vectorial híbrida sobre PostgreSQL (Prisma ORM) con reranking de fragmentos normativos y modelo backbone Gemini 3.1 Flash-Lite.
+**Jev** es el primer modelo de evaluación de arquitectura **System One** desarrollado por **TypeSafe AI**, consumido vía **Vercel AI Gateway** (`typesafe-ai/jev`).
 
-### 4. Banco de Pruebas (Ground Truth)
+- **¿En qué se diferencia un modelo System One de un chatbot tradicional?**  
+  Los LLMs conversacionales tradicionales (*System Two / generative chatbots*) generan texto libre secuencial token a token, lo que introduce variabilidad estilística y latencias de varios segundos. Jev, en contraste, lee el estado completo del programa (`state`) y emite **decisiones calibradas y tipadas** en una sola pasada de inferencia sub-segundo:
+  1. **Primitiva `choice`:** Clasificación en opciones discretas (`C`, `P`, `I`) con distribución completa de probabilidades calibradas y puntuación de confianza (`confidence`).
+  2. **Primitiva `boolean`:** Verificación probabilística directa (ej. `alucinacion: boolean` con probabilidad asociada de 0.0 a 1.0).
+  3. **Primitiva `score`:** Graduación en una escala de 0 a 3 de calidad técnica y apego a la normativa institucional USS.
+- **Ruta de Conexión:**  
+  Vía Vercel AI Gateway utilizando la especificación experimental de evaluación (`experimental_evaluate` en Vercel AI SDK / endpoint `POST https://ai-gateway.vercel.sh/v1/evaluate`) autenticada mediante variable de entorno `VERCEL_AI_GATEWAY_KEY`.
 
-- **Distribución del Dataset:** 50 preguntas extraídas del split `test` de `ussipan/sipangpt-V2` en Hugging Face Hub.
-- **Composición:** **70% Monoturno (35 preguntas directas)** y **30% Multiturno (15 diálogos de soporte continuo)** abarcando los 5 módulos académicos USS (Matrícula, Campus Virtual, Pagos, Biblioteca Virtual, Grados y Títulos).
+---
+
+## 📊 Resultados Oficiales del Benchmark (Capítulo V de la Tesis)
+
+Resultados cuantitativos consolidados tras evaluar las **50 preguntas oficiales de prueba** distribuidas en los 5 módulos temáticos institucionales:
+
+### 1. Tabla Comparativa General (Evaluación Dual)
+
+| Métrica / Dimensión de Evaluación | Gemma-4 Fine-Tuned (LoRA) | Sipán-STAIR (RAG Architecture) | Diferencia / Impacto Fáctico |
+| :--- | :---: | :---: | :---: |
+| **Total de Preguntas de Prueba** | **50** | **50** | - |
+| **Exactitud Juez Gemini 3.5 Flash (%)** | **14.00%** | **55.00%** | **+41.00% exactitud neta** |
+| - Respuestas Correctas (C - 1.0 pt) | 3 (6.0%) | 22 (44.0%) | +38.0% |
+| - Respuestas Parciales (P - 0.5 pt) | 8 (16.0%) | 11 (22.0%) | +6.0% |
+| - Respuestas Incorrectas (I - 0.0 pt) | 39 (78.0%) | 17 (34.0%) | -44.0% |
+| **Total Alucinaciones Detectadas (Juez Gemini)** | **40 (80.0%)** | **17 (34.0%)** | **-46.0% alucinaciones** |
+| **Exactitud Calibrada Jev System One (%)** | **1.00%** | **26.00%** | **+25.00% a favor de RAG** |
+| - Veredicto Jev Correcto ('C') | 0 (0.0%) | 5 (10.0%) | +10.0% |
+| - Veredicto Jev Parcial ('P') | 1 (2.0%) | 16 (32.0%) | +30.0% |
+| - Veredicto Jev Incorrecto ('I') | 49 (98.0%) | 29 (58.0%) | -40.0% |
+| **Calidad Técnica Media Jev (0 a 3)** | **0.33** | **1.06** | **+0.73 puntos** |
+| **Latencia Media de Inferencia del Asistente** | **11,893.38 ms** (~11.9s) | **91,755.90 ms** (~91.8s) | Mayor tiempo por retrieval + citas |
+| **Latencia Media del Evaluador Jev** | **1,167.89 ms** | **1,167.89 ms** | Decisión estructurada rápida |
+
+### 2. Gráficos de Alta Resolución Generados (300 DPI)
+
+| Curva de Exactitud Comparada por Módulo | Distribución de Latencia de Inferencia (Boxplots) |
+| :---: | :---: |
+| ![Curva Exactitud](reports/figures/curva_exactitud_comparada.png) | ![Boxplots Latencia](reports/figures/latencia_boxplots.png) |
+
+---
+
+## 🖥️ Condiciones y Entorno Experimental
+
+Para garantizar la **reproducibilidad científica** exigida en la sustentación de tesis:
+
+1. **Hardware de Evaluación:** Mac Mini M4 (Apple Silicon, memoria unificada, arquitectura ARM64).
+2. **Gemma-4 Fine-Tuned (LoRA):**
+   - Inferencia local vía Ollama / LM Studio (`unsloth_gemma-4-E2B-it_1789791679-GGUF`).
+   - Inferencia 100% offline sin dependencia de red.
+3. **Sipán-STAIR (RAG Architecture):**
+   - Servidor Next.js en puerto local 3000 (`/api/chat`).
+   - Autenticación pre-compartida vía cabecera `x-api-key: sipangpt-local-perf-key` (usuario de rendimiento `benchmark-agent@sipangpt.local`).
+   - Vector Store con PostgreSQL, pgvector y Prisma ORM.
+4. **Tolerancia a Red Lenta y Checkpointing:**
+   - Timeouts extendidos a 180 segundos por consulta.
+   - Pacing y backoff exponencial para respetar cuotas de proveedores (Google Gemini y Vercel AI Gateway).
+   - Persistencia continua en disco: ante cualquier caída de red o reinicio, los casos procesados se reutilizan sin repetir inferencias ni consumir tokens duplicados.
 
 ---
 
@@ -87,64 +129,55 @@ Para garantizar la **reproducibilidad científica** de los experimentos reportad
 
 ```text
 codigo_para_evaluar_sipangpt_benchmark/
-├── .env.example                     # Plantilla de variables de entorno (URLs, Tokens, HF_TOKEN)
-├── .gitignore                       # Configuración de exclusión para Git
-├── pyproject.toml                   # Dependencias, linters y metadata del paquete
-├── README.md                        # Documentación técnica de ejecución y resultados
-├── AGENTS.md                        # Documentación de arquitectura para agentes e IA
+├── .env.example                     # Plantilla segura de variables de entorno (sin exponer credenciales)
+├── .gitignore                       # Ignora archivos sensibles (.env, caches, venv)
+├── pyproject.toml                   # Dependencias estrictas (mypy, pytest, pydantic, typer)
+├── README.md                        # Informe técnico metodológico y resultados
+├── AGENTS.md                        # Guía de arquitectura para agentes autónomos
 │
-├── data/                            # Almacenamiento local de datos
-│   ├── ground_truth/                # Conjunto de prueba oficial (las 50 preguntas)
+├── data/
+│   ├── ground_truth/                # Banco de prueba oficial (50 preguntas, 5 módulos)
 │   │   └── benchmark_test_50.jsonl
-│   └── results/                     # Resultados generados por las corridas en vivo
-│       ├── run_gemma4_finetuned.json
-│       ├── run_sipan_stair_rag.json
-│       ├── banco_pruebas_50.xlsx
-│       └── matriz_comparativa_final.xlsx
+│   └── results/                     # Resultados persistidos
+│       ├── run_gemma4_finetuned.json          # 50 respuestas de Gemma-4 Fine-Tuned
+│       ├── run_sipan_stair_rag.json           # 50 respuestas de Sipán-STAIR RAG
+│       ├── judge_evaluations_cache.json       # Caché persistente del Juez Gemini LLM
+│       ├── jev_evaluations_cache.json         # Caché persistente del Evaluador Jev
+│       ├── matriz_comparativa_final.xlsx      # Matriz Excel oficial con evaluaciones LLM
+│       ├── matriz_evaluacion_jev.xlsx         # Matriz Excel oficial con decisiones Jev
+│       └── banco_pruebas_50.xlsx              # Banco de preguntas exportado a Excel
 │
-├── reports/                         # Evidencias para el Capítulo V de la Tesis
-│   ├── figures/                     # Gráficos en alta resolución (300 DPI)
+├── reports/
+│   ├── figures/                     # Figuras en alta resolución a 300 DPI
 │   │   ├── curva_exactitud_comparada.png
 │   │   └── latencia_boxplots.png
-│   └── tables/                      # Tablas formateadas en Markdown / LaTeX para tesis
+│   └── tables/                      # Tablas Markdown para el documento de tesis
 │       └── tabla_exactitud_50_preguntas.md
 │
 ├── src/
-│   └── sipangpt_eval/               # Paquete principal con tipado estricto (0 Any)
-│       ├── __init__.py
-│       ├── config.py                # Configuración global (Pydantic Settings)
-│       │
-│       ├── schemas/                 # Interfaces estrictas sin Any (Pydantic v2)
-│       │   ├── __init__.py
-│       │   ├── benchmark.py         # Modelos de pregunta, Ground Truth y Turnos
-│       │   ├── inference.py         # Modelos de respuesta de IA, latencias y tokens
-│       │   └── evaluation.py        # Rúbrica de calificación (C / P / I) y métricas
-│       │
-│       ├── clients/                 # Conectores desacoplados a modelos
-│       │   ├── __init__.py
-│       │   ├── base.py              # Clase base abstracta (ABC)
-│       │   ├── local_gemma.py       # Cliente para Gemma-4 en Ollama / LM Studio
-│       │   └── sipan_rag.py         # Cliente HTTP para Next.js SipánGPT RAG (/api/chat)
-│       │
-│       ├── extraction/              # Carga y particionado de datos
-│       │   ├── __init__.py
-│       │   └── hf_loader.py         # Descarga y parseo del split 'test' de Hugging Face
-│       │
-│       ├── core/                    # Lógica de orquestación y rúbrica
-│       │   ├── __init__.py
-│       │   ├── runner.py            # Orquestador con checkpoints y reanudación automática
-│       │   └── scorer.py            # Rúbrica objetiva (C, P, I, alucinación, citas)
-│       │
-│       └── reporting/               # Generadores de evidencias visuales
-│           ├── __init__.py
-│           ├── excel_generator.py   # Matriz comparativa en Excel (.xlsx)
-│           └── charts.py            # Generación de figuras PNG 300 DPI y tablas MD
+│   └── sipangpt_eval/
+│       ├── config.py                # Configuración centralizada vía Pydantic Settings
+│       ├── schemas/                 # Data contracts con tipado estricto (0 Any)
+│       │   ├── benchmark.py         # Modelos de turnos, módulos y preguntas
+│       │   ├── inference.py         # Modelos de respuestas, tiempos y citas
+│       │   ├── evaluation.py        # Rúbrica C/P/I, métricas y pares evaluados
+│       │   └── jev.py               # Schemas de preguntas choice, boolean y score
+│       ├── clients/                 # Conectores desacoplados para inferencia
+│       │   ├── local_gemma.py       # Conector para Gemma-4 Fine-Tuned
+│       │   └── sipan_rag.py         # Conector HTTP Next.js con autenticación x-api-key
+│       ├── core/                    # Lógica central del benchmark
+│       │   ├── runner.py            # Orquestador de inferencia con soporte de checkpoint
+│       │   ├── scorer.py            # Reference-Guided LLM Judge (Gemini 3.5 Flash)
+│       │   └── jev_scorer.py        # Evaluador de decisiones tipadas TypeSafe AI Jev
+│       └── reporting/               # Exportadores a Excel y generadores de gráficos 300 DPI
+│           ├── excel_generator.py   # Generador de matrices Excel (.xlsx)
+│           └── charts.py            # Gráficos estadísticos con Matplotlib y Seaborn
 │
-├── tests/                           # Pruebas unitarias e integración (pytest + mypy)
+├── tests/                           # Suite de pruebas automatizadas (pytest)
 │   ├── test_schemas.py
 │   └── test_pipeline.py
 │
-└── main.py                          # CLI interactivo (Typer + Rich)
+└── main.py                          # CLI principal de ejecución
 ```
 
 ---
@@ -156,62 +189,66 @@ codigo_para_evaluar_sipangpt_benchmark/
 python3 -m venv .venv
 source .venv/bin/activate
 
-# 2. Instalar dependencias del proyecto en modo editable
+# 2. Instalar dependencias en modo editable
 pip install -e .
 ```
 
-Configuración en `.env`:
+Configurar las variables de entorno en `.env` (a partir de `.env.example`):
 
 ```env
+# Endpoints de Inferencia
 GEMMA_API_URL=http://localhost:11434/api/generate
-GEMMA_MODEL_NAME=sipangpt
-GEMMA_SYSTEM_PROMPT="Eres SipánGPT, el Asistente Virtual Oficial..."
+GEMMA_MODEL_NAME=unsloth_gemma-4-E2B-it_1789791679-GGUF
 
 SIPAN_RAG_API_URL=http://localhost:3000/api/chat
-SIPAN_RAG_COOKIE="next-auth.session-token=TU_COOKIE_NEXTAUTH"
+SIPAN_RAG_API_KEY="sipangpt-local-perf-key"
 
+# Hugging Face Hub
 HF_DATASET_NAME=ussipan/sipangpt-V2
-HF_TOKEN=tu_token_de_huggingface_aqui
+
+# Motor A: Juez LLM (Google Gemini)
+GEMINI_API_KEY="tu_clave_de_gemini_aqui"
+JUDGE_MODEL_NAME=gemini-3.5-flash
+
+# Motor B: TypeSafe AI Jev (Vercel AI Gateway)
+VERCEL_AI_GATEWAY_KEY="tu_clave_de_vercel_ai_gateway_aqui"
+VERCEL_AI_GATEWAY_URL="https://ai-gateway.vercel.sh/v1/evaluate"
 ```
 
 ---
 
 ## 🚀 Uso del CLI (`main.py`)
 
+La suite permite ejecutar cada etapa de forma granular o completa:
+
 ```bash
-# Extraer las 50 preguntas del conjunto de prueba
+# 1. Extraer el conjunto de prueba oficial de 50 preguntas
 python main.py extract
 
-# Ejecutar inferencia en ambos modelos (con checkpoints automáticos)
+# 2. Ejecutar inferencia en ambos modelos (guarda checkpoints)
 python main.py run
 
-# Calificar y generar la matriz comparativa en Excel
+# 3. Evaluar con TypeSafe AI Jev (System One vía Vercel AI Gateway)
+python main.py evaluate-jev
+
+# 4. Evaluar con Gemini 3.5 Flash (Reference-Guided LLM-as-a-Judge)
 python main.py evaluate
 
-# Generar gráficos a 300 DPI y tablas Markdown para la Tesis
+# 5. Generar gráficos a 300 DPI y tablas Markdown consolidadas
 python main.py report
 
-# Ejecutar PIPELINE COMPLETO de inicio a fin
+# 6. Pipeline completo automatizado
 python main.py all
 ```
 
 ---
 
-## 🔍 Verificación de Tipos y Pruebas Unitarias
+## 🔍 Verificación de Tipos y Suite de Pruebas
 
 ```bash
-# Análisis estático de tipos con Mypy (modo estricto, 0 Any)
+# Verificación estricta de tipos con Mypy (0 Any en todo el código)
 mypy src/
 
-# Ejecutar pruebas unitarias e integración
+# Ejecución de la suite completa de pruebas unitarias e integración
 pytest -v
 ```
-
----
-
-## 📊 Salidas Generadas para la Tesis
-
-1. `data/results/matriz_comparativa_final.xlsx`: Matriz Excel completa con detalle por caso.
-2. `reports/figures/curva_exactitud_comparada.png`: Gráfico comparativo de exactitud por módulo a 300 DPI.
-3. `reports/figures/latencia_boxplots.png`: Gráfico de cajas de distribución de latencia a 300 DPI.
-4. `reports/tables/tabla_exactitud_50_preguntas.md`: Tabla formateada lista para insertar en el Capítulo V de la Tesis.

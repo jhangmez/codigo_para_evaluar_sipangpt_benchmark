@@ -1,0 +1,1502 @@
+{
+  "case_1_ft": {
+    "veredicto": "I",
+    "veredicto_choice": "I",
+    "veredicto_confianza": 0.87,
+    "veredicto_probabilidades": {
+      "I": 0.92,
+      "P": 0.08,
+      "C": 0.0
+    },
+    "alucinacion_detectada": true,
+    "alucinacion_probabilidad": 0.84,
+    "calidad_score": 0.42,
+    "calidad_confianza": 0.58,
+    "latencia_ms": 1236.01
+  },
+  "case_1_rag": {
+    "veredicto": "I",
+    "veredicto_choice": "I",
+    "veredicto_confianza": 0.87,
+    "veredicto_probabilidades": {
+      "C": 0.0,
+      "I": 0.91,
+      "P": 0.09
+    },
+    "alucinacion_detectada": true,
+    "alucinacion_probabilidad": 0.84,
+    "calidad_score": 0.4,
+    "calidad_confianza": 0.6,
+    "latencia_ms": 586.64
+  },
+  "case_2_ft": {
+    "veredicto": "I",
+    "veredicto_choice": "I",
+    "veredicto_confianza": 0.86,
+    "veredicto_probabilidades": {
+      "I": 0.91,
+      "C": 0.0,
+      "P": 0.09
+    },
+    "alucinacion_detectada": true,
+    "alucinacion_probabilidad": 0.86,
+    "calidad_score": 0.24,
+    "calidad_confianza": 0.76,
+    "latencia_ms": 718.59
+  },
+  "case_2_rag": {
+    "veredicto": "C",
+    "veredicto_choice": "C",
+    "veredicto_confianza": 0.12,
+    "veredicto_probabilidades": {
+      "P": 0.2,
+      "I": 0.39,
+      "C": 0.41
+    },
+    "alucinacion_detectada": true,
+    "alucinacion_probabilidad": 0.52,
+    "calidad_score": 2.11,
+    "calidad_confianza": 0.35,
+    "latencia_ms": 644.12
+  },
+  "case_3_ft": {
+    "veredicto": "I",
+    "veredicto_choice": "I",
+    "veredicto_confianza": 0.99,
+    "veredicto_probabilidades": {
+      "C": 0.0,
+      "P": 0.01,
+      "I": 0.99
+    },
+    "alucinacion_detectada": true,
+    "alucinacion_probabilidad": 0.82,
+    "calidad_score": 0.04,
+    "calidad_confianza": 0.96,
+    "latencia_ms": 650.34
+  },
+  "case_3_rag": {
+    "veredicto": "P",
+    "veredicto_choice": "P",
+    "veredicto_confianza": 0.49,
+    "veredicto_probabilidades": {
+      "I": 0.26,
+      "C": 0.08,
+      "P": 0.66
+    },
+    "alucinacion_detectada": true,
+    "alucinacion_probabilidad": 0.58,
+    "calidad_score": 1.44,
+    "calidad_confianza": 0.45,
+    "latencia_ms": 732.53
+  },
+  "case_4_ft": {
+    "veredicto": "I",
+    "veredicto_choice": "I",
+    "veredicto_confianza": 0.99,
+    "veredicto_probabilidades": {
+      "P": 0.0,
+      "I": 1.0,
+      "C": 0.0
+    },
+    "alucinacion_detectada": true,
+    "alucinacion_probabilidad": 0.82,
+    "calidad_score": 0.08,
+    "calidad_confianza": 0.92,
+    "latencia_ms": 598.47
+  },
+  "case_4_rag": {
+    "veredicto": "C",
+    "veredicto_choice": "C",
+    "veredicto_confianza": 0.64,
+    "veredicto_probabilidades": {
+      "I": 0.22,
+      "P": 0.02,
+      "C": 0.76
+    },
+    "alucinacion_detectada": false,
+    "alucinacion_probabilidad": 0.31,
+    "calidad_score": 2.08,
+    "calidad_confianza": 0.58,
+    "latencia_ms": 612.21
+  },
+  "case_5_ft": {
+    "veredicto": "I",
+    "veredicto_choice": "I",
+    "veredicto_confianza": 0.98,
+    "veredicto_probabilidades": {
+      "I": 0.99,
+      "P": 0.01,
+      "C": 0.0
+    },
+    "alucinacion_detectada": true,
+    "alucinacion_probabilidad": 0.88,
+    "calidad_score": 0.17,
+    "calidad_confianza": 0.83,
+    "latencia_ms": 753.26
+  },
+  "case_5_rag": {
+    "veredicto": "I",
+    "veredicto_choice": "I",
+    "veredicto_confianza": 0.68,
+    "veredicto_probabilidades": {
+      "C": 0.0,
+      "P": 0.21,
+      "I": 0.79
+    },
+    "alucinacion_detectada": true,
+    "alucinacion_probabilidad": 0.72,
+    "calidad_score": 0.59,
+    "calidad_confianza": 0.56,
+    "latencia_ms": 610.52
+  },
+  "case_6_ft": {
+    "veredicto": "I",
+    "veredicto_choice": "I",
+    "veredicto_confianza": 0.72,
+    "veredicto_probabilidades": {
+      "C": 0.0,
+      "P": 0.18,
+      "I": 0.8200000000000001
+    },
+    "alucinacion_detectada": true,
+    "alucinacion_probabilidad": 0.73,
+    "calidad_score": 0.46,
+    "calidad_confianza": 0.54,
+    "latencia_ms": 637.18
+  },
+  "case_6_rag": {
+    "veredicto": "I",
+    "veredicto_choice": "I",
+    "veredicto_confianza": 0.55,
+    "veredicto_probabilidades": {
+      "P": 0.3,
+      "I": 0.69,
+      "C": 0.01
+    },
+    "alucinacion_detectada": true,
+    "alucinacion_probabilidad": 0.7,
+    "calidad_score": 1.0,
+    "calidad_confianza": 0.0,
+    "latencia_ms": 629.46
+  },
+  "case_7_ft": {
+    "veredicto": "I",
+    "veredicto_choice": "I",
+    "veredicto_confianza": 1.0,
+    "veredicto_probabilidades": {
+      "C": 0.0,
+      "P": 0.0,
+      "I": 1.0
+    },
+    "alucinacion_detectada": true,
+    "alucinacion_probabilidad": 0.94,
+    "calidad_score": 0.01,
+    "calidad_confianza": 0.99,
+    "latencia_ms": 610.95
+  },
+  "case_7_rag": {
+    "veredicto": "I",
+    "veredicto_choice": "I",
+    "veredicto_confianza": 0.98,
+    "veredicto_probabilidades": {
+      "I": 0.99,
+      "P": 0.01,
+      "C": 0.0
+    },
+    "alucinacion_detectada": true,
+    "alucinacion_probabilidad": 0.87,
+    "calidad_score": 0.16,
+    "calidad_confianza": 0.84,
+    "latencia_ms": 638.89
+  },
+  "case_8_ft": {
+    "veredicto": "I",
+    "veredicto_choice": "I",
+    "veredicto_confianza": 0.85,
+    "veredicto_probabilidades": {
+      "I": 0.9,
+      "C": 0.0,
+      "P": 0.1
+    },
+    "alucinacion_detectada": true,
+    "alucinacion_probabilidad": 0.79,
+    "calidad_score": 0.29,
+    "calidad_confianza": 0.71,
+    "latencia_ms": 684.12
+  },
+  "case_8_rag": {
+    "veredicto": "I",
+    "veredicto_choice": "I",
+    "veredicto_confianza": 0.45,
+    "veredicto_probabilidades": {
+      "C": 0.01,
+      "P": 0.36,
+      "I": 0.63
+    },
+    "alucinacion_detectada": true,
+    "alucinacion_probabilidad": 0.72,
+    "calidad_score": 0.78,
+    "calidad_confianza": 0.42,
+    "latencia_ms": 626.76
+  },
+  "case_9_ft": {
+    "veredicto": "I",
+    "veredicto_choice": "I",
+    "veredicto_confianza": 0.98,
+    "veredicto_probabilidades": {
+      "P": 0.01,
+      "C": 0.0,
+      "I": 0.99
+    },
+    "alucinacion_detectada": true,
+    "alucinacion_probabilidad": 0.9,
+    "calidad_score": 0.18,
+    "calidad_confianza": 0.82,
+    "latencia_ms": 647.53
+  },
+  "case_9_rag": {
+    "veredicto": "I",
+    "veredicto_choice": "I",
+    "veredicto_confianza": 0.65,
+    "veredicto_probabilidades": {
+      "I": 0.77,
+      "C": 0.0,
+      "P": 0.23
+    },
+    "alucinacion_detectada": true,
+    "alucinacion_probabilidad": 0.74,
+    "calidad_score": 0.62,
+    "calidad_confianza": 0.53,
+    "latencia_ms": 612.92
+  },
+  "case_10_ft": {
+    "veredicto": "I",
+    "veredicto_choice": "I",
+    "veredicto_confianza": 0.98,
+    "veredicto_probabilidades": {
+      "C": 0.0,
+      "P": 0.01,
+      "I": 0.99
+    },
+    "alucinacion_detectada": true,
+    "alucinacion_probabilidad": 0.88,
+    "calidad_score": 0.08,
+    "calidad_confianza": 0.92,
+    "latencia_ms": 579.27
+  },
+  "case_10_rag": {
+    "veredicto": "P",
+    "veredicto_choice": "P",
+    "veredicto_confianza": 0.4,
+    "veredicto_probabilidades": {
+      "I": 0.4,
+      "P": 0.6,
+      "C": 0.0
+    },
+    "alucinacion_detectada": true,
+    "alucinacion_probabilidad": 0.52,
+    "calidad_score": 0.7,
+    "calidad_confianza": 0.49,
+    "latencia_ms": 712.01
+  },
+  "case_11_ft": {
+    "veredicto": "I",
+    "veredicto_choice": "I",
+    "veredicto_confianza": 0.8,
+    "veredicto_probabilidades": {
+      "C": 0.0,
+      "I": 0.87,
+      "P": 0.13
+    },
+    "alucinacion_detectada": true,
+    "alucinacion_probabilidad": 0.82,
+    "calidad_score": 0.3,
+    "calidad_confianza": 0.7,
+    "latencia_ms": 645.56
+  },
+  "case_11_rag": {
+    "veredicto": "I",
+    "veredicto_choice": "I",
+    "veredicto_confianza": 0.44,
+    "veredicto_probabilidades": {
+      "P": 0.37,
+      "I": 0.63,
+      "C": 0.0
+    },
+    "alucinacion_detectada": true,
+    "alucinacion_probabilidad": 0.67,
+    "calidad_score": 0.85,
+    "calidad_confianza": 0.72,
+    "latencia_ms": 629.61
+  },
+  "case_12_ft": {
+    "veredicto": "I",
+    "veredicto_choice": "I",
+    "veredicto_confianza": 0.99,
+    "veredicto_probabilidades": {
+      "C": 0.0,
+      "P": 0.01,
+      "I": 0.99
+    },
+    "alucinacion_detectada": true,
+    "alucinacion_probabilidad": 0.85,
+    "calidad_score": 0.04,
+    "calidad_confianza": 0.96,
+    "latencia_ms": 603.48
+  },
+  "case_12_rag": {
+    "veredicto": "C",
+    "veredicto_choice": "C",
+    "veredicto_confianza": 0.53,
+    "veredicto_probabilidades": {
+      "P": 0.03,
+      "I": 0.28,
+      "C": 0.69
+    },
+    "alucinacion_detectada": false,
+    "alucinacion_probabilidad": 0.33,
+    "calidad_score": 1.93,
+    "calidad_confianza": 0.47,
+    "latencia_ms": 782.12
+  },
+  "case_13_ft": {
+    "veredicto": "I",
+    "veredicto_choice": "I",
+    "veredicto_confianza": 1.0,
+    "veredicto_probabilidades": {
+      "C": 0.0,
+      "I": 1.0,
+      "P": 0.0
+    },
+    "alucinacion_detectada": true,
+    "alucinacion_probabilidad": 0.96,
+    "calidad_score": 0.0,
+    "calidad_confianza": 1.0,
+    "latencia_ms": 806.85
+  },
+  "case_13_rag": {
+    "veredicto": "P",
+    "veredicto_choice": "P",
+    "veredicto_confianza": 0.64,
+    "veredicto_probabilidades": {
+      "P": 0.75,
+      "I": 0.14,
+      "C": 0.11
+    },
+    "alucinacion_detectada": false,
+    "alucinacion_probabilidad": 0.33,
+    "calidad_score": 1.31,
+    "calidad_confianza": 0.69,
+    "latencia_ms": 603.38
+  },
+  "case_14_ft": {
+    "veredicto": "I",
+    "veredicto_choice": "I",
+    "veredicto_confianza": 0.73,
+    "veredicto_probabilidades": {
+      "C": 0.0,
+      "P": 0.18,
+      "I": 0.82
+    },
+    "alucinacion_detectada": true,
+    "alucinacion_probabilidad": 0.75,
+    "calidad_score": 0.46,
+    "calidad_confianza": 0.54,
+    "latencia_ms": 624.95
+  },
+  "case_14_rag": {
+    "veredicto": "I",
+    "veredicto_choice": "I",
+    "veredicto_confianza": 0.45,
+    "veredicto_probabilidades": {
+      "C": 0.21,
+      "P": 0.16,
+      "I": 0.63
+    },
+    "alucinacion_detectada": true,
+    "alucinacion_probabilidad": 0.56,
+    "calidad_score": 1.73,
+    "calidad_confianza": 0.42,
+    "latencia_ms": 701.03
+  },
+  "case_15_ft": {
+    "veredicto": "I",
+    "veredicto_choice": "I",
+    "veredicto_confianza": 0.86,
+    "veredicto_probabilidades": {
+      "P": 0.09,
+      "I": 0.9,
+      "C": 0.01
+    },
+    "alucinacion_detectada": true,
+    "alucinacion_probabilidad": 0.71,
+    "calidad_score": 0.61,
+    "calidad_confianza": 0.39,
+    "latencia_ms": 639.59
+  },
+  "case_15_rag": {
+    "veredicto": "I",
+    "veredicto_choice": "I",
+    "veredicto_confianza": 0.76,
+    "veredicto_probabilidades": {
+      "P": 0.14,
+      "I": 0.84,
+      "C": 0.02
+    },
+    "alucinacion_detectada": true,
+    "alucinacion_probabilidad": 0.67,
+    "calidad_score": 1.08,
+    "calidad_confianza": 0.0,
+    "latencia_ms": 604.41
+  },
+  "case_16_ft": {
+    "veredicto": "I",
+    "veredicto_choice": "I",
+    "veredicto_confianza": 0.64,
+    "veredicto_probabilidades": {
+      "P": 0.22,
+      "I": 0.76,
+      "C": 0.02
+    },
+    "alucinacion_detectada": true,
+    "alucinacion_probabilidad": 0.65,
+    "calidad_score": 0.99,
+    "calidad_confianza": 0.01,
+    "latencia_ms": 699.3
+  },
+  "case_16_rag": {
+    "veredicto": "P",
+    "veredicto_choice": "P",
+    "veredicto_confianza": 0.26,
+    "veredicto_probabilidades": {
+      "C": 0.01,
+      "P": 0.51,
+      "I": 0.48
+    },
+    "alucinacion_detectada": false,
+    "alucinacion_probabilidad": 0.44,
+    "calidad_score": 1.49,
+    "calidad_confianza": 0.46,
+    "latencia_ms": 639.34
+  },
+  "case_17_ft": {
+    "veredicto": "I",
+    "veredicto_choice": "I",
+    "veredicto_confianza": 0.97,
+    "veredicto_probabilidades": {
+      "C": 0.0,
+      "P": 0.02,
+      "I": 0.98
+    },
+    "alucinacion_detectada": true,
+    "alucinacion_probabilidad": 0.9,
+    "calidad_score": 0.06,
+    "calidad_confianza": 0.94,
+    "latencia_ms": 684.14
+  },
+  "case_17_rag": {
+    "veredicto": "C",
+    "veredicto_choice": "C",
+    "veredicto_confianza": 0.86,
+    "veredicto_probabilidades": {
+      "C": 0.91,
+      "P": 0.04,
+      "I": 0.05
+    },
+    "alucinacion_detectada": false,
+    "alucinacion_probabilidad": 0.13,
+    "calidad_score": 2.35,
+    "calidad_confianza": 0.53,
+    "latencia_ms": 1001.16
+  },
+  "case_18_ft": {
+    "veredicto": "I",
+    "veredicto_choice": "I",
+    "veredicto_confianza": 0.92,
+    "veredicto_probabilidades": {
+      "C": 0.01,
+      "P": 0.04,
+      "I": 0.95
+    },
+    "alucinacion_detectada": true,
+    "alucinacion_probabilidad": 0.78,
+    "calidad_score": 0.39,
+    "calidad_confianza": 0.61,
+    "latencia_ms": 578.18
+  },
+  "case_18_rag": {
+    "veredicto": "I",
+    "veredicto_choice": "I",
+    "veredicto_confianza": 0.34,
+    "veredicto_probabilidades": {
+      "C": 0.01,
+      "P": 0.43,
+      "I": 0.56
+    },
+    "alucinacion_detectada": true,
+    "alucinacion_probabilidad": 0.52,
+    "calidad_score": 1.14,
+    "calidad_confianza": 0.46,
+    "latencia_ms": 552.45
+  },
+  "case_19_ft": {
+    "veredicto": "I",
+    "veredicto_choice": "I",
+    "veredicto_confianza": 0.31,
+    "veredicto_probabilidades": {
+      "C": 0.17,
+      "I": 0.54,
+      "P": 0.28
+    },
+    "alucinacion_detectada": true,
+    "alucinacion_probabilidad": 0.67,
+    "calidad_score": 1.12,
+    "calidad_confianza": 0.05,
+    "latencia_ms": 597.53
+  },
+  "case_19_rag": {
+    "veredicto": "I",
+    "veredicto_choice": "I",
+    "veredicto_confianza": 0.52,
+    "veredicto_probabilidades": {
+      "C": 0.03,
+      "I": 0.67,
+      "P": 0.3
+    },
+    "alucinacion_detectada": true,
+    "alucinacion_probabilidad": 0.6,
+    "calidad_score": 1.26,
+    "calidad_confianza": 0.01,
+    "latencia_ms": 608.88
+  },
+  "case_20_ft": {
+    "veredicto": "I",
+    "veredicto_choice": "I",
+    "veredicto_confianza": 0.97,
+    "veredicto_probabilidades": {
+      "P": 0.02,
+      "I": 0.98,
+      "C": 0.0
+    },
+    "alucinacion_detectada": true,
+    "alucinacion_probabilidad": 0.8,
+    "calidad_score": 0.27,
+    "calidad_confianza": 0.73,
+    "latencia_ms": 576.37
+  },
+  "case_20_rag": {
+    "veredicto": "I",
+    "veredicto_choice": "I",
+    "veredicto_confianza": 0.77,
+    "veredicto_probabilidades": {
+      "I": 0.85,
+      "C": 0.01,
+      "P": 0.14
+    },
+    "alucinacion_detectada": true,
+    "alucinacion_probabilidad": 0.63,
+    "calidad_score": 1.16,
+    "calidad_confianza": 0.0,
+    "latencia_ms": 691.99
+  },
+  "case_21_ft": {
+    "veredicto": "I",
+    "veredicto_choice": "I",
+    "veredicto_confianza": 0.66,
+    "veredicto_probabilidades": {
+      "C": 0.03,
+      "I": 0.77,
+      "P": 0.2
+    },
+    "alucinacion_detectada": true,
+    "alucinacion_probabilidad": 0.63,
+    "calidad_score": 1.15,
+    "calidad_confianza": 0.08,
+    "latencia_ms": 648.54
+  },
+  "case_21_rag": {
+    "veredicto": "I",
+    "veredicto_choice": "I",
+    "veredicto_confianza": 0.79,
+    "veredicto_probabilidades": {
+      "C": 0.02,
+      "I": 0.86,
+      "P": 0.12
+    },
+    "alucinacion_detectada": true,
+    "alucinacion_probabilidad": 0.65,
+    "calidad_score": 1.08,
+    "calidad_confianza": 0.0,
+    "latencia_ms": 601.5
+  },
+  "case_22_ft": {
+    "veredicto": "I",
+    "veredicto_choice": "I",
+    "veredicto_confianza": 1.0,
+    "veredicto_probabilidades": {
+      "C": 0.0,
+      "P": 0.0,
+      "I": 1.0
+    },
+    "alucinacion_detectada": true,
+    "alucinacion_probabilidad": 0.92,
+    "calidad_score": 0.02,
+    "calidad_confianza": 0.98,
+    "latencia_ms": 716.01
+  },
+  "case_22_rag": {
+    "veredicto": "P",
+    "veredicto_choice": "P",
+    "veredicto_confianza": 0.56,
+    "veredicto_probabilidades": {
+      "C": 0.0,
+      "P": 0.71,
+      "I": 0.29
+    },
+    "alucinacion_detectada": true,
+    "alucinacion_probabilidad": 0.59,
+    "calidad_score": 0.89,
+    "calidad_confianza": 0.84,
+    "latencia_ms": 591.27
+  },
+  "case_23_ft": {
+    "veredicto": "I",
+    "veredicto_choice": "I",
+    "veredicto_confianza": 0.52,
+    "veredicto_probabilidades": {
+      "I": 0.68,
+      "C": 0.0,
+      "P": 0.32
+    },
+    "alucinacion_detectada": true,
+    "alucinacion_probabilidad": 0.75,
+    "calidad_score": 0.38,
+    "calidad_confianza": 0.62,
+    "latencia_ms": 634.25
+  },
+  "case_23_rag": {
+    "veredicto": "P",
+    "veredicto_choice": "P",
+    "veredicto_confianza": 0.6,
+    "veredicto_probabilidades": {
+      "C": 0.0,
+      "P": 0.74,
+      "I": 0.26
+    },
+    "alucinacion_detectada": true,
+    "alucinacion_probabilidad": 0.51,
+    "calidad_score": 0.97,
+    "calidad_confianza": 0.84,
+    "latencia_ms": 617.12
+  },
+  "case_24_ft": {
+    "veredicto": "I",
+    "veredicto_choice": "I",
+    "veredicto_confianza": 0.83,
+    "veredicto_probabilidades": {
+      "I": 0.88,
+      "C": 0.01,
+      "P": 0.11
+    },
+    "alucinacion_detectada": true,
+    "alucinacion_probabilidad": 0.75,
+    "calidad_score": 0.28,
+    "calidad_confianza": 0.72,
+    "latencia_ms": 555.12
+  },
+  "case_24_rag": {
+    "veredicto": "I",
+    "veredicto_choice": "I",
+    "veredicto_confianza": 0.62,
+    "veredicto_probabilidades": {
+      "I": 0.75,
+      "P": 0.2,
+      "C": 0.05
+    },
+    "alucinacion_detectada": true,
+    "alucinacion_probabilidad": 0.56,
+    "calidad_score": 0.89,
+    "calidad_confianza": 0.11,
+    "latencia_ms": 662.87
+  },
+  "case_25_ft": {
+    "veredicto": "I",
+    "veredicto_choice": "I",
+    "veredicto_confianza": 0.93,
+    "veredicto_probabilidades": {
+      "P": 0.04,
+      "C": 0.0,
+      "I": 0.96
+    },
+    "alucinacion_detectada": true,
+    "alucinacion_probabilidad": 0.86,
+    "calidad_score": 0.17,
+    "calidad_confianza": 0.83,
+    "latencia_ms": 629.85
+  },
+  "case_25_rag": {
+    "veredicto": "I",
+    "veredicto_choice": "I",
+    "veredicto_confianza": 0.88,
+    "veredicto_probabilidades": {
+      "I": 0.92,
+      "P": 0.04,
+      "C": 0.04
+    },
+    "alucinacion_detectada": true,
+    "alucinacion_probabilidad": 0.77,
+    "calidad_score": 0.92,
+    "calidad_confianza": 0.08,
+    "latencia_ms": 619.17
+  },
+  "case_26_ft": {
+    "veredicto": "I",
+    "veredicto_choice": "I",
+    "veredicto_confianza": 0.86,
+    "veredicto_probabilidades": {
+      "I": 0.9,
+      "P": 0.09,
+      "C": 0.01
+    },
+    "alucinacion_detectada": true,
+    "alucinacion_probabilidad": 0.72,
+    "calidad_score": 0.59,
+    "calidad_confianza": 0.41,
+    "latencia_ms": 642.97
+  },
+  "case_26_rag": {
+    "veredicto": "I",
+    "veredicto_choice": "I",
+    "veredicto_confianza": 0.8,
+    "veredicto_probabilidades": {
+      "P": 0.12,
+      "I": 0.87,
+      "C": 0.01
+    },
+    "alucinacion_detectada": true,
+    "alucinacion_probabilidad": 0.67,
+    "calidad_score": 0.97,
+    "calidad_confianza": 0.03,
+    "latencia_ms": 644.53
+  },
+  "case_27_ft": {
+    "veredicto": "I",
+    "veredicto_choice": "I",
+    "veredicto_confianza": 0.98,
+    "veredicto_probabilidades": {
+      "C": 0.0,
+      "I": 0.99,
+      "P": 0.01
+    },
+    "alucinacion_detectada": true,
+    "alucinacion_probabilidad": 0.87,
+    "calidad_score": 0.17,
+    "calidad_confianza": 0.83,
+    "latencia_ms": 648.73
+  },
+  "case_27_rag": {
+    "veredicto": "I",
+    "veredicto_choice": "I",
+    "veredicto_confianza": 0.98,
+    "veredicto_probabilidades": {
+      "I": 0.99,
+      "P": 0.01,
+      "C": 0.0
+    },
+    "alucinacion_detectada": true,
+    "alucinacion_probabilidad": 0.79,
+    "calidad_score": 0.4,
+    "calidad_confianza": 0.6,
+    "latencia_ms": 630.61
+  },
+  "case_28_ft": {
+    "veredicto": "I",
+    "veredicto_choice": "I",
+    "veredicto_confianza": 1.0,
+    "veredicto_probabilidades": {
+      "P": 0.0,
+      "I": 1.0,
+      "C": 0.0
+    },
+    "alucinacion_detectada": true,
+    "alucinacion_probabilidad": 0.94,
+    "calidad_score": 0.02,
+    "calidad_confianza": 0.98,
+    "latencia_ms": 602.7
+  },
+  "case_28_rag": {
+    "veredicto": "I",
+    "veredicto_choice": "I",
+    "veredicto_confianza": 0.9,
+    "veredicto_probabilidades": {
+      "I": 0.93,
+      "P": 0.07,
+      "C": 0.0
+    },
+    "alucinacion_detectada": true,
+    "alucinacion_probabilidad": 0.72,
+    "calidad_score": 0.94,
+    "calidad_confianza": 0.41,
+    "latencia_ms": 730.38
+  },
+  "case_29_ft": {
+    "veredicto": "I",
+    "veredicto_choice": "I",
+    "veredicto_confianza": 0.82,
+    "veredicto_probabilidades": {
+      "I": 0.88,
+      "C": 0.01,
+      "P": 0.11
+    },
+    "alucinacion_detectada": true,
+    "alucinacion_probabilidad": 0.73,
+    "calidad_score": 0.42,
+    "calidad_confianza": 0.58,
+    "latencia_ms": 575.65
+  },
+  "case_29_rag": {
+    "veredicto": "C",
+    "veredicto_choice": "C",
+    "veredicto_confianza": 0.19,
+    "veredicto_probabilidades": {
+      "P": 0.09,
+      "I": 0.45,
+      "C": 0.46
+    },
+    "alucinacion_detectada": true,
+    "alucinacion_probabilidad": 0.5,
+    "calidad_score": 1.82,
+    "calidad_confianza": 0.33,
+    "latencia_ms": 729.92
+  },
+  "case_30_ft": {
+    "veredicto": "I",
+    "veredicto_choice": "I",
+    "veredicto_confianza": 0.93,
+    "veredicto_probabilidades": {
+      "C": 0.0,
+      "P": 0.05,
+      "I": 0.95
+    },
+    "alucinacion_detectada": true,
+    "alucinacion_probabilidad": 0.89,
+    "calidad_score": 0.11,
+    "calidad_confianza": 0.89,
+    "latencia_ms": 550.54
+  },
+  "case_30_rag": {
+    "veredicto": "P",
+    "veredicto_choice": "P",
+    "veredicto_confianza": 0.45,
+    "veredicto_probabilidades": {
+      "C": 0.0,
+      "I": 0.37,
+      "P": 0.63
+    },
+    "alucinacion_detectada": true,
+    "alucinacion_probabilidad": 0.5,
+    "calidad_score": 0.7,
+    "calidad_confianza": 0.62,
+    "latencia_ms": 611.55
+  },
+  "case_31_ft": {
+    "veredicto": "I",
+    "veredicto_choice": "I",
+    "veredicto_confianza": 0.99,
+    "veredicto_probabilidades": {
+      "I": 0.99,
+      "P": 0.01,
+      "C": 0.0
+    },
+    "alucinacion_detectada": true,
+    "alucinacion_probabilidad": 0.91,
+    "calidad_score": 0.02,
+    "calidad_confianza": 0.98,
+    "latencia_ms": 577.4
+  },
+  "case_31_rag": {
+    "veredicto": "P",
+    "veredicto_choice": "P",
+    "veredicto_confianza": 0.45,
+    "veredicto_probabilidades": {
+      "C": 0.0,
+      "P": 0.64,
+      "I": 0.36
+    },
+    "alucinacion_detectada": true,
+    "alucinacion_probabilidad": 0.58,
+    "calidad_score": 0.89,
+    "calidad_confianza": 0.67,
+    "latencia_ms": 663.49
+  },
+  "case_32_ft": {
+    "veredicto": "P",
+    "veredicto_choice": "P",
+    "veredicto_confianza": 0.89,
+    "veredicto_probabilidades": {
+      "I": 0.07,
+      "C": 0.0,
+      "P": 0.93
+    },
+    "alucinacion_detectada": false,
+    "alucinacion_probabilidad": 0.23,
+    "calidad_score": 0.94,
+    "calidad_confianza": 0.93,
+    "latencia_ms": 723.94
+  },
+  "case_32_rag": {
+    "veredicto": "P",
+    "veredicto_choice": "P",
+    "veredicto_confianza": 0.08,
+    "veredicto_probabilidades": {
+      "C": 0.33,
+      "P": 0.39,
+      "I": 0.28
+    },
+    "alucinacion_detectada": true,
+    "alucinacion_probabilidad": 0.54,
+    "calidad_score": 1.36,
+    "calidad_confianza": 0.34,
+    "latencia_ms": 574.2
+  },
+  "case_33_ft": {
+    "veredicto": "I",
+    "veredicto_choice": "I",
+    "veredicto_confianza": 0.87,
+    "veredicto_probabilidades": {
+      "C": 0.0,
+      "I": 0.92,
+      "P": 0.08
+    },
+    "alucinacion_detectada": true,
+    "alucinacion_probabilidad": 0.85,
+    "calidad_score": 0.22,
+    "calidad_confianza": 0.78,
+    "latencia_ms": 584.84
+  },
+  "case_33_rag": {
+    "veredicto": "P",
+    "veredicto_choice": "P",
+    "veredicto_confianza": 0.35,
+    "veredicto_probabilidades": {
+      "P": 0.57,
+      "C": 0.0,
+      "I": 0.43
+    },
+    "alucinacion_detectada": true,
+    "alucinacion_probabilidad": 0.59,
+    "calidad_score": 0.84,
+    "calidad_confianza": 0.59,
+    "latencia_ms": 685.61
+  },
+  "case_34_ft": {
+    "veredicto": "I",
+    "veredicto_choice": "I",
+    "veredicto_confianza": 0.89,
+    "veredicto_probabilidades": {
+      "I": 0.93,
+      "P": 0.07,
+      "C": 0.0
+    },
+    "alucinacion_detectada": true,
+    "alucinacion_probabilidad": 0.81,
+    "calidad_score": 0.32,
+    "calidad_confianza": 0.68,
+    "latencia_ms": 599.67
+  },
+  "case_34_rag": {
+    "veredicto": "P",
+    "veredicto_choice": "P",
+    "veredicto_confianza": 0.5,
+    "veredicto_probabilidades": {
+      "I": 0.33,
+      "P": 0.67,
+      "C": 0.0
+    },
+    "alucinacion_detectada": false,
+    "alucinacion_probabilidad": 0.47,
+    "calidad_score": 0.9,
+    "calidad_confianza": 0.69,
+    "latencia_ms": 729.58
+  },
+  "case_35_ft": {
+    "veredicto": "I",
+    "veredicto_choice": "I",
+    "veredicto_confianza": 1.0,
+    "veredicto_probabilidades": {
+      "P": 0.0,
+      "C": 0.0,
+      "I": 1.0
+    },
+    "alucinacion_detectada": true,
+    "alucinacion_probabilidad": 0.9,
+    "calidad_score": 0.07,
+    "calidad_confianza": 0.93,
+    "latencia_ms": 573.55
+  },
+  "case_35_rag": {
+    "veredicto": "I",
+    "veredicto_choice": "I",
+    "veredicto_confianza": 0.67,
+    "veredicto_probabilidades": {
+      "I": 0.78,
+      "P": 0.22,
+      "C": 0.0
+    },
+    "alucinacion_detectada": true,
+    "alucinacion_probabilidad": 0.68,
+    "calidad_score": 0.71,
+    "calidad_confianza": 0.51,
+    "latencia_ms": 640.66
+  },
+  "case_36_ft": {
+    "veredicto": "I",
+    "veredicto_choice": "I",
+    "veredicto_confianza": 0.97,
+    "veredicto_probabilidades": {
+      "C": 0.0,
+      "P": 0.02,
+      "I": 0.98
+    },
+    "alucinacion_detectada": true,
+    "alucinacion_probabilidad": 0.87,
+    "calidad_score": 0.12,
+    "calidad_confianza": 0.88,
+    "latencia_ms": 801.83
+  },
+  "case_36_rag": {
+    "veredicto": "P",
+    "veredicto_choice": "P",
+    "veredicto_confianza": 0.42,
+    "veredicto_probabilidades": {
+      "P": 0.62,
+      "I": 0.1,
+      "C": 0.28
+    },
+    "alucinacion_detectada": false,
+    "alucinacion_probabilidad": 0.34,
+    "calidad_score": 1.77,
+    "calidad_confianza": 0.71,
+    "latencia_ms": 5120.86
+  },
+  "case_37_ft": {
+    "veredicto": "I",
+    "veredicto_choice": "I",
+    "veredicto_confianza": 1.0,
+    "veredicto_probabilidades": {
+      "C": 0.0,
+      "P": 0.0,
+      "I": 1.0
+    },
+    "alucinacion_detectada": true,
+    "alucinacion_probabilidad": 0.91,
+    "calidad_score": 0.03,
+    "calidad_confianza": 0.97,
+    "latencia_ms": 42795.98
+  },
+  "case_37_rag": {
+    "veredicto": "P",
+    "veredicto_choice": "P",
+    "veredicto_confianza": 0.38,
+    "veredicto_probabilidades": {
+      "P": 0.58,
+      "I": 0.24,
+      "C": 0.18
+    },
+    "alucinacion_detectada": false,
+    "alucinacion_probabilidad": 0.31,
+    "calidad_score": 1.43,
+    "calidad_confianza": 0.46,
+    "latencia_ms": 607.1
+  },
+  "case_38_ft": {
+    "veredicto": "I",
+    "veredicto_choice": "I",
+    "veredicto_confianza": 0.69,
+    "veredicto_probabilidades": {
+      "C": 0.01,
+      "I": 0.79,
+      "P": 0.2
+    },
+    "alucinacion_detectada": true,
+    "alucinacion_probabilidad": 0.69,
+    "calidad_score": 0.98,
+    "calidad_confianza": 0.5,
+    "latencia_ms": 726.57
+  },
+  "case_38_rag": {
+    "veredicto": "I",
+    "veredicto_choice": "I",
+    "veredicto_confianza": 0.51,
+    "veredicto_probabilidades": {
+      "C": 0.0,
+      "I": 0.67,
+      "P": 0.33
+    },
+    "alucinacion_detectada": true,
+    "alucinacion_probabilidad": 0.71,
+    "calidad_score": 0.81,
+    "calidad_confianza": 0.66,
+    "latencia_ms": 636.66
+  },
+  "case_39_ft": {
+    "veredicto": "I",
+    "veredicto_choice": "I",
+    "veredicto_confianza": 0.87,
+    "veredicto_probabilidades": {
+      "C": 0.0,
+      "I": 0.92,
+      "P": 0.08
+    },
+    "alucinacion_detectada": true,
+    "alucinacion_probabilidad": 0.75,
+    "calidad_score": 0.64,
+    "calidad_confianza": 0.36,
+    "latencia_ms": 591.02
+  },
+  "case_39_rag": {
+    "veredicto": "I",
+    "veredicto_choice": "I",
+    "veredicto_confianza": 0.65,
+    "veredicto_probabilidades": {
+      "C": 0.0,
+      "I": 0.77,
+      "P": 0.23
+    },
+    "alucinacion_detectada": true,
+    "alucinacion_probabilidad": 0.67,
+    "calidad_score": 0.82,
+    "calidad_confianza": 0.53,
+    "latencia_ms": 587.95
+  },
+  "case_40_ft": {
+    "veredicto": "I",
+    "veredicto_choice": "I",
+    "veredicto_confianza": 0.91,
+    "veredicto_probabilidades": {
+      "P": 0.06,
+      "I": 0.94,
+      "C": 0.0
+    },
+    "alucinacion_detectada": true,
+    "alucinacion_probabilidad": 0.81,
+    "calidad_score": 0.18,
+    "calidad_confianza": 0.82,
+    "latencia_ms": 826.07
+  },
+  "case_40_rag": {
+    "veredicto": "I",
+    "veredicto_choice": "I",
+    "veredicto_confianza": 0.98,
+    "veredicto_probabilidades": {
+      "I": 0.99,
+      "C": 0.0,
+      "P": 0.01
+    },
+    "alucinacion_detectada": true,
+    "alucinacion_probabilidad": 0.84,
+    "calidad_score": 0.14,
+    "calidad_confianza": 0.86,
+    "latencia_ms": 617.47
+  },
+  "case_41_ft": {
+    "veredicto": "I",
+    "veredicto_choice": "I",
+    "veredicto_confianza": 1.0,
+    "veredicto_probabilidades": {
+      "I": 1.0,
+      "C": 0.0,
+      "P": 0.0
+    },
+    "alucinacion_detectada": true,
+    "alucinacion_probabilidad": 0.91,
+    "calidad_score": 0.01,
+    "calidad_confianza": 0.99,
+    "latencia_ms": 609.13
+  },
+  "case_41_rag": {
+    "veredicto": "P",
+    "veredicto_choice": "P",
+    "veredicto_confianza": 0.62,
+    "veredicto_probabilidades": {
+      "C": 0.0,
+      "P": 0.75,
+      "I": 0.25
+    },
+    "alucinacion_detectada": true,
+    "alucinacion_probabilidad": 0.5,
+    "calidad_score": 1.03,
+    "calidad_confianza": 0.73,
+    "latencia_ms": 657.66
+  },
+  "case_42_ft": {
+    "veredicto": "I",
+    "veredicto_choice": "I",
+    "veredicto_confianza": 0.99,
+    "veredicto_probabilidades": {
+      "I": 1.0,
+      "C": 0.0,
+      "P": 0.0
+    },
+    "alucinacion_detectada": true,
+    "alucinacion_probabilidad": 0.9,
+    "calidad_score": 0.06,
+    "calidad_confianza": 0.94,
+    "latencia_ms": 599.07
+  },
+  "case_42_rag": {
+    "veredicto": "I",
+    "veredicto_choice": "I",
+    "veredicto_confianza": 0.26,
+    "veredicto_probabilidades": {
+      "P": 0.49,
+      "I": 0.51,
+      "C": 0.0
+    },
+    "alucinacion_detectada": true,
+    "alucinacion_probabilidad": 0.42,
+    "calidad_score": 0.65,
+    "calidad_confianza": 0.59,
+    "latencia_ms": 564.72
+  },
+  "case_43_ft": {
+    "veredicto": "I",
+    "veredicto_choice": "I",
+    "veredicto_confianza": 0.98,
+    "veredicto_probabilidades": {
+      "C": 0.0,
+      "P": 0.01,
+      "I": 0.99
+    },
+    "alucinacion_detectada": true,
+    "alucinacion_probabilidad": 0.79,
+    "calidad_score": 0.32,
+    "calidad_confianza": 0.68,
+    "latencia_ms": 562.68
+  },
+  "case_43_rag": {
+    "veredicto": "I",
+    "veredicto_choice": "I",
+    "veredicto_confianza": 0.97,
+    "veredicto_probabilidades": {
+      "C": 0.0,
+      "P": 0.02,
+      "I": 0.98
+    },
+    "alucinacion_detectada": true,
+    "alucinacion_probabilidad": 0.77,
+    "calidad_score": 0.45,
+    "calidad_confianza": 0.55,
+    "latencia_ms": 631.2
+  },
+  "case_44_ft": {
+    "veredicto": "I",
+    "veredicto_choice": "I",
+    "veredicto_confianza": 1.0,
+    "veredicto_probabilidades": {
+      "P": 0.0,
+      "I": 1.0,
+      "C": 0.0
+    },
+    "alucinacion_detectada": true,
+    "alucinacion_probabilidad": 0.89,
+    "calidad_score": 0.03,
+    "calidad_confianza": 0.97,
+    "latencia_ms": 5309.76
+  },
+  "case_44_rag": {
+    "veredicto": "I",
+    "veredicto_choice": "I",
+    "veredicto_confianza": 0.83,
+    "veredicto_probabilidades": {
+      "C": 0.0,
+      "P": 0.11,
+      "I": 0.89
+    },
+    "alucinacion_detectada": true,
+    "alucinacion_probabilidad": 0.82,
+    "calidad_score": 0.34,
+    "calidad_confianza": 0.66,
+    "latencia_ms": 616.58
+  },
+  "case_45_ft": {
+    "veredicto": "I",
+    "veredicto_choice": "I",
+    "veredicto_confianza": 0.53,
+    "veredicto_probabilidades": {
+      "P": 0.3,
+      "I": 0.69,
+      "C": 0.01
+    },
+    "alucinacion_detectada": true,
+    "alucinacion_probabilidad": 0.74,
+    "calidad_score": 0.69,
+    "calidad_confianza": 0.31,
+    "latencia_ms": 664.67
+  },
+  "case_45_rag": {
+    "veredicto": "I",
+    "veredicto_choice": "I",
+    "veredicto_confianza": 0.44,
+    "veredicto_probabilidades": {
+      "C": 0.09,
+      "P": 0.29,
+      "I": 0.62
+    },
+    "alucinacion_detectada": true,
+    "alucinacion_probabilidad": 0.54,
+    "calidad_score": 1.7,
+    "calidad_confianza": 0.4,
+    "latencia_ms": 711.04
+  },
+  "case_46_ft": {
+    "veredicto": "I",
+    "veredicto_choice": "I",
+    "veredicto_confianza": 0.65,
+    "veredicto_probabilidades": {
+      "I": 0.76,
+      "C": 0.01,
+      "P": 0.23
+    },
+    "alucinacion_detectada": true,
+    "alucinacion_probabilidad": 0.77,
+    "calidad_score": 0.48,
+    "calidad_confianza": 0.52,
+    "latencia_ms": 688.83
+  },
+  "case_46_rag": {
+    "veredicto": "I",
+    "veredicto_choice": "I",
+    "veredicto_confianza": 0.81,
+    "veredicto_probabilidades": {
+      "P": 0.11,
+      "I": 0.88,
+      "C": 0.01
+    },
+    "alucinacion_detectada": true,
+    "alucinacion_probabilidad": 0.77,
+    "calidad_score": 0.63,
+    "calidad_confianza": 0.37,
+    "latencia_ms": 641.37
+  },
+  "case_47_ft": {
+    "veredicto": "I",
+    "veredicto_choice": "I",
+    "veredicto_confianza": 0.76,
+    "veredicto_probabilidades": {
+      "P": 0.09,
+      "I": 0.84,
+      "C": 0.07
+    },
+    "alucinacion_detectada": true,
+    "alucinacion_probabilidad": 0.68,
+    "calidad_score": 0.69,
+    "calidad_confianza": 0.31,
+    "latencia_ms": 626.35
+  },
+  "case_47_rag": {
+    "veredicto": "I",
+    "veredicto_choice": "I",
+    "veredicto_confianza": 0.73,
+    "veredicto_probabilidades": {
+      "P": 0.11,
+      "C": 0.07,
+      "I": 0.82
+    },
+    "alucinacion_detectada": true,
+    "alucinacion_probabilidad": 0.56,
+    "calidad_score": 1.37,
+    "calidad_confianza": 0.1,
+    "latencia_ms": 837.45
+  },
+  "case_48_ft": {
+    "veredicto": "I",
+    "veredicto_choice": "I",
+    "veredicto_confianza": 0.88,
+    "veredicto_probabilidades": {
+      "C": 0.0,
+      "P": 0.08,
+      "I": 0.92
+    },
+    "alucinacion_detectada": true,
+    "alucinacion_probabilidad": 0.87,
+    "calidad_score": 0.18,
+    "calidad_confianza": 0.82,
+    "latencia_ms": 585.85
+  },
+  "case_48_rag": {
+    "veredicto": "P",
+    "veredicto_choice": "P",
+    "veredicto_confianza": 0.45,
+    "veredicto_probabilidades": {
+      "I": 0.26,
+      "C": 0.11,
+      "P": 0.63
+    },
+    "alucinacion_detectada": true,
+    "alucinacion_probabilidad": 0.52,
+    "calidad_score": 1.46,
+    "calidad_confianza": 0.5,
+    "latencia_ms": 808.31
+  },
+  "case_49_ft": {
+    "veredicto": "I",
+    "veredicto_choice": "I",
+    "veredicto_confianza": 0.85,
+    "veredicto_probabilidades": {
+      "P": 0.1,
+      "I": 0.9,
+      "C": 0.0
+    },
+    "alucinacion_detectada": true,
+    "alucinacion_probabilidad": 0.82,
+    "calidad_score": 0.63,
+    "calidad_confianza": 0.59,
+    "latencia_ms": 724.87
+  },
+  "case_49_rag": {
+    "veredicto": "P",
+    "veredicto_choice": "P",
+    "veredicto_confianza": 0.51,
+    "veredicto_probabilidades": {
+      "I": 0.33,
+      "P": 0.67,
+      "C": 0.0
+    },
+    "alucinacion_detectada": false,
+    "alucinacion_probabilidad": 0.46,
+    "calidad_score": 1.1,
+    "calidad_confianza": 0.67,
+    "latencia_ms": 610.1
+  },
+  "case_50_ft": {
+    "veredicto": "I",
+    "veredicto_choice": "I",
+    "veredicto_confianza": 0.66,
+    "veredicto_probabilidades": {
+      "C": 0.0,
+      "I": 0.77,
+      "P": 0.23
+    },
+    "alucinacion_detectada": true,
+    "alucinacion_probabilidad": 0.75,
+    "calidad_score": 0.56,
+    "calidad_confianza": 0.53,
+    "latencia_ms": 597.94
+  },
+  "case_50_rag": {
+    "veredicto": "I",
+    "veredicto_choice": "I",
+    "veredicto_confianza": 0.46,
+    "veredicto_probabilidades": {
+      "P": 0.36,
+      "I": 0.64,
+      "C": 0.0
+    },
+    "alucinacion_detectada": true,
+    "alucinacion_probabilidad": 0.64,
+    "calidad_score": 0.83,
+    "calidad_confianza": 0.7,
+    "latencia_ms": 641.11
+  }
+}

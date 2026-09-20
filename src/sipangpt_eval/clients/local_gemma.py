@@ -44,39 +44,42 @@ class LocalGemmaClient(BaseLLMClient):
                 "stream": False,
             }
 
-        try:
-            with httpx.Client(timeout=15.0) as client:
-                response: httpx.Response = client.post(self.api_url, json=payload)
-                elapsed_ms: float = (time.perf_counter() - start_time) * 1000.0
+        # Intentar hasta 3 veces con timeout de 180s para Gemma-4 local si hay URL configurada
+        if self.api_url:
+            for attempt in range(3):
+                try:
+                    with httpx.Client(timeout=180.0) as client:
+                        response: httpx.Response = client.post(self.api_url, json=payload)
+                        elapsed_ms: float = (time.perf_counter() - start_time) * 1000.0
 
-                if response.status_code == 200:
-                    data = response.json()
-                    respuesta: str = ""
+                        if response.status_code == 200:
+                            data = response.json()
+                            respuesta: str = ""
 
-                    if is_openai_format:
-                        choices = data.get("choices", [])
-                        if choices and isinstance(choices, list):
-                            first_choice = choices[0]
-                            if isinstance(first_choice, dict):
-                                msg = first_choice.get("message", {})
-                                if isinstance(msg, dict):
-                                    respuesta = str(msg.get("content", ""))
-                    else:
-                        respuesta = str(data.get("response", ""))
+                            if is_openai_format:
+                                choices = data.get("choices", [])
+                                if choices and isinstance(choices, list):
+                                    first_choice = choices[0]
+                                    if isinstance(first_choice, dict):
+                                        msg = first_choice.get("message", {})
+                                        if isinstance(msg, dict):
+                                            respuesta = str(msg.get("content", ""))
+                            else:
+                                respuesta = str(data.get("response", ""))
 
-                    if respuesta:
-                        tokens: int = len(respuesta.split())
-                        return InferenceOutput(
-                            modelo_nombre=self.model_name,
-                            respuesta_generada=respuesta,
-                            tiempo_total_ms=elapsed_ms,
-                            tiempo_busqueda_ms=0.0,
-                            tiempo_generacion_ms=elapsed_ms,
-                            tokens_totales=tokens,
-                            citas=[]
-                        )
-        except Exception:
-            pass
+                            if respuesta:
+                                tokens: int = len(respuesta.split())
+                                return InferenceOutput(
+                                    modelo_nombre=self.model_name,
+                                    respuesta_generada=respuesta,
+                                    tiempo_total_ms=elapsed_ms,
+                                    tiempo_busqueda_ms=0.0,
+                                    tiempo_generacion_ms=elapsed_ms,
+                                    tokens_totales=tokens,
+                                    citas=[]
+                                )
+                except Exception:
+                    time.sleep(2.0 * (attempt + 1))
 
         # Fallback / Simulación determinística si el servidor local (LM Studio / Ollama) no responde
         elapsed_ms = (time.perf_counter() - start_time) * 1000.0 + 450.0

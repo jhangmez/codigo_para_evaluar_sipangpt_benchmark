@@ -14,8 +14,11 @@ from sipangpt_eval.schemas.inference import (
 )
 from sipangpt_eval.schemas.evaluation import (
     ScoreCategory,
+    JudgeEvaluationOutput,
+    JevEvaluationOutput,
     EvaluatedPair,
     BenchmarkSummaryMetrics,
+    JevSummaryMetrics,
 )
 
 __all__ = [
@@ -26,6 +29,9 @@ __all__ = [
     "CitationSource",
     "InferenceOutput",
     "ScoreCategory",
+    "JudgeEvaluationOutput",
+    "JevEvaluationOutput",
     "EvaluatedPair",
     "BenchmarkSummaryMetrics",
+    "JevSummaryMetrics",
 ]

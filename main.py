@@ -9,11 +9,19 @@ from sipangpt_eval.clients.sipan_rag import SipanRAGClient
 from sipangpt_eval.config import settings
 from sipangpt_eval.core.runner import BenchmarkRunner
 from sipangpt_eval.core.scorer import BenchmarkScorer
+from sipangpt_eval.core.jev_scorer import JevScorer
 from sipangpt_eval.extraction.hf_loader import load_or_generate_test_benchmark
 from sipangpt_eval.reporting.charts import generate_all_reports_and_charts
-from sipangpt_eval.reporting.excel_generator import generate_comparative_excel
+from sipangpt_eval.reporting.excel_generator import (
+    generate_comparative_excel,
+    generate_jev_comparative_excel,
+)
 from sipangpt_eval.schemas.benchmark import BenchmarkCase
-from sipangpt_eval.schemas.evaluation import BenchmarkSummaryMetrics, EvaluatedPair
+from sipangpt_eval.schemas.evaluation import (
+    BenchmarkSummaryMetrics,
+    EvaluatedPair,
+    JevSummaryMetrics,
+)
 from sipangpt_eval.schemas.inference import InferenceOutput
 
 app = typer.Typer(
@@ -44,7 +52,10 @@ def run() -> Tuple[List[InferenceOutput], List[InferenceOutput]]:
         api_url=settings.gemma_api_url, model_name=settings.gemma_model_name
     )
     rag_client = SipanRAGClient(
-        api_url=settings.sipan_rag_api_url, api_token=settings.sipan_rag_api_token
+        api_url=settings.sipan_rag_api_url,
+        api_key=settings.sipan_rag_api_key,
+        api_token=settings.sipan_rag_api_token,
+        cookie=settings.sipan_rag_cookie,
     )
 
     runner = BenchmarkRunner(
@@ -68,7 +79,10 @@ def evaluate() -> Tuple[List[EvaluatedPair], BenchmarkSummaryMetrics]:
         api_url=settings.gemma_api_url, model_name=settings.gemma_model_name
     )
     rag_client = SipanRAGClient(
-        api_url=settings.sipan_rag_api_url, api_token=settings.sipan_rag_api_token
+        api_url=settings.sipan_rag_api_url,
+        api_key=settings.sipan_rag_api_key,
+        api_token=settings.sipan_rag_api_token,
+        cookie=settings.sipan_rag_cookie,
     )
     runner = BenchmarkRunner(
         gemma_client=gemma_client, rag_client=rag_client, results_dir=settings.results_dir
@@ -96,6 +110,49 @@ def evaluate() -> Tuple[List[EvaluatedPair], BenchmarkSummaryMetrics]:
     console.print(table)
     console.print(f"[bold green]✓ Matriz Excel generada:[/bold green] {excel_path}")
     return pairs, metrics
+
+
+@app.command(name="evaluate-jev")
+def evaluate_jev() -> Tuple[List[EvaluatedPair], JevSummaryMetrics]:
+    """Evalúa los resultados de inferencia utilizando TypeSafe AI Jev (System One) vía Vercel AI Gateway."""
+    cases: List[BenchmarkCase] = load_or_generate_test_benchmark()
+
+    gemma_client = LocalGemmaClient(
+        api_url=settings.gemma_api_url, model_name=settings.gemma_model_name
+    )
+    rag_client = SipanRAGClient(
+        api_url=settings.sipan_rag_api_url,
+        api_key=settings.sipan_rag_api_key,
+        api_token=settings.sipan_rag_api_token,
+        cookie=settings.sipan_rag_cookie,
+    )
+    runner = BenchmarkRunner(
+        gemma_client=gemma_client, rag_client=rag_client, results_dir=settings.results_dir
+    )
+
+    outs_ft, outs_rag = runner.run_benchmark(cases)
+
+    jev_scorer = JevScorer()
+    pairs, j_metrics = jev_scorer.evaluate_all(cases, outs_ft, outs_rag)
+
+    excel_path: Path = settings.results_dir / "matriz_evaluacion_jev.xlsx"
+    generate_jev_comparative_excel(pairs, j_metrics, excel_path)
+
+    # Imprimir tabla resumida en consola
+    table = Table(title="Evaluación Jev (TypeSafe AI System One)")
+    table.add_column("Métrica", style="cyan", no_wrap=True)
+    table.add_column("Gemma-4 Fine-Tuned", style="magenta")
+    table.add_column("Sipán-STAIR (RAG)", style="green")
+
+    table.add_row("Total Preguntas Evaluadas", str(j_metrics.total_preguntas), str(j_metrics.total_preguntas))
+    table.add_row("Exactitud Global Jev (%)", f"{j_metrics.exactitud_finetuned_pct:.2f}%", f"{j_metrics.exactitud_rag_pct:.2f}%")
+    table.add_row("Alucinaciones Detectadas (Jev)", str(j_metrics.alucinaciones_finetuned_count), str(j_metrics.alucinaciones_rag_count))
+    table.add_row("Calidad Técnica Media (0-3)", f"{j_metrics.promedio_calidad_finetuned:.2f}", f"{j_metrics.promedio_calidad_rag:.2f}")
+    table.add_row("Latencia Media de Evaluación (ms)", f"{j_metrics.latencia_media_ms:.2f} ms", f"{j_metrics.latencia_media_ms:.2f} ms")
+
+    console.print(table)
+    console.print(f"[bold green]✓ Matriz Excel Jev generada:[/bold green] {excel_path}")
+    return pairs, j_metrics
 
 
 @app.command()

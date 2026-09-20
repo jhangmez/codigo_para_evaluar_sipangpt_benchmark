@@ -1,0 +1,602 @@
+{
+  "case_1_ft": {
+    "analisis_comparativo": "La respuesta de referencia detalla con precisión la interfaz y el flujo real de la pasarela de pagos: para Yape, ingresar el número de celular, el código de aprobación de la app y presionar el botón morado 'Yapear S/...'; para Plin, ingresar el celular, elegir el banco emisor (Interbank, BBVA o Scotiabank), autorizar en la app y presionar el botón azul 'Plinear S/...'. En cambio, la respuesta del asistente no describe el funcionamiento de la pasarela y, en su lugar, elabora un procedimiento genérico e inventa pasos y términos ficticios (menciona un 'Sistema Integral de Facturación', botón 'Generar pagos', confirmación por parte del 'Banco de la Nación' y un 'Código de Autorización Único - CAU').",
+    "omisiones_o_errores": "Omite por completo el procedimiento específico tanto para Yape (código de aprobación de 5 o 6 dígitos) como para Plin (selección del banco emisor: Interbank, BBVA, Scotiabank). Además, alucina la intervención del Banco de la Nación para transacciones de billeteras digitales comerciales y crea términos inexistentes como CAU.",
+    "alucinacion_detectada": true,
+    "veredicto": "I"
+  },
+  "case_1_rag": {
+    "analisis_comparativo": "La respuesta generada por el asistente aborda la consulta ofreciendo un panorama completo de todo el flujo institucional (desde el acceso al Campus Virtual y la programación del servicio hasta la verificación del estado de pago). En cuanto a los pasos específicos dentro de la pasarela de pagos con Yape y Plin, menciona los elementos esenciales (número de celular, código de aprobación para Yape y selección de banco para Plin), aunque sintetiza algunos detalles visuales e interactivos presentes en la respuesta oficial (como la longitud del código de aprobación de Yape, los bancos específicos de Plin o los botones 'Yapear'/'Plinear' y la aprobación en la app bancaria). No obstante, el procedimiento general es completamente verídico, útil y preciso.",
+    "omisiones_o_errores": "Omite detalles específicos dentro de la pasarela descritos en la referencia: la especificación de los dígitos del código de aprobación (5 o 6 dígitos), los bancos disponibles en Plin (Interbank, BBVA, Scotiabank) y la indicación de aprobar la transacción en la app bancaria antes de finalizar en pantalla con el botón 'Plinear'.",
+    "alucinacion_detectada": false,
+    "veredicto": "C"
+  },
+  "case_2_ft": {
+    "analisis_comparativo": "La respuesta de referencia detalla el procedimiento exacto para configurar una rúbrica en el Aula Virtual de la USS, incluyendo cómo agregar criterios y niveles, además de las reglas institucionales obligatorias (la primera columna debe sumar 20 y la última debe ser 0). Por el contrario, la respuesta del asistente (Gemma-4 Fine-Tuned) describe un proceso confuso e incorrecto, inventando opciones como 'Puntuación máxima (en 10)', porcentajes y botones que no corresponden al estándar oficial de la plataforma de la universidad, omitiendo por completo las reglas de validación de puntajes.",
+    "omisiones_o_errores": "Omite las reglas institucionales obligatorias sobre los puntajes (primera columna suma 20 y última columna vale 0). Inventa procedimientos y opciones de configuración inexistentes en la plataforma oficial como 'Puntuación máxima (en 10)' y el sistema de ponderación por porcentajes para rúbricas.",
+    "alucinacion_detectada": true,
+    "veredicto": "I"
+  },
+  "case_2_rag": {
+    "analisis_comparativo": "La respuesta generada por el asistente cubre de forma precisa y detallada todos los puntos esenciales solicitados en la referencia oficial. Explica correctamente cómo acceder a la configuración, los botones para añadir criterios y niveles, y respeta estrictamente las dos reglas institucionales críticas: la suma de puntajes de la primera columna debe ser 20 y la última columna debe tener puntaje 0. Además, el sistema RAG enriquece la respuesta con citas normativas específicas y pasos metodológicos coherentes con el manual oficial de la USS.",
+    "omisiones_o_errores": "No presenta omisiones ni errores significativos. Los pasos y las reglas normativas coinciden plenamente con la respuesta de referencia.",
+    "alucinacion_detectada": false,
+    "veredicto": "C"
+  },
+  "case_3_ft": {
+    "analisis_comparativo": "La respuesta oficial de referencia explica cómo un docente o usuario encargado gestiona la importación de una reunión en línea para cursos fusionados utilizando el ID de la reunión en el Campus Virtual. Por otro lado, la respuesta del asistente evaluado ('Gemma-4 Fine-Tuned') confunde por completo el rol y el procedimiento, respondiendo sobre un proceso de matrícula para estudiantes ('seleccionar el valor MATRULARSE'), lo cual no tiene relación con el problema de cursos fusionados y horarios de clases del usuario.",
+    "omisiones_o_errores": "El asistente confunde un procedimiento docente/técnico de gestión de aulas virtuales (importar reunión por ID) con un proceso de matrícula de estudiantes. Omite todos los pasos reales de la plataforma para fusionar o duplicar sesiones de clases y aporta instrucciones totalmente ajenas al problema planteado.",
+    "alucinacion_detectada": true,
+    "veredicto": "I"
+  },
+  "case_3_rag": {
+    "analisis_comparativo": "La respuesta del asistente ('Sipán-STAIR RAG') menciona correctamente los primeros pasos del procedimiento oficial (ingresar al curso origen, copiar el ID de la reunión, e ir al curso fusionado para seleccionar 'Importar reunión'). Sin embargo, omite los pasos finales y críticos del proceso: pegar el ID en la ventana correspondiente y confirmar la importación. Además, incluye la cita normativa y datos de contacto de soporte técnico no presentes en la referencia básica, pero carece de la completitud operativa del flujo.",
+    "omisiones_o_errores": "Omite los pasos 4 y 5 del procedimiento oficial: pegar el ID de la reunión en la ventana de importación y hacer clic en 'Importar' para ver el mensaje de confirmación.",
+    "alucinacion_detectada": false,
+    "veredicto": "P"
+  },
+  "case_4_ft": {
+    "analisis_comparativo": "La respuesta oficial de referencia indica que la segunda matrícula por curso en modalidad presencial cuesta exactamente S/. 100. En contraste, el asistente evaluado proporciona montos totalmente incorrectos (S/. 36.50), inventando una estructura de costos basada en un supuesto Artículo 8º que no corresponde con el tarifario real de la USS para este concepto.",
+    "omisiones_o_errores": "El asistente proporciona un costo completamente erróneo para la segunda matrícula (S/. 36.50 en lugar de S/. 100) y menciona artículos de reglamento e importes descontextualizados o alucinados.",
+    "alucinacion_detectada": true,
+    "veredicto": "I"
+  },
+  "case_4_rag": {
+    "analisis_comparativo": "La respuesta generada por el asistente acierta exactamente en el dato fáctico principal solicitado por el usuario (el costo de la segunda matrícula por curso presencial es S/. 100). Además, incluye una referencia normativa y temporal ('Reglamento de Cobranza (Versión 8), vigente para el año 2026') que refuerza el enfoque RAG, y orienta adecuadamente sobre los canales de pago y soporte.",
+    "omisiones_o_errores": "Ninguno. Contiene los datos exactos y pasos/recomendaciones coherentes con la referencia.",
+    "alucinacion_detectada": false,
+    "veredicto": "C"
+  },
+  "case_5_ft": {
+    "analisis_comparativo": "La respuesta de referencia detalla el procedimiento exacto institucional para la creación de la Ficha de Matrícula (hacer clic en 'LISTAR CURSOS', seleccionar secciones, teoría/práctica, agregar asignatura, vista previa, confirmar matrícula, aceptar advertencia de irreversibilidad e imprimir). Por su parte, la respuesta generada por el asistente ('Gemma-4 Fine-Tuned') describe pasos totalmente genéricos, inventa secciones del campus virtual (como 'Administración'), introduce pasos incorrectos e inexistentes en el manual oficial (como 'Pre-Pago' dentro del módulo de selección de asignaturas o hacer clic en 'CANCELAR' ante un aviso), omitiendo por completo los botones y flujos reales de la USS.",
+    "omisiones_o_errores": "Omite todos los pasos e instrucciones reales del manual (botones 'LISTAR CURSOS', 'VER SECCIONES', 'Agregar Asignatura', 'Vista Previa', 'Confirmar Matricula'). Además, introduce alucinaciones e inventa flujos incorrectos como el 'Pre-Pago' obligatorio en ese punto y el uso del botón 'CANCELAR'.",
+    "alucinacion_detectada": true,
+    "veredicto": "I"
+  },
+  "case_5_rag": {
+    "analisis_comparativo": "La respuesta de referencia detalla el procedimiento técnico paso a paso dentro del sistema (clic en LISTAR CURSOS, VER SECCIONES, selección de grupos, botones rojos de Agregar Asignatura, Vista Previa, Confirmación y la advertencia de irreversibilidad). En contraste, la respuesta generada por el asistente describe el proceso de manera muy general y abstracta citando normativas y artículos del Reglamento de Matrícula (Título IV, Capítulo III, Artículo 23°), pero omade completamente la guía práctica paso a paso que el estudiante solicitó para interactuar correctamente con la interfaz del sistema de matrícula.",
+    "omisiones_o_errores": "Omite todos los pasos técnicos e interfaz requeridos por el estudiante: no menciona el botón LISTAR CURSOS, la selección de secciones, grupos de teoría y práctica, la Vista Previa, ni la confirmación final con el mensaje de advertencia y la impresión de la ficha.",
+    "alucinacion_detectada": false,
+    "veredicto": "I"
+  },
+  "case_6_ft": {
+    "analisis_comparativo": "La respuesta de referencia oficial (Ground Truth) evita dar instrucciones prematuras y solicita confirmación al usuario para guiarlo paso a paso en el Aula Virtual. Por su parte, la respuesta generada por el asistente ('Gemma-4 Fine-Tuned') asume parámetros y métodos de calificación (como porcentajes, criterios de asignación y botones como 'Añadir 1') que no corresponden a los estándares directos de configuración de una tarea simple en Moodle/Aula Virtual institucional, además de apartarse por completo del flujo interactivo y prudente de la referencia.",
+    "omisiones_o_errores": "El asistente inventa una interfaz y pasos específicos no alineados con el flujo oficial de la universidad, desvíandose del protocolo de confirmación inicial establecido en la respuesta de referencia.",
+    "alucinacion_detectada": true,
+    "veredicto": "I"
+  },
+  "case_6_rag": {
+    "analisis_comparativo": "La respuesta de referencia era una pregunta de seguimiento para interactuar con el docente y guiarlo paso a paso en la plataforma. Por su parte, el asistente RAG proporcionó una respuesta completa, estructurada y alineada con la normativa institucional de la Universidad Señor de Sipán (escala vigesimal, nota aprobatoria 11, rúbricas del sílabo, y canales de soporte). Aunque difiere en el enfoque de la respuesta ideal de referencia (que era interactiva), el asistente entrega información fáctica correcta y de alto valor para el docente.",
+    "omisiones_o_errores": "No se aprecian omisiones graves ni errores fácticos; el asistente aborda adecuadamente el marco normativo y técnico de la tarea en el Aula Virtual.",
+    "alucinacion_detectada": false,
+    "veredicto": "C"
+  },
+  "case_7_ft": {
+    "analisis_comparativo": "La respuesta oficial de referencia (Ground Truth) detalla los requisitos del Reglamento de Grados y Títulos (Arts. 7 y 8), incluyendo el grado de bachiller en SUNEDU, tesis aprobada, cero deudas, y la documentación digital exacta (solicitud, dictamen, DNI, fotos). Por el contrario, la respuesta del asistente (Gemma-4 Fine-Tuned) alucina por completo los requisitos e inventa documentos como 'certificado de aptitud física', 'certificado médico' y un costo específico de S/. 350.00 que no figuran en la referencia. Tampoco menciona los puntos críticos como tener el grado de bachiller registrado en SUNEDU o la sustentación de tesis.",
+    "omisiones_o_errores": "Omite todos los requisitos reales del Artículo 7 y 8 (grado de bachiller en SUNEDU, sustentación de tesis, inexistencia de deudas, formato de solicitud, dictamen de expedito, DNI al 150%). Introduce alucinaciones graves inventando trámites médicos y costos no respaldados.",
+    "alucinacion_detectada": true,
+    "veredicto": "I"
+  },
+  "case_7_rag": {
+    "analisis_comparativo": "La respuesta de referencia oficial (Ground Truth) extraída del Reglamento de Grados y Títulos (Arts. 7 y 8) establece explícitamente que los requisitos incluyen: tener el grado de bachiller registrado en SUNEDU, aprobación y sustentación de tesis, no tener deudas financieras, no tener pendientes en registros académicos ni en la biblioteca, y pagos por carpeta y ceremonia. Asimismo, detalla la documentación digital requerida (solicitud, dictamen de expedito, DNI al 150%, y fotos pasaporte). En contraste, la respuesta generada por el asistente ('Sipán-STAIR RAG') menciona requisitos generales completamente distintos y genéricos (constancia de egresado, certificados de estudios, constancia de idioma, prácticas preprofesionales), los cuales no coinciden con la normativa institucional de referencia para el trámite específico de obtención del título profesional.",
+    "omisiones_o_errores": "El asistente omite por completo los requisitos clave exigidos por la universidad (como el grado de bachiller registrado en SUNEDU, la sustentación de tesis, la inexistencia de pendientes en biblioteca y registros académicos, y los pagos de carpeta y ceremonia). Además, incluye requisitos y documentos que no figuran en el texto de referencia oficial proporcionado (como constancia de egresado, certificados de estudios, constancia de idioma extranjero y constancia de prácticas), lo que demuestra que no se alineó correctamente con el Ground Truth.",
+    "alucinacion_detectada": true,
+    "veredicto": "I"
+  },
+  "case_8_ft": {
+    "analisis_comparativo": "La respuesta de referencia oficial (Ground Truth) establece un protocolo interactivo en el cual el asistente primero hace preguntas aclaratorias al estudiante sobre si visualizó la ventana emergente y si está en la primera etapa del proceso antes de dar pasos directos. Por el contrario, la respuesta del asistente evaluado ('Gemma-4 Fine-Tuned') inventa un listado de pasos y cursos (como Medicina Clínica I, II, Clínica I, Clínica II) que no corresponden con la metodología de aclaración inicial ni con el procedimiento real de la Universidad Señor de Sipán para el desbloqueo por etapas del curso integrado de Medicina Clínica.",
+    "omisiones_o_errores": "El asistente omite realizar el protocolo de preguntas de validación inicial estipulado en la referencia y en su lugar inventa un procedimiento secuencial de selección de cursos inexacto e inconsistente con el flujo del sistema de matrícula de Medicina Humana.",
+    "alucinacion_detectada": true,
+    "veredicto": "I"
+  },
+  "case_8_rag": {
+    "analisis_comparativo": "La respuesta de referencia oficial (Ground Truth) corresponde a una fase interactiva donde el sistema solicita aclaraciones previas al estudiante sobre si ya visualizó la ventana emergente y aceptó la advertencia para guiarlo paso a paso. Por el contrario, la respuesta generada por el asistente RAG proporciona directamente los pasos teóricos del manual de usuario para la matrícula de Medicina Humana por etapas, junto con recomendaciones y datos de contacto de soporte técnico.",
+    "omisiones_o_errores": "El asistente no siguió el flujo interactivo propuesto en la respuesta de referencia (hacer preguntas de validación inicial sobre la ventana emergente), sino que entregó la información de manera directa. Sin embargo, los pasos descritos y el contexto del curso integrado son coherentes con la normativa de la USS.",
+    "alucinacion_detectada": false,
+    "veredicto": "P"
+  },
+  "case_9_ft": {
+    "analisis_comparativo": "La respuesta oficial de referencia indica que el estudiante debe ingresar al portal de la USS, ir al menú Gestión Financiera, luego a Detalle Económico, seleccionar la pestaña Cronograma y verificar que el estado del servicio figure como 'CANCELADO'. Por otro lado, la respuesta generada por el asistente (Gemma-4 Fine-Tuned) inventa un portal de autogestión de pagos llamado 'e-Pays', describe pasos completamente diferentes (como verificar un código de barras ficticio de 30 ceros) y cambia el estado esperado de 'CANCELADO' a 'COMPLETADO'.",
+    "omisiones_o_errores": "El asistente omite la ruta real dentro del sistema académico de la USS (Gestión Financiera -> Detalle Económico -> Cronograma). Alucina un sistema externo llamado 'e-Pays', inventa campos de validación absurdos (código de barras con 30 ceros) y proporciona un estado incorrecto ('COMPLETADO' en lugar de 'CANCELADO').",
+    "alucinacion_detectada": true,
+    "veredicto": "I"
+  },
+  "case_9_rag": {
+    "analisis_comparativo": "La respuesta de referencia indica que para verificar si un pago está registrado y validado, el estudiante debe ingresar a GESTIÓN FINANCIERA, luego a Detalle Económico, seleccionar la pestaña CRONOGRAMA y verificar que el estado sea 'CANCELADO'. En contraste, la respuesta generada por el asistente instruye ir a GESTIÓN FINANCIERA -> Pagos en línea y buscar una Confirmación de la Transacción. El asistente altera los pasos operativos reales del sistema universitario para la verificación de pagos registrados.",
+    "omisiones_o_errores": "El asistente omite por completo la ruta correcta en el sistema (Detalle Económico y la pestaña CRONOGRAMA para visualizar el estado 'CANCELADO'). En su lugar, guía al usuario a la sección de 'Pagos en línea' y a guardar una confirmación de transacción, lo cual no corresponde al procedimiento exacto descrito en la referencia oficial para corroborar el registro definitivo.",
+    "alucinacion_detectada": false,
+    "veredicto": "I"
+  },
+  "case_10_ft": {
+    "analisis_comparativo": "La respuesta del asistente evaluado menciona correctamente la finalidad del Sistema de Catálogo en Línea y sus funciones de búsqueda y acceso a recursos bibliográficos. Sin embargo, en la sección de bases de datos mezcla y repite excesivamente nombres de bases de datos de forma confusa (menciona repetidamente EBSCO, Scopus, ProQuest, etc.) e introduce bases de datos que no forman parte del núcleo oficial indicado en la referencia (como DOAB, DOAJ, Redalyc, ScienceDirect, etc.). Aunque no contradice totalmente la esencia del catálogo, la amalgama desordenada de bases de datos y la redundancia afectan la precisión fáctica frente a la respuesta oficial.",
+    "omisiones_o_errores": "El asistente incluye múltiples repeticiones de bases de datos y menciona plataformas externas de acceso abierto o de suscripción general (como ScienceDirect, Redalyc, ProQuest, DOAJ) que no figuran en la lista oficial de referencia del sistema de catálogo en línea de la USS (e-Library, EBSCO y Scopus).",
+    "alucinacion_detectada": true,
+    "veredicto": "P"
+  },
+  "case_10_rag": {
+    "analisis_comparativo": "La respuesta de referencia detalla las funcionalidades del Sistema de Catálogo en Línea (búsquedas avanzadas, gestión, acceso a bases de datos como e-Library, EBSCO y Scopus). La respuesta evaluada generada por el asistente (Sipán-STAIR RAG) indica que no dispone de información sobre el catálogo en línea, limitándose a desviar la consulta al Reglamento de Grados y Títulos y sugiriendo contactar a la Dirección de Biblioteca, sin responder a la pregunta del usuario.",
+    "omisiones_o_errores": "El asistente omite por completo los alcances del Sistema de Catálogo en Línea y las bases de datos disponibles (e-Library, EBSCO, Scopus), bloqueando la consulta del docente.",
+    "alucinacion_detectada": false,
+    "veredicto": "I"
+  },
+  "case_11_ft": {
+    "analisis_comparativo": "La respuesta oficial de referencia establece una serie de puntos clave y obligatorios para evitar bloqueos en la matrícula (cronogramas, cursos extracurriculares, seguro SIS u otro, validación de deudas, acceso al campus virtual, revisión del plan de estudios y conectividad). Por otro lado, la respuesta generada por el asistente introduce requisitos inexistentes o erróneos para la Universidad Señor de Sipán, como 'modalidad de transporte', 'Constancia de Domicilio', y 'Resolución de Derechos de Matrícula en Físico o a distancia', omitiendo por completo los puntos críticos del manual oficial como la revisión de cronogramas, la afiliación al seguro, la validación de deudas pendientes o material bibliográfico y los cursos extracurriculares.",
+    "omisiones_o_errores": "Se omitieron el cronograma académico, los cursos extracurriculares, la afiliación al seguro (SIS), la revisión de deudas y material bibliográfico, y el acceso al campus virtual. Se incluyeron datos inventados o erróneos no contemplados en la USS como la 'modalidad de transporte' y la 'Constancia de Domicilio'.",
+    "alucinacion_detectada": true,
+    "veredicto": "I"
+  },
+  "case_11_rag": {
+    "analisis_comparativo": "La respuesta oficial de referencia detalla 7 puntos clave obligatorios (cronograma, requisitos académicos, afiliación al seguro, validación de documentos y pagos, acceso al Campus Virtual, plan de estudios y conectividad). El asistente evaluado menciona puntos generales y lógicos para una universidad (estado de cuenta, prerrequisitos, actualización de datos, cronograma, encuestas docentes), pero omite varios elementos críticos exigidos por la normativa de la USS como la afiliación al seguro SIS, el acceso al Campus Virtual, o la validación de cursos extracurriculares. Aunque da una guía útil, omite gran parte de los datos fácticos específicos de la referencia oficial institucional.",
+    "omisiones_o_errores": "Omite la validación de cursos extracurriculares (Idiomas, Computación, Emprendimiento), la afiliación obligatoria al seguro SIS u otro seguro, el acceso activo al Campus Virtual y la revisión detallada del plan de estudios y créditos. Introduce elementos no mencionados en la referencia principal como la encuesta de evaluación docente y la actualización de datos.",
+    "alucinacion_detectada": false,
+    "veredicto": "P"
+  },
+  "case_12_ft": {
+    "analisis_comparativo": "La respuesta de referencia detalla el procedimiento exacto para solicitar un servicio adicional a través del campus virtual, incluyendo la ruta de trámite (PROCESOS EN LÍNEA / trámites), la programación automática de la tasa, verificación económica y el plazo de pago de 48 horas según los Artículos 10° y 11° del Reglamento de Cobranzas. Por el contrario, la respuesta generada por el asistente ('Gemma-4 Fine-Tuned') cita artículos incorrectos (Artículos 64° y 65°) y menciona plazos y conceptos ajenos al trámite de servicios adicionales (como plazos de matrícula y devolución del IIPA), omitiendo completamente los pasos operativos en el Campus Virtual.",
+    "omisiones_o_errores": "Omite todos los pasos operativos y la ruta en el Campus Virtual. Cita artículos y normativas incorrectas (Art. 64 y 65 sobre devolución del IIPA en lugar de los Arts. 10 y 11 del Reglamento de Cobranzas). Inventa plazos de solicitud basados en la jornada de matrícula que no corresponden al procedimiento de servicios adicionales.",
+    "alucinacion_detectada": true,
+    "veredicto": "I"
+  },
+  "case_12_rag": {
+    "analisis_comparativo": "La respuesta generada por el asistente cubre de manera precisa todos los puntos esenciales de la respuesta oficial de referencia (Ground Truth). Incluye el enlace al Campus Virtual, la ruta de trámite (PROCESOS EN LÍNEA / trámites), la programación automática de la tasa, la verificación en el detalle económico, el plazo exacto de 48 horas, y la posterior atención por parte de la instancia correspondiente. Además, menciona correctamente los artículos normativos (Artículos 10° y 11° del Capítulo IV del Reglamento de Cobranzas) y añade detalles válidos sobre el tarifario y los canales de contacto sin alterar los procedimientos fundamentales.",
+    "omisiones_o_errores": "No presenta omisiones críticas ni errores en los datos fácticos o plazos. La información es coherente y rigurosa con la normativa de la USS.",
+    "alucinacion_detectada": false,
+    "veredicto": "C"
+  },
+  "case_13_ft": {
+    "analisis_comparativo": "La respuesta de referencia oficial (Ground Truth) detalla claramente que para un curso en tercera matrícula el estudiante puede llevar un máximo de 2 asignaturas (incluido el curso), o solo 1 curso si son dos o más asignaturas en tercera (según los Artículos 26 y 27 del Reglamento de Matrícula). La respuesta generada por el asistente ('Gemma-4 Fine-Tuned') inventa por completo restricciones basadas en créditos ('10 créditos') y asignaturas optativas, desviándose totalmente de la normativa real de la USS para estudiantes en tercera matrícula y respondiendo erróneamente sobre asignaturas aprobadas en lugar de desaprobadas.",
+    "omisiones_o_errores": "El asistente omitió por completo los límites de asignaturas en tercera matrícula (máximo 2 cursos o 1 curso si son varios en tercera). Además, introdujo datos falsos e inventados sobre límites de 10 créditos y asignaturas optativas, y mencionó erróneamente 'asignaturas aprobadas por tercera vez' en lugar de desaprobadas.",
+    "alucinacion_detectada": true,
+    "veredicto": "I"
+  },
+  "case_13_rag": {
+    "analisis_comparativo": "La respuesta generada por el asistente aborda correctamente los puntos principales consultados por el docente sobre la tercera matrícula (Art. 26° y Art. 27° del Reglamento de Matrícula). Coincide exactamente con la referencia oficial al indicar que el límite es de máximo 2 asignaturas si se lleva un curso por tercera vez, y que si son dos o más cursos en dicha situación, solo se permite matricularse en uno de ellos. Aunque omite mencionar la cuarta matrícula (Art. 28°), la consulta del usuario se centraba específicamente en las restricciones para aquellos que llevan asignaturas por tercera vez. Los datos fácticos y normativos son precisos.",
+    "omisiones_o_errores": "Omite la mención al Artículo 28° sobre la cuarta matrícula, pero esto es menor dado que la pregunta del usuario era específica sobre la tercera matrícula.",
+    "alucinacion_detectada": false,
+    "veredicto": "C"
+  },
+  "case_14_ft": {
+    "analisis_comparativo": "La respuesta oficial de referencia detalla los pasos estándar en la plataforma Moodle (usada en la USS) para editar un recurso: ir a la sección del curso, hacer clic en los tres puntos o botón de edición, seleccionar 'Editar ajustes', cambiar el nombre, configurar 'Forzar descarga' en Apariencia y guardar cambios. La respuesta generada por el asistente introduce pasos y elementos incorrectos para el entorno Moodle de la USS, como hacer clic en un botón rojo 'Opciones' en la barra superior o mencionar una 'carpeta de tareas', lo cual no corresponde al procedimiento real de edición de recursos.",
+    "omisiones_o_errores": "El asistente inventa una interfaz y pasos incorrectos (botón rojo 'Opciones' en la barra superior) que no existen en el Aula Virtual de la USS para editar un archivo ya subido, y omite la ruta correcta de 'Editar ajustes' y la opción específica 'Forzar descarga'.",
+    "alucinacion_detectada": true,
+    "veredicto": "I"
+  },
+  "case_14_rag": {
+    "analisis_comparativo": "La respuesta generada por el asistente cubre de forma muy completa y exacta los pasos indicados en la referencia oficial. Explica cómo acceder al curso, activar el modo de edición (aportando un detalle relevante del rol docente), ubicar el recurso, acceder a 'Editar ajustes', modificar el nombre, configurar la opción de descarga en la sección 'Apariencia' y finalizar guardando los cambios. Además, incluye referencias normativas del manual oficial de la universidad, cumpliendo rigurosamente con los criterios de evaluación.",
+    "omisiones_o_errores": "Ninguno. La respuesta es precisa, incluye los pasos exactos y menciona correctamente la ruta de configuración.",
+    "alucinacion_detectada": false,
+    "veredicto": "C"
+  },
+  "case_15_ft": {
+    "analisis_comparativo": "La respuesta oficial de referencia pide clarificación al usuario sobre dónde se encuentra exactamente en la plataforma antes de dar instrucciones, ya que la ubicación puede variar. La respuesta generada por el asistente asume una ruta específica ('Cursos y Programación' y 'RESOURCES') que no corresponde estrictamente al flujo estándar documentado para la biblioteca virtual en la USS, ofreciendo pasos que podrían desorientar al estudiante.",
+    "omisiones_o_errores": "El asistente omite solicitar la aclaración inicial recomendada por la referencia y proporciona una ruta de navegación genérica o inexacta para la plataforma institucional de la USS.",
+    "alucinacion_detectada": true,
+    "veredicto": "I"
+  },
+  "case_15_rag": {
+    "analisis_comparativo": "La respuesta oficial de referencia plantea una pregunta aclaratoria para entender dónde está ubicado el estudiante dentro del campus virtual antes de darle la ruta, mientras que la respuesta generada por el asistente asume directamente los pasos a seguir basándose en un manual de biblioteca. Sin embargo, el asistente proporciona una guía estructurada, clara y con los pasos correctos para acceder al catálogo en línea de la biblioteca de la USS, resolviendo de manera efectiva la duda del usuario sobre cómo ubicar la biblioteca en la plataforma institucional.",
+    "omisiones_o_errores": "La respuesta no sigue la directiva exacta de la referencia de hacer una pregunta aclaratoria previa, pero proporciona la información técnica correcta y los pasos fácticos necesarios sin incurrir en contradicciones graves.",
+    "alucinacion_detectada": false,
+    "veredicto": "C"
+  },
+  "case_16_ft": {
+    "analisis_comparativo": "La respuesta de referencia oficial (Ground Truth) muestra al asistente SipánGPT solicitando más detalles al usuario sobre el mensaje de error o el problema específico de ubicación de campos antes de dar una solución. Por el contrario, la respuesta generada por el modelo a evaluar ('Gemma-4 Fine-Tuned') asume un procedimiento paso a paso estandarizado para la autenticación por SSO en el Campus Virtual USS, indicando cómo ingresar, completar usuario y contraseña, y aceptar condiciones.",
+    "omisiones_o_errores": "La respuesta evaluada no sigue el flujo conversacional establecido en la referencia oficial (que indaga sobre el error específico antes de proceder), pero proporciona una guía de pasos lógicos y correctos para la autenticación por SSO en la plataforma USS sin incurrir en alucinaciones graves.",
+    "alucinacion_detectada": false,
+    "veredicto": "P"
+  },
+  "case_16_rag": {
+    "analisis_comparativo": "La respuesta de referencia oficial (Ground Truth) muestra al asistente SipánGPT solicitando más detalles al usuario sobre el mensaje de error o los campos para guiarlo adecuadamente. Por otro lado, la respuesta generada por el asistente 'Sipán-STAIR RAG' ofrece una orientación útil y directa derivando al usuario al canal oficial de soporte (soporte@uss.edu.pe) y solicitando la información correcta (nombres, código, captura de pantalla). Aunque difiere ligeramente en el flujo inicial interactivo de la referencia, proporciona una solución real y operativa sin incurrir en alucinaciones.",
+    "omisiones_o_errores": "Omite realizar la pregunta inicial de diagnóstico de error que sugiere la referencia, pasando directamente a la derivación por correo y soporte.",
+    "alucinacion_detectada": false,
+    "veredicto": "P"
+  },
+  "case_17_ft": {
+    "analisis_comparativo": "La respuesta de referencia detalla claramente los 10 requisitos normativos exigidos por el Artículo 5 del Reglamento de Grados y Títulos de la USS (estudios aprobados, idioma extranjero, emprendimiento, trabajo de investigación, no adeudos financieros, etc.). Por el contrario, la respuesta generada por el asistente (Gemma-4 Fine-Tuned) alucina por completo el contenido del Artículo 5, inventando una lista de requisitos absurdos y repetitivos centrados exclusivamente en deudas, obligaciones económicas, multas e impuestos, omitiendo totalmente los requisitos académicos reales como el idioma extranjero, el trabajo de investigación y los cursos extracurriculares.",
+    "omisiones_o_errores": "Se omitieron los 10 requisitos académicos y normativos reales (estudios aprobados, idioma extranjero, emprendimiento, tesis/trabajo de investigación, constancias de biblioteca y registros académicos, pagos de carpeta y ceremonia). Además, el asistente alucinó un contenido falso y redundante centrado en multas e impuestos que no figura en la normativa de la USS.",
+    "alucinacion_detectada": true,
+    "veredicto": "I"
+  },
+  "case_17_rag": {
+    "analisis_comparativo": "La respuesta generada por el asistente 'Sipán-STAIR RAG' enumera de manera exacta y detallada los 10 requisitos establecidos en el Artículo 5 del Reglamento de Grados y Títulos de la USS, coincidiendo punto por punto con la respuesta oficial de referencia. Además, incluye la cita normativa precisa.",
+    "omisiones_o_errores": "Ninguno.",
+    "alucinacion_detectada": false,
+    "veredicto": "C"
+  },
+  "case_18_ft": {
+    "analisis_comparativo": "La respuesta de referencia era una pregunta aclaratoria dirigida al usuario, mientras que el asistente aportó una respuesta directa citando el Artículo 42° del Reglamento de Grados de la USS, detallando los requisitos de certificación en computación (institución reconocida por el Minedu) e inglés para los egresados.",
+    "omisiones_o_errores": "El asistente desvió el flujo conversacional esperado por la referencia pero proveyó información sustantiva y reglamentaria adecuada sobre los requisitos de egreso.",
+    "alucinacion_detectada": false,
+    "veredicto": "P"
+  },
+  "case_18_rag": {
+    "analisis_comparativo": "La respuesta de referencia oficial (Ground Truth) establece un tono de atención institucional y repregunta al usuario para precisar si desea la normativa o los centros encargados. Por otro lado, la respuesta del asistente (Sipán-STAIR RAG) indica correctamente que no posee la información específica en su base documental actual (limitada al Reglamento de Cobranza), evita alucinar datos académicos inexistentes, y deriva adecuadamente al usuario a los canales oficiales correctos como la Secretaría Académica y el Campus Virtual.",
+    "omisiones_o_errores": "El asistente no responde directamente la pregunta sobre los requisitos de computación e inglés, pero esto se debe a una limitación real de su base de conocimiento recuperada, justificando la derivación en lugar de inventar información.",
+    "alucinacion_detectada": false,
+    "veredicto": "P"
+  },
+  "case_19_ft": {
+    "analisis_comparativo": "La respuesta generada por el asistente comprende perfectamente la urgencia y el problema del estudiante. A diferencia de la respuesta de referencia que es más directa, el asistente amplía la empatía y ofrece proactivamente ejemplos estructurados de las secciones más comunes de la pantalla de matrícula (ficha de estudio, aula/profesor, pagos, cotización). Esto no contradice la referencia, sino que enriquece la interacción manteniendo el objetivo de pedir aclaración sobre la duda exacta.",
+    "omisiones_o_errores": "Ninguno. La respuesta es coherente, empática y cumple con solicitar la información faltante para continuar con el soporte.",
+    "alucinacion_detectada": false,
+    "veredicto": "C"
+  },
+  "case_19_rag": {
+    "analisis_comparativo": "La respuesta de referencia oficial indica que se debe solicitar al estudiante más detalles sobre qué sección específica le genera dudas en el Sistema de Registros Académicos antes de asumir el problema. La respuesta del asistente evaluado ('Sipán-STAIR RAG') asume de inmediato que el estudiante necesita hacer la matrícula desde cero, citando un manual general y pasos de acceso, aunque al final pregunta si hay algún error específico. Aunque la respuesta del asistente es muy completa y útil para soporte de TI, se adelanta al proceso de diagnóstico inicial que la referencia sugería, omitiendo la contención empática directa y pasando de frente a una guía procedimental y de contacto.",
+    "omisiones_o_errores": "El asistente no realiza primero la pregunta de diagnóstico general solicitada en la referencia, sino que lista de inmediato un procedimiento estándar y de soporte técnico.",
+    "alucinacion_detectada": false,
+    "veredicto": "P"
+  },
+  "case_20_ft": {
+    "analisis_comparativo": "La respuesta oficial de referencia solicitaba más información al estudiante antes de dar montos específicos, ya que el reglamento general no especifica una multa de S/. 16.00 por día de retraso de esa manera genérica o inventada. El asistente evaluado (Gemma-4 Fine-Tuned) alucina artículos específicos del reglamento y montos de penalización incorrectos (S/. 16.00 diarios) que no corresponden a la realidad institucional de la USS, incurriendo en una falta grave de precisión informativa.",
+    "omisiones_o_errores": "El asistente inventa el Artículo 52 del Reglamento de Pensiones y un monto de multa por mora falso (S/. 16.00 por cada día de retraso), lo cual constituye una alucinación y desinformación directa al estudiante.",
+    "alucinacion_detectada": true,
+    "veredicto": "I"
+  },
+  "case_20_rag": {
+    "analisis_comparativo": "La respuesta oficial de referencia pide aclaración sobre la fecha de vencimiento y el concepto para dar una respuesta precisa. Por el contrario, el asistente evaluado (Sipán-STAIR RAG) proporciona una respuesta estructurada citando el Reglamento de Cobranza (Capítulo VIII, Artículo 18° y Capítulo VII, Artículo 17°), detalla las consecuencias del retraso (como la imposibilidad de trámites y matrícula), y sugiere canales oficiales como el Campus Virtual y Tesorería. Aunque la referencia optó por indagar más antes de responder, el asistente entregó información normativa precisa y aplicable al caso planteado por el estudiante sin incurrir en alucinaciones.",
+    "omisiones_o_errores": "No se encontraron omisiones graves ni errores fácticos. El asistente respondió de manera directa a la duda sobre la mora y las consecuencias reglamentarias.",
+    "alucinacion_detectada": false,
+    "veredicto": "C"
+  },
+  "case_21_ft": {
+    "analisis_comparativo": "La respuesta de referencia oficial (Ground Truth) del sistema de soporte USS indica que primero se debe verificar si el estudiante ha ingresado al Campus Virtual y en qué pantalla se encuentra para darle una asistencia guiada. Por el contrario, la respuesta generada por el asistente (Gemma-4 Fine-Tuned) proporciona una ruta directa y detallada de los pasos a seguir dentro del Campus Virtual para acceder a la Biblioteca y buscar recursos (Menú lateral izquierdo, Área Básica, pestaña Biblioteca), lo cual es útil y responde directamente a la frustración y duda del estudiante, sin incurrir en alucinaciones sobre las plataformas institucionales reales.",
+    "omisiones_o_errores": "La respuesta no sigue estrictamente el protocolo inicial de la respuesta de referencia de hacer preguntas previas, sino que va directo a la solución técnica, lo cual resuelve de mejor manera la urgencia del usuario aportando valor fáctico sobre la interfaz.",
+    "alucinacion_detectada": false,
+    "veredicto": "C"
+  },
+  "case_21_rag": {
+    "analisis_comparativo": "La respuesta de referencia oficial sugiere un enfoque conversacional inicial para guiar al usuario paso a paso y verificar en qué pantalla se encuentra. Sin embargo, el asistente 'Sipán-STAIR RAG' proporciona de manera directa y estructurada los pasos exactos basados en el manual oficial de la biblioteca, incluyendo enlaces correctos, secciones del Campus Virtual y rutas alternas.",
+    "omisiones_o_errores": "El asistente no omite ningún paso relevante y ofrece una guía precisa basada en la normativa interna (manual de biblioteca). No hay errores fácticos ni contradicciones.",
+    "alucinacion_detectada": false,
+    "veredicto": "C"
+  },
+  "case_22_ft": {
+    "analisis_comparativo": "La respuesta oficial de referencia detalla los pasos exactos en el portal académico de la USS para realizar la primera etapa de rectificación de matrícula y el cambio de sección (ingresar a RECTIFICACIÓN DE MATRÍCULA, LISTAR CURSOS, RECTIFICAR MATRÍCULA, seleccionar el curso, configurar sección/módulo/teoría/práctica y hacer clic en 'Cambiar Sección'). Por el contrario, la respuesta del asistente describe un procedimiento completamente diferente e inventado (menciona 'SECCIÓN I', hacer clic en 'ACEPTAR', 'GUARDAR' y 'REGISTRARSE'), y en la sección de consideraciones inventa reglas sobre costos y tipos de asignaturas que no figuran en la referencia.",
+    "omisiones_o_errores": "El asistente omite por completo los pasos reales del manual institucional. Además, alucina un procedimiento basado en botones y formularios inexistentes (Guardar, Registrarse, Sección I) y emite información incorrecta sobre cobros y restricciones para el cambio de sección.",
+    "alucinacion_detectada": true,
+    "veredicto": "I"
+  },
+  "case_22_rag": {
+    "analisis_comparativo": "La respuesta oficial de referencia detalla paso a paso las acciones específicas en la interfaz para la rectificación en la primera etapa y el cambio de sección (ingresar a rectificación de matrícula, listar cursos, rectificar matrícula, seleccionar el curso, configurar sección/módulo/teoría/práctica y hacer clic en cambiar sección). La respuesta generada por el asistente (Sipán-STAIR RAG) proporciona una descripción general y resumida de los pasos, omitiendo el flujo detallado de selección de campos (módulo, teoría, práctica) y los nombres exactos de los botones según el manual oficial, aunque menciona correctamente el acceso al campus virtual y el cambio de sección en la primera etapa.",
+    "omisiones_o_errores": "Omite los pasos específicos del panel de configuración de 'TEORÍA', 'PRÁCTICA' y 'MÓDULO', así como la referencia exacta al botón 'Cambiar Sección' y el mensaje informativo de confirmación.",
+    "alucinacion_detectada": false,
+    "veredicto": "P"
+  },
+  "case_23_ft": {
+    "analisis_comparativo": "La respuesta de referencia detalla explícitamente el estado de la rúbrica ('Listo para usar'), opciones de edición de formulario y los cuatro criterios exactos del Producto Académico 1 con sus respectivos puntajes por nivel para sumar 20 puntos. En contraste, la respuesta del asistente (Gemma-4 Fine-Tuned) menciona generalidades sobre cómo revisar una tabla y criterios genéricos inventados (como 'Identificación y definición de problemáticas', 'Análisis de fuentes', etc.) que no corresponden a los datos fácticos de la rúbrica oficial de la USS para esta actividad.",
+    "omisiones_o_errores": "Omite por completo el estado exacto de la rúbrica ('Listo para usar'), las opciones de edición y la distribución exacta de puntajes por criterio y nivel (Organización, Desarrollo, Resultados, Orden) provistos en la referencia.",
+    "alucinacion_detectada": true,
+    "veredicto": "I"
+  },
+  "case_23_rag": {
+    "analisis_comparativo": "La respuesta de referencia detalla una rúbrica específica con cuatro criterios particulares (Organización de la información, Desarrollo del caso práctico, Resultados obtenidos, Orden y organización del trabajo) y sus puntajes exactos por cada nivel. Por el contrario, la respuesta del asistente omite por completo estos detalles específicos de la rúbrica del producto académico 1 y ofrece una explicación genérica sobre cómo verificar rubricas en el Aula Virtual, basándose en reglas generales de puntuación (como sumar 20 puntos) que no coinciden con los datos fácticos de la referencia.",
+    "omisiones_o_errores": "El asistente omitió los criterios específicos de la rúbrica y sus respectivas puntuaciones detalladas en la respuesta oficial de referencia. En su lugar, dio información genérica sobre configuración de rúbricas en el Aula Virtual.",
+    "alucinacion_detectada": false,
+    "veredicto": "P"
+  },
+  "case_24_ft": {
+    "analisis_comparativo": "La respuesta de referencia pide aclaración sobre la modalidad y el proceso antes de dar la información, mientras que el asistente evaluado responde directamente afirmando que el máximo es de 6 cuotas para pregrado presencial. Sin embargo, en el contexto provisto no se incluye la información fáctica sobre el número exacto de cuotas, por lo que el asistente asume o extrapola un dato que no está validado por el Ground Truth oficial provisto.",
+    "omisiones_o_errores": "El asistente proporciona un dato cuantitativo (6 cuotas) que no se encuentra respaldado en la respuesta oficial de referencia provista, cayendo en una aserción no verificada por el contexto.",
+    "alucinacion_detectada": true,
+    "veredicto": "I"
+  },
+  "case_24_rag": {
+    "analisis_comparativo": "La respuesta oficial de referencia era una pregunta trampa o un saludo inicial que solicitaba más información, pero la respuesta del asistente evaluado proporcionó directamente y de manera precisa la normativa institucional vigente (Reglamento de Cobranza Versión 8, Capítulo II, Artículo 4°) indicando que las pensiones de pregrado presencial se pueden programar hasta en seis cuotas, además de explicar el momento adecuado para la elección y los canales de apoyo.",
+    "omisiones_o_errores": "Ninguno. A pesar de que el ground truth era una pregunta de aclaración, la respuesta del asistente abordó correctamente la duda principal del usuario con la normativa exacta.",
+    "alucinacion_detectada": false,
+    "veredicto": "C"
+  },
+  "case_25_ft": {
+    "analisis_comparativo": "La respuesta de referencia oficial (Ground Truth) corresponde a una interacción de un asistente que solicita aclaración o confirmación antes de emitir montos. Sin embargo, el asistente evaluado proporciona una tabla detallada con supuestos montos (S/. 1,560.00 para todas las opciones) y datos normativos sobre formas de pago. Al comparar la respuesta del asistente con la realidad institucional, los montos de las pensiones varían según la escala de pago del estudiante (escalas A, B, C, D) y no existe un monto único y fijo de S/. 1,560.00 para Arquitectura de esa manera. Además, el modelo inventa esquemas de cuotas y notas obsoletas o confusas sobre libros de egreso.",
+    "omisiones_o_errores": "El asistente inventa montos y tarifas fijas que no corresponden a la realidad de las escalas de pensiones de la Universidad Señor de Sipán para la carrera de Arquitectura. Además, incluye procedimientos de pago desactualizados o alucinatorios (sello en libro de egreso).",
+    "alucinacion_detectada": true,
+    "veredicto": "I"
+  },
+  "case_25_rag": {
+    "analisis_comparativo": "La respuesta oficial de referencia (Ground Truth) indica que el bot asistente debe solicitar confirmación al usuario sobre si requiere el detalle únicamente para Arquitectura o también las opciones de fraccionamiento. Sin embargo, la respuesta evaluada del modelo 'Sipán-STAIR RAG' ignora esta pauta de la referencia, asume los datos y proporciona montos específicos, costos totales, opciones de pago al contado y fraccionamiento detallados (con normativa y artículos específicos), los cuales no figuran en el Ground Truth proporcionado.",
+    "omisiones_o_errores": "La respuesta del asistente no sigue la pauta de interacción requerida por la respuesta de referencia, omitiendo solicitar la confirmación y procediendo a emitir datos detallados y normativos que difieren del flujo esperado según el Ground Truth.",
+    "alucinacion_detectada": true,
+    "veredicto": "I"
+  },
+  "case_26_ft": {
+    "analisis_comparativo": "La respuesta oficial de referencia plantea una pregunta de aclaración al docente para guiarle paso a paso, mientras que el asistente a evaluar proporciona directamente los pasos específicos (sección REGISTROS, Reporte de asistencia del presente periodo académico, etc.). Aunque la respuesta del asistente es útil y funcional para un contexto de soporte de TI, difiere de la estrategia de la referencia. Sin embargo, los pasos dados son coherentes con el sistema de la universidad, aunque menciona USUSS en lugar de USS.",
+    "omisiones_o_errores": "El asistente incluyó una ligera variación en el nombre de la institución ('USUSS') en lugar de USS y omitió la fase de confirmación previa sugerida en la referencia oficial.",
+    "alucinacion_detectada": false,
+    "veredicto": "P"
+  },
+  "case_26_rag": {
+    "analisis_comparativo": "La respuesta de referencia oficial sugiere realizar una pregunta de clarificación para guiar al docente. Sin embargo, la respuesta evaluada del sistema RAG proporciona de manera directa, estructurada y precisa las secciones y rutas exactas del manual de usuario del Campus Virtual de la USS (sección 5.2.4 Informe mensual asistencia y sección 5.4.1 Asistencia), respondiendo de forma efectiva a la duda del usuario con datos normativos y documentales verificables.",
+    "omisiones_o_errores": "No presenta omisiones ni errores fácticos. La información coincide con los manuales oficiales de gestión docente de la universidad.",
+    "alucinacion_detectada": false,
+    "veredicto": "C"
+  },
+  "case_27_ft": {
+    "analisis_comparativo": "La respuesta oficial de referencia establece claramente que el Sistema de Catálogo en Línea de la USS proporciona acceso directo a las bases de datos externas: e-Library, EBSCO y Scopus. Por su parte, la respuesta generada por el asistente menciona una lista extensa de bases de datos adicionales (SciPsy, ScienceDirect, Springer, DOJO, PubMed, Embase, Medline, Ovid, Web of Science, etc.) que no están respaldadas en la respuesta de referencia oficial institucional para esta plataforma específica.",
+    "omisiones_o_errores": "El asistente incluye múltiples alucinaciones al mencionar bases de datos y herramientas externas que no corresponden con la oferta oficial estipulada en la referencia del Sistema de Catálogo en Línea (como SciPsy, DOJO, PubMed, Embase, Medline, Ovid, Web of Science, ScienceDirect, Springer). Omite mencionar de manera precisa a EBSCO.",
+    "alucinacion_detectada": true,
+    "veredicto": "I"
+  },
+  "case_27_rag": {
+    "analisis_comparativo": "La respuesta oficial de referencia menciona que a través del Catálogo en Línea se accede a e-Library, EBSCO y Scopus. Por otro lado, la respuesta del asistente (Sipán-STAIR RAG) proporciona una lista más amplia de recursos y bases de datos electrónicas de la universidad (EBSCOhost, ProQuest, ScienceDirect, Scopus, Turnitin y el Repositorio Institucional) vinculados al portal de la Biblioteca Virtual. Aunque la referencia oficial detalla funciones específicas del Catálogo en Línea y tres bases de datos, el asistente ofrece una perspectiva más completa y precisa sobre el ecosistema real de bases de datos externas e institucionales accesibles para la investigación en la USS, manteniendo la alineación normativa y útil para un docente.",
+    "omisiones_o_errores": "El asistente no menciona explícitamente a 'e-Library', que figuraba en la referencia corta, pero incluye de manera correcta y detallada otras bases de datos clave (EBSCO, Scopus) y añade recursos legítimos de la USS (ProQuest, ScienceDirect, Turnitin). No hay contradicciones graves ni datos falsos.",
+    "alucinacion_detectada": false,
+    "veredicto": "C"
+  },
+  "case_28_ft": {
+    "analisis_comparativo": "La respuesta de referencia oficial indica que el catálogo en línea de la USS proporciona acceso a bases de datos clave como e-Library, EBSCO y Scopus, además de detallar funciones como búsquedas avanzadas y gestión de préstamos. Por otro lado, la respuesta generada por el asistente ('Gemma-4 Fine-Tuned') inventa un módulo inexistente llamado 'Outsourcen Investigación', repite múltiples veces bases de datos (Scopus, Web of Science, EBSCO), menciona nombres incorrectos o alterados (como 'EBSCO NOW' o 'EBSCO Business Source Unlimited') y mezcla conceptos ajenos al funcionamiento real del catálogo en línea de la universidad.",
+    "omisiones_o_errores": "El asistente alucinó la existencia del módulo 'Outsourcen Investigación', repitió redundantemente las bases de datos Scopus y Web of Science, y denominó incorrectamente a los servicios de EBSCO con nombres no oficiales (EBSCO NOW, EBSCO Business Source Unlimited, etc.). Además, omitió por completo mencionar la base e-Library y las funciones del catálogo detalladas en la referencia.",
+    "alucinacion_detectada": true,
+    "veredicto": "I"
+  },
+  "case_28_rag": {
+    "analisis_comparativo": "La respuesta oficial de referencia lista las bases de datos externas disponibles directamente a través del sistema de catálogo en línea (e-Library, EBSCO, Scopus) y detalla funciones de la plataforma como búsquedas avanzadas, favoritos, solicitudes, historial y nuevas adquisiciones. Por otro lado, la respuesta del asistente evaluado menciona herramientas más amplias del sistema de bibliotecas de la USS (EBSCO, ProQuest, Scopus, ScienceDirect, Repositorio institucional y gestores bibliográficos como Mendeley o Zotero) y explica el acceso remoto mediante el Campus Virtual. Aunque el asistente evaluado proporciona información muy útil y real sobre los recursos de investigación de la USS, omite mencionar de forma precisa los elementos específicos del 'Catálogo en Línea' que indicaba la referencia (como e-library) y añade bases de datos no mencionadas en el Ground Truth como ProQuest y ScienceDirect. Sin embargo, no se aprecian alucinaciones falsas sobre la USS, sino un enfoque más general hacia el sistema de bibliotecas y recursos de investigación.",
+    "omisiones_o_errores": "Omite la mención específica de 'e-Library' como base de datos externa del catálogo y las funcionalidades secundarias del sistema de catálogo (gestionar favoritos, solicitudes, historial, nuevas adquisiciones). Añade recursos como ProQuest, ScienceDirect, Repositorio Institucional y gestores bibliográficos que no estaban en la respuesta de referencia.",
+    "alucinacion_detectada": false,
+    "veredicto": "P"
+  },
+  "case_29_ft": {
+    "analisis_comparativo": "La respuesta oficial de referencia indica que la ruta exacta desde la web principal (uss.edu.pe) es ubicar la opción 'AULAUSS' en la barra de menú institucional superior. La respuesta evaluada del asistente sugiere ingresar a la sección 'Área de Aprendizaje' y luego hacer clic en 'Aula Virtual' en un 'menú lateral izquierdo', lo cual no coincide con la estructura real del sitio web de la universidad detallada en el Ground Truth.",
+    "omisiones_o_errores": "El asistente proporciona una ruta incorrecta en la interfaz web de la USS (inventa la sección 'Área de Aprendizaje' y un 'menú lateral izquierdo' en lugar de la opción directa 'AULAUSS' en la barra de menú superior).",
+    "alucinacion_detectada": true,
+    "veredicto": "I"
+  },
+  "case_29_rag": {
+    "analisis_comparativo": "La respuesta generada por el asistente cubre de manera idéntica y precisa los pasos oficiales indicados en la referencia (ingresar a www.uss.edu.pe y hacer clic en la opción AULAUSS). Además, incluye los navegadores recomendados y cita adecuadamente la fuente normativa (Manual de Usuario del Aula Virtual – Docente) añadiendo detalles operativos útiles para el docente sin contradecir la información oficial.",
+    "omisiones_o_errores": "Ninguno.",
+    "alucinacion_detectada": false,
+    "veredicto": "C"
+  },
+  "case_30_ft": {
+    "analisis_comparativo": "La respuesta oficial de referencia detalla con precisión los artículos del Reglamento de Grados y Títulos (Título IV, Artículos 22 y 23), especificando los roles exactos (presidente, secretario y vocal), los plazos de revisión de observaciones (7 días hábiles más un plazo adicional de 3 días) y las funciones detalladas. Por el contrario, la respuesta generada por el asistente (Gemma-4 Fine-Tuned) es sumamente vaga en cuanto a la conformación (omitiendo los roles específicos y los requisitos del doctorado) y presenta errores graves en los plazos y funciones, indicando 30 días para la evaluación en lugar de los 7 días reglamentarios, e inventando procedimientos de propuesta de grado que no coinciden con la normativa institucional de la USS.",
+    "omisiones_o_errores": "Omite la estructura exacta del jurado (presidente, secretario, vocal) y la normativa específica para doctorados. Contradice los plazos oficiales al indicar 30 días en lugar de los 7 días hábiles establecidos en el reglamento. Omite la función de verificar el levantamiento de observaciones mediante dictamen de expedito y la emisión del acta a cargo del secretario.",
+    "alucinacion_detectada": true,
+    "veredicto": "I"
+  },
+  "case_30_rag": {
+    "analisis_comparativo": "La respuesta oficial de referencia proporciona detalladamente la conformación del jurado evaluador (3 docentes para pregrado, roles de presidente, secretario y vocal, y especificaciones para doctorado) y sus funciones según el Reglamento de Grados y Títulos (Título IV, Art. 22 y 23). Por el contrario, la respuesta generada por el asistente RAG indica explícitamente que no dispone de dicha información en su base de datos, mencionando erróneamente normativas no relacionadas como el Reglamento de Cobranza y remitiendo al estudiante a buscar el documento por sus propios medios o contactar por correo.",
+    "omisiones_o_errores": "El asistente omitió por completo la información solicitada sobre la conformación oficial del jurado y sus principales funciones, indicando una limitación en su base de datos y ofreciendo una respuesta evasiva con fuentes administrativas irrelevantes.",
+    "alucinacion_detectada": false,
+    "veredicto": "I"
+  },
+  "case_31_ft": {
+    "analisis_comparativo": "La respuesta de referencia indica claramente que el Artículo 10 del Reglamento de Matrícula establece un mínimo de 12 créditos por semestre para mantener la condición de estudiante regular (con la excepción de que le falten menos de 12 créditos para culminar). Por el contrario, la respuesta del asistente (Gemma-4 Fine-Tuned) cita el Artículo 17 e introduce información completamente irrelevante y errónea sobre límites de 160 y 150 créditos totales, así como porcentajes de reprobación, sin responder en absoluto a la pregunta sobre cuántos créditos mínimos se deben llevar para ser un estudiante regular.",
+    "omisiones_o_errores": "El asistente omite por completo el dato fáctico principal: los 12 créditos mínimos requeridos por semestre según el Artículo 10. Además, cita erróneamente el Artículo 17 con datos que no corresponden a la condición de estudiante regular y menciona normativas de reprobación fuera de contexto.",
+    "alucinacion_detectada": true,
+    "veredicto": "I"
+  },
+  "case_31_rag": {
+    "analisis_comparativo": "La respuesta oficial de referencia (Ground Truth) establece claramente, basándose en el Artículo 10 del Reglamento de Matrícula, que el estudiante debe matricularse en un mínimo de 12 créditos por semestre para mantener su condición de regular, con la única excepción de que le falten menos de 12 créditos para terminar. En contraste, la respuesta generada por el asistente afirma no disponer de la información normativa en su base de datos, confunde el tema con un Reglamento de Cobranzas y deriva al usuario a la Secretaría Académica o al Campus Virtual sin responder la pregunta fáctica.",
+    "omisiones_o_errores": "El asistente omitió por completo el dato fáctico exacto (12 créditos mínimos) y la excepción correspondiente según el Reglamento de Matrícula. Aunque sugiere canales de ayuda válidos, no resolvió la duda del usuario.",
+    "alucinacion_detectada": false,
+    "veredicto": "I"
+  },
+  "case_32_ft": {
+    "analisis_comparativo": "La respuesta generada por el asistente indica el sitio web correcto (www.uss.edu.pe), sin embargo, omite por completo los pasos específicos y detallados que se encuentran en la referencia oficial. En lugar de indicar claramente la opción 'CAMPUS VIRTUAL' en la barra superior, la contraseña por defecto (el mismo usuario en minúscula) y el botón verde 'INGRESAR', utiliza descripciones muy genéricas como 'diríjase a la sección académica' y 'haga clic en el enlace institucional correspondiente', lo cual no guía adecuadamente al estudiante en su primer acceso.",
+    "omisiones_o_errores": "Omite la ubicación exacta de la opción 'CAMPUS VIRTUAL' en la barra superior, no menciona la contraseña por defecto (usuario en minúscula) y no detalla el botón de ingreso ni la opción de recuperación de contraseña.",
+    "alucinacion_detectada": false,
+    "veredicto": "P"
+  },
+  "case_32_rag": {
+    "analisis_comparativo": "La respuesta generada por el asistente cubre de forma precisa los pasos esenciales y los datos fácticos requeridos para el acceso al Campus Virtual de la Universidad Señor de Sipán. Indica correctamente la dirección web oficial (https://www.uss.edu.pe), la selección de la opción Campus Virtual, el uso del código de usuario y la contraseña por defecto en minúsculas. Aunque omite detalles menores como los iconos específicos de la interfaz o la mención exacta de la opción de recuperación de contraseña de la referencia, los pasos centrales son idénticos y correctos.",
+    "omisiones_o_errores": "Omite mencionar de manera explícita la opción de recuperación de contraseña ('¿Olvidaste tu contraseña?') presente en la interfaz de inicio de sesión.",
+    "alucinacion_detectada": false,
+    "veredicto": "C"
+  },
+  "case_33_ft": {
+    "analisis_comparativo": "La respuesta de referencia oficial (Ground Truth) indica que el asistente debe solicitar más información al docente (el nombre del curso y confirmar si ya añadió el recurso de cuestionario) antes de proceder con los pasos técnicos. Sin embargo, la respuesta del modelo evaluado (Gemma-4 Fine-Tuned) alucina por completo un procedimiento técnico detallado con pasos, nombres de opciones y botones que no corresponden al funcionamiento estándar de Moodle (la plataforma del Aula Virtual de la USS).",
+    "omisiones_o_errores": "El asistente omitió por completo el protocolo de validación inicial solicitado por la universidad (preguntar el nombre del curso y si ya añadió el recurso). Además, inventó una serie de pasos y configuraciones inexistentes en el Aula Virtual (como 'Modo de evaluación', 'Enfoque en los criterios de evaluación', etc.), lo cual constituye una alucinación grave.",
+    "alucinacion_detectada": true,
+    "veredicto": "I"
+  },
+  "case_33_rag": {
+    "analisis_comparativo": "La respuesta de referencia oficial (Ground Truth) indica que el asistente debe solicitar aclaración sobre el curso y si ya añadió el cuestionario. Sin embargo, el asistente evaluado optó por indicar que la información no está detallada en el manual base, absteniéndose de inventar pasos y redirigiendo adecuadamente al docente a los canales oficiales de soporte de la USS, aunque no siguió exactamente el flujo interactivo de la referencia.",
+    "omisiones_o_errores": "El asistente no solicitó el nombre del curso ni el estado de la actividad como lo sugería la respuesta de referencia, sino que optó por informar sobre la limitación del manual y derivar a soporte.",
+    "alucinacion_detectada": false,
+    "veredicto": "P"
+  },
+  "case_34_ft": {
+    "analisis_comparativo": "La respuesta de referencia oficial detalla el acceso a eBooks 7-24 mediante la biblioteca digital USS, el uso de la barra superior 'Buscar en libros', la exploración de colecciones y editoriales, y los filtros. La respuesta generada por el asistente introduce modificaciones importantes en el procedimiento, alterando el nombre de la plataforma ('S-eBook 7-24'), inventando opciones de interfaz inexistentes en el manual oficial (como 'eBooks de referencia', menús específicos de descarga directa de capítulos completos) y ofreciendo un flujo de búsqueda que no coincide con la guía oficial de la universidad.",
+    "omisiones_o_errores": "El asistente cambió el nombre de la plataforma a 'S-eBook 7-24', omitió el paso de ingresar a través de la biblioteca digital USS y añadió pasos e interfaces inexactos o inventados sobre la descarga directa de archivos y menús específicos que no forman parte del procedimiento oficial.",
+    "alucinacion_detectada": true,
+    "veredicto": "I"
+  },
+  "case_34_rag": {
+    "analisis_comparativo": "La respuesta de referencia detalla los pasos exactos para acceder a la plataforma eBooks 7-24 (ingresar al portal desde la biblioteca digital, usar la barra de búsqueda, explorar colecciones editoriales y aplicar filtros). La respuesta generada por el asistente (Sipán-STAIR RAG) indica erróneamente que no cuenta con un manual sobre la plataforma porque su base se centra en reglamentos de grados y títulos, derivando al usuario a la biblioteca y sin proporcionar los pasos específicos solicitados por el docente.",
+    "omisiones_o_errores": "El asistente omitió por completo los pasos detallados para acceder y buscar en eBooks 7-24, afirmando falsamente que carece de información al respecto, cuando la referencia oficial sí la contiene. No indicó cómo usar la barra de búsqueda ni las colecciones editoriales.",
+    "alucinacion_detectada": false,
+    "veredicto": "I"
+  },
+  "case_35_ft": {
+    "analisis_comparativo": "La respuesta oficial de referencia detalla los pasos exactos dentro del sistema institucional de la USS para programar un servicio de certificación en el módulo de trámites (pestaña 'PROGRAMACION DE SERVICIOS', selección de escuela, servicio, cantidad, verificación de importe y botón 'Programar'). Por otro lado, la respuesta generada por el asistente inventa una plataforma llamada 'PAY', pasos que no existen en los manuales de la universidad (como hacer clic en 'SEGUIR' o 'Programar Pago') y confunde el procedimiento de programación de servicios con un pago directo en pasarelas externas.",
+    "omisiones_o_errores": "El asistente omite por completo el módulo de trámites y la pestaña 'PROGRAMACION DE SERVICIOS'. Alucina una plataforma inexistente llamada 'PAY' y da instrucciones completamente ajenas al flujo real de la Universidad Señor de Sipán para la programación de servicios en el estado de cuenta.",
+    "alucinacion_detectada": true,
+    "veredicto": "I"
+  },
+  "case_35_rag": {
+    "analisis_comparativo": "La respuesta generada por el asistente cubre de forma adecuada y general los pasos necesarios para la programación del servicio de certificación dentro del Campus Virtual de la Universidad Señor de Sipán. Además, incluye la ruta de acceso inicial (Campus Virtual, Procesos en Línea, Trámites) y menciona la sección de Programación de Servicios. También añade información útil sobre cómo realizar el pago posterior (Gestión Financiera) citando el manual normativo correspondiente. Aunque no detalla todos los subcampos específicos con el mismo nivel de granularidad que la referencia (como la selección de escuela, cantidad o la alerta verde), los pasos esenciales para cumplir con el procedimiento están presentes y son correctos según la normativa institucional.",
+    "omisiones_o_errores": "Omite detalles menores como la verificación de la escuela profesional, la indicación numérica de la cantidad y las alertas visuales exactas (en verde y rojo) descritas en la referencia, pero mantiene la exactitud del flujo principal y agrega valor explicando el proceso de pago.",
+    "alucinacion_detectada": false,
+    "veredicto": "C"
+  },
+  "case_36_ft": {
+    "analisis_comparativo": "La respuesta oficial de referencia establece claramente que para obtener un título profesional (pregrado) la tesis puede ser individual o en pares, y para el grado de doctor es estrictamente individual, basándose en el Reglamento de Grados y Títulos. Por su parte, la respuesta del asistente (Gemma-4 Fine-Tuned) menciona la Ley Universitaria, artículos de reglamentos inventados o inexactos (Artículo 68 del Reglamento del Manual de Grado, Artículo 60 del Reglamento de Tesis) y no responde de manera directa, clara ni precisa a la pregunta del estudiante sobre si puede hacer la tesis con un compañero para el pregrado.",
+    "omisiones_o_errores": "El asistente omite por completo la distinción clave entre grado académico y título profesional estipulada en la normativa de la USS. Cita artículos incorrectos o inexistentes (Artículo 68 del Reglamento del Manual de Grado y Artículo 60 del Reglamento de Tesis) en lugar de citar correctamente el Artículo 20º del Reglamento de Grados y Títulos de la USS.",
+    "alucinacion_detectada": true,
+    "veredicto": "I"
+  },
+  "case_36_rag": {
+    "analisis_comparativo": "La respuesta generada por el asistente aborda correctamente la pregunta del usuario sobre si la tesis puede ser grupal o individual, basándose en la normativa oficial (Reglamento de Grados y Títulos, Artículo 20º). Distingue adecuadamente entre grados académicos (individual) y título profesional (individual o en pares). Aunque no menciona explícitamente el detalle sobre las líneas de investigación del Artículo 21º, responde de manera precisa y directa a la duda central planteada por el estudiante sin alterar el fondo de la referencia oficial.",
+    "omisiones_o_errores": "Omite la mención al Artículo 21º respecto a la obligatoriedad de seguir las líneas de investigación institucionales, pero esto no invalida la respuesta principal sobre la modalidad de tesis.",
+    "alucinacion_detectada": false,
+    "veredicto": "C"
+  },
+  "case_37_ft": {
+    "analisis_comparativo": "La respuesta de referencia indica claramente que el procedimiento se basa en los Artículos 24 y 27 del Reglamento de Cobranzas, requiriendo un trámite en línea a través del Campus Virtual en la sección 'Otros', con un plazo máximo de 10 días hábiles para su resolución por Gerencia General. Por el contrario, la respuesta del asistente (Gemma-4 Fine-Tuned) menciona incorrectamente el Artículo 28, inventa requisitos absurdos y contradictorios (como pagos por cheque de caja, copias legalizadas, cédulas de identidad, y trámites presenciales ante el Decano o Consejo Universitario de Posgrado), alejándose por completo de los flujos reales de la USS.",
+    "omisiones_o_errores": "El asistente omite por completo la ruta digital real (Campus Virtual -> Trámites en línea -> Otros), menciona un artículo incorrecto (Art. 28), e introduce múltiples alucinaciones graves sobre los requisitos y órganos decisorios (exige cheques de caja, copias legalizadas, cédulas de identidad, y la intervención del Consejo Universitario de Posgrado para un trámite general de reembolso).",
+    "alucinacion_detectada": true,
+    "veredicto": "I"
+  },
+  "case_37_rag": {
+    "analisis_comparativo": "La respuesta generada por el asistente cubre de manera muy precisa los puntos clave de la referencia oficial. Cita el Reglamento de Cobranza y el artículo correspondiente (Artículo 24°), menciona el motivo válido (pago en semestre sin matrícula), indica la necesidad de pagar el derecho de trámite según el tarifario, describe la ruta general en el Campus Virtual, y detalla el plazo de 10 días hábiles para la resolución de la Gerencia General con notificación por correo institucional. Aunque omite el detalle específico de la sub-ruta 'OTROS' dentro de trámites en línea, mantiene la exactitud de los datos fácticos y los plazos requeridos.",
+    "omisiones_o_errores": "Omite la mención explícita del Artículo 27° y la ruta exacta dentro del Campus Virtual (seleccionar 'Trámites en línea' y la opción 'OTROS'). Sin embargo, esto no invalida el procedimiento general.",
+    "alucinacion_detectada": false,
+    "veredicto": "C"
+  },
+  "case_38_ft": {
+    "analisis_comparativo": "La respuesta de referencia indica que se debe ingresar a la plataforma institucional de la biblioteca digital USS, dirigirse a la sección de recomendaciones, hacer clic en el logotipo de e-libro y usar los campos de búsqueda. Por otro lado, la respuesta del asistente evaluado indica que se debe ingresar al Campus Virtual, buscar el menú 'Bibliotecas Digitales', hacer clic en E-Libro y luego desplegar colecciones. Aunque ambos enfoques buscan guiar al docente, los pasos y la plataforma inicial (Campus Virtual vs. plataforma institucional de la biblioteca digital) difieren de la guía oficial de referencia.",
+    "omisiones_o_errores": "El asistente omite la indicación exacta de la plataforma institucional de la biblioteca digital de la USS y la sección de recomendaciones descrita en la referencia oficial, desviando el flujo hacia el Campus Virtual y menús específicos que no coinciden exactamente con el procedimiento normativo de la fuente.",
+    "alucinacion_detectada": false,
+    "veredicto": "P"
+  },
+  "case_38_rag": {
+    "analisis_comparativo": "La respuesta oficial de referencia detalla los pasos específicos dentro de la plataforma de la biblioteca digital y menciona el uso del logotipo de E-Libro, además de listar otras bases de datos disponibles. Por otro lado, la respuesta del asistente evaluado ('Sipán-STAIR RAG') proporciona un procedimiento estructurado basado en el acceso institucional mediante el Campus Virtual y la opción de Biblioteca del sitio web de la USS, citando el manual de usuario correspondiente y ofreciendo canales de soporte técnico. Aunque la redacción y la ruta difieren ligeramente en el detalle interno de la plataforma respecto a la referencia, el asistente orienta de manera correcta, precisa y profesional al docente sobre cómo acceder a los recursos bibliográficos institucionales sin caer en alucinaciones.",
+    "omisiones_o_errores": "El asistente omite mencionar explícitamente el clic en el logotipo de e-libro y la lista de otras bases de datos secundarias que menciona la referencia, pero ofrece una guía de acceso institucional válida y coherente.",
+    "alucinacion_detectada": false,
+    "veredicto": "P"
+  },
+  "case_39_ft": {
+    "analisis_comparativo": "La respuesta de referencia oficial (Ground Truth) indica que el acceso a los resultados de la Evaluación de Desempeño Docente se realiza desde el menú principal de gestión docente en el Campus Virtual, ingresando a la opción 'Resultados', para luego visualizar la cabecera con datos generales y el resumen cuantitativo/cualitativo. Por su parte, la respuesta generada por el asistente evaluado ('Gemma-4 Fine-Tuned') inventa una ruta diferente basada en el 'Aula Virtual', mencionando opciones inexistentes en la normativa oficial como 'PROCESOS DE EVALUACIÓN' en el menú lateral izquierdo y la opción 'Puntos a evaluar'. Además, introduce semestres de ejemplo no oficiales como 'III-B' o 'IV-B'. Por lo tanto, la respuesta del asistente contradice el procedimiento oficial.",
+    "omisiones_o_errores": "El asistente confunde el Campus Virtual con el Aula Virtual, e inventa nombres de menús y opciones de navegación que no corresponden a la guía oficial de la USS (como 'PROCESOS DE EVALUACIÓN' y 'Puntos a evaluar').",
+    "alucinacion_detectada": true,
+    "veredicto": "I"
+  },
+  "case_39_rag": {
+    "analisis_comparativo": "La respuesta de referencia detalla el procedimiento para que un docente acceda a sus resultados de evaluación mediante el menú principal de gestión docente en el Campus Virtual, revisando su cabecera, datos generales y desglose cuantitativo/cualitativo. Por su parte, la respuesta generada por el asistente asume erróneamente que el usuario es un estudiante ('Estimado estudiante') consultando evaluaciones docentes (lo cual suele referirse a la encuesta que hace el alumno al profesor, o confunde el rol docente con el de alumno). Además, la ruta indicada ('Servicios Académicos', 'Evaluaciones') no coincide con la guía oficial para consultar el reporte de desempeño docente.",
+    "omisiones_o_errores": "El asistente confunde el rol del usuario asumiendo que es un estudiante en lugar de un docente revisando su propia evaluación de desempeño. Omite los pasos exactos del menú de gestión docente y da una ruta genérica incorrecta.",
+    "alucinacion_detectada": false,
+    "veredicto": "I"
+  },
+  "case_40_ft": {
+    "analisis_comparativo": "La respuesta de referencia indica claramente que el mensaje 'No hay mensajes' se debe a que el estudiante no ha registrado aportes en el foro y explica las consecuencias y pasos a seguir. La respuesta generada por el asistente evade explicar el verdadero motivo del mensaje del sistema, solicita datos innecesarios (nombre del estudiante o código) que por privacidad no se deben manejar de esa forma, e inventa alertas inexistentes como 'Menos 100% de avance', 'Criterios no ponderados' y 'Datos faltantes' que no corresponden al caso del foro.",
+    "omisiones_o_errores": "El asistente omitió la explicación real del aviso 'No hay mensajes' (falta de participación del alumno). Además, inventó erróneamente alertas de sistema falsas que no figuran en la documentación oficial para este caso.",
+    "alucinacion_detectada": true,
+    "veredicto": "I"
+  },
+  "case_40_rag": {
+    "analisis_comparativo": "La respuesta de referencia indica que la alerta 'No hay mensajes' significa simplemente que el estudiante seleccionado no ha registrado aportes ni réplicas en el foro, y detalla los pasos para verificarlo. La respuesta del asistente genera explicaciones complejas y alucina manuales con apartados específicos (Manual de Usuario del Aula Virtual – Docente (Vigencia 2026), apartado 7.2 inciso c, tiempos de espera de 30 minutos, etc.) que no corresponden a la realidad institucional descrita en la referencia.",
+    "omisiones_o_errores": "El asistente omite la explicación real y directa del problema (el alumno no ha participado) e inventa políticas de tiempo de espera y apartados de manuales inexistentes en la base de conocimiento oficial.",
+    "alucinacion_detectada": true,
+    "veredicto": "I"
+  },
+  "case_41_ft": {
+    "analisis_comparativo": "La respuesta de referencia indica que la constancia de estudios cuesta S/. 100 y la visación de sílabos por curso S/. 50. La respuesta evaluada (Gemma-4 Fine-Tuned) afirma que la constancia cuesta S/. 15.00 y la visación de sílabos S/. 8.00, citando un reglamento y artículos falsos.",
+    "omisiones_o_errores": "La respuesta del asistente contiene costos completamente erróneos y alucina un Artículo 77 del Reglamento de Cobranzas, contradiciendo directamente el tarifario institucional oficial.",
+    "alucinacion_detectada": true,
+    "veredicto": "I"
+  },
+  "case_41_rag": {
+    "analisis_comparativo": "La respuesta de referencia (Ground Truth) proporciona los montos exactos vigentes según el tarifario institucional (Constancia de Estudios: S/. 100, Visación de Sílabos por Curso: S/. 50). Por el contrario, la respuesta generada por el asistente indica que no dispone de dicha información en su base de datos y se abstiene de dar los montos, derivando al usuario a canales externos.",
+    "omisiones_o_errores": "El asistente omitió completamente los datos fácticos solicitados (los montos en soles para la constancia de estudios y la visación de sílabos). No logró responder a la pregunta del usuario.",
+    "alucinacion_detectada": false,
+    "veredicto": "I"
+  },
+  "case_42_ft": {
+    "analisis_comparativo": "La respuesta oficial de referencia indica que para que el Aula Virtual marque automáticamente la actividad cuando el alumno sube su archivo, el docente debe ir a la sección 'Condiciones de finalización de actividad', configurar el rastreo y marcar la opción 'El estudiante debe de entregar esta actividad para completarla' o 'Hacer una entrega'. Por el contrario, la respuesta generada por el asistente inventa una sección llamada 'Carga de archivos', y opciones inexistentes como 'Mostrar editar página', 'Permitir envío de múltiples archivos' y 'Entrega automática'.",
+    "omisiones_o_errores": "El asistente proporciona un procedimiento completamente erróneo y desvinculado de la plataforma Moodle (Aula Virtual USS). Inventa nombres de botones, secciones y configuraciones que no existen en los manuales oficiales para la finalización automática de actividades.",
+    "alucinacion_detectada": true,
+    "veredicto": "I"
+  },
+  "case_42_rag": {
+    "analisis_comparativo": "El usuario solicita asistencia técnica para configurar el Aula Virtual de modo que una tarea se marque automáticamente al ser entregada. La respuesta oficial de referencia proporciona el paso a paso exacto dentro de la plataforma (sección Condiciones de finalización de actividad, opción de marcar entrega y guardar cambios). En contraste, el asistente evaluado indica que no posee dicha información por pertenecer al Reglamento de Grados y Títulos y deriva al usuario a soporte técnico por correo y tickets, sin ofrecer ninguna solución o guía sobre el procedimiento solicitado.",
+    "omisiones_o_errores": "El asistente omitió por completo los pasos técnicos de configuración del Aula Virtual explicados en la referencia y derivó incorrectamente la consulta a un área de soporte, negándose a responder la pregunta bajo el pretexto de que no está en el reglamento mencionado.",
+    "alucinacion_detectada": false,
+    "veredicto": "I"
+  },
+  "case_43_ft": {
+    "analisis_comparativo": "La respuesta de referencia oficial (Ground Truth) indica que el docente debe ingresar al panel de control financiero o módulo de informe económico, buscar la tabla 'INFORME ECONÓMICO DEL CURSO', revisar las columnas como Total_Mora/Total_Pnd y usar el icono de la impresora junto al selector de formato PDF. Por el contrario, la respuesta generada por Gemma-4 Fine-Tuned inventa un flujo completamente diferente basado en el 'Módulo de notas', pantallas emergentes inexistentes ('Ver reportes', 'Facturación'), y botones no oficiales ('Explorar', 'Desplazar', botón verde 'Exportar a PDF').",
+    "omisiones_o_errores": "El asistente evaluado inventa una ruta de navegación errónea (Módulo de notas en lugar del panel financiero o informe económico) y describe botones y funciones ficticias que no existen en la plataforma oficial de la USS.",
+    "alucinacion_detectada": true,
+    "veredicto": "I"
+  },
+  "case_43_rag": {
+    "analisis_comparativo": "La respuesta de referencia indica que el docente sí puede visualizar el informe económico y de deuda de sus alumnos directamente desde el Campus Virtual (módulo de informe económico del curso, usando columnas como Total_Mora, Total_Pnd y Total_Can, y descargándolo en PDF mediante el icono de la impresora). Sin embargo, la respuesta evaluada del asistente afirma incorrectamente que el docente no cuenta con acceso directo por políticas de privacidad y lo deriva a Tesorería o Coordinación Académica.",
+    "omisiones_o_errores": "El asistente contradice el procedimiento real de la plataforma al negar el acceso al docente, omitiendo por completo los pasos técnicos indicados en la referencia (Campus Virtual, módulo económico, columnas de deuda y descarga en PDF).",
+    "alucinacion_detectada": true,
+    "veredicto": "I"
+  },
+  "case_44_ft": {
+    "analisis_comparativo": "La respuesta oficial de referencia detalla los pasos específicos para el registro en línea del curso de Computación en la Universidad Señor de Sipán, los cuales incluyen acceder al Centro de Informática y Sistemas, aceptar políticas, seleccionar modalidad (presencial/virtual), seleccionar el curso, revisar horarios, confirmar la pre-matrícula y aceptar el compromiso de pago. Por el contrario, la respuesta generada por el asistente describe un procedimiento completamente genérico e inventado sobre 'Campus Virtual', 'Gestión de Materias', 'Asignar créditos' y 'Grabar cambios', el cual no corresponde en absoluto a los manuales institucionales de la USS para el curso de Computación.",
+    "omisiones_o_errores": "El asistente omitió por completo el procedimiento real y oficial. Inventó una interfaz genérica y pasos erróneos (Gestión de Materias, Asignar créditos, Grabar cambios) que no existen en el manual de registro del curso de Computación de la universidad.",
+    "alucinacion_detectada": true,
+    "veredicto": "I"
+  },
+  "case_44_rag": {
+    "analisis_comparativo": "La respuesta de referencia detalla un flujo operativo específico y paso a paso dentro del sistema de la USS para el registro del curso de Computación (acceso al Centro de Informática y Sistemas, botones gráficos, selección de modalidad, selección del curso siguiente, revisión de horarios, confirmación y compromiso de pago de S/. 50.00). Por otro lado, la respuesta del asistente proporciona un procedimiento genérico de matrícula en línea ('PROcesos en Línea > Matrícula en Línea'), omitiendo por completo los pasos específicos del módulo de Computación, los botones exactos indicados en el manual y la información clave sobre el compromiso de pago y la primera cuota.",
+    "omisiones_o_errores": "El asistente omitió los siguientes pasos e indicaciones clave del manual oficial: 1) Hacer clic en el icono del Centro de Informática y Sistemas en la barra superior; 2) La selección explícita de modalidad presencial o virtual mediante botones gráficos; 3) Ubicar el curso en 'CURSO SIGUIENTE A PRE-MATRICULARSE' y hacer clic en el botón rojo 'SELECCIONAR'; 4) Validar el horario y los cupos; 5) El aviso de compromiso de pago y el monto de la primera cuota de S/. 50.00 a cancelar en 72 horas.",
+    "alucinacion_detectada": false,
+    "veredicto": "I"
+  },
+  "case_45_ft": {
+    "analisis_comparativo": "La respuesta oficial de referencia (Ground Truth) corresponde a una interacción inicial de validación donde el asistente (SipánGPT) saluda y pregunta si el estudiante cuenta con sus credenciales activas y si visualiza el menú web. Sin embargo, la respuesta evaluada del asistente (Gemma-4 Fine-Tuned) omite esta validación previa y procede directamente a explicar de forma detallada los pasos para acceder y buscar material en la biblioteca virtual (ingresar al sitio web, buscar el catálogo, seleccionar repositorios, ingresar criterios y ver resultados). Aunque la respuesta de la IA evaluada contiene pasos prácticos y útiles para el estudiante, desvía el flujo conversacional establecido por la referencia oficial.",
+    "omisiones_o_errores": "Omite la pregunta de control inicial sobre la verificación de credenciales institucionales y la visualización del menú web indicada en la referencia oficial.",
+    "alucinacion_detectada": false,
+    "veredicto": "P"
+  },
+  "case_45_rag": {
+    "analisis_comparativo": "La respuesta oficial de referencia (Ground Truth) corresponde al inicio de un flujo de atención conversacional donde el asistente hace una pregunta de clarificación sobre las credenciales antes de proceder. Sin embargo, el asistente evaluado (Sipán-STAIR RAG) proporciona directamente una guía detallada, estructurada y basada en un manual oficial para acceder al catálogo en línea de la biblioteca, cumpliendo de manera efectiva con la consulta inicial del usuario sobre los pasos exactos para acceder a la biblioteca virtual desde el sitio web.",
+    "omisiones_o_errores": "No hay omisiones graves ni errores en el procedimiento técnico brindado por el asistente, ya que los pasos descritos corresponden a la ruta lógica institucional dentro del portal de la USS.",
+    "alucinacion_detectada": false,
+    "veredicto": "C"
+  },
+  "case_46_ft": {
+    "analisis_comparativo": "La respuesta de referencia solicita aclaración sobre el estado actual de la configuración debido a la ambigüedad del usuario. Aunque el asistente evaluado también solicita una aclaración al inicio, procede a inventar un procedimiento detallado con pasos, pestañas ('Detalles de Puntaje', 'Definiciones') y porcentajes que no corresponden a la interfaz estándar de Moodle/Canvas utilizada en la USS, introduciendo además recomendaciones genéricas y confusas.",
+    "omisiones_o_errores": "El asistente inventa una estructura de interfaz de rúbricas ('Detalles de Puntaje' y 'Definiciones', sumas de porcentajes del 10% adicionales) que no forma parte de la guía oficial de la USS para el Aula Virtual, lo que puede confundir aún más al usuario.",
+    "alucinacion_detectada": true,
+    "veredicto": "I"
+  },
+  "case_46_rag": {
+    "analisis_comparativo": "La respuesta oficial de referencia pide al usuario más detalles sobre el problema y en qué pantalla se encuentra antes de dar instrucciones, debido a la naturaleza ambigua de la consulta inicial del docente. Por el contrario, la respuesta generada por el asistente asume un escenario específico y proporciona una guía detallada (aunque inventada con números de página y secciones de un manual) que no se alinea con la directriz de indagación inicial de la referencia.",
+    "omisiones_o_errores": "El asistente omite solicitar la aclaración al usuario sobre su pantalla actual y en su lugar inventa un procedimiento estructurado con citas a páginas y manuales específicos que no forman parte de la respuesta oficial de referencia.",
+    "alucinacion_detectada": true,
+    "veredicto": "I"
+  },
+  "case_47_ft": {
+    "analisis_comparativo": "La respuesta oficial de referencia (Ground Truth) corresponde al comportamiento esperado del modelo base antes de la clarificación, mientras que la respuesta del asistente evaluado proporciona de manera directa y correcta la URL oficial de acceso institucional (https://acceso.uss.edu.pe/) y los pasos generales para el ingreso de los docentes.",
+    "omisiones_o_errores": "Ninguno. La URL proporcionada es correcta y oficial para la Universidad Señor de Sipán, y los pasos descritos son precisos y útiles para el docente.",
+    "alucinacion_detectada": false,
+    "veredicto": "C"
+  },
+  "case_47_rag": {
+    "analisis_comparativo": "La respuesta oficial de referencia era una pregunta de clarificación por parte del sistema RAG, mientras que la respuesta generada por 'Sipán-STAIR RAG' proporcionó directamente las rutas exactas y funcionales tanto para el Aula Virtual como para el Campus Virtual, incluyendo enlaces precisos y citas a los manuales oficiales de la USS. Aunque el comportamiento difiere de la referencia conversacional inicial, la respuesta generada resuelve perfectamente la duda del usuario docente proporcionando los datos fácticos correctos.",
+    "omisiones_o_errores": "No presenta omisiones ni errores conceptuales graves; entrega las rutas oficiales reales de la universidad.",
+    "alucinacion_detectada": false,
+    "veredicto": "C"
+  },
+  "case_48_ft": {
+    "analisis_comparativo": "La respuesta de referencia oficial enumera claramente los requisitos normativos del Reglamento de Grados y Títulos (Artículo 11º) para la obtención del grado de maestro en la USS (bachiller en SUNEDU, tesis aprobada, plan de estudios, idioma extranjero, sin deudas, etc.), además del contenido de la carpeta de maestría. Por otro lado, la respuesta generada por el asistente alucina completamente al mencionar un 'Reglamento de Estudios en Segunda Edición', 'Escuela de Educación Superior en Ciencias de la Salud o Instituto de Ciencias de la Salud', 'examen de selección profesional', y omite por completo los requisitos financieros, de idioma, de biblioteca y el detalle de los documentos para la carpeta de grado requeridos por la universidad.",
+    "omisiones_o_errores": "Se omitieron todos los requisitos clave como el grado de bachiller registrado en SUNEDU, acreditación de idioma extranjero, ausencia de deudas financieras, entrega de material bibliográfico y pagos de carpeta de maestría. Además, se incluyeron datos erróneos y alucinados sobre facultades médicas e institutos que no corresponden al proceso general de obtención del grado de maestro.",
+    "alucinacion_detectada": true,
+    "veredicto": "I"
+  },
+  "case_48_rag": {
+    "analisis_comparativo": "La respuesta generada por el asistente 'Sipán-STAIR RAG' incluye todos los requisitos normativos esenciales establecidos en el Artículo 11 del Reglamento de Grados y Títulos de la Universidad Señor de Sipán para la obtención del grado de maestro (grado de bachiller en SUNEDU, plan de estudios aprobado, sustentación de tesis, idioma extranjero, sin deudas, sin pendientes en registros y biblioteca, y pagos de carpeta y graduación). Aunque omite el párrafo detallado sobre los documentos específicos que contiene la carpeta (solicitud, dictamen, DNI, fotos), la enumeración principal de los requisitos es completa y exacta. No se detectan alucinaciones ni contradicciones con la referencia.",
+    "omisiones_o_errores": "Omite el detalle sobre el contenido de la carpeta de maestría (solicitud dirigida al director, dictamen de expedito, DNI al 150% y especificaciones de las fotografías).",
+    "alucinacion_detectada": false,
+    "veredicto": "C"
+  },
+  "case_49_ft": {
+    "analisis_comparativo": "La respuesta de referencia (Ground Truth) proporciona los precios exactos y detallados por material (Dril, Polistel Pesado, Antifluido) para la chaqueta y el pantalón de enfermería de mujer, según el tarifario oficial de la USS. Por el contrario, la respuesta generada por el asistente (Gemma-4 Fine-Tuned) no proporciona ningún precio y, en su lugar, inventa un procedimiento completamente falso que involucra al Sistema de Registros Académicos (SRA) y rutas de navegación inexistentes en la plataforma virtual de la universidad, además de citar una ley irrelevante.",
+    "omisiones_o_errores": "El asistente omitió todos los precios solicitados por el usuario. Además, alucinó un procedimiento para ver los precios de los uniformes a través del SRA y de secciones falsas en la plataforma virtual de la USS, lo cual desorienta completamente al estudiante.",
+    "alucinacion_detectada": true,
+    "veredicto": "I"
+  },
+  "case_49_rag": {
+    "analisis_comparativo": "La respuesta de referencia (Ground Truth) contiene el tarifario oficial exacto para la chaqueta y el pantalón de enfermería para mujer de la USS (dividido por tipos de tela como Dril, Polistel Pesado y Antifluido). Por el contrario, la respuesta del asistente evaluado indica erróneamente que en la base normativa no existe información sobre precios, negando los datos y derivando al usuario a canales externos o al correo institucional.",
+    "omisiones_o_errores": "El asistente omitió por completo los precios oficiales de las prendas solicitadas que sí forman parte de los documentos de referencia de la USS, afirmando de manera incorrecta que dicha información no está disponible en la base normativa.",
+    "alucinacion_detectada": false,
+    "veredicto": "I"
+  },
+  "case_50_ft": {
+    "analisis_comparativo": "La respuesta oficial de referencia detalla los pasos específicos para realizar un pago con tarjeta en la plataforma de la USS, enfatizando la importancia de no cerrar la ventana durante la carga y verificar el estado 'AUTORIZADO', así como la obtención de la constancia. Por su parte, la respuesta generada por el asistente menciona de forma general los pasos de ingreso de datos y redirección bancaria, pero incluye términos imprecisos o no contemplados en la guía oficial (como 'NIP', marcar casillas específicas de 'Acepto el proceso' y botones de 'SEGUIR PROCEDIENDO'). Además, omite por completo la advertencia crucial solicitada por el usuario sobre no cerrar la ventana durante el procesamiento y la verificación del estado 'AUTORIZADO'.",
+    "omisiones_o_errores": "Omite la advertencia fundamental de no cerrar la ventana durante la carga del cobro. Omite la verificación del estado en 'AUTORIZADO' y la descarga de la Constancia de Pago en Línea USS. Introduce elementos no oficiales o genéricos como 'NIP' y botones de confirmación no especificados en la referencia.",
+    "alucinacion_detectada": false,
+    "veredicto": "P"
+  },
+  "case_50_rag": {
+    "analisis_comparativo": "La pregunta del usuario se enfoca específicamente en la duda sobre el comportamiento al realizar el pago con tarjeta (miedo a cerrar la ventana durante la carga y cómo verificar si el proceso se completó). La respuesta oficial de referencia detalla los pasos exactos para el llenado del formulario, la advertencia crucial de no cerrar la ventana durante el procesamiento, y la verificación en la pantalla de confirmación. Por otro lado, la respuesta generada por el asistente ('Sipán-STAIR RAG') cambia por completo el tema hacia el Reglamento de Cobranza sobre cómo solicitar tasas en el Campus Virtual y sus plazos, ignorando por completo los pasos específicos del pago con tarjeta y la gestión de la ventana de carga consultada.",
+    "omisiones_o_errores": "El asistente omitió por completo los pasos para realizar el pago con tarjeta, la advertencia sobre no cerrar la ventana durante el procesamiento, y la verificación del estado 'AUTORIZADO' y la descarga del comprobante. Respondió sobre un trámite de solicitud de servicios en el Campus Virtual en lugar del procedimiento de pago.",
+    "alucinacion_detectada": false,
+    "veredicto": "I"
+  }
+}

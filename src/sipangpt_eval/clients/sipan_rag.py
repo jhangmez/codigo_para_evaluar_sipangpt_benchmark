@@ -18,10 +18,12 @@ class SipanRAGClient(BaseLLMClient):
     def __init__(
         self,
         api_url: str = settings.sipan_rag_api_url,
+        api_key: str = settings.sipan_rag_api_key,
         api_token: Optional[str] = settings.sipan_rag_api_token,
         cookie: str = settings.sipan_rag_cookie,
     ) -> None:
         self.api_url: str = api_url
+        self.api_key: str = api_key
         self.api_token: Optional[str] = api_token
         self.cookie: str = cookie
         self.model_name: str = "SipánGPT-RAG-STAIR"
@@ -78,6 +80,8 @@ class SipanRAGClient(BaseLLMClient):
         headers: Dict[str, str] = {
             "Content-Type": "application/json"
         }
+        if self.api_key:
+            headers["x-api-key"] = self.api_key
         if self.api_token:
             headers["Authorization"] = f"Bearer {self.api_token}"
 
@@ -106,58 +110,64 @@ class SipanRAGClient(BaseLLMClient):
             ]
         }
 
-        try:
-            with httpx.Client(timeout=60.0) as client:
-                response: httpx.Response = client.post(self.api_url, json=payload, headers=headers)
-                elapsed_ms: float = (time.perf_counter() - start_time) * 1000.0
+        # Intentar hasta 3 veces con timeout de 180s por baja velocidad de red si hay URL configurada
+        last_exception: Exception | None = None
+        if self.api_url:
+            for attempt in range(3):
+                try:
+                    with httpx.Client(timeout=180.0) as client:
+                        response: httpx.Response = client.post(self.api_url, json=payload, headers=headers)
+                        elapsed_ms: float = (time.perf_counter() - start_time) * 1000.0
 
-                if response.status_code == 200:
-                    respuesta: str = ""
-                    citas: List[CitationSource] = []
-                    t_busqueda: float = 180.0
+                        if response.status_code == 200:
+                            respuesta: str = ""
+                            citas: List[CitationSource] = []
+                            t_busqueda: float = 180.0
 
-                    content_type = response.headers.get("content-type", "")
-                    if "application/json" in content_type:
-                        res_json = response.json()
-                        respuesta = str(res_json.get("answer", res_json.get("response", res_json.get("text", ""))))
-                        search_val = res_json.get("search_time_ms", 180.0)
-                        t_busqueda = float(search_val) if isinstance(search_val, (int, float)) else 180.0
-                        citas_raw = res_json.get("citations", res_json.get("sources", []))
-                        if isinstance(citas_raw, list):
-                            for c in citas_raw:
-                                if isinstance(c, dict):
-                                    rel_val = c.get("relevance", c.get("similitud", 0.92))
-                                    sim_float: float = float(rel_val) if isinstance(rel_val, (int, float)) else 0.92
-                                    citas.append(
-                                        CitationSource(
-                                            documento=str(c.get("documento", c.get("title", "Reglamento USS"))),
-                                            articulo_o_seccion=str(c.get("articulo_o_seccion", c.get("articulo"))) if c.get("articulo_o_seccion") or c.get("articulo") else None,
-                                            url_publica=str(c.get("url_publica", c.get("url"))) if c.get("url_publica") or c.get("url") else None,
-                                            similitud=sim_float,
-                                        )
-                                    )
-                    else:
-                        # Event Stream (SSE) de Vercel AI SDK de la ruta /api/chat de Next.js
-                        respuesta, citas, t_busqueda = self._parse_sse_stream(response.text)
+                            content_type = response.headers.get("content-type", "")
+                            if "application/json" in content_type:
+                                res_json = response.json()
+                                respuesta = str(res_json.get("answer", res_json.get("response", res_json.get("text", ""))))
+                                search_val = res_json.get("search_time_ms", 180.0)
+                                t_busqueda = float(search_val) if isinstance(search_val, (int, float)) else 180.0
+                                citas_raw = res_json.get("citations", res_json.get("sources", []))
+                                if isinstance(citas_raw, list):
+                                    for c in citas_raw:
+                                        if isinstance(c, dict):
+                                            rel_val = c.get("relevance", c.get("similitud", 0.92))
+                                            sim_float: float = float(rel_val) if isinstance(rel_val, (int, float)) else 0.92
+                                            citas.append(
+                                                CitationSource(
+                                                    documento=str(c.get("documento", c.get("title", "Reglamento USS"))),
+                                                    articulo_o_seccion=str(c.get("articulo_o_seccion", c.get("articulo"))) if c.get("articulo_o_seccion") or c.get("articulo") else None,
+                                                    url_publica=str(c.get("url_publica", c.get("url"))) if c.get("url_publica") or c.get("url") else None,
+                                                    similitud=sim_float,
+                                                )
+                                            )
+                            else:
+                                # Event Stream (SSE) de Vercel AI SDK de la ruta /api/chat de Next.js
+                                respuesta, citas, t_busqueda = self._parse_sse_stream(response.text)
 
-                    if respuesta:
-                        t_generacion: float = max(0.0, elapsed_ms - t_busqueda)
-                        return InferenceOutput(
-                            modelo_nombre=self.model_name,
-                            respuesta_generada=respuesta,
-                            tiempo_total_ms=elapsed_ms,
-                            tiempo_busqueda_ms=t_busqueda,
-                            tiempo_generacion_ms=t_generacion,
-                            tokens_totales=len(respuesta.split()),
-                            citas=citas
-                        )
-                else:
-                    console.print(
-                        f"[bold red]⚠️ Error HTTP {response.status_code} al consultar Next.js RAG:[/bold red] "
-                        f"{response.text[:120]}"
-                    )
-        except Exception as exc:
-            console.print(f"[bold red]⚠️ Excepción de conexión a Next.js RAG:[/bold red] {exc}")
+                            if respuesta:
+                                t_generacion: float = max(0.0, elapsed_ms - t_busqueda)
+                                return InferenceOutput(
+                                    modelo_nombre=self.model_name,
+                                    respuesta_generada=respuesta,
+                                    tiempo_total_ms=elapsed_ms,
+                                    tiempo_busqueda_ms=t_busqueda,
+                                    tiempo_generacion_ms=t_generacion,
+                                    tokens_totales=len(respuesta.split()),
+                                    citas=citas
+                                )
+                        else:
+                            console.print(
+                                f"[bold red]⚠️ Error HTTP {response.status_code} al consultar Next.js RAG (Intento {attempt + 1}/3):[/bold red] "
+                                f"{response.text[:120]}"
+                            )
+                except Exception as exc:
+                    last_exception = exc
+                    console.print(f"[bold yellow]⚠️ Reintentando conexión a Next.js RAG (Intento {attempt + 1}/3 por {exc})...[/bold yellow]")
+                    time.sleep(3.0 * (attempt + 1))
 
         # Fallback / Simulación determinística si la API RAG no responde localmente
         elapsed_ms = (time.perf_counter() - start_time) * 1000.0 + 820.0

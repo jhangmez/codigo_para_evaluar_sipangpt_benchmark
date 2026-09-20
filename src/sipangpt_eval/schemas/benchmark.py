@@ -9,11 +9,11 @@ class TurnType(str, Enum):
 
 
 class ModuleCategory(str, Enum):
-    MATRICULA = "Matrícula y Registros Académicos"
-    CAMPUS_VIRTUAL = "Campus Virtual, Aula y Zoom"
-    PAGOS = "Pagos Virtuales y Cobranzas"
+    PAGOS = "Pagos y Cobranzas"
+    CAMPUS_VIRTUAL = "Campus Virtual y Aprendizaje"
+    MATRICULA = "Matrícula y Registros"
+    NORMATIVA = "Normativa y Trámites"
     BIBLIOTECA = "Biblioteca Virtual"
-    TRAMITES_GRADOS = "Grados, Títulos y Régimen Estudiantil"
 
 
 class ConversationMessage(BaseModel):

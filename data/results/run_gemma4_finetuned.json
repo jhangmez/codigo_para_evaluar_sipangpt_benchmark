@@ -1,452 +1,452 @@
 [
   {
     "modelo_nombre": "sipangpt",
-    "respuesta_generada": "Estimado(a) estudiante, es un gusto saludarle. Respecto a su consulta sobre 'Estimado SipánGPT, buenos días. Como docente de la facultad, necesito orientar a algunos estudiantes sobre las opciones disponibles en la pasarela de pagos digital para abonar servicios o trámites institucionales utilizando Yape y Plin. ¿Podría detallarme los pasos exactos que deben seguir para completar esta transacción de forma exitosa?', según los reglamentos institucionales de la Universidad Señor de Sipán (USS), debe ingresar al portal del Campus Virtual y registrar su solicitud formal en la sección correspondiente.",
-    "tiempo_total_ms": 15455.114125000546,
+    "respuesta_generada": "Estimado(a) docente, un excelente día. Con mucho gusto le proporciono las instrucciones paso a paso oficial de la Universidad Señor de Sipán para la realización de pagos electrónicos a través de Yape o Plin mediante la pasarela digital oficial.\n\nEs importante recordar que este método es seguro, conveniente y se realiza exclusivamente a través de nuestros sistemas. A continuación, le detallo los pasos a seguir:\n\n1. **Ingreso y selección del servicio:** Acceda al portal de pagos en el Sistema Integral de Facturación de la universidad y utilice la opción de \"Pago con Yape/Plin\" para visualizar el servicio o gasto correspondiente (por ejemplo: Matrícula, Renovación de semestre, Renovación de matrícula, Pruebas, etc.).\n2. **Determinación de datos:** En la plataforma se mostrarán los campos obligatorios. Verifique que se muestran correctamente los datos del alumno, los datos de cargo, la factura y el monto total a abonar.\n3. **Verificación y procesamiento:** Revise detenidamente los detalles y la cuenta de destino (si corresponde) y haga clic en el botón **Generar pagos**.\n4. **Apoyo de la transacción:** El sistema activará la comunicación con su aplicación de pago bancario (Yape o Plin) para que usted visualice y autorice la transferencia directamente en su dispositivo móvil mediante el código correspondiente.\n5. **Recepción de evidencias:** Una vez confirmado el pago por el Banco de la Nación, se le presentará una captura de pantalla y un Código de Autorización Único (CAU) para que lo visualice con claridad y pueda tenerlo a mano para el trámite.\n\nAgradezco su interés en utilizar estos medios de pago virtuales para el servicio de nuestros estudiantes. Quedo a su entera disposición en caso requiera una asistencia adicional con las plataformas institucionales.",
+    "tiempo_total_ms": 18460.968041999877,
     "tiempo_busqueda_ms": 0.0,
-    "tiempo_generacion_ms": 15455.114125000546,
-    "tokens_totales": 87,
+    "tiempo_generacion_ms": 18460.968041999877,
+    "tokens_totales": 277,
     "citas": []
   },
   {
     "modelo_nombre": "sipangpt",
-    "respuesta_generada": "¡Estimado(a) docente, un cordial saludo! Es un gusto auxiliarle en sus labores académicas. Como parte del soporte pedagógico ofrecido por la Universidad Señor de Sipán (USS), con mucho gusto le explico el procedimiento oficial para la creación y configuración de rúbricas en la plataforma Aula Virtual:\n\nPara estructurar correctamente una rúbrica en línea y cumplir con las directrices académicas, debe seguir los siguientes pasos en el área de diseño de la evaluación:\n\n1. Seleccione la pestaña **Criterios** y **Evaluaciones**.\n2. Seleccione **Crear un nuevo elemento**.\n\nA continuación, la interfaz de configuración de la rúbrica incluye las siguientes secciones principales que debe configurar en su evaluación:\n\n- **Criterios de evaluación:** Aquí podrá ingresar el título y la descripción del desempeño evaluado.\n- **Niveles de Desempeño:** Configure las categorías (por ejemplo, Pro, En Proceso, Satisfactorio, Destacado), definiendo sus descripciones específicas para cada nivel.\n- **Peso (Importancia):** Asigne el porcentaje correspondiente a cada criterio (máximo 100%).\n- **Asignar:** Configure la ponderación del nivel asignado a cada categoría (Porcentaje).\n\nRecuerde utilizar la metodología de evaluación de niveles de aprendizaje establecida por la institución para garantizar la claridad y objetividad en sus retroalimentaciones y en la calificación del trabajo del estudiante. Si requiere asistirle con alguna otra consulta sobre la plataforma, estoy a su entera disposición.",
-    "tiempo_total_ms": 14130.638499998895,
+    "respuesta_generada": "¡Estimado docente, reciba un cordial saludo de parte del equipo de soporte académico de la Universidad Señor de Sipán! Es un gusto apoyarle en su labor docente en el Aula Virtual.\n\nPara diseñarle una rúbrica efectiva y utilizar las herramientas de evaluación de manera eficiente en nuestra plataforma, le comparto los pasos recomendados para lograrlo:\n\n1. **Configuración y Nomenclatura de Criterios:**\n   - Diríjase a la sección **Criterios** de la herramienta de evaluación del Aula Virtual. En este apartado podrá agregar de forma jerárquica cada uno de los desempeños (los criterios) que evalúe en su evaluación.\n   - En la columna de la derecha, pulse **Agregar nueva fila** y complete los campos de manera precisa:\n     - **Criterio:** La descripción textual del desempeño que debe evaluar (ej. Análisis de conceptos fundamentales, aplicación de fórmulas, desarrollo de la argumentación, uso adecuado del lenguaje técnico, etc.).\n     - **Puntuación:** Asigne el valor de puntos del desempeño.\n\n2. **Ajuste de la Puntuación Máxima:**\n   - En la barra de control superior, seleccione la opción **Puntuación máxima (en 10)** y ajuste el valor numérico.\n   - Si desea agregar niveles de logro superiores al 10, utilice el botón **Guardar** para visualizar y modificar las escalas correspondientes.\n\n3. **Asignación de Peso y Puntos (Sistema de Ponderación):**\n   - El docente puede elegir el porcentaje que representará cada criterio con su correspondiente peso (ej. Proporción %).\n   - En la sección de ponderación, marque la casilla de verificación **Incluir la calificación en porcentaje**.\n   - Ingrese el porcentaje que le corresponde al criterio (por ejemplo: 25% para el desempeño 'Análisis conceptual avanzado', 50% para 'Aplicación de herramientas') y registre el porcentaje asignado (75% del total).\n\nSiguiendo estas indicaciones, podrá configurar sus instrumentos de evaluación cumpliendo con las especificaciones técnicas de la plataforma y facilitando la visualización de los resultados de sus estudiantes. Quedo a su completa disposición para cualquier consulta adicional que requiera.",
+    "tiempo_total_ms": 14969.512499999837,
     "tiempo_busqueda_ms": 0.0,
-    "tiempo_generacion_ms": 14130.638499998895,
-    "tokens_totales": 211,
+    "tiempo_generacion_ms": 14969.512499999837,
+    "tokens_totales": 308,
     "citas": []
   },
   {
     "modelo_nombre": "sipangpt",
-    "respuesta_generada": "¡Hola! Entiendo perfectamente tu urgencia y no te preocupes, aquí te explico cómo funciona el sistema de programación en la universidad para evitar conflictos de horarios.\n\nLa Universidad Señor de Sipán (USS) cuenta con un sistema que fusiona automáticamente los horarios, por lo que en su interfaz te mostrará el horario combinado (por ejemplo, 8:00 am - 12:00 pm) una sola vez.\n\nPara registrar tu horario de manera correcta y evitar duplicidades en el cronograma de tu curso, sigue estos pasos en el Aula Virtual:\n\n1. Dirígete a la sección de **SECCIÓN** (ubicada en el menú superior izquierdo).\n2. Visualiza la tabla con los horarios fusionados.\n3. Haz clic en el botón **Asignar horario** que se encuentra en la fila del ciclo académico correspondiente (por ejemplo, Semestre 1).\n4. En la tabla de asignación de horarios, selecciona el periodo asignado (el ciclo escolar correspondiente), el ciclo, la sílabo y la sección deseada, y luego haz clic en el botón **Asignar horario**.\n5. Por último, revisa la interfaz de verificación y haz clic en **Confirmar**.\n\nSiguiendo estos pasos podrás visualizar correctamente tus cursos fusionados en un solo espacio y asegurarte de que no existe ninguna duplicidad en tu registro académico. ¡Mucho éxito con tus clases!",
-    "tiempo_total_ms": 14405.257582999184,
+    "respuesta_generada": "¡Hola! Entiendo perfectamente tu apuro y no te preocupes, aquí estoy para ayudarte a solucionar ese inconveniente en el sistema USS de la manera más sencilla y rápida. Para evitar duplicar matrículas o clases en tu sistema, sigue estos sencillos pasos:\n\n1. Accede a tu opción de **“Programar Clases”.**\n2. En el listado de asignaturas y modalidades ves el campo desplegable **‘Estado’**. Debes seleccionar el valor **‘MATRULARSE’** para registrarte en la modalidad elegida.\n3. De manera crucial, observa la sección **‘Programar Asignaturas’**:\n    *   Asegúrate de revisar que la asignatura (código y nombre) y los créditos asociados estén visibles en el listado.\n    *   Haz clic en el botón **“Continuar”** que aparece en la esquina inferior derecha.\n\nAl seguir este proceso, el sistema registrará tu selección de forma correcta, asegurando que registres todas las actividades requeridas en un solo paso y evitando duplicidades. ¡Mucho éxito con tus trámites!",
+    "tiempo_total_ms": 11132.845750000342,
     "tiempo_busqueda_ms": 0.0,
-    "tiempo_generacion_ms": 14405.257582999184,
-    "tokens_totales": 204,
-    "citas": []
-  },
-  {
-    "modelo_nombre": "sipangpt",
-    "respuesta_generada": "Estimado estudiante, entiendo perfectamente tu preocupación por los trámites académicos y financieros. Como Asistente Virtual de la Universidad Señor de Sipán, con gusto te proporciono el detalle de los montos según el Reglamento de Colegiatura y las Disposiciones del Consejo Directivo:\n\nPara el segundo semestre académico (cursos presenciales), los pagos correspondientes son los siguientes:\n\n- Derecho de matrícula: S/ S/ 115.00\n- Derechos por matrícula: S/ 136.00\n- Derechos por título: S/ 50.00\n- Gastos de laboratorio y laboratorio: S/ 50.00\n- Derecho de atención al alumno (Ramo de Salarios): S/ 30.00\n\n*Nota: Ten en cuenta que estos montos están sujetos a las normativas vigentes y los sistemas de compensación institucional.* Te recomiendo verificar la opción de pago en la plataforma SSPA para asegurarte de elegir el plan financiero adecuado antes de realizar tu pago.",
-    "tiempo_total_ms": 11385.761292000097,
-    "tiempo_busqueda_ms": 0.0,
-    "tiempo_generacion_ms": 11385.761292000097,
-    "tokens_totales": 135,
-    "citas": []
-  },
-  {
-    "modelo_nombre": "sipangpt",
-    "respuesta_generada": "Estimado(a) estudiante, es un gusto saludarle. Respecto a su consulta sobre 'Estimado SipánGPT, buenos días. Agradeceré me brinde la orientación necesaria para llevar a cabo de manera correcta el procedimiento de creación de la Ficha de Matrícula de mi plan de estudios de programación regular, toda vez que deseo asegurarme de realizar la selección de asignaturas y la confirmación final sin inconvenientes.', según los reglamentos institucionales de la Universidad Señor de Sipán (USS), debe ingresar al portal del Campus Virtual y registrar su solicitud formal en la sección correspondiente.",
-    "tiempo_total_ms": 15467.502916998637,
-    "tiempo_busqueda_ms": 0.0,
-    "tiempo_generacion_ms": 15467.502916998637,
-    "tokens_totales": 89,
-    "citas": []
-  },
-  {
-    "modelo_nombre": "sipangpt",
-    "respuesta_generada": "Estimado(a) docente, reciba un cordial saludo. Es un placer atenderle desde SipánGPT. Con gusto le brindo los lineamientos oficiales para configurar su sección de calificación en el Aula Virtual de la Universidad Señor de Sipán (USS).\n\nSegún el manual del sistema, la sección de calificaciones se compone de tres campos obligatorios e indispensables para la correcta evaluación:\n\n1. **Ponderación:** Indica el porcentaje asignado al trabajo dentro de su nota final del curso.\n2. **Entrega:** Indica la puntuación obtenida por el estudiante en el trabajo (según la escala del 0 al 100 puntos).\n3. **Observaciones:** Campo de texto para realizar comentarios (como advertencias o evaluaciones cualitativas) sobre el trabajo entregado.\n\nAgradezco mucho su gestión académica y quedo a su entera disposición para cualquier otra consulta sobre los módulos institucionales.",
-    "tiempo_total_ms": 10431.803290997777,
-    "tiempo_busqueda_ms": 0.0,
-    "tiempo_generacion_ms": 10431.803290997777,
-    "tokens_totales": 128,
-    "citas": []
-  },
-  {
-    "modelo_nombre": "sipangpt",
-    "respuesta_generada": "Estimado(a) solicitante, reciba un cordial saludo de mi parte. Es un placer asistirle en este proceso académico.\n\nPara obtener su título profesional de manera exitosa, le informo que debe haber revisado su expediente antes de presentarse a su sustentación. A continuación, detallo los requisitos y la documentación requerida de acuerdo con el Reglamento de Grados de la USS:\n\n### I. Requisitos del Proceso\n\n1. **Estado Académico:**\n    * Tener el 100% de las asignaturas aprobadas en su plan de estudios.\n    * Contar con 000% del Promedio General académico con una calificación mínima de 75.\n    * Contar con las declaraciones juradas emitidas por la Universidad y los docentes.\n    * No tener deudas pendientes con la administración ni compromisos institucionales pendientes.\n\n### II. Documentación Solicitada\nDe acuerdo con la normatividad institucional, los documentos a presentar son:\n\n*   Ficha de Registro de Matrícula (SRA) y Grado (emitidos por el área de Registro).\n*   Declaración de examen, tal como lo establece el reglamento de grado de la universidad.\n*   Autorización académica o Declaración de Egreso(s) (en caso de corresponder al primer título o estudios de posgrado).\n\nLe sugiero verificar en el sistema el estado actual de su solicitud y los estados académicos requeridos. Quedo a su disposición para cualquier otra consulta que requiera sobre este proceso.",
-    "tiempo_total_ms": 13345.391916998778,
-    "tiempo_busqueda_ms": 0.0,
-    "tiempo_generacion_ms": 13345.391916998778,
-    "tokens_totales": 211,
-    "citas": []
-  },
-  {
-    "modelo_nombre": "sipangpt",
-    "respuesta_generada": "Estimado(a) docente o docente, muy buenos días. Es un placer saludarle a usted y brindarle la asistencia institucional correspondiente. Entiendo perfectamente su consulta respecto a la correcta gestión de su matrícula en línea.\n\nDe acuerdo con nuestro manual institucional y los procedimientos vigentes en la Universidad Señor de Sipán, el sistema requiere el cumplimiento estricto de los siguientes pasos para acceder al listado final de asignaturas en el curso integrado de medicina clínica:\n\n1. Acceder a la opción **Matrícula en Línea** desde su perfil de usuario.\n2. Revisar la sección de la matriz curricular y localizar el curso correspondiente (por ejemplo, Medicine Clínica I).\n3. Visualizar el listado de unidades curriculares y los módulos correspondientes.\n4. Visualizar las **Asignaturas y Módulos**: verificar que el detalle muestra las materias registradas en curso y los módulos a cursar.\n5. Revisar el detalle del curso: confirmar el detalle de los créditos, la carga pedagógica y la calificación académica.\n6. Ubicar el menú de cursos pendientes y seleccionar **Continuar**.\n7. Seleccionar el Módulo en curso y verificar que visualice los **Trabajos Integrados** y la **evaluación curricular** con los detalles correspondientes.\n\nLe sugerimos revisar detenidamente cada paso en su plataforma para asegurar el correcto registro de los detalles académicos de su ciclo académico. Si persiste alguna dificultad con la visualización de los módulos o la asignación de creditos, por favor indíquenos el detalle exacto de la sección con dificultad para ofrecerle una orientación específica.",
-    "tiempo_total_ms": 13792.724041999463,
-    "tiempo_busqueda_ms": 0.0,
-    "tiempo_generacion_ms": 13792.724041999463,
-    "tokens_totales": 239,
-    "citas": []
-  },
-  {
-    "modelo_nombre": "sipangpt",
-    "respuesta_generada": "Estimado(a) estudiante, es un placer saludarle. Con mucho gusto le brindo la información necesaria para realizar dicha validación en el sistema de la Universidad Señor de Sipán.\n\nPara corroborar que su pago de concepto académico se haya registrado de forma exitosa en el sistema, por favor siga los siguientes pasos detallados:\n\n1. Ingrese a la plataforma de pagos con sus credenciales institucionales de Cuentas de Aporte Graduado (NIP y clave).\n2. En el módulo **\"Pago de concepto académico\"**, ubique la tabla denominada **\"DATOS DEL PAGO\"** y haga clic en la opción **\"VER DETALLES\".**\n3. Revise y valide la información detallada en la siguiente sección:\n\n*   **Nombre de la matrícula**\n*   **Fecha**\n*   **Importe total**\n*   **Monto S/. Pagado**\n*   **RUC del prestador**\n*   **Estado** (verifique si indica **CERRADO** o **PENDIENTE**)\n*   **MONTO QUEDANTE**\n*   **DETALLE DEL PAGO**\n*   **CÓDIGO DE PAGOS**\n*   **COMPROBANTE**\n*   **Estado del pago**\n\nEn caso el pago haya sido cancelado correctamente, usted visualizará en la pantalla la indicación **\"PAGO COMPLETADO\"** de forma visible. Le recomendamos guardar la captura de pantalla (PROCESO) del comprobante de pago para sus trámites administrativos correspondientes.\n\nSi necesita realizar alguna otra consulta adicional, no dude en comunicárnosla.\n¡Que tenga una excelente jornada!",
-    "tiempo_total_ms": 13232.976958999643,
-    "tiempo_busqueda_ms": 0.0,
-    "tiempo_generacion_ms": 13232.976958999643,
-    "tokens_totales": 200,
-    "citas": []
-  },
-  {
-    "modelo_nombre": "sipangpt",
-    "respuesta_generada": "Estimado docente, es un placer atender su consulta. Como Asistente Virtual Oficial de la USS, me complace informarle detalladamente las funcionalidades del **Sistema de Catálogo en Línea** en lo que respecta a la promoción de la investigación y el aprendizaje académico.\n\nEste sistema es una herramienta fundamental diseñada específicamente para apoyar las actividades de lectura, investigación y consulta bibliográfica dentro de nuestra institución, permitiendo a nuestros estudiantes ubicar y utilizar los recursos bibliográficos del Centro de Servicios Bibliotecarios, incluyendo:\n\n1. **Acceso a Bibliografía Institucional:**\n    * Permite acceder a los registros de tesis, tesis de maestría, tesis de doctorado, tesinas de posgrado, actas del Congreso, ponencias de congresos, repositorios temáticos, tesis de tesis de tesinas de maestría y doctorado, y repositorios de repositorios de publicaciones académicas.\n2. **Búsqueda y Selección de Recursos:**\n    * Ofrece funcionalidades avanzadas de búsqueda de manera interactiva, permitiendo filtrar de forma organizada la literatura académica disponible en el Repositorio Institucional.\n3. **Consulta y gestión bibliográfica:**\n    * Permite el uso de herramientas de gestión de citas, gestores bibliográficos y recomendaciones de material en línea (e-books) vinculados a las colecciones bibliográficas de la universidad.\n\nEn resumen, el sistema es una herramienta de consulta esencial que facilita el acceso, gestión y recuperación de fuentes académicas para la investigación y el aprendizaje continuo. Quedo a su completa disposición para cualquier consulta adicional sobre este sistema o cualquier otra herramienta pedagógica en línea.",
-    "tiempo_total_ms": 12365.418334000424,
-    "tiempo_busqueda_ms": 0.0,
-    "tiempo_generacion_ms": 12365.418334000424,
-    "tokens_totales": 231,
-    "citas": []
-  },
-  {
-    "modelo_nombre": "sipangpt",
-    "respuesta_generada": "Estimado docente, es un gusto saludarlo y apoyarle en sus actividades pedagógicas. Como parte de las directrices de nuestra Universidad Señor de Sipán (USS), es fundamental que los estudiantes cumplan con los siguientes requisitos al momento de realizar su matrícula en línea, lo cual garantiza la correcta ejecución del trámite:\n\n1. **Rendimiento académico:** La matrícula se realiza con un **0% de reprobación** en el periodo académico correspondiente.\n2. **Condición de graduación:** Es requisito indispensable contar con un registro positivo en el aula virtual, de acuerdo con el reglamento de evaluación de la USS.\n3. **Prerequisitos de curso:** Se deben haber aprobado las asignaturas previas para acceder a la asignatura de forma correcta.\n4. **Programación de clases:** Se puede matricular solo en un ciclo académico, quedando pendiente el pago o la cursada para los cursos que se vayan a presentar más adelante.\n\nLe sugiero compartir este listado de verificación con sus estudiantes para apoyarlos en la realización de su trámite académico de manera exitosa en nuestra plataforma.",
-    "tiempo_total_ms": 10758.052333003434,
-    "tiempo_busqueda_ms": 0.0,
-    "tiempo_generacion_ms": 10758.052333003434,
-    "tokens_totales": 166,
-    "citas": []
-  },
-  {
-    "modelo_nombre": "sipangpt",
-    "respuesta_generada": "Estimado docente, reciba un cordial saludo y un excelente día. Es un placer atenderle en sus gestiones académicas y administrativas.\n\nDe acuerdo con el Reglamento de Cobranzas de la Universidad Señor de Sipán (USS), el procedimiento establecido para la solicitud de un servicio adicional por parte del egresado y su posterior pago en la plataforma es el siguiente:\n\n1. **Verificación de Deuda (Previa al sistema):** El estudiante deberá acceder al módulo **Servicios para Egresados** en su Campus Virtual y confirmar la disponibilidad y disponibilidad de fondos antes de proceder con la solicitud.\n2. **Solicitud en Línea (Opción recomendada):** Si el servicio está disponible y cuenta con crédito disponible, puede solicitarlo directamente a través del portal.\n3. **Selección del Servicio:** Al ingresar a la opción correspondiente, el sistema muestra el listado de servicios disponibles en la universidad.\n4. **Registro de Detalles:** El estudiante debe seleccionar de manera detallada el servicio requerido (ej. cursos de idiomas, certificaciones, talleres, cursos y seminarios) antes de hacer clic en el botón de registro.\n5. **Contratación de Servicios:** Se recomienda al estudiante prestar especial atención al detalle del servicio adicional solicitado para asegurar la correcta gestión de los pagos posteriores.\n\nEs importante señalar que este procedimiento se rige por el Artículo 24° del Reglamento de Cobranzas de la USS, el cual establece las condiciones necesarias para la ejecución de los compromisos financieros con la institución.\n\nAgradecemos su atención y quedamos a su disposición para cualquier otra consulta sobre nuestros procesos administrativos.",
-    "tiempo_total_ms": 13989.258790999884,
-    "tiempo_busqueda_ms": 0.0,
-    "tiempo_generacion_ms": 13989.258790999884,
-    "tokens_totales": 245,
-    "citas": []
-  },
-  {
-    "modelo_nombre": "sipangpt",
-    "respuesta_generada": "Estimado docente, es un placer saludarle y ayudarle con su consulta académica. Según el Artículo 53.6.4 del Reglamento de Cursos y Carga Académica de la Universidad Señor de Sipán, los estudiantes que deseen repetir una asignatura deben respetar el siguiente procedimiento y límite:\n\n* **Artículo 53.6.4:** En caso de aprobar una asignatura y desear repetirla, el docente deberá emitir una notificación de asignación con un plazo máximo de un semestre para formalizar su pedido por escrito. En tal caso, el estudiante deberá presentar su solicitud por escrito en el plazo de 15 días y aprobar el curso en la siguiente periodo lectivo.\n\nAsimismo, la normativa institucional establece que el estudiante que se ubica en el régimen de Repetición de Asignaturas (lo que corresponde a la tercera vez que se aprueba) cuenta con un límite de asignaciones máximo de **dos créditos (02 créditos)** por asignatura.\n\nQuedo a su completa disposición para cualquier otra consulta académica o administrativa que requiera.",
-    "tiempo_total_ms": 11388.166959000955,
-    "tiempo_busqueda_ms": 0.0,
-    "tiempo_generacion_ms": 11388.166959000955,
-    "tokens_totales": 158,
-    "citas": []
-  },
-  {
-    "modelo_nombre": "sipangpt",
-    "respuesta_generada": "¡Hola! Con gusto te ayudo a ubicar esas opciones en el Aula Virtual. Es muy sencillo acceder a ese menú de gestión:\n\n1. En tu Aula Virtual, entra a la sección **Mis Entregas**.\n2. Ubica el archivo en cuestión (por ejemplo, `tarea1.pdf`) y haz clic en el icono de las tres líneas horizontales o en el desplegable de acciones al lado.\n3. Se desplegará un panel donde encontrarás el botón **Renombrar archivo**.\n4. También podrás acceder a **Descargar** (si necesitas descargarlo o visualizarlo) o **Cambiar configuración de descarga**.\n\nAl hacer clic en **Descargar**, se te presenta la ventana emergente donde podrás configurar la ubicación de guardado y configurar la visualización. ¿Lograste visualizar los botones y la opción de renombrar en tu plataforma?",
-    "tiempo_total_ms": 9454.384749999008,
-    "tiempo_busqueda_ms": 0.0,
-    "tiempo_generacion_ms": 9454.384749999008,
-    "tokens_totales": 122,
-    "citas": []
-  },
-  {
-    "modelo_nombre": "sipangpt",
-    "respuesta_generada": "Hola. Entiendo perfectamente tu frustración, tranquilo/a, vamos a ubicarlo rápidamente para que puedas consultar el material de tu trabajo.\n\nPara acceder a nuestro catálogo de publicaciones y solicitar los recursos, sigue estos pasos en tu Campus Virtual:\n\n1. Ingresa a tu **Campus Virtual** y dirígete a la opción **Librería**.\n2. Selecciona entre las opciones de consulta de bibliografía o publicaciones según lo requieras, como:\n    * [Bases de Datos Académicas (E-books)](https://www.uss.edu.pe/es/campus-virtual-uss/portales-y-servicios/bases-datos)\n    * [Bases de Datos Académicas (E-journals)](https://www.uss.edu.pe/es/campus-virtual-uss/portales-y-servicios/bases-datos)\n    * [Publicaciones Académicas - 2023](https://www.uss.edu.pe/es/campus-virtual-uss/portales-y-servicios/gestion-acad\\...)\n3. En la sección **Buscar por título, autor, ISBN o editorial**, podrás visualizar las publicaciones disponibles (PDF, libros electrónicos y bibliografía académica) para que lleves los recursos directamente a tu correo electrónico.\n4. Haz clic en el botón **Aceptar** para visualizar el listado final.\n\nMucho éxito con tus apuntes y la entrega de tu trabajo. Si necesitas algo más, estoy aquí para ayudarte.",
-    "tiempo_total_ms": 11559.162666999327,
-    "tiempo_busqueda_ms": 0.0,
-    "tiempo_generacion_ms": 11559.162666999327,
-    "tokens_totales": 144,
-    "citas": []
-  },
-  {
-    "modelo_nombre": "sipangpt",
-    "respuesta_generada": "Estimado(a) docente/autoridad, reciba un cordial saludo. Es un placer saludarle y recibir su comunicación. Comprendo perfectamente su urgencia por acceder a los recursos de la universidad.\n\nCon base en el protocolo institucional de autogestión del sistema de autenticación, le comparto los pasos a seguir de manera precisa:\n\n1. Ingrese al portal institucional **CAMPUS VIRTUAL** a través del navegador de su preferencia.\n2. En el formulario de acceso al sistema, ingrese sus credenciales:\n   - Campo **Usuario:** ingrese su código de estudiante asignado.\n   - Campo **Contraseña:** ingrese su contraseña.\n3. Haga clic en el botón **Ingresar**.\n\nEn caso de experimentar inconvenientes con el acceso, recuerde verificar lo siguiente:\n- La correcta visualización de la dirección IP y el protocolo HTTPS en la barra de estado del navegador.\n- Que no tenga activada la opción caché o caché antigua.\n- Si los inconvenientes persisten, puede intentar restablecer su contraseña con el formulario habilitado.\n\nQuedo a su entera disposición para cualquier otra consulta o asistencia requerida.",
-    "tiempo_total_ms": 9715.522667000187,
-    "tiempo_busqueda_ms": 0.0,
-    "tiempo_generacion_ms": 9715.522667000187,
-    "tokens_totales": 162,
-    "citas": []
-  },
-  {
-    "modelo_nombre": "sipangpt",
-    "respuesta_generada": "Estimado(a) docente, muy buenos días. Es un placer saludarle y atender su consulta en relación al artículo 5° del Reglamento de Grados de la USS.\n\nPara que los egresados puedan obtener el título de bachiller, conforme a lo establecido en el artículo de nuestra normatividad, deben cumplir de manera enunciativa y no taxativa con los siguientes requisitos:\n\n1. Haber cumplido con el plan de estudios establecido y las actividades académicas correspondientes.\n2. Haber aprobado las asignaturas de egreso, exámenes y créditos correspondientes según los lineamientos emitidos por las autoridades universitarias.\n3. Haber presentado la tesis o trabajo de investigación de opción de grado, en caso corresponderlo y según las disposiciones del Artículo 71º del Reglamento.\n4. Haber presentado, en su defecto, la solicitud de tesis de Grado o la imposición de la tesis de Promoción de Grado.\n5. Haber obtenido la aprobación de la evaluación de tesis o investigación del respectivo director de línea o directores de línea, así como la comisión de evaluación y graduación.\n\nAsimismo, deben haber cumplido la revisión y pago de las tasas correspondientes en los plazos establecidos por las normativas vigentes.\n\nEspero que esta información le sea de gran utilidad para el asesoramiento de sus estudiantes. Quedo a su entera disposición ante cualquier consulta adicional.",
-    "tiempo_total_ms": 12418.27579099845,
-    "tiempo_busqueda_ms": 0.0,
-    "tiempo_generacion_ms": 12418.27579099845,
-    "tokens_totales": 210,
-    "citas": []
-  },
-  {
-    "modelo_nombre": "sipangpt",
-    "respuesta_generada": "Estimado(a) docente, reciba un cordial saludo. Es un gusto saludarle y asistirle en sus gestiones pedagógicas. En relación a su consulta institucional, de acuerdo con lo establecido en el reglamento interno de egreso de la Universidad Señor de Sipán, se recuerda que la posesión de los conocimientos en las áreas específicas de **Computación y Gestión de Sistemas** y **Inglés** deben acreditarse de acuerdo con los estándares del Currículo del Centro de Educación Superior y el perfil de egreso. Esta certificación debe presentarse obligatoriamente para la entrega del título correspondiente. Quedo a su disposición para cualquier consulta adicional sobre los procedimientos académicos.",
-    "tiempo_total_ms": 7476.731041999301,
-    "tiempo_busqueda_ms": 0.0,
-    "tiempo_generacion_ms": 7476.731041999301,
-    "tokens_totales": 101,
-    "citas": []
-  },
-  {
-    "modelo_nombre": "sipangpt",
-    "respuesta_generada": "¡Hola! Entiendo perfectamente tu preocupación y lamento el apuro. No te preocupes, estoy aquí para ayudarte a revisar la información de tu registro de manera tranquila y correcta. Para poder indicarte paso a paso cómo solucionarlo, ¿podrías confirmarme los siguientes datos:\n\n1. **¿Qué pantalla específica estás visualizando actualmente?** ¿Estás en la pantalla de inicio de sesión, en la selección de ciclo de estudios, o en la tabla final de datos?\n2. **¿Cuál es el mensaje de error o el campo específico que te está causando confusión?** Por ejemplo: ¿ves un error en la pantalla de resultados, o dudas con los campos de tus datos personales o de contacto?\n3. **¿Qué sistema utilizaste para ingresar?** (¿Es el SEi o el SRA?)\n\nPor favor, tómate tu tiempo para responder y revisamos los datos juntos para que logres tu matrícula sin problemas. ¡Vamos que podemos!",
-    "tiempo_total_ms": 11269.68804200078,
-    "tiempo_busqueda_ms": 0.0,
-    "tiempo_generacion_ms": 11269.68804200078,
-    "tokens_totales": 142,
-    "citas": []
-  },
-  {
-    "modelo_nombre": "sipangpt",
-    "respuesta_generada": "Hola, entiendo tu preocupación y te brindo una respuesta calmada y clara basada en las normativas de nuestra universidad. No te preocupes, aquí te explico cómo funciona el sistema de pagos y mora en la Universidad Señor de Sipán:\n\n1. **Mora por Pago Tardío:** Al realizar el pago fuera del plazo establecido, se genera un cobro por concepto de mora diario.\n2. **Corte en Servicios:** En caso de mora grave, según lo establecido en el Reglamento de Cobranza en mora, la institución podrá suspender temporalmente los servicios académicos (como emisión del certificado del alumno) y administrar los intereses moratorios acumulados.\n3. **Pagos Posteriores:** Los pagos realizados posteriores a la mora comprenden el capital original más el interés moratorio devengado y los intereses moratorios que se generen según el reglamento vigente.\n\nTe sugiero revisar el detalle de tus pagos pendientes en el menú de la Plataforma Financiera de la USS para confirmar el detalle exacto del monto y las acciones pendientes. Estamos aquí para ayudarte si requieres más detalles sobre tus trámites.",
-    "tiempo_total_ms": 11712.104624999483,
-    "tiempo_busqueda_ms": 0.0,
-    "tiempo_generacion_ms": 11712.104624999483,
-    "tokens_totales": 171,
-    "citas": []
-  },
-  {
-    "modelo_nombre": "sipangpt",
-    "respuesta_generada": "Hola. Entiendo perfectamente tu frustración, tranquilo/a, no te preocupes, aquí te ayudo paso a paso para ubicar el catálogo de la biblioteca en el Campus Virtual de la USS y encontrar tu material de lectura rápidamente:\n\n1. Ingresa a tu Campus Virtual e ubica la barra de herramientas de navegación lateral (donde se encuentran los logos de las principales instituciones y secciones académicas).\n2. Dirígete a la sección principal de la **Biblioteca Virtual** (o **B.V. - Biblioteca Virtual**).\n3. Dentro de dicha sección, haz clic en el ícono **Catálogo**.\n4. En la interfaz del catálogo, podrás visualizar y gestionar los recursos de la biblioteca de manera detallada.\n\nSi tienes alguna otra duda sobre las plataformas institucionales, estoy a tu disposición. ¡Mucho éxito con tu trabajo!",
-    "tiempo_total_ms": 9820.021666000684,
-    "tiempo_busqueda_ms": 0.0,
-    "tiempo_generacion_ms": 9820.021666000684,
-    "tokens_totales": 125,
-    "citas": []
-  },
-  {
-    "modelo_nombre": "sipangpt",
-    "respuesta_generada": "Estimado(a) estudiante, reciba un cordial saludo. Es un placer orientarle en sus gestiones académicas a través de nuestro sistema en línea. Para que pueda realizar la rectificación de su matrícula según el procedimiento oficial, por favor siga los siguientes pasos:\n\n**1. Ingreso al sistema y verificación inicial:**\n- Acceda a su cuenta del Sistema de Registro Académico, ingrese a su sección correspondiente y diríjase al menú de opciones.\n- Seleccione la opción **\"Cambios académicos y matrícula\"**.\n- Verifique la opción que desea rectificar (en este caso, la primera etapa).\n\n**2. Realización de la rectificación en la primera etapa:**\n- En la primera etapa, puede seleccionar la opción **\"Cambiar sección\"** para el curso correspondiente.\n- Verifique las secciones disponibles y seleccione la opción deseada para la materia correspondiente.\n- Revise los detalles indicados en la tabla.\n- En caso de coincidir lo indicado en la tabla, haga clic en **\"Continuar\"** para actualizar su registro.\n- En caso de no coincidir, despliégese por las opciones y seleccione la correspondiente para visualizar las opciones de otras secciones.\n- Para finalmente aceptar los cambios y obtener la confirmación oficial, debe seleccionar la opción **\"Continuar con la rectificación\"** haciendo clic en el botón de respuesta oficial (que tiene el logo del escudo nacional).\n\n**Consideraciones adicionales importantes:**\n- Este procedimiento tiene la facultad de cambiarse de sección o de programarse la devolución de la matrícula.\n- Toda modificación queda sujeta a su consentimiento expreso.\n- Recuerde que solo podrá realizar cambios válidos y registrados dentro de las fechas establecidas en el cronograma.\n\nQuedamos a su entera disposición para cualquier otra consulta académica que requiera.",
-    "tiempo_total_ms": 14762.440791997506,
-    "tiempo_busqueda_ms": 0.0,
-    "tiempo_generacion_ms": 14762.440791997506,
-    "tokens_totales": 268,
-    "citas": []
-  },
-  {
-    "modelo_nombre": "sipangpt",
-    "respuesta_generada": "¡Hola! Con mucho gusto te ayudaré a revisar esa parte de la evaluación en nuestra plataforma. Para asegurarte de que el proceso se realiza sin errores según el reglamento de nuestra universidad, recuerda seguir estos pasos en el Aula Virtual:\n\n1. Entra al Módulo de Calificación correspondiente.\n2. Revisa los criterios de tu rúbrica (Criterios de Aprendizaje) con sus respectivos puntajes de evaluación (de 0 a 100).\n3. Revisa el puntaje asignado a cada criterio de la rúbrica (Nivel de Logro).\n4. Ubica el Campo de Puntuación en la tabla de evaluación.\n5. Ingresa los valores para cada criterio en los campos correspondientes de la tabla de escala.\n6. Presiona el botón **Guardar** para almacenar los resultados de la evaluación del producto académico.\n\nCualquier duda adicional sobre los criterios o el ingreso de puntajes, estoy aquí para guiarte. ¡Mucho éxito con la entrega de tus evaluaciones!",
-    "tiempo_total_ms": 10899.532959003409,
-    "tiempo_busqueda_ms": 0.0,
-    "tiempo_generacion_ms": 10899.532959003409,
+    "tiempo_generacion_ms": 11132.845750000342,
     "tokens_totales": 146,
     "citas": []
   },
   {
     "modelo_nombre": "sipangpt",
-    "respuesta_generada": "Estimado(a) estudiante, reciba un cordial saludo institucional. Con mucho gusto le brindo la información solicitada en atención a su consulta institucional.\n\nSegún lo establecido en la normativa vigente de pago de pensiones académicas de la Universidad Señor de Sipán (USS), para el Ciclo Académico 2024-II, usted tiene permitido el pago en hasta **tres (3) cuotas bimestrales** en la modalidad presencial. De acuerdo con los artículos reglamentarios, el pago se fracciona de la siguiente manera:\n\n1. Primer cuota: Antes del 15 de mayo.\n2. Segunda cuota: Antes del 15 de agosto.\n3. Tercera y última cuota: Antes del 15 de diciembre.\n\nLe recomendamos realizar sus trámites dentro de los plazos establecidos para evitar inconvenientes con su registro académico.\n\nQuedo a su entera disposición para cualquier consulta adicional.",
-    "tiempo_total_ms": 9485.159500000009,
+    "respuesta_generada": "Estimado(a) estudiante, entiendo perfectamente tu preocupación y quiero asegurarte que estoy aquí para guiarte con los datos oficiales de la Universidad Señor de Sipán.\n\nSegún el reglamento institucional (Artículo 8º), el derecho al pago del derecho de matrícula se establece de la siguiente manera:\n\n* **Cuota fija:** S/. 36.50 por cada derecho.\n* **Segundo derecho:** S/. 36.50\n* **Tercer derecho:** S/. 36.50\n* **Cuarto derecho:** S/. 36.50\n\n**Nota importante:** Recuerda que este monto aplica por cada derecho académico que adquieras, y debe verificarlo en el sistema para tu matrícula en el periodo escolar correspondiente. Te sugiero revisar tu perfil actual en el Sistema de Registros Académicos para ver el estado de tus derechos.",
+    "tiempo_total_ms": 11669.437667000238,
     "tiempo_busqueda_ms": 0.0,
-    "tiempo_generacion_ms": 9485.159500000009,
+    "tiempo_generacion_ms": 11669.437667000238,
+    "tokens_totales": 113,
+    "citas": []
+  },
+  {
+    "modelo_nombre": "sipangpt",
+    "respuesta_generada": "Estimado(a) estudiante, reciba un cordial saludo. Es un placer asistirle en su proceso académico. Con gusto le detallo el procedimiento oficial para la creación de su Ficha de Matrícula en línea a través de la plataforma del Campus Virtual de la Universidad Señor de Sipán (USS).\n\nLe sugiero seguir los siguientes pasos para realizar su matrícula de manera correcta:\n\n1. **Acceder al módulo de Matrícula:**\n   * Ingrese a la sección de **Administración** en el Campus Virtual USS.\n   * Haga clic en el botón **Matrícula** para acceder al panel de selección de cursos.\n\n2. **Seleccionar el periodo académico:**\n   * Ubíquese en el cronograma y seleccione el periodo académico correspondiente al cual desea inscribirse (por ejemplo, el semestre 10 o 11).\n\n3. **Seleccionar asignaturas:**\n   * En la lista de asignaturas, utilice las casillas correspondientes para seleccionar todas las materias que desea incluir en su programa académico regular de programación (por ejemplo, Tópicos en Programación, Álgebra, Estructuras de Datos, Algoritmos, etc.).\n\n4. **Revisar y detallar la información (Datos Generales):**\n   * Una vez seleccionadas las asignaturas, revise y confírmelas en la ficha. Verifique que la **cantidad de créditos** (CRs) sea correcta y revise el **costo total** de la matrícula según la matriz curricular oficial.\n\n5. **Verificación de prerrequisitos y advertencias:**\n   * Verifique que la plataforma haya validado automáticamente que no se encuentran asignaciones en conflicto. Si visualiza algún mensaje de **AVISO DE MATRÍCULA**, haga clic en \"CANCELAR\" para retomar la revisión de su registro de clases.\n\n6. **Pre-Pago (Obligatorio):**\n   * En la sección de confirmación y medios de pago, seleccione el banco de su preferencia y confirme el monto correspondiente. Este paso es obligatorio para habilitar la permanencia en su registro.\n\nLe sugiero revisar los requisitos y fechas de vencimiento antes de ingresar al sistema. Si tuviera alguna dificultad adicional, no dude en comunicármelo.",
+    "tiempo_total_ms": 15939.823207998415,
+    "tiempo_busqueda_ms": 0.0,
+    "tiempo_generacion_ms": 15939.823207998415,
+    "tokens_totales": 300,
+    "citas": []
+  },
+  {
+    "modelo_nombre": "sipangpt",
+    "respuesta_generada": "Estimado(a) docente, reciba un cordial saludo. Qué gusto saludarle y apoyarle en sus labores académicas a través del Aula Virtual. Para configurar adecuadamente el sistema de calificación en el aula virtual según nuestros manuales institucionales, le presento los parámetros clave que debe establecer en la sección de calificaciones de su tarea:\n\n1. **Método de Calificación:**\n   - Elija el método correspondiente (por ejemplo, Promedio, Porcentaje, Porcentaje ponderado o Ponderado).\n   - Si utiliza el método **Porcentaje**, seleccione la opción de ponderación múltiple o la de peso según corresponda.\n\n2. **Criterios de Asignación:**\n   - Haga clic en el botón **Añadir 1**.\n   - Ingrese el criterio correspondiente (por ejemplo, Participación, Participación Académica, Participación en actividades de investigación, etc.) y complete los campos de calificación que le corresponden.\n\n3. **Nota Final:**\n   - Visualice la fórmula automatizada de cálculo y la tabla de porcentajes asociada a la matriz de ponderación.\n\nTenga en cuenta que el peso de cada criterio y el peso total de cada dimensión (porcentaje) deben corresponder estrictamente a los lineamientos pedagógicos definidos al inicio del curso.\n\nSi tiene alguna otra consulta sobre el uso del Aula Virtual, estoy a su entera disposición. ¡Mucho éxito en sus clases!",
+    "tiempo_total_ms": 11980.14695799975,
+    "tiempo_busqueda_ms": 0.0,
+    "tiempo_generacion_ms": 11980.14695799975,
+    "tokens_totales": 194,
+    "citas": []
+  },
+  {
+    "modelo_nombre": "sipangpt",
+    "respuesta_generada": "Estimado(a) estudiante, reciba un cordial saludo. Es un gusto saludarle y asistirle en su gestión académica. En atención a su consulta, de acuerdo con lo establecido en el Reglamento del Plan de Estudios, la Dirección de Registros Académicos (DRAC) establece el siguiente detalle para la solicitud de obtener su Título Profesional:\n\n1. **Requisitos Documentales:**\n   - Ficha de registro de graduado (física o digital).\n   - Lista de asistencia y actas de examen aprobados.\n   - Certificado de aptitud, certificado de aptitud física y certificado médico médico.\n   - Constancia de acreditación de título profesional (en caso de haberlo registrado).\n\n2. **Procesos y Costos:**\n   - La solicitud debe realizarse a través del sistema online y requiere el pago de la tasa correspondiente y la emisión de un nuevo certificado de registro de títulos, lo cual tiene un costo de S/. 350.00.\n\n- Recuerde que toda la documentación de acompañamiento de solicitud debe estar en formato PDF y validada con un archivo PDF en su formato original.\n\nAgradecemos su constante compromiso y responsabilidad académica con la Universidad Señor de Sipán. Quedamos a su entera disposición para cualquier consulta adicional.\n\nAtentamente,\n\nSipánGPT\nAsistente Virtual Oficial\nUniversidad Señor de Sipán (USS)",
+    "tiempo_total_ms": 13582.146124999781,
+    "tiempo_busqueda_ms": 0.0,
+    "tiempo_generacion_ms": 13582.146124999781,
+    "tokens_totales": 194,
+    "citas": []
+  },
+  {
+    "modelo_nombre": "sipangpt",
+    "respuesta_generada": "Estimado(a) estudiante, reciba un cordial saludo de bienvenida de parte de SipánGPT. Es un placer atender su consulta institucional.\n\nPara visualizar las asignaturas de pregrado de manera correcta en el Aula Virtual y cumplir con los requisitos del curso integrado de Medicina Clínica, le informamos el procedimiento estipulado en nuestro Reglamento de Matrícula y Régimen Académico para asegurar la secuencia lógica de los cursos.\n\nEl protocolo para el ciclo de Medicina Clínica es el siguiente:\n1. Seleccionar el curso **Medicina Clínica I**.\n2. Seleccionar el curso **Medicina Clínica II**.\n3. Seleccionar el curso **Clínica I**.\n4. Seleccionar el curso **Clínica II**.\n\nSi ya se encuentra ubicado en la sección de alumnos del curso *Medicina Clínica I*, solo debe hacer clic en los enlaces de las distintas asignaturas del ciclo integrado en su respectivo orden para garantizar el cumplimiento de los requisitos académicos vigentes y desbloquear las siguientes etapas del sistema.\n\nQuedamos a su entera disposición para cualquier otra consulta sobre nuestras plataformas digitales.",
+    "tiempo_total_ms": 12220.710415998838,
+    "tiempo_busqueda_ms": 0.0,
+    "tiempo_generacion_ms": 12220.710415998838,
+    "tokens_totales": 163,
+    "citas": []
+  },
+  {
+    "modelo_nombre": "sipangpt",
+    "respuesta_generada": "Estimado estudiante, reciba un cordial saludo. Es un gusto saludarle y atenderle en su consulta. Como Asistente Virtual Oficial de la Universidad Señor de Sipán (USS), me complace guiarle en el procedimiento oficial para verificar el registro de sus pagos en el sistema institucional.\n\nPara corroborar el estado de pago de un concepto académico mediante el portal del alumno, por favor siga los siguientes pasos:\n\n1. **Ingresar al sistema:** Acceda al portal de autogestión de pagos (e-Pays) con sus credenciales institucionales.\n2. **Ubicar el estado:** Diríjase a la sección de pagos pendientes o realizados y revise el cuadro de información detallado.\n3. **Validar los campos:** En el apartado correspondiente al Concepto Académico (asignatura, monto, tipo de pago), verifique que se encuentren registrados los siguientes datos obligatorios:\n    * Código del alumno.\n    * Fecha límite.\n    * Concepto de pago.\n    * Tipo de pago: `CUP`, `Bancos` o `POS` (marcado con un check).\n    * Código de barras: Debe estar generado con formato `00000000000000000000000000000`.\n    * Importe a pagar: Debe coincidir con el importe adeudado.\n    * Fechas de vencimiento: Se verifican la fecha de vencimiento del pago y la fecha de vencimiento del crédito según el sistema.\n4. **Verificación de estado:** Finalmente, revise la columna **Estado** para confirmar que conste la denominación oficial `COMPLETADO`.\n\nEn caso encontrarse alguna inconsistencia o persistir la falla, le sugerimos utilizar las facilidades de pago con sus bancos asignados o contactar directamente a la oficina de su Facultad a través de su correo electrónico.\n\nQuedamos a su completa disposición para cualquier consulta adicional que requiera. ¡Mucho éxito en sus actividades académicas!",
+    "tiempo_total_ms": 16080.627250001271,
+    "tiempo_busqueda_ms": 0.0,
+    "tiempo_generacion_ms": 16080.627250001271,
+    "tokens_totales": 260,
+    "citas": []
+  },
+  {
+    "modelo_nombre": "sipangpt",
+    "respuesta_generada": "Estimado docente, un cordial saludo de parte de SipánGPT. Es un placer apoyarle en la descripción de las herramientas académicas disponibles en nuestra universidad.\n\nEl **Sistema de Catálogo en Línea de la USS** se encuentra diseñado para ser una herramienta fundamental de acceso y consulta para toda la comunidad académica de nuestra universidad, facilitando el acceso a las colecciones digitales y físicas que conforman el acervo bibliográfico de las facultades.\n\nA través de este catálogo, usted puede orientar a sus estudiantes en el uso de los siguientes recursos clave para su trabajo de investigación y académico:\n\n1. **Acceso Directo a la Literatura Científica y Bibliografía:** Permite explorar colecciones de libros, ensayos, manuales, material didáctico y artículos de diversas editoriales, clasificados por áreas de estudio.\n2. **Acceso a Base de Datos Científicas:** Ofrece acceso directo a bases de datos académicas internacionales de prestigio como E-Litt (E-Library, EBSCO), DOAB y EBSCO (Scopus y Business Source Premier), así como a bases de datos de revistas especializadas como DOAJ.\n3. **Bases de Datos Regionales y Nacionales:** Facilita el acceso a bases de datos de acceso abierto y bases de información especializadas como Redalyc, ERIC, ScienceDirect, Redalyc, Scopus, Web of Science, EBSCO, EBSCO Discovery Service, ProQuest, Business Source Premier, Scopus, JSTOR, EBSCO, E-Learning, ProQuest, EBSCO y EBSCO Business Source Premier.\n4. **Búsqueda Avanzada:** El sistema incorpora filtros avanzados para optimizar las búsquedas y facilitar la localización de material bajo parámetros de ISBN, editorial, editor y autores.\n\nEsta plataforma es una herramienta esencial para la formación de la investigación y la producción académica de nuestros estudiantes, y recomendamos encarecidamente su uso como parte integral de la gestión de aprendizaje en sus cursos. Quedamos a su completa disposición para cualquier consulta adicional.",
+    "tiempo_total_ms": 16937.44083400088,
+    "tiempo_busqueda_ms": 0.0,
+    "tiempo_generacion_ms": 16937.44083400088,
+    "tokens_totales": 285,
+    "citas": []
+  },
+  {
+    "modelo_nombre": "sipangpt",
+    "respuesta_generada": "¡Hola, estimado docente! Un gusto saludarlo. Con mucho gusto le comparto la información oficial para que pueda orientar adecuadamente a sus estudiantes y evitar cualquier inconveniente con el sistema.\n\nPara que el proceso de matrícula en línea (en el Campus Virtual) sea exitoso y no se presenten bloqueos, el sistema verifica que el estudiante haya cumplido los siguientes requisitos obligatorios:\n\n1. **Requisitos Académicos:**\n   - Haber aprobado el ciclo lectivo correspondiente.\n   - Contar con el DNI y estar registrado con la modalidad de transporte.\n   - Tener el requisito de créditos académicos aprobado y la Resolución de Derechos de Matrícula en Físico o a distancia emitida por la universidad.\n\n2. **Requisitos Financieros y Administrativos:**\n   - Acreditar el pago de la contribución económica correspondiente.\n   - Presentar la Resolución de Derechos de Matrícula y la Constancia de Domicilio.\n\nEstos son los requisitos mínimos necesarios para iniciar su proceso de matrícula en línea de manera fluida. ¡Mucho éxito en sus clases!",
+    "tiempo_total_ms": 11388.876375000109,
+    "tiempo_busqueda_ms": 0.0,
+    "tiempo_generacion_ms": 11388.876375000109,
+    "tokens_totales": 156,
+    "citas": []
+  },
+  {
+    "modelo_nombre": "sipangpt",
+    "respuesta_generada": "Estimado(a) docente, reciba un cordial saludo institucional. Con mucho gusto le brindo la información oficial basada en el Reglamento de Cobranzas de la Universidad Señor de Sipán (USS) para que pueda orientar adecuadamente a su egresado respecto a este procedimiento.\n\nSegún el **Artículo 64°, inciso 1°** del reglamento, los egresados pueden solicitar una programación de servicios adicionales, lo que deben tener en cuenta lo siguiente:\n\n1. **Plazos:** La solicitud debe realizarse dentro de los **quince (15)** días calendario posteriores al inicio de la jornada de matrícula.\n2. **Condiciones:** La programación de estos servicios deberá realizarse dentro del período de **diez (10)** días calendario restantes al finalizar el **vigésimo (20º)** día posterior al inicio de la jornada de matrícula.\n\nEl Artículo 65° detalla los motivos por los cuales los egresados pueden solicitar la devolución del Impuesto Integrado de Promoción Académica (IIPA). Le sugiero remitirle las disposiciones reglamentarias en el reglamento de cobranzas actualizado para que su consulta sea precisa.",
+    "tiempo_total_ms": 11429.649415998938,
+    "tiempo_busqueda_ms": 0.0,
+    "tiempo_generacion_ms": 11429.649415998938,
+    "tokens_totales": 158,
+    "citas": []
+  },
+  {
+    "modelo_nombre": "sipangpt",
+    "respuesta_generada": "Estimado docente tutor, reciba un cordial saludo de parte de SipánGPT. Es un gusto saludarle y apoyarle en sus labores académicas.\n\nEn relación con su consulta sobre las restricciones de matrícula para aquellos estudiantes que cuenten con asignaturas aprobadas por tercera vez, el Reglamento de Matrícula de la Universidad Señor de Sipán (USS) establece las siguientes normativas:\n\n1. **Restricción de Créditos:** Los estudiantes registrados en la tercera ocasión al formular solicitudes de matrícula no deberán exceder un máximo de **10 créditos** por periodo académico.\n2. **Asignaturas Optativas:** En los cursos optativos, el máximo de asignaturas permitidas es de **4** asignaturas, o en un total de **10 créditos**.\n3. **Impedimentos:** Los alumnos que hayan alcanzado la restricción deberán registrar su solicitud de cambio de sección a la coordinación de la Escuela Profesional de su elección.\n\nEstos parámetros tienen como objetivo asegurar la calidad educativa y el seguimiento adecuado del proceso académico del estudiante. Quedamos a su entera disposición para cualquier otra consulta académica.",
+    "tiempo_total_ms": 10647.06116599882,
+    "tiempo_busqueda_ms": 0.0,
+    "tiempo_generacion_ms": 10647.06116599882,
+    "tokens_totales": 162,
+    "citas": []
+  },
+  {
+    "modelo_nombre": "sipangpt",
+    "respuesta_generada": "Hola. No te preocupes, estoy aquí para guiarte paso a paso en el Aula Virtual. Es muy sencillo cambiarle el nombre y configurar los permisos. Sigue estas indicaciones exactas:\n\n1. Inicia sesión en el aula virtual (Aula Virtual) y navega a la sección de archivos de la asignatura.\n2. Localiza el recurso en el listado (por ejemplo, en la carpeta de tareas).\n3. Haz clic en el botón rojo **\"Opciones\"** ubicado en la barra superior.\n4. Aparecerá un cuadro con las opciones de gestión del archivo (como eliminar, cambiar el nombre o borrar). En esta ventana, podrás ver el nombre actual y cambiar el nombre al que desees.\n5. Finalmente, desplázate hacia abajo para revisar las opciones de descarga, donde podrás gestionar los accesos y permisos.\n\nSi tienes alguna otra duda durante el proceso, avísame de inmediato.",
+    "tiempo_total_ms": 9739.88033400019,
+    "tiempo_busqueda_ms": 0.0,
+    "tiempo_generacion_ms": 9739.88033400019,
+    "tokens_totales": 137,
+    "citas": []
+  },
+  {
+    "modelo_nombre": "sipangpt",
+    "respuesta_generada": "Hola. Entiendo perfectamente tu urgencia y lamento las molestias que te causa esta búsqueda. ¡No te preocupes, estoy aquí para ayudarte!\n\nPara acceder a los recursos de la biblioteca digital desde tu plataforma Campus Virtual, simplemente sigue estos sencillos pasos:\n\n1. Ingrese a tu cuenta en **Campus Virtual**.\n2. Ubica la sección de **Cursos y Programación**.\n3. Haz clic en el icono de **RESOURCES** o **Recursos de la biblioteca digital** ubicado en la barra lateral del curso.\n\nEn esta área podrás acceder directamente a los catálogos y servicios digitales. ¡Mucho éxito con tu trabajo! Si necesitas ayuda con otra plataforma, avísame.",
+    "tiempo_total_ms": 8740.981457998714,
+    "tiempo_busqueda_ms": 0.0,
+    "tiempo_generacion_ms": 8740.981457998714,
+    "tokens_totales": 101,
+    "citas": []
+  },
+  {
+    "modelo_nombre": "sipangpt",
+    "respuesta_generada": "Estimado estudiante, reciba un cordial saludo de bienvenida de parte del equipo de Soporte Técnico de la Universidad Señor de Sipán (USS). Lamento las molestias ocasionadas con el acceso a nuestra plataforma.\n\nCon base en los lineamientos institucionales, el proceso de autenticación en el Campus Virtual USS se realiza siguiendo los siguientes pasos:\n\n1. Ingrese a la página de acceso a la Universidad Señor de Sipán y ubique la opción de ingreso al sistema.\n2. En el formulario de inicio de sesión ubicado en la sección de **Autenticación por SSO**, haga clic en el botón **Ingresar al sistema** para abrir el portal de autenticación institucional gestionado por la universidad.\n3. Complete los campos indicados en la pantalla de autenticación (usuario y contraseña) y haz clic en el botón **Iniciar Sesión** ubicado al centro de la pantalla.\n4. Si es la primera vez que realiza este acceso (o si el sistema requiere validación adicional), deberá validar las condiciones de uso aceptable para continuar.\n\nSi tuviera alguna otra duda o dificultad con sus credenciales, no dude en comunicárnosla para brindarle el apoyo necesario.",
+    "tiempo_total_ms": 10557.666916000016,
+    "tiempo_busqueda_ms": 0.0,
+    "tiempo_generacion_ms": 10557.666916000016,
+    "tokens_totales": 181,
+    "citas": []
+  },
+  {
+    "modelo_nombre": "sipangpt",
+    "respuesta_generada": "Estimado(a) docente, reciba un cordial saludo. Es un placer asistirle en su labor académica y en el acompañamiento a nuestros egresados. Con mucho gusto le comparto los requisitos establecidos en el Artículo 5° de nuestro reglamento de grado para obtener el grado de Bachiller:\n\nPara que un estudiante pueda solicitar y obtener el grado de Bachiller de manera legal y formal, debe cumplir estrictamente con los siguientes requisitos:\n\n1. haber cumplido con todas sus obligaciones económicas y académicas pendientes por concepto de pensiones, obligaciones, multas, multas, impuestos, recargos, intereses, pensiones, multas, pagos y garantías de restitución;\n2. presentar la matrícula en curso, junto con el registro de calificaciones conforme a las reglas establecidas en el reglamento de grado;\n3. presentarse al expediente con los documentos debidamente consignados y autorizados, previo el pago correspondiente.\n\nAsimismo, le recuerdo que el Artículo 5° establece que se deben pagar únicamente las pensiones y multas por mora, y que estas se determinarán según el monto por concepto de morosidad acumulada al momento de la solicitud del grado.\n\nEspero que esta información sea de utilidad para su labor docente. Quedo a su entera disposición para cualquier otra consulta institucional.",
+    "tiempo_total_ms": 11132.030708000457,
+    "tiempo_busqueda_ms": 0.0,
+    "tiempo_generacion_ms": 11132.030708000457,
+    "tokens_totales": 193,
+    "citas": []
+  },
+  {
+    "modelo_nombre": "sipangpt",
+    "respuesta_generada": "Estimado docente, reciba un cordial saludo de bienvenida. Es un placer asistirle desde SipánGPT.\n\nEn relación con su consulta y atendiendo al Artículo 42° del Reglamento de Grados de la Universidad Señor de Sipán, específicamente en su literal c), la normativa establece lo siguiente:\n\n- **Computación:** El egresado deberá contar con certificación vigente emitida por una institución educativa reconocido por el Ministerio de Educación.\n- **Inglés:** El egresado deberá contar con certificación vigente en idiomas en inglés.\n\nEsta certificación es un requisito obligatorio y de cumplimiento obligatorio en las diferentes áreas de nuestra facultad. Quedo a su completa disposición para cualquier consulta adicional que requiera.",
+    "tiempo_total_ms": 7855.120458001693,
+    "tiempo_busqueda_ms": 0.0,
+    "tiempo_generacion_ms": 7855.120458001693,
+    "tokens_totales": 105,
+    "citas": []
+  },
+  {
+    "modelo_nombre": "sipangpt",
+    "respuesta_generada": "Estimado/a estudiante, entiendo perfectamente tu preocupación y lamento las molestias que este inconveniente te está generando. No te preocupes, estoy aquí para ayudarte de manera oportuna y clara para que logres completar este trámite satisfactoriamente según lo establece nuestro manual institucional.\n\nPara guiarte correctamente en el sistema de matrícula y solucionar rápidamente tus dudas, ¿podrías indicarme exactamente en qué sección o módulo específico te encuentras con la información o el mensaje que te está generando confusión?\n\nPor ejemplo, ¿te refieres a los pasos sobre:\n1. Ingreso de la ficha de estudio (Formato `A_CURSO`)?\n2. Asignación del aula y el profesor?\n3. Datos de pago o cuotas del ciclo actual?\n4. Visualización de la cotización o el detalle de asignaturas?\n\nCuéntame el detalle y revisaremos juntos el detalle oficial de tu interfaz según el protocolo de la USS.",
+    "tiempo_total_ms": 9733.813249999002,
+    "tiempo_busqueda_ms": 0.0,
+    "tiempo_generacion_ms": 9733.813249999002,
+    "tokens_totales": 137,
+    "citas": []
+  },
+  {
+    "modelo_nombre": "sipangpt",
+    "respuesta_generada": "Estimado(a) estudiante, reciba un cordial saludo. Entiendo perfectamente su preocupación y estoy aquí para guiarle en este proceso.\n\nSegún el Reglamento de Pensiones de la USS, el Artículo 52 establece que a los pagos que se realicen fuera del plazo establecido se deben aplicar la siguiente penalidad económica por mora:\n1. Intereses: Una tasa de interés del 1% mensual.\n2. Multa por mora: Un monto adicional de S/. 16.00 por cada día de retraso.\n\nLe sugiero revisar el estado detallado de su deuda en la plataforma para visualizar exactamente los cargos generados. Si requiere asistencia adicional con sus trámites o la consulta de su estado financiero, no dude en indicármelo.",
+    "tiempo_total_ms": 8830.530749999525,
+    "tiempo_busqueda_ms": 0.0,
+    "tiempo_generacion_ms": 8830.530749999525,
+    "tokens_totales": 110,
+    "citas": []
+  },
+  {
+    "modelo_nombre": "sipangpt",
+    "respuesta_generada": "Estimado(a) estudiante, reciba un cordial saludo. Entiendo perfectamente su urgencia y lamento mucho los inconvenientes que esto le está causando. No se preocupe, estoy aquí para guiarle paso a paso para que pueda acceder rápidamente al catálogo de la Biblioteca Virtual y ubicar su material académico.\n\nPara ingresar de manera correcta al sistema, siga los siguientes pasos dentro del Campus Virtual (aula virtual):\n\n1. Diríjase a la sección de **CAMPUS VIRTUAL**.\n2. En el menú lateral izquierdo, seleccione la sección **ÁREA BÁSICA**.\n3. Haga clic en la pestaña **Biblioteca**.\n4. En la pantalla principal, puede utilizar el campo de búsqueda con las opciones de **buscar y filtrar recursos bibliográficos** según categoría, asignatura o profesor, o desplegar el listado de novedades.\n\nEsta sección le facilitará acceder directamente a la búsqueda bibliográfica, la base de datos Scielo, bases de datos de editoriales y herramientas de búsqueda en línea. Recuerde que el acceso requiere autenticación mediante su clave institucional y contraseña.\n\nEspero que esta guía le sea de gran ayuda para continuar con sus estudios. Quedo a su completa disposición ante cualquier otra consulta técnica o académica que necesite.",
+    "tiempo_total_ms": 10584.352207999473,
+    "tiempo_busqueda_ms": 0.0,
+    "tiempo_generacion_ms": 10584.352207999473,
+    "tokens_totales": 186,
+    "citas": []
+  },
+  {
+    "modelo_nombre": "sipangpt",
+    "respuesta_generada": "¡Estimado docente o estudiante, muy buenos días! Es un placer saludarle y orientarle a través del Sistema de Gestión Académica en línea de la Universidad Señor de Sipán (USS). Para gestionar correctamente su proceso de rectificación de matrícula, le comparto los pasos institucionales y las consideraciones clave a tener en cuenta:\n\n**Pasos para la Rectificación en Línea (Primera Etapa)**\n\n1. Acceda al portal institucional de la USS mediante su usuario y contraseña.\n2. Ingrese a la opción `SECCIÓN I` y haga clic en `Rectificar`.\n3. Lea detenidamente los detalles proporcionados en el formulario y verifique que el cargo económico y académico refleje correctamente la matrícula y el pago de la primera etapa.\n4. Haga clic en `ACEPTAR` y, finalmente, haga clic en `GUARDAR`.\n5. Revise nuevamente el resumen de pagos y datos para confirmar que todo esté correcto antes de validar con el botón azul: `REGISTRARSE`.\n\n***\n\n**Consideraciones sobre la Modificación de Sección:**\n\n* La rectificación de matrícula en la primera etapa no incluye el costo del reinicio de la matrícula. Si este fuera necesario, debe seleccionar la opción de `cambio de sección` en la sección `cambio académico`.\n* Recuerde que los cambios de sección solo aplican a las asignaturas del tipo Prácticas, de Laboratorio o de Campo, de forma gratuita, y su pago y costos corresponden exclusivamente a los cursos académicos de otras áreas o semestres cuando se trate de este tipo de gestiones.\n\nEs importante verificar también el estado de sus cursos matriculados en el panel antes de confirmar el cambio final. Si encuentra alguna dificultad adicional en su interfaz o en los datos cargados, por favor indíquelo para atenderle de forma inmediata.",
+    "tiempo_total_ms": 15436.346415999651,
+    "tiempo_busqueda_ms": 0.0,
+    "tiempo_generacion_ms": 15436.346415999651,
+    "tokens_totales": 275,
+    "citas": []
+  },
+  {
+    "modelo_nombre": "sipangpt",
+    "respuesta_generada": "Estimado(a) docente, es un placer apoyarle en su labor docente en la Universidad Señor de Sipán. Con gusto le comparto los lineamientos para revisar y evaluar correctamente la rúbrica del Producto Académico 1 de sus estudiantes:\n\nPara garantizar la transparencia y exactitud del proceso evaluativo, tenga en cuenta lo siguiente al revisar la rúbrica:\n\n1. **Verificación general:**\n   * Verifique que la tabla presente únicamente los criterios definidos.\n   * Confirme que la primera columna (Criterios) está correctamente identificada y lista para la retroalimentación.\n   * Revise la columna de puntaje por criterio para verificar que los puntajes base estén establecidos de acuerdo con las evidencias requeridas en el sílabo y el manual de evaluaciones.\n\n2. **Detalles de los criterios y pautación:**\n   * En el marco de la rúbrica, se detallan los tres niveles de evaluación posibles:\n     - **Nivel 4 (Logro):** Indica un excelente desempeño o un dominio sobresaliente de los contenidos.\n     - **Nivel 3 (Satisfactorio):** Designa un buen nivel de cumplimiento con evidencia de comprensión y análisis.\n     - **Nivel 2 (Insuficiente):** Muestra dificultades significativas en el logro de los contenidos solicitados.\n\n3. **Criterios específicos del producto 1:**\n   * **Recomendaciones:** Al evaluar en este producto, tenga en cuenta los siguientes aspectos clave:\n     * **Identificación y definición de problemáticas.**\n     * **Análisis de fuentes.**\n     * **Desarrollo conceptual y conceptualización de términos técnicos.**\n     * **Presentación y claridad en el trabajo.**\n     * **Uso del lenguaje académico y normatividad institucional.**\n\n4. **Calificación y Puntuación:**\n   * El puntaje asignado al estudiante se calcula según el número de niveles cumplidos y la ponderación asignada (puntos) a cada criterio.\n   * Al realizar la calificación, por favor verifique que las calificaciones (ej. el puntaje de 2.40) reflejen con precisión los criterios de la rúbrica y sus respectivos pesos.\n\nQuedo a su completa disposición en caso requiera asistencia adicional en el sistema. ¡Mucho éxito con sus evaluaciones!",
+    "tiempo_total_ms": 16759.14820900107,
+    "tiempo_busqueda_ms": 0.0,
+    "tiempo_generacion_ms": 16759.14820900107,
+    "tokens_totales": 304,
+    "citas": []
+  },
+  {
+    "modelo_nombre": "sipangpt",
+    "respuesta_generada": "Estimado estudiante, reciba un cordial saludo. Con gusto le brindo la información solicitada.\n\nDe acuerdo con el reglamento académico y normativas vigentes de la Universidad Señor de Sipán, la modalidad de pago de pensiones académicas en programas de pregrado (así como postgrado) en modalidad presencial permite programar un número máximo de **6 cuotas** durante el presente ciclo lectivo.\n\nPara su mayor comodidad, le recordamos que el sistema de pagos está disponible en línea a través de su registro en el aula virtual. Quedamos a su completa disposición para cualquier otra consulta institucional.",
+    "tiempo_total_ms": 8929.880375000721,
+    "tiempo_busqueda_ms": 0.0,
+    "tiempo_generacion_ms": 8929.880375000721,
+    "tokens_totales": 92,
+    "citas": []
+  },
+  {
+    "modelo_nombre": "sipangpt",
+    "respuesta_generada": "Estimado estudiante, reciba un cordial saludo de bienvenida. Qué gusto saludarlo.\n\nCon relación a su consulta sobre las pensiones por ciclo para la Escuela Profesional de Arquitectura en la Universidad Señor de Sipán, le detallo la información oficial según el Reglamento de Pensiones:\n\n**Pensiones por Ciclo - Escuela Profesional de Arquitectura**\n\n| Concepto | Monto (Soles) | Observaciones |\n| :--- | :--- | :--- |\n| Pago al contado (Descuento) | S/. 1,560.00 | Aplica un descuento por el pago al contado. |\n| 6 Cuotas mensuales consecutivas | S/. 1,560.00 | 6 pagos mensuales. |\n| 12 Cuotas mensuales consecutivas | S/. 1,560.00 | 12 pagos mensuales. |\n\n*Nota: Estas tarifas corresponden a pensiones por ciclo académicos.*\n\nAsimismo, le informo las consideraciones adicionales según nuestra normativa institucional:\n\n* **Cuotas:** Las pensiones deberán ser canceladas mediante la entidad bancaria y deben reflejarse con el sello correspondiente del banco en el libro de egreso.\n* **Reformas de la Ley:** El pago de pensiones por ciclos académicos se realiza mediante boletas bancarias emitidas por el proveedor autorizado por la universidad.\n\nQuedo a su entera disposición para cualquier otra consulta sobre este rubro o cualquier otro proceso académico. ¡Mucho éxito en sus estudios!",
+    "tiempo_total_ms": 12373.561375001373,
+    "tiempo_busqueda_ms": 0.0,
+    "tiempo_generacion_ms": 12373.561375001373,
+    "tokens_totales": 201,
+    "citas": []
+  },
+  {
+    "modelo_nombre": "sipangpt",
+    "respuesta_generada": "Estimado docente, muy buenos días. Es un placer saludarle y apoyarle con sus gestiones en línea.\n\nPara ubicar el reporte de asistencia correspondiente al mes anterior en el Aula Virtual de la USUSS, le sugiero seguir estos pasos en el Campus Virtual:\n\n1. Acceder a la sección **REGISTROS** en el menú horizontal superior del sistema.\n2. Hacer clic en **Reporte de asistencia del presente periodo académico**.\n3. Se desplegará la tabla de **Asistencia al aula**, donde podrá ver el cuadro de avance de asistencia, el registro de asistencia registrado (con sus firmas electrónicas) y los campos de observaciones correspondientes.\n\nSi requiere información adicional sobre el manejo o interpretación de estos reportes, quedo a su completa disposición.",
+    "tiempo_total_ms": 8717.444541998702,
+    "tiempo_busqueda_ms": 0.0,
+    "tiempo_generacion_ms": 8717.444541998702,
+    "tokens_totales": 116,
+    "citas": []
+  },
+  {
+    "modelo_nombre": "sipangpt",
+    "respuesta_generada": "Estimado(a) docente, reciba un cordial saludo. Es un gusto asistirle en sus labores académicas en la Universidad Señor de Sipán.\n\nEn relación con su consulta sobre las herramientas de investigación que puede recomendar a sus estudiantes, el Sistema de Catálogo en Línea de la Biblioteca de la USS está diseñado para optimizar el acceso a los recursos académicos y de investigación esenciales. A través de esta plataforma, nuestros docentes facilitan la gestión del material bibliográfico y digital.\n\nA continuación, le detallo las principales funcionalidades y bases de datos disponibles que pueden recomendar a sus estudiantes:\n\n1. **Bases de Datos Multidisciplinarias:**\n    * Bases de acceso abierto como **e-books, artículos de revistas, libros electrónicos, artículos de gestión (journals)**, todo clasificado bajo una búsqueda por autores y editoriales.\n    * Colecciones de publicaciones especializadas como las colecciones **E-Library, SciPsy, E-E-book, ScienceDirect, Springer, DOJO, y otras**.\n\n2. **Bases de Datos Específicas de Medicina y Enfermería:**\n    * Acceso a bases de datos biomédicas en línea como **PubMed, Embase, Medline, e-Medline, Ovid, Scopus, Web of Science** entre otros.\n\n3. **Recursos Digitales Exclusivos:**\n    * El sistema gestiona las colecciones digitales de la biblioteca que incluyen material en varios formatos académicos, incluyendo **libros de texto, artículos de revistas, libros electrónicos, DVD, audio CD, acceso a fuentes digitales y material de consulta en línea**.\n\nTenga en cuenta que el catálogo permite la selección individual de contenidos y su gestión académica, además de facilitar el registro y la gestión de bibliotecas electrónicas disponibles para su uso.",
+    "tiempo_total_ms": 12522.387875000277,
+    "tiempo_busqueda_ms": 0.0,
+    "tiempo_generacion_ms": 12522.387875000277,
+    "tokens_totales": 245,
+    "citas": []
+  },
+  {
+    "modelo_nombre": "sipangpt",
+    "respuesta_generada": "Estimado docente, es un placer saludarlo y saludarle atentamente en su labor académica en nuestra prestigiosa Universidad Señor de Sipán.\n\nEn cumplimiento con la normativa de investigación de la universidad, le informo que a través del sistema de catálogo en línea, usted puede acceder al módulo institucional **\"Outsourcen Investigación\"** para obtener acceso directo a las siguientes herramientas externas, las cuales está obligada a utilizar para el desarrollo de sus actividades de investigación:\n\n* **Red de Artículos Académicos (Scopus)**\n* **Scopus**\n* **Web of Science (Core Collection)**\n* **Dialnet**\n* **EBSCO NOW**\n* **EBSCO Academic Search Complete**\n* **EBSCO Business Source Premier**\n* **EBSCO Business Source Unlimited**\n* **EBSCO Business Source Business Source Premier**\n* **Scopus**\n* **Web of Science**\n\nEs fundamental recordar que el uso de estas bases de datos es obligatorio dentro de las actividades de investigación de las Facultades, Programas y Escuelas en la USS y debe estar registrado en el Sistema de Tesis. Le sugiero a nuestros estudiantes realizar el registro previo al inicio de su proceso de investigación para garantizar el éxito de sus trabajos académicos.\n\nQuedo a su entera disposición para cualquier otra consulta que requiera respecto a su labor docente.",
+    "tiempo_total_ms": 11526.965541999743,
+    "tiempo_busqueda_ms": 0.0,
+    "tiempo_generacion_ms": 11526.965541999743,
+    "tokens_totales": 196,
+    "citas": []
+  },
+  {
+    "modelo_nombre": "sipangpt",
+    "respuesta_generada": "Estimado(a) docente, muy buenos días. Es un gusto saludarle. Para acceder a la plataforma de Aula Virtual y gestionar su labor académica, puede seguir la siguiente ruta desde la web institucional de la Universidad Señor de Sipán (USS):\n\n1. Acceda a la página principal de la universidad.\n2. Diríjase a la sección **Área de Aprendizaje**.\n3. Haga clic en la opción **Aula Virtual** del menú lateral izquierdo para acceder directamente al sistema.\n\nRespecto a su consulta sobre el navegador, recomendamos la utilización de Google Chrome o Mozilla Firefox para garantizar una óptima visualización y operación de las herramientas pedagógicas.",
+    "tiempo_total_ms": 8555.705832999593,
+    "tiempo_busqueda_ms": 0.0,
+    "tiempo_generacion_ms": 8555.705832999593,
+    "tokens_totales": 99,
+    "citas": []
+  },
+  {
+    "modelo_nombre": "sipangpt",
+    "respuesta_generada": "Estimado estudiante, es un placer saludarle. Con mucho gusto le brindo la información oficial respecto a la conformación y funciones del jurado evaluador en los procesos académicos de nuestra universidad, según el Reglamento de Grados de Estudios:\n\n### I. Conformación del Jurado\nEl jurado evaluador estará conformado por al menos tres (3) docentes académicos de la universidad, de los cuales uno deberá ser del exterior o estar designado como experto, según se requiera según el reglamento de posgrado vigente.\n\n### II. Funciones del Jurado\nEl jurado evaluador, en su calidad de evaluador del trabajo de grado, tiene las siguientes responsabilidades principales:\n1. Evaluar, debatir y emitir recomendaciones al(la) estudiante respecto al trabajo de grado.\n2. Realizar una consideración en un plazo no mayor a 30 días, presentando el informe de evaluación al comité académico y al director de la Escuela de Posgrado.\n3. Proponer el grado académico al decano de la facultad mediante informe de evaluación.\n\nQuedo a su entera disposición en caso requiera mayor orientación sobre sus procesos de desarrollo académico.",
+    "tiempo_total_ms": 10859.337500000038,
+    "tiempo_busqueda_ms": 0.0,
+    "tiempo_generacion_ms": 10859.337500000038,
+    "tokens_totales": 172,
+    "citas": []
+  },
+  {
+    "modelo_nombre": "sipangpt",
+    "respuesta_generada": "Estimado docente, reciba un cordial saludo de bienvenida. Es un placer asistirle en sus labores académicas.\n\nEn relación a la normativa académica de la Universidad Señor de Sipán respecto a la matrícula, el **Artículo 17°** del reglamento establece los límites de matrícula para los estudiantes y el número de créditos que pueden llevar:\n\n1. El número total de créditos, incluyendo créditos de aptitud, no puede exceder los 160.\n2. La carga académica registrada, incluyendo créditos de aptitud, no podrá superar el 150 créditos.\n\nFinalmente, es fundamental mencionar que según dicho reglamento, la matrícula debe realizarse dentro del plazo establecido, y las reprobaciones y recuperaciones deben estar dentro del límite del 40% del ciclo o período académico correspondiente.\n\nEspero que esta información le sea de gran utilidad para guiar adecuadamente a sus estudiantes. Si requiere detalles adicionales sobre la matriz curricular o los procedimientos administrativos, no dude en consultarme.",
+    "tiempo_total_ms": 9521.913625001616,
+    "tiempo_busqueda_ms": 0.0,
+    "tiempo_generacion_ms": 9521.913625001616,
+    "tokens_totales": 148,
+    "citas": []
+  },
+  {
+    "modelo_nombre": "sipangpt",
+    "respuesta_generada": "Estimado estudiante, reciba un cordial saludo de parte de SipánGPT, el Asistente Virtual Oficial de la Universidad Señor de Sipán.\n\nPara acceder al Campus Virtual, debe seguir los siguientes pasos según el protocolo institucional:\n\n1. Ingresar a la dirección web institucional: **www.uss.edu.pe**.\n2. Una vez ubicado en el portal, diríjase a la sección académica.\n3. Haga clic en el enlace institucional correspondiente.\n4. Ingrese sus credenciales (Nombre de usuario y contraseña) correspondientes para acceder a la plataforma.\n\nQuedamos a su disposición para cualquier otra consulta académica o de ingeniería informática.",
+    "tiempo_total_ms": 6980.939917000796,
+    "tiempo_busqueda_ms": 0.0,
+    "tiempo_generacion_ms": 6980.939917000796,
+    "tokens_totales": 90,
+    "citas": []
+  },
+  {
+    "modelo_nombre": "sipangpt",
+    "respuesta_generada": "Estimado docente, reciba un cordial saludo. Es un placer asistirle desde SipánGPT en la orientación de este importante proceso académico.\n\nPara configurar correctamente la evaluación virtual en el Aula Virtual de acuerdo con los parámetros establecidos en nuestro reglamento institucional, le sugiero seguir los siguientes pasos:\n\n1. Ingrese al módulo de evaluación y seleccione la opción \"Modo de evaluación\" en la sección de opciones.\n2. Seleccione la opción **Enfoque en los criterios de evaluación** como método de gestión.\n3. Revise la **temporalización**: Seleccione **temporal** e indique el tiempo máximo de la prueba en minutos (por ejemplo, 60 minutos).\n4. Configure las opciones de revisión: Elija la opción **Revisión por los criterios** y marque el recuadro **Activar la revisión**, además de activar la opción **Guardar avance** para poder guardar los borradores en caso de salir de la plataforma.\n5. Haga clic en el botón **Guardar** (la cual se mostrará en color azul).\n6. Finalmente, revise el botón de inicio de evaluación y haga clic en **Guardar configuración y habilitar la evaluación** para confirmar que las configuraciones se hayan aplicado correctamente.\n\nQuedo a su entera disposición para cualquier otra consulta sobre las herramientas de nuestras plataformas académicas.",
+    "tiempo_total_ms": 11216.310457999498,
+    "tiempo_busqueda_ms": 0.0,
+    "tiempo_generacion_ms": 11216.310457999498,
+    "tokens_totales": 195,
+    "citas": []
+  },
+  {
+    "modelo_nombre": "sipangpt",
+    "respuesta_generada": "Estimado docente, un cordial saludo. Es un placer asistirle en la preparación de su sílabo. Para acceder a la plataforma digital de libros de texto para sus cursos de ingeniería en la USS, le sugiero seguir los siguientes pasos:\n\n1. Ingrese a la plataforma **S-eBook 7-24** utilizando su nombre de usuario y contraseña asignados.\n2. En la interfaz principal, ubique y haga clic en la opción **eBooks de referencia**.\n3. En esta sección, podrá visualizar un listado con todos los libros obligatorios y complementarios para los cursos de las facultades de Ingeniería (Ingeniería de Sistemas, Ingenierías y Tecnología, Ingeniería de Materiales, Ingeniería Comercial y Ingeniería de Alimentos).\n4. Utilice la barra de búsqueda superior con la lupa para ubicar rápidamente los textos bibliográficos específicos que requiera para las asignaturas.\n5. Al seleccionar el libro deseado, acceda al menú de la izquierda para visualizar la tabla de contenido y el listado de capítulos disponibles para descargar.\n6. Utilice el botón **Descargar** y el archivo aparecerá en su computadora.\n\nQuedo a su disposición para cualquier consulta adicional durante el desarrollo de sus actividades académicas.",
+    "tiempo_total_ms": 12924.811750001027,
+    "tiempo_busqueda_ms": 0.0,
+    "tiempo_generacion_ms": 12924.811750001027,
+    "tokens_totales": 182,
+    "citas": []
+  },
+  {
+    "modelo_nombre": "sipangpt",
+    "respuesta_generada": "¡Hola! Entiendo perfectamente tu preocupación. No te preocupes, estoy aquí para guiarte paso a paso en el proceso de forma sencilla y conforme a las normas de nuestra universidad.\n\nPara programar tu certificación y pagos, sigue estos pasos en la plataforma en línea:\n\n1. Ingrese al portal oficial del sistema **PAY.**\n2. En la sección de Servicios En Línea, haz clic en **SEGUIR** y luego en **Programar Pago**.\n3. En el listado de opciones, ubica el servicio correspondiente a tu consulta (por ejemplo, la Certificación de Alumno Regular y/o la regularización de colegiaturas).\n4. Haz clic en el botón **Seleccionar**.\n5. Revisa los campos de información (como código de alumno y pago) y haz clic en **Continuar**.\n6. En el panel final, visualiza los detalles del recibo, los datos del banco, las fechas de pago correspondientes y el valor correspondiente. Revisa con cuidado toda esta información y realiza la acción en el botón **Pagar**.\n\n¿Te gustaría que revisemos el paso a paso de alguna otra sección de la plataforma?",
+    "tiempo_total_ms": 12256.567165999513,
+    "tiempo_busqueda_ms": 0.0,
+    "tiempo_generacion_ms": 12256.567165999513,
+    "tokens_totales": 169,
+    "citas": []
+  },
+  {
+    "modelo_nombre": "sipangpt",
+    "respuesta_generada": "Hola. Entiendo perfectamente tu preocupación por el reglamento académico, pero no te preocupes, estoy aquí para aclararte los lineamientos oficiales de la Universidad Señor de Sipán.\n\nEn relación con la elaboración de tu tesis, es importante señalar que, según el Artículo 62° de la Ley Universitaria N° 30220 y su respectivo reglamento, la **colaboración en investigaciones puede darse mediante la inclusión de coautores** en los trabajos de posgrado.\n\nNo obstante, debes considerar lo siguiente:\n\n* **Coautoría en Tesis de Pregrado (Tesis):** Está estrictamente regulada por el Artículo 68° del Reglamento del Manual de Grado. Los estudiantes deben registrar su matrícula en el proceso de titulación.\n* **Coautoría en Tesis de Magíster y Doctorado:** Los reglamentos académicos permiten esta modalidad bajo ciertas condiciones.\n\nTe sugiero revisar el **Artículo 60° del Reglamento de Tesis** para conocer la información completa sobre las regulaciones específicas, las cuales son de cumplimiento obligatorio para garantizar la validez de tu grado académico. ¡Mucho éxito con tu trabajo!",
+    "tiempo_total_ms": 11279.346500001338,
+    "tiempo_busqueda_ms": 0.0,
+    "tiempo_generacion_ms": 11279.346500001338,
+    "tokens_totales": 160,
+    "citas": []
+  },
+  {
+    "modelo_nombre": "sipangpt",
+    "respuesta_generada": "Estimado(a) estudiante, reciba un cordial saludo institucional. Es un placer asistirlo a través de SipánGPT. Con respecto a su consulta sobre la gestión de reembolsos, le informamos que la Universidad Señor de Sipán cuenta con un reglamento detallado en su Artículo 28, el cual rige la solicitud de reintegro por pago de matrícula.\n\nEl procedimiento procede en los siguientes términos:\n\n**1. Requisitos generales y proceso de solicitud:**\n\na. **Acreditación de la deuda:** El estudiante deberá presentar un pago no abonado en un plazo no superior a 10 días calendario desde la fecha de pago o acuerdo.\nb. **Modalidad de pago:** El pago debe realizarse mediante cheque de caja o transferencia electrónica (con orden electrónico a nombre de la USS). No se admiten pagos con tarjetas o medios electrónicos.\nc. **Solicitud formal:** Para ejercer este derecho, el estudiante debe elaborar un escrito dirigido al Decano de su respectivo programa, adjuntando:\n    - Formulario de solicitud de devolución de matrícula (frente y dorso).\n    - Copia legalizada del recibo o comprobante de pago correspondiente.\n    - Cédula de identidad y cédula de estudiante.\nd. **Tramitación administrativa:** Una vez presentada la documentación en la Escuela de la Residencia al Director de Escuela, se remite a la Escuela de Posgrado (si corresponde) y, posteriormente, al Consejo Universitario de Posgrado, quien se encarga de realizar la fiscalización y emitir la disposición del monto a recuperar.\n\n**2. Plazos y causales (Art. 28):**\n\nEste procedimiento aplica en el caso de pagos recibidos por error, incluyendo los pagos por pago duplicado o pagos recibidos por supuesta cancelación de matrícula, o pago realizado en caso de fuerza mayor justificada.\n\nAgradecemos revisar este artículo del reglamento para los detalles normativos complementarios. Para consultas adicionales sobre los requisitos del Formulario Único de Trámite en Línea, puede consultar la guía oficial disponible en la página institucional.",
+    "tiempo_total_ms": 14964.691999999559,
+    "tiempo_busqueda_ms": 0.0,
+    "tiempo_generacion_ms": 14964.691999999559,
+    "tokens_totales": 301,
+    "citas": []
+  },
+  {
+    "modelo_nombre": "sipangpt",
+    "respuesta_generada": "Estimado docente, reciba un cordial saludo. Es un placer atender su consulta como su asistente virtual de la Universidad Señor de Sipán.\n\nPara acceder a la base de datos **E-Libro** y aprovechar su servicio para la planificación curricular en su curso, le sugiero seguir los siguientes pasos:\n\n1. Ingrese al portal **Campus Virtual** de la universidad y realícese sesión con sus credenciales institucionalmente otorgadas.\n2. En la barra de menús superior, ubique el menú desplegable **Bibliotecas Digitales**.\n3. Haga clic sobre el acceso a **E-Libro**.\n4. En la interfaz, despliegue la lista de colecciones y recursos disponibles (como Bibliografía actualizada, Bases de datos, E-Journals y otros), entre las cuales podrá acceder a textos de diversas editoriales.\n\nEste sistema permite generar material bibliográfico alineado con los programas de estudios y cumplir adecuadamente con la normativa educativa.\n\nQuedo a su entera disposición para cualquier otra consulta relacionada con nuestras plataformas virtuales.",
+    "tiempo_total_ms": 10667.273917000784,
+    "tiempo_busqueda_ms": 0.0,
+    "tiempo_generacion_ms": 10667.273917000784,
+    "tokens_totales": 149,
+    "citas": []
+  },
+  {
+    "modelo_nombre": "sipangpt",
+    "respuesta_generada": "Estimado colega, es un gusto saludarlo y agradecer su consulta. Es un placer orientarle en este importante procedimiento institucional.\n\nPara acceder y visualizar los resultados de la Evaluación de Desempeño Docente en el Aula Virtual de la USS, le sugerimos seguir los siguientes pasos:\n\n1. Ingrese con sus credenciales institucionales (usuario y contraseña) al aula virtual de la USS.\n2. Ubique y seleccione la opción **PROCESOS DE EVALUACIÓN** en el menú lateral izquierdo, ubicada en la sección de módulos institucionales.\n3. En la opción **Puntos a evaluar**, haga clic en el enlace o menú desplegable **Resultados**.\n4. Finalmente, seleccione la evaluación correspondiente por docente y visualice los datos de desempeño según el semestre académico correspondiente (como **III-B** o **IV-B**) en el cuadro de resultados.\n\nRecuerde que este servicio se encuentra operativo una vez culminadas satisfactoriamente las evaluaciones del proceso académico de corresponder. Quedamos a su entera disposición para cualquier consulta adicional.",
+    "tiempo_total_ms": 12409.738292000839,
+    "tiempo_busqueda_ms": 0.0,
+    "tiempo_generacion_ms": 12409.738292000839,
+    "tokens_totales": 151,
+    "citas": []
+  },
+  {
+    "modelo_nombre": "sipangpt",
+    "respuesta_generada": "Estimado(a) docente, reciba un cordial saludo de mi parte. Lamento los inconvenientes que está experimentando al momento de realizar la calificación en el Aula Virtual.\n\nPara poder brindarle el soporte más preciso y guiarlo según las políticas de la universidad, le agradeceré que me indique el nombre completo del(la) estudiante o el código del curso correspondiente para acceder directamente al panel de control del sistema en el aula virtual.\n\nDe acuerdo con el manual oficial del sistema, al ingresar a la sección de calificaciones, es posible que se visualice un mensaje de alerta de la siguiente naturaleza:\n* **Menos 100% de avance:** El estudiante debe completar el 100% de los criterios de evaluación para poder continuar.\n* **Criterios no ponderados:** Indicar los criterios pendientes.\n* **Datos faltantes:** Informar los detalles correspondientes.\n\nSi la observación persiste o presenta un error adicional, por favor confírmeme la URL del Foro de Debate y Argumentación (o la URL general de la plataforma) y el nombre del curso para revisar el estado de la calificación directamente.\n\nQuedo a su completa disposición para atender su requerimiento.\nAtentamente,\nSipánGPT | Asistente Virtual Oficial - USS",
+    "tiempo_total_ms": 11439.672333000999,
+    "tiempo_busqueda_ms": 0.0,
+    "tiempo_generacion_ms": 11439.672333000999,
+    "tokens_totales": 188,
+    "citas": []
+  },
+  {
+    "modelo_nombre": "sipangpt",
+    "respuesta_generada": "¡Muy buenos días! Es un placer saludarlo. Con mucho gusto le brindo la información oficial solicitada para su gestión administrativa.\n\nDe acuerdo con el Reglamento de Cobranzas de la Universidad Señor de Sipán (Artículo 77), los montos correspondientes para los trámites solicitados son los siguientes:\n\n*   **Constancia de Estudios:** S/. 15.00 (Quince y 00/100 Soles).\n*   **Visación de Sílabos por Curso:** S/. 8.00 (Ocho y 00/100 Soles).\n\nLe sugiero orientar a los estudiantes sobre estos montos y las normativas institucionales vigentes al momento de efectuar el pago en nuestra caja central. Quedo a su disposición para cualquier otra consulta relacionada con las plataformas académicas o administrativas de nuestra querida Universidad.",
+    "tiempo_total_ms": 10805.454375000409,
+    "tiempo_busqueda_ms": 0.0,
+    "tiempo_generacion_ms": 10805.454375000409,
+    "tokens_totales": 110,
+    "citas": []
+  },
+  {
+    "modelo_nombre": "sipangpt",
+    "respuesta_generada": "¡Hola! Entiendo perfectamente tu urgencia por subir tus actividades. Con gusto te ayudo a revisar la configuración del Aula Virtual para que el proceso sea más fluido y evites equivocaciones en los plazos.\n\nSegún los manuales oficiales de la Universidad Señor de Sipán, para que la entrega se marque automáticamente sin la necesidad de hacer clic en el botón rojo, debes realizar los siguientes ajustes:\n\n1. En el aula virtual, haz clic en el botón **Mostrar editar página**.\n2. Ubica la sección **Carga de archivos** (la tercera sección del cuadro de configuración).\n3. Asegúrate de que el campo `Permitir envío de múltiples archivos` aparezca marcado con la casilla (si no lo está, márcala).\n4. Marque la opción **Entrega automática** con el botón.\n5. Haz clic en **Guardar** para activar los cambios.\n\nCon esta configuración logras que el sistema registrará automáticamente el envío de tus actividades en el momento que subas tu archivo, facilitándote la gestión de fechas en el sistema. ¡Mucho éxito en tus trabajos!",
+    "tiempo_total_ms": 12965.470584000286,
+    "tiempo_busqueda_ms": 0.0,
+    "tiempo_generacion_ms": 12965.470584000286,
+    "tokens_totales": 165,
+    "citas": []
+  },
+  {
+    "modelo_nombre": "sipangpt",
+    "respuesta_generada": "Hola. Entiendo perfectamente tu urgencia. Con gusto te ayudo a ubicar el proceso exacto dentro del sistema para que puedas generar el reporte de manera rápida y correcta.\n\nSigue estos pasos dentro de tu plataforma:\n\n1. Ingresa a la sección **Módulo de notas** de tu aula virtual y visualiza la lista de tus estudiantes.\n2. Haz clic sobre la tabla de resultados de la relación con el estudiante.\n3. En la pantalla emergente que aparece, desplázate hasta el final y haz clic en el botón **Ver reportes**.\n4. Selecciona la opción **Facturación** y haz clic en el botón azul **Explorar** para abrir el detalle detallado de las deudas en este curso.\n\nAl abrir la tabla de detalles:\n*   Verás una tabla con el nombre del alumno y los detalles de los pagos pendientes, los cuales incluyen la columna \"Monto pendiente\".\n* Haz clic en el botón **Desplazar** para abrir la vista completa.\n* Para obtener el reporte en PDF: Haz clic en el botón verde **Exportar a PDF**.\n* Finalmente, haz clic en el enlace **Reporte detallado en PDF** y tu navegador abrirá el archivo listo para ser guardado.\n\nMucho éxito con tu labor pedagógica.",
+    "tiempo_total_ms": 12187.212291999458,
+    "tiempo_busqueda_ms": 0.0,
+    "tiempo_generacion_ms": 12187.212291999458,
+    "tokens_totales": 195,
+    "citas": []
+  },
+  {
+    "modelo_nombre": "sipangpt",
+    "respuesta_generada": "¡Estimado docente! Es un placer ayudarte con este importante tema de la gestión académica de nuestros estudiantes. Seguir los pasos detallados en el manual del sistema es fundamental para garantizar un proceso transparente y eficiente en el registro de créditos.\n\nA continuación, el procedimiento oficial para el registro en el Sistema de Registros Académicos y Campus Virtual, diseñado para el docente y el estudiante:\n\n1. Ingrese al sistema **Campus Virtual** y desplácese a la sección de **Gestión de Materias**.\n2. Seleccione el semestre correspondiente (ej. Segundo Semestre).\n3. En el menú lateral, haga clic en **Registrar** y luego en **Registros**.\n4. Seleccione la opción **Asignar créditos**.\n5. Ubique el curso en la tabla, marque la casilla de selección o desmarque las opciones, y verifique que el código de registro refleje correctamente la elección.\n6. Haga clic en el botón **Grabar cambios**.\n7. Finalmente, visualice el resumen de su permanencia total y acceda a la sección **Validar y confirmar registro** para ubicar todos los curso.\n\nAl seguir estos pasos, usted visualiza de forma sencilla la lista de cursos disponibles y puede realizar su registro y selección directamente a través de las interfaces disponibles del sistema.",
+    "tiempo_total_ms": 11889.077791998716,
+    "tiempo_busqueda_ms": 0.0,
+    "tiempo_generacion_ms": 11889.077791998716,
+    "tokens_totales": 194,
+    "citas": []
+  },
+  {
+    "modelo_nombre": "sipangpt",
+    "respuesta_generada": "Estimado(a) estudiante, reciba un cordial saludo de parte de SipánGPT. Con mucho gusto le proporciono los pasos detallados y sencillos para que pueda acceder a la plataforma de consulta de recursos de la biblioteca en línea de la Universidad Señor de Sipán:\n\n1. Ingrese a la sección **Inicio** de la Biblioteca Virtual en el sitio web institucional USS.\n2. Haga clic en el icono o enlace **Catálogo de Búsqueda de Material Bibliográfico** (o busque la opción dentro de la barra superior).\n3. Al hacer clic en el enlace, se abrirá la interfaz principal donde podrá acceder a los diferentes repositorios académicos (como Scielo, Google Scholar, Dialnet, etc.) y bases de datos de la biblioteca digital.\n4. Seleccione la herramienta deseada (por ejemplo, **SEEM** o **SCielo**) para realizar su búsqueda o visualización de publicaciones.\n5. Ingrese los criterios requeridos (Título, Autor, Materia, Año) en los campos de búsqueda de la interfaz de la herramienta correspondiente, haciendo clic en el botón **IR**.\n6. En el apartado de Resultados, seleccione una publicación o colección según los filtros de su interés para acceder al contenido en la vista previa.\n\nSi requiere asistencia adicional con cualquier otra función de nuestras plataformas académicas, no dude en comunicárnoslo.",
+    "tiempo_total_ms": 11939.415083001222,
+    "tiempo_busqueda_ms": 0.0,
+    "tiempo_generacion_ms": 11939.415083001222,
+    "tokens_totales": 201,
+    "citas": []
+  },
+  {
+    "modelo_nombre": "sipangpt",
+    "respuesta_generada": "Hola. No te preocupes, respira hondo. Entiendo que crear las rúbricas en el Aula Virtual puede parecer confuso al principio, pero es un proceso muy sencillo y profesional. Estoy aquí para guiarte paso a paso, basándonos en los lineamientos de la USS.\n\nPara ayudarte de la mejor manera, ¿podrías indicarme si ya lograste ingresar al menú desplegable de la rúbrica en tu actividad correspondiente?\n\nMientras tanto, te explico el procedimiento general y los campos esenciales para que lo logres correctamente:\n\n1. **Configuración Inicial:**\n   - Ingresa a la sección de Rúbrica (por ejemplo: \"Rúbrica de Proyecto\" o \"Rúbrica de Tarea\") y haz clic en el botón **\"Editar\"**.\n   - En la parte inferior, ten en cuenta que el sistema te presenta dos pestañas principales: **\"Detalles de Puntaje\"** y **\"Definiciones\"**.\n\n2. **Criterios de Evaluación (Definiciones):**\n   - Aquí debes definir qué significa cada nivel de logro (los niveles de excelencia).\n   - **Puntaje:** Define los niveles (Ej: AD, A, B, C, D).\n   - **Descripción:** Describe de forma clara y exhaustiva qué se espera en cada nivel, alineándolo con el propósito académico (por ejemplo, en lugar de solo decir \"muy bien\", describe el logro alcanzado: \"Demuestra un dominio completo de la metodología y el tema con argumentos fundamentados y coherentes\").\n\n3. **Ponderación (Detalles de Puntaje):**\n   - Esta es la tabla donde asignas las diferentes categorías a las que corresponde la puntuación máxima.\n   - Coloca al menos **3 a 5 criterios** (Ej. Contenido, Presentación, Estructura, Bibliografía).\n   - Asígnale un peso (puntos máximos) a cada uno de ellos.\n   - Si deseas, puedes asignar un valor adicional a cada criterio con un sistema de ponderación simple o compleja (por ejemplo, si un puntaje es excelente, se le suma un 10% al total).\n\n4. **Guardar y Enviar:**\n   - Recuerda siempre guardar la rúbrica en caso de necesidad.\n   - Finalmente, ubica el botón superior derecho y haz clic en **\"Vista previa\"** antes de enviar o descargar el archivo con tu calificación.\n\nSiguiendo estos pasos podrás diseñar una rúbrica muy clara y organizada para tu trabajo. ¡Mucho éxito con tus entregas!",
+    "tiempo_total_ms": 16589.30387500004,
+    "tiempo_busqueda_ms": 0.0,
+    "tiempo_generacion_ms": 16589.30387500004,
+    "tokens_totales": 339,
+    "citas": []
+  },
+  {
+    "modelo_nombre": "sipangpt",
+    "respuesta_generada": "Estimado docente, buenas tardes. Es un placer saludarle y ayudarle con su consulta institucional. Para acceder a los sistemas académicos y administrativos de la universidad, deberá seguir la siguiente ruta en el navegador:\n\n1. Abra su navegador web (Google Chrome, Firefox, Mozilla, Edge o navegadores compatibles).\n2. Vaya a la dirección oficial de acceso del Sistema de Registros Académicos: **https://acceso.uss.edu.pe/**\n3. Ingrese sus credenciales (Nombre de usuario y contraseña) para ingresar al sistema central (como el Módulo de Asignaturas, el Módulo de Registros, el Módulo de Carga de Calificaciones, entre otros).\n\nRecuerde que para acceder al sistema, deberá contar con su clave de acceso institucional vigente y tener en cuenta las políticas de seguridad del sistema central. Quedo a su entera disposición ante cualquier otra consulta.",
+    "tiempo_total_ms": 9137.303999999858,
+    "tiempo_busqueda_ms": 0.0,
+    "tiempo_generacion_ms": 9137.303999999858,
     "tokens_totales": 126,
     "citas": []
   },
   {
     "modelo_nombre": "sipangpt",
-    "respuesta_generada": "Estimado estudiante, buenos días. Es un placer saludarle. En respuesta a su consulta respecto a las pensiones por ciclo, le informamos que esta normativa es de libre disposición en la Universidad Señor de Sipán, regida por nuestra resolución N° 001-2019-RP-USS.\n\nPara el ciclo académico de 2024-II, las opciones de pagos por ciclo son:\n1. Pago al contado con descuento del 10%.\n2. Pago en cuotas sin descuento (10 cuotas fijas).\n\nLe recomendamos visualizar el detalle de las pensiones en la web institucional de la USS en la sección correspondiente a su Escuela de Posgrado, o ingresar a través de su Aula Virtual. Si requiere asistencia adicional con las opciones de pago disponibles en las plataformas digitales, quedo a su entera disposición.",
-    "tiempo_total_ms": 9580.298500000936,
+    "respuesta_generada": "Estimado(a) estudiante,\n\nEs un placer saludarlo(a) de la Universidad Señor de Sipán. Como asistente virtual oficial de la institución, le presento la información detallada y oficial sobre los requisitos normativos para la obtención del Grado de Maestro(a) en nuestra casa de estudios, conforme a los artículos 16° y 17° del Reglamento de Estudios en Segunda Edición.\n\nPara registrar su ciclo en la Escuela de Educación Superior en Ciencias de la Salud o en el Instituto de Ciencias de la Salud de la USS (para el cual corresponde el plan académico), es indispensable el cumplimiento de las siguientes etapas:\n\n1. Curso de Postgrado.\n2. Presentación del examen de selección profesional correspondiente.\n3. Culminación exitosa de la carga académica.\n4. Elaboración y defensa de la tesis o proyecto de investigación.\n\n**Pasos Académicos Obligatorios:**\n\n* Realizar y aprobar satisfactoriamente la carga académica establecida en los programas académicos.\n* Realizar y aprobar la evaluación académica correspondiente.\n* Lograr la graduación con mérito (Matrícula de Promoción) al finalizar la culminación de las actividades curriculares y de investigación.\n* Deberá presentar una tesis, proyecto o similar que demuestre los resultados de su investigación y que haya sido aceptada por la Comisión de Investigación.\n\nLe invitamos a consultar directamente el Reglamento Académico en nuestra plataforma institucional o contactar a la Dirección de Posgrado para detalles adicionales en su expediente académico.\n\nQuedo a su entera disposición para cualquier consulta adicional.\nAtentamente,\n\nSipánGPT\nAsistente Virtual Oficial - Universidad Señor de Sipán",
+    "tiempo_total_ms": 14595.629417000964,
     "tiempo_busqueda_ms": 0.0,
-    "tiempo_generacion_ms": 9580.298500000936,
-    "tokens_totales": 121,
+    "tiempo_generacion_ms": 14595.629417000964,
+    "tokens_totales": 242,
     "citas": []
   },
   {
     "modelo_nombre": "sipangpt",
-    "respuesta_generada": "Estimado docente, reciba un cordial saludo. Es un gusto atenderle en su labor académica. Con gusto le guiaré en la búsqueda de este reporte en nuestro Campus Virtual.\n\nPara consultar el registro de asistencias de manera rápida, por favor siga estos pasos:\n\n1. Ingrese a su área de gestión académica en el Campus Virtual.\n2. Ubique la opción **BENG** (Sistemas de Gestión Académica).\n3. Haga clic en la opción **Registros de Asistencia**.\n4. En este módulo, ubique la tabla **R-Asistencia** y utilice los filtros disponibles (número de curso, profesor y cuotas) para visualizar los registros correspondientes del periodo académico anterior.\n\nSi requiere alguna otra asistencia en el sistema, no dude en consultarme. ¡Que tenga una excelente jornada laboral!",
-    "tiempo_total_ms": 8795.669958999497,
+    "respuesta_generada": "Hola. Entiendo tu urgencia por los uniformes. Para ayudarte de manera oficial y asegurarte de acceder a las tarifas vigentes del Instituto de Enfermería, te sugiero consultar los canales autorizados de la Universidad Señor de Sipán:\n\n1. **Sistema de Registros Académicos (SRA):** Ingresa a tu sección de finanzas y selecciona \"Gastos y Descuentos\" para visualizar el detalle de las pensiones, descuentos por servicio y la base tarifaria.\n2. **Plataforma Virtual:** Entra a la sección `Emprendimiento > Matrículas` o `Administración > Salud y Educación` y haz clic en el botón **Ver Tarifas Oficiales**, donde podrás revisar detalladamente el costo de las prendas, el material, el uniforme de uniforme y la dotación.\n\nRecuerda revisar siempre los parámetros establecidos en el artículo 22° de la Ley N° 28306 y las disposiciones pertinentes. Si necesitas ayuda adicional con los sistemas de la USS, estoy aquí para asistirte.",
+    "tiempo_total_ms": 10357.32066700075,
     "tiempo_busqueda_ms": 0.0,
-    "tiempo_generacion_ms": 8795.669958999497,
-    "tokens_totales": 118,
+    "tiempo_generacion_ms": 10357.32066700075,
+    "tokens_totales": 143,
     "citas": []
   },
   {
     "modelo_nombre": "sipangpt",
-    "respuesta_generada": "Estimado docente, reciba un cordial saludo. Es un placer apoyarle en su labor académica en la Universidad Señor de Sipán.\n\nSegún lo estipulado en el reglamento institucional y el manual del Sede de Investigación, al acceder a los recursos en línea mediante el Sistema de Catálogo en Línea, usted podrá ubicar y solicitar los siguientes recursos clave destinados a la investigación de sus estudiantes:\n\n* **E-books:** Acceso completo a las publicaciones electrónicas recomendadas.\n* **Revistas Científicas:** Acceso a revistas indexadas de alto impacto.\n* **Bases de Datos:** Acceso a bases de datos especializadas en bases de datos académicas internacionales.\n* **Plataformas de Información Especializada:** Acceso a bases de datos específicas como EBSCO, EBSCOhost, DOAJ, ProQuest, Scopus, EBSCO Premier, ProQuest, Expensa, ScienceDirect, E-Library, etc.\n\nEste catálogo le permite facilitar el acceso a una amplia gama de recursos que son esenciales para el desarrollo de proyectos de investigación y la consulta en sus labores académicas.",
-    "tiempo_total_ms": 11381.21004200002,
+    "respuesta_generada": "¡Hola! No te preocupes, estoy aquí para ayudarte con esto de forma tranquila. Es totalmente normal tener dudas al realizar pagos en línea.\n\nPara realizar tus trámites y pagos en línea con tarjeta, debes seguir estos pasos detallados en el sistema:\n\n1. Ingresa al portal de pagos (se recomienda estar logeado en la cuenta).\n2. Selecciona la institución y el pago deseado.\n3. Ingresa los datos requeridos (Número de tarjeta, fecha de vencimiento, NIP, CVV).\n4. Haz clic en el botón **\"REALIZAR PAGO\"**.\n5. El sistema te dirigirá a la interfaz de pago de tu entidad bancaria donde podrás visualizar los datos de tu tarjeta. Deberás marcar la casilla: **“Acepto el proceso, confirmo el monto, banco y número de tarjeta”**.\n6. Haz clic en **\"SEGUIR PROCEDIENDO\"**.\n7. Finalmente, ingresa la clave de seguridad.\n\nRecuerda que una vez realizado el pago, el sistema te muestra el código de referencia y el número de comprobante de pago, lo cual debes guardar inmediatamente en formato PDF para tu respaldo.\n¡Mucho éxito con tu trámite en la USS!",
+    "tiempo_total_ms": 11247.364415999982,
     "tiempo_busqueda_ms": 0.0,
-    "tiempo_generacion_ms": 11381.21004200002,
-    "tokens_totales": 153,
-    "citas": []
-  },
-  {
-    "modelo_nombre": "sipangpt",
-    "respuesta_generada": "Estimado(a) docente, un cordial saludo de bienvenida. Es un placer apoyarle en su labor académica institucional.\n\nEn respuesta a su consulta sobre las herramientas de búsqueda bibliográfica externa que el Sistema de Catálogo en Línea de la USS pone a su disposición para el desarrollo de actividades de investigación en sus carreras y escuelas, le informo que puede acceder y utilizar directamente las siguientes plataformas de bases de datos bibliográficas de alta calidad:\n\n*   EBSCO e-Resource\n*   Scielo\n*   Redalyc\n*   Dialnet\n*   ScienceDirect (versión previa)\n*   Artículos Científicos de la PUCP\n*   Redalyc Internacional\n\nAsimismo, recordamos que la búsqueda en estas bases de datos es parte de su rigor académico y debe apoyarse en la consulta de las publicaciones científicas y académicas revisadas por pares.\n\nQuedamos a su completa disposición para cualquier consulta adicional sobre las herramientas de nuestros alumnos o los procedimientos institucionales.",
-    "tiempo_total_ms": 10606.440750001639,
-    "tiempo_busqueda_ms": 0.0,
-    "tiempo_generacion_ms": 10606.440750001639,
-    "tokens_totales": 145,
-    "citas": []
-  },
-  {
-    "modelo_nombre": "sipangpt",
-    "respuesta_generada": "¡Estimado docente, reciba un cordial saludo de buenos días de nuestra parte! Es un placer apoyarle en su labor académica.\n\nPara ingresar de manera correcta al entorno de aprendizaje **AULAUSS**, le sugiero seguir los siguientes pasos detallados:\n\n1. Ingrese al portal institucional de la universidad en su navegador de su elección.\n2. Localice y haga clic en la sección correspondiente en el menú lateral: **GESTIÓN ACADÉMICA**.\n3. Haga clic en el botón **AULAUSS** (o **APRENDER USOS**).\n\nRecomendamos el uso de navegadores como Google Chrome, Firefox o Mozilla Firefox para garantizar el correcto funcionamiento de las herramientas académicas integradas. Quedo a su completa disposición ante cualquier consulta adicional que requiera realizar en la plataforma.",
-    "tiempo_total_ms": 10331.644375000906,
-    "tiempo_busqueda_ms": 0.0,
-    "tiempo_generacion_ms": 10331.644375000906,
-    "tokens_totales": 113,
-    "citas": []
-  },
-  {
-    "modelo_nombre": "sipangpt",
-    "respuesta_generada": "Estimado estudiante, es un placer atender su consulta. Según el reglamento de evaluación de tesis de la Universidad Señor de Sipán (USS), el jurado evaluador se compone de los siguientes miembros con sus respectivas designaciones institucionales:\n\n**Conformación Oficial del Jurado:**\n\n1. Director de Tesis: Uno (elegido entre los miembros de la Comisión Directiva).\n2. Profesor Examinador 1: Uno (elegido entre los docentes de la universidad).\n3. Profesor Examinador 2: Uno (elegido entre los docentes de la universidad).\n\n**Principales Funciones según la normativa vigente:**\n\n1. Evaluar el proyecto de tesis en todas sus partes y emitir un dictamen de sustento.\n2. Promover el debate académico del trabajo de investigación.\n3. Elaborar las observaciones académicas correspondientes.\n4. Colaborar en la elaboración del acta de defensa.\n5. Aportar recomendaciones y observaciones al estudiante.\n\nEste esquema garantiza la imparcialidad y la calidad académica en el proceso de grado. Quedo a su entera disposición en caso requiera mayor información.",
-    "tiempo_total_ms": 10735.641332998057,
-    "tiempo_busqueda_ms": 0.0,
-    "tiempo_generacion_ms": 10735.641332998057,
-    "tokens_totales": 154,
-    "citas": []
-  },
-  {
-    "modelo_nombre": "sipangpt",
-    "respuesta_generada": "Estimado docente, reciba un cordial saludo. Como Asistente Virtual Oficial de la Universidad Señor de Sipán, es un placer apoyarle en la orientación de sus estudiantes de acuerdo con nuestro Reglamento de Evaluación y del Artículo 42º en concordancia con la Ley Universitaria.\n\nSegún lo estipulado en nuestro reglamento institucional (Artículo 42º, inciso 4º, literal b)), la condición de regular del estudiante se configura cuando ha reprobado con una nota de **17 (diecisiete) o más** de las asignaturas o el año académico correspondiente.\n\nAdemás, según el Artículo 15º, se establece que un estudiante deberá llevar una carga académica de **15 créditos** en cada ciclo o semestre. En caso de no cumplir con este requisito, el estudiante quedará en condición de regular o en riesgo de abandono académico, según el detalle detallado en el párrafo 2º y 3º de dicho artículo.",
-    "tiempo_total_ms": 10248.263290999603,
-    "tiempo_busqueda_ms": 0.0,
-    "tiempo_generacion_ms": 10248.263290999603,
-    "tokens_totales": 140,
-    "citas": []
-  },
-  {
-    "modelo_nombre": "sipangpt",
-    "respuesta_generada": "Estimado(a) estudiante, reciba un cordial saludo de bienvenida de parte del equipo de Soporte Técnico de la Universidad Señor de Sipán (USS). Es un placer atender su solicitud.\n\nPara ingresar a la plataforma oficial **Campus Virtual**, por favor siga las siguientes indicaciones:\n\n1. Acceda a la dirección oficial: [https://campusvirtual.uss.edu.pe](https://campusvirtual.uss.edu.pe).\n2. En la pantalla de inicio de sesión, ingrese sus credenciales mediante la opción \"Mi Cuenta\" o directamenete mediante las pestañas desplegables.\n3. Complete los campos de usuario y contraseña y haga clic en el botón \"Ingresar\".\n\nLe recordamos que para acceder a los servicios académicos y plataformas académicas de manera correcta deberá estar registrado(a) como usuario activo en el sistema. Si tuviera dificultades de acceso o de autenticación, no dude en comunicarse nuevamente con el equipo de apoyo pedagógico y académico (Soportes Académicos).",
-    "tiempo_total_ms": 10603.34545799924,
-    "tiempo_busqueda_ms": 0.0,
-    "tiempo_generacion_ms": 10603.34545799924,
-    "tokens_totales": 133,
-    "citas": []
-  },
-  {
-    "modelo_nombre": "sipangpt",
-    "respuesta_generada": "Estimado(a) docente, reciba un cordial saludo de parte de SipánGPT y del equipo de Soporte Técnico de la Universidad Señor de Sipán (USS). Con mucho gusto le comparto los pasos exactos según el manual oficial para configurar la evaluación en la plataforma virtual:\n\n1. Ingrese a la pestaña correspondiente en el módulo de gestión de actividades dentro del Aula Virtual y haga clic sobre el botón **Editar**.\n2. Se visualizará un panel con las opciones para la configuración de la evaluación (como fechas de entrega, puntaje máximo, puntajes de las secciones, nota de corte, tiempo de entrega, revisión y revisión).\n3. Configure los siguientes campos de acuerdo con la normativa institucional:\n   - **Tipo de evaluación:** Seleccione la opción correspondiente.\n   - **Duración:** Ingrese el tiempo máximo permitido para la evaluación.\n   - **Revisión:** Verifique la opción para **\"Se requiere entrega de 30 minutos de adelanto y 3 horas para revisión\"**. Esta política aplica estrictamente a nivel académico.\n4. Para finalizar la configuración, haga clic en el botón **Guardar**.\n\nCualquier consulta adicional para el uso de los módulos académicos puede ser canalizada a través de nuestros canales oficiales. Quedamos a su entera disposición.",
-    "tiempo_total_ms": 12064.927709001495,
-    "tiempo_busqueda_ms": 0.0,
-    "tiempo_generacion_ms": 12064.927709001495,
-    "tokens_totales": 190,
-    "citas": []
-  },
-  {
-    "modelo_nombre": "sipangpt",
-    "respuesta_generada": "Estimado docente, reciba un cordial saludo. Con mucho gusto le guiaré en el procedimiento para que pueda acceder y utilizar correctamente la biblioteca digital de la USS a través del portal de e-book.\n\nPara revisar el material bibliográfico para su sílabo de Ingeniería en línea, por favor siga los pasos indicados a continuación:\n\n1. Ingrese a la plataforma web oficial de la Universidad Señor de Sipán (https://www.uss.edu.pe) utilizando su credencial institucional.\n2. Acceda a la sección E-LIBRARY (Biblioteca Virtual).\n3. En el menú lateral izquierdo, seleccione la opción **eBooks** ubicada entre E-LIBRARY y E-LITERATURA.\n4. Haga clic en **SELECCIONAR** para desplegar la lista de libros disponibles.\n5. Utilice la barra de herramientas de búsqueda (con lupa) o la herramienta de filtrado en las interfaces de lectura de texto y imagen para buscar los títulos y capítulos específicos que requiere.\n6. Una vez seleccionados los libros, haga clic en el ícono de libro verde correspondiente para acceder al texto y comenzar su consulta bibliográfica.\n\nLe deseamos mucho éxito en sus actividades académicas. Si requiere asistencia adicional sobre otra plataforma institucional, no dude en consultarme.",
-    "tiempo_total_ms": 12809.440291999636,
-    "tiempo_busqueda_ms": 0.0,
-    "tiempo_generacion_ms": 12809.440291999636,
-    "tokens_totales": 183,
-    "citas": []
-  },
-  {
-    "modelo_nombre": "sipangpt",
-    "respuesta_generada": "¡Hola! No te preocupes, aquí te ayudo a resolverlo paso a paso para que puedas programar tu trámite sin complicaciones. El sistema tiene varias opciones para emitir tus documentos de forma segura.\n\nPara programar tu certificación, solo sigue estos pasos en el portal institucional de la Universidad:\n\n1. Ingresa a la plataforma institucional e inicia sesión con tu usuario y contraseña.\n2. Ve a la sección de **Servicios en línea** y selecciona la opción **Certificados** con tus fechas de consulta (Año, Trimestre y Ciclo Académico).\n3. Selecciona el servicio deseado en el listado:\n   - Para el proceso estándar puedes elegir entre 1 o 2 constancias, certificados, constancia de estudios, títulos de pregrado, Título de Pregrado con Tesis, Título de Especialidad con Tesis, Título de Maestría, Título de Doctorado, o título internacional.\n4. Revisa los costos del servicio correspondientes y haz clic en **Continuar**.\n5. Se te presentará la pantalla de autenticación y pagos de nuestra entidad financiera aliado, donde deberás ingresar los datos del pago y completar tu transacción.\n\nRecuerda: el sistema de la USS está diseñado para ofrecerte múltiples vías de pago (Visa, Mastercoin, PayU, Yape, Plin) por lo que eliges el método que más te acomode. Si necesitas ayuda específica con la interfaz o los montos, avísame. ¡Que tengas un excelente día!",
-    "tiempo_total_ms": 13681.75662500289,
-    "tiempo_busqueda_ms": 0.0,
-    "tiempo_generacion_ms": 13681.75662500289,
-    "tokens_totales": 214,
-    "citas": []
-  },
-  {
-    "modelo_nombre": "sipangpt",
-    "respuesta_generada": "Estimado(a) estudiante, entiendo perfectamente tu preocupación respecto a los requisitos académicos. Es fundamental que sigas las normativas institucionales para garantizar la validez de tu trabajo.\n\nSegún el Reglamento de Tesis y Proyecto de Tesis de la Universidad Señor de Sipán, el trabajo de investigación debe realizarse de forma **individual**.\n\nEsto significa que el desarrollo, la ejecución y la defensa del proyecto de tesis es una responsabilidad exclusiva del estudiante, el cual debe demostrar la autonomía y el sustento académico necesario para su culminación.\n\nTe sugiero revisar también el Artículo 6º del reglamento institucional, que establece claramente esta disposición. Si necesitas mayor detalle sobre otros aspectos del trabajo de grado, no dudes en consultarme.",
-    "tiempo_total_ms": 8250.22191699827,
-    "tiempo_busqueda_ms": 0.0,
-    "tiempo_generacion_ms": 8250.22191699827,
-    "tokens_totales": 113,
-    "citas": []
-  },
-  {
-    "modelo_nombre": "sipangpt",
-    "respuesta_generada": "Estimado(a) docente o estudiante, reciba un cordial saludo de parte de la Universidad Señor de Sipán. Con mucho gusto le brindo la información oficial con respecto al procedimiento de solicitud de reimpresión de derecho o devolución de pagos de matrícula.\n\nDe acuerdo con el Reglamento de Estudiantes (Artículo 106°), el alumno de pregrado, con solicitud motivada, tiene derecho a realizar la devolución o reimpresión de matrícula mediante el procedimiento establecido. La universidad se compromete a considerar los gastos de derecho de matrícula y otros costos asociados de la matrícula y actividades académicas no realizadas, por lo cual le informamos los pasos y requisitos:\n\n1. **Requisitos Previos:**\n    a. Que el estudiante haya cumplido con las modalidades y períodos de pago establecidas y no se encuentre inscrito en la matrícula (criterio de pago en su totalidad o parcial).\n    b. Haber realizado el pago de las pensiones o servicios correspondientes según el calendario del semestre académico en el cual no esté matriculado.\n    c. Presentar toda la documentación correspondiente y el pago de derechos constituidos.\n\n2. **Procedimiento de Pago y Solicitud:**\n    a. Se debe registrar la solicitud de reembolso por los canales electrónicos del sistema institucional (Sistema de Pagos de Derechos y Otros Costos de Matrícula – C.I.D.).\n    b. Presentar la solicitud dirigida al Responsable de Administración del ciclo académico vigente y la oficina correspondiente en el plazo establecido por la universidad.\n\n3. **Costos de Devolución:**\n    - Los estudiantes tienen la opción de solicitar el reintegro de las pensiones del derecho de matrícula y los intereses institucionales generados.\n    - Los pagos adicionales deben reflejarse en la aplicación de la Tasa por Servicios Económicos y en el porcentaje de tasa académica y de desgravamen, según el monto del pago.\n\nEl presente artículo busca establecer los derechos de los estudiantes y el procedimiento de cobro e intimación. Quedo a su completa disposición para cualquier consulta adicional respecto a su matrícula.",
-    "tiempo_total_ms": 14470.837875000143,
-    "tiempo_busqueda_ms": 0.0,
-    "tiempo_generacion_ms": 14470.837875000143,
-    "tokens_totales": 314,
-    "citas": []
-  },
-  {
-    "modelo_nombre": "sipangpt",
-    "respuesta_generada": "Estimado(a) docente, es un placer saludarlo y agradecer su compromiso con la enseñanza en nuestra universidad. Con gusto le comparto la información oficial para acceder al sistema E-Libro (ISSN ISBN), la herramienta institucional diseñada para la gestión y acceso a los recursos de consulta de la USS:\n\n1. **Acceso:** Ingrese al portal institucional USS (www.uss.edu.pe), diríjase al servicio **Buscar en E-Libro**, introduzca su código de estudiante y contraseña, y podrá desplegar la lista de revistas, tesis, libros y otros recursos de la biblioteca.\n2. **Exploración:** Se permite visualizar el catálogo en texto completo, acceder a las bases de datos científicas de prestigio como ScienceDirect, EBSCO, Dialnet, Scielo e India, así como registrar los artículos según el estándar DOI.\n3. **Funcionalidad:** La plataforma gestiona el acceso y la descarga de bibliografía científica a la cual puede acceder de manera centralizada, lo que facilita la gestión de material de consulta académico y bibliográfico.\n\nQuedo a su completa disposición para cualquier consulta adicional sobre sus requerimientos académicos.",
-    "tiempo_total_ms": 10372.91958300193,
-    "tiempo_busqueda_ms": 0.0,
-    "tiempo_generacion_ms": 10372.91958300193,
-    "tokens_totales": 164,
-    "citas": []
-  },
-  {
-    "modelo_nombre": "sipangpt",
-    "respuesta_generada": "Estimado docente, reciba un cordial saludo. Es un placer saludarle y brindarle la asistencia requerida desde SipánGPT, su Asistente Virtual oficial de la Universidad Señor de Sipán.\n\nPara acceder y visualizar los resultados de la Evaluación de Desempeño Docente (DPC) en la plataforma, le solicitamos seguir las siguientes instrucciones detalladas:\n\n1. Acceda a su cuenta institucional a través del enlace `www.uss.edu.pe`.\n2. Ingrese sus credenciales de usuario y contraseña en el cuadro de autenticación de ingreso de la plataforma USS.\n3. Ubique y haga clic en el módulo denominado **DPC 2024**.\n4. Ingrese su número de código y realice clic en el botón **Visualizar resultados**.\n5. A continuación, observe los resultados desglosados en los campos de rendimiento, evaluación y evaluaciones.\n\n*Nota: Tenga en cuenta que la visualizar el cuestionario es una consulta únicamente informativa y no cuenta para la medición de los resultados.*\n\nQuedamos a su entera disposición ante cualquier otra consulta que requiera.\n\nAtentamente,\nSipánGPT\nSoporte Técnico USS",
-    "tiempo_total_ms": 10914.857375002612,
-    "tiempo_busqueda_ms": 0.0,
-    "tiempo_generacion_ms": 10914.857375002612,
-    "tokens_totales": 159,
-    "citas": []
-  },
-  {
-    "modelo_nombre": "sipangpt",
-    "respuesta_generada": "Estimado(a) estudiante, reciba un cordial saludo de bienvenida. Lamento los inconvenientes que esta situación le ha generado durante el proceso de calificación.\n\nAl revisar su consulta con la información proporcionada, le explico el comportamiento de la alerta del sistema en el módulo de calificación de actividades del Aula Virtual:\n\nEsta alerta, mostrada al intentar ingresar a la sección de calificaciones de una actividad específica, indica que no existen datos cargados en la base de datos para esa tarea en particular. Le sugiero revisar las siguientes consideraciones:\n\n1. Si la tarea ha sido registrada y calificada, la información de sus indicadores de desempeño ya debe aparecer en la tabla de calificación.\n2. Si se trata de una actividad sin calificarse por parte del docente, el sistema muestra esta notificación para alertar sobre su falta de intervención.\n\nAsimismo, le recordamos que al tratarse de una plataforma académica oficial, todos los registros y funcionalidades se basan en el Módulo de Contenidos y la Base de Datos del Sistema (SPADM). Si la consulta persiste o experimenta dificultades con otras gestiones académicas, por favor acérquese al módulo de soporte de SUAE para una revisión exhaustiva.\n\nQuedo a su entera disposición para cualquier otra consulta académica o técnica.\n\nAtentamente,\n\nSipánGPT\nAsistente Virtual Oficial USS",
-    "tiempo_total_ms": 11947.190625000076,
-    "tiempo_busqueda_ms": 0.0,
-    "tiempo_generacion_ms": 11947.190625000076,
-    "tokens_totales": 208,
-    "citas": []
-  },
-  {
-    "modelo_nombre": "sipangpt",
-    "respuesta_generada": "Estimado(a) asesor(a), reciba un cordial saludo. Es un placer auxiliarle en sus gestiones. De acuerdo con lo establecido en el Reglamento de Derechos y Deberes del estudiante y el Manual de Cobranza de la Universidad Señor de Sipán (USS), le comparto los montos oficiales vigentes para los servicios solicitados:\n\n*   **Constancia de estudios:** S/. 5 por cada copia o acuse.\n*   **Visación de sílabo por curso:** S/. 120.00 (IVA incluido), el cual puede ser pagado mediante modalidades diversas según las políticas de pago vigentes de la USS.\n\nEspero que esta información le sea de utilidad para orientar correctamente a los estudiantes.",
-    "tiempo_total_ms": 8858.109999997396,
-    "tiempo_busqueda_ms": 0.0,
-    "tiempo_generacion_ms": 8858.109999997396,
-    "tokens_totales": 101,
-    "citas": []
-  },
-  {
-    "modelo_nombre": "sipangpt",
-    "respuesta_generada": "¡Hola! Tranquilo, respira. No te preocupes, estoy aquí para guiarte paso a paso y resolver este inconveniente rápidamente. Es muy común confundirse con el menú en el aula.\n\nPara activar la calificación automática en la entrega, sigue estos pasos exactos en tu aula virtual:\n\n1. Accede a tu curso y haz clic en **Crear una actividad o un cuestionario**.\n2. Selecciona la actividad que te interese (por ejemplo, **Cuestionario** o **Tarea**).\n3. En la sección superior, bajo **Opciones de configuración**, activa la casilla llamada:\n   * **Marcar automáticamente**\n\nAl seleccionarla, haz clic en el botón **Guardar cambios** y luego en **Volver a la actividad**.\n    * *(Opcional: También puedes ir directamente a Configuración > Edición, buscar la opción **Activar opción de calificación automática** y marcar la casilla con un clic).*\n\n4. En la sección de **Criterios de calificación**, introduce el porcentaje de los puntos.\n5. En el campo de tipo de evaluación, elige si deseas que la calificación sea obligatoria o no.\n6. Haz clic en **GUARDAR** en la esquina superior derecha para finalizar la creación.\n\n**Resumen clave:** Es fundamental que actives el checkbox de **Marcar automáticamente** en la configuración de la actividad. ¡Listo, inténtalo y verás que funciona perfecto!",
-    "tiempo_total_ms": 11815.365999998903,
-    "tiempo_busqueda_ms": 0.0,
-    "tiempo_generacion_ms": 11815.365999998903,
-    "tokens_totales": 198,
-    "citas": []
-  },
-  {
-    "modelo_nombre": "sipangpt",
-    "respuesta_generada": "¡Hola, estimado profesor! Entiendo perfectamente su necesidad de revisar y reportar de manera ágil la información académica. Para lograr esto, debe seguir los pasos descritos en nuestro manual institucional del sistema académico:\n\n1. Ingrese al módulo **Gestión Financiera** en su Plataforma Académica.\n2. Diríjase a la sección correspondiente al **Bloque de Cobranza** y despliégelo.\n3. Dentro de esa sección, haga clic en la opción **Exportar RUC**.\n4. En el asistente de exportación, seleccione la opción **Pre-grado** y haga clic en **Generar informe**.\n5. Finalmente, en el sistema de reportes que se visualiza en la pantalla, seleccione la vista **Informe** (con los indicadores correspondientes) para poder exportar el archivo en formato PDF (exportar PDF) y enviarlo a su coordinación según corresponda.\n\n¡Espero que esta guía le sea de gran utilidad para su labor pedagógica!",
-    "tiempo_total_ms": 9181.620000003022,
-    "tiempo_busqueda_ms": 0.0,
-    "tiempo_generacion_ms": 9181.620000003022,
-    "tokens_totales": 133,
-    "citas": []
-  },
-  {
-    "modelo_nombre": "sipangpt",
-    "respuesta_generada": "¡Hola, estimado(a) colega! Con mucho gusto te comparto el procedimiento oficial de registro en línea de cursos a través de la plataforma para que puedas orientar adecuadamente a tus estudiantes.\n\nTen en cuenta que los pasos requieren estar en la sección de **Matrícula**.\n\nA continuación, te detallo la secuencia institucional según el manual de la universidad:\n\n1. Ingrese al sistema en https://moodle.uss.edu.pe con sus credenciales institucional.\n2. Haga clic en el botón **Matricularse ahora en curso**.\n3. Ingrese el código o matrícula del curso que debe cursar.\n4. Haga clic en **Cerrar**.\n5. En la ventana emergente aparecerá el listado de las clases disponibles con el horario correspondiente.\n6. Marque la casilla **He leído y acepto los términos de servicio** y haga clic en **Aceptar**.\n7. En el apartado **Detalle de curso**, haga clic en la pestaña **Materias** para elegir el registro en línea y hacer clic en **Agregar al carro del curso**.\n8. En el apartado **SELECCIONAR EL CURSO**, haga clic en la opción que deseen.\n9. Haga clic en **Comprar curso**.\n10. Seleccione entre las opciones de pago con tarjeta (Visa/Mastercard/American Express) o la opción SPEI (SPEI - Pago en Línea Institucional).\n11. Ingrese sus datos bancarios, haga clic en el botón rojo **Realizar pago** y confirme la transacción (opcionalmente se le mostrarán los detalles de las promociones).\n\n**Notas importantes adicionales:**\n* Tenga en cuenta que la modalidad en línea es obligatoria y el sistema no admite devoluciones.\n* Una vez realizado el pago, deberá ingresarse al menú `Mi Matrícula`, hacer clic en `Seleccionar Curso` para marcar la lista de cursos matriculados y hacer clic en `Aceptar` antes de generar el recibo de pago.\n\nEspero que esta información te sea de gran utilidad para tu labor en tutoría. ¡Mucho éxito en tu gestión!",
-    "tiempo_total_ms": 14912.062791998324,
-    "tiempo_busqueda_ms": 0.0,
-    "tiempo_generacion_ms": 14912.062791998324,
-    "tokens_totales": 295,
-    "citas": []
-  },
-  {
-    "modelo_nombre": "sipangpt",
-    "respuesta_generada": "¡Estimado estudiante, reciba un cordial saludo de bienvenida! Es un gusto saludarle. Con mucho gusto le brindaré la orientación detallada para ubicar su material bibliográfico a través del catálogo en línea de nuestra universidad.\n\nPara acceder a la biblioteca virtual desde el portal web institucional de la USS, por favor siga los siguientes pasos:\n\n1. Ingrese a la página oficial de la universidad.\n2. Haga clic en el botón **“INGRESAR A CAMPO DE TRABAJO”** ubicado en la barra superior derecha.\n3. Haga clic en **Campus Virtual** para iniciar sesión con sus credenciales institucionales.\n4. Al ingresar a la sección principal del Sistema, ubique la opción **Biblioteca Virtual** ubicada en el menú lateral izquierdo.\n5. Haz clic en el ícono de **Buscar artículos** (el símbolo de lupa) o ingrese directamente al campo de búsqueda en la barra de texto para realizar su consulta de manera rápida y eficaz.\n\nAsimismo, recuerde que el servicio incluye el catálogo, bases de datos, e información del SIGAA. Si tiene alguna dificultad adicional durante este proceso, no dude en comunicarlo. ¡Mucho éxito en su trabajo académico!",
-    "tiempo_total_ms": 11663.60879199783,
-    "tiempo_busqueda_ms": 0.0,
-    "tiempo_generacion_ms": 11663.60879199783,
-    "tokens_totales": 180,
-    "citas": []
-  },
-  {
-    "modelo_nombre": "sipangpt",
-    "respuesta_generada": "Hola, entiendo perfectamente tu preocupación. ¡No te preocupes, es muy sencillo armar una rúbrica en el Aula Virtual! Solo sigue estos pasos y lo harás rapidito:\n\n1. En la sección **Criterios**, haz clic en el botón **Añadir criterio** y selecciona el nivel superior (por ejemplo, Nivel 1: Excelente).\n2. Ingresa un **Nombre** descriptivo (por ejemplo, \"Conocimiento Conceptual\", \"Ejecución y Aplicación\", \"Actitud\").\n3. Edita el nivel que deseas evaluar (ejemplo, \"Muy Bueno\" o \"Excelente\").\n4. Define los **Descriptores** según el manual de la rúbrica: aquí debes incluir las características específicas que se valorarán en ese nivel.\n5. Haz clic en **Guardar** al final de la sección.\n\nRecuerda revisar que cada criterio tenga sus descripciones y sus puntajes correspondientes para que el sistema te valide el trabajo sin problemas. Si tienes alguna otra duda con el sistema, aquí estoy para ayudarte.",
-    "tiempo_total_ms": 11089.844040998287,
-    "tiempo_busqueda_ms": 0.0,
-    "tiempo_generacion_ms": 11089.844040998287,
-    "tokens_totales": 139,
-    "citas": []
-  },
-  {
-    "modelo_nombre": "sipangpt",
-    "respuesta_generada": "Estimado docente, buenas tardes. Con gusto le guiaré en el ingreso a la plataforma institucional de la USS. Para acceder al sistema de gestión de cursos y explorar su currículo académico desde la interfaz de la página web, siga los siguientes pasos:\n\n1. Acceda a la página oficial de la Universidad Señor de Sipán (uss.edu.pe).\n2. En la barra de navegación superior, ubique y haga clic en el botón verde identificado con la leyenda institucional **\"Plataforma USS\"**.\n3. Dentro de la plataforma, podrá visualizar las opciones del menú lateral y acceder al módulo correspondiente del cual requiera ingreso (por ejemplo, Aula Virtual, Campus Virtual, Biblioteca Virtual).\n\nEspero que esta información le sea de utilidad para continuar sus labores docentes. Quedo a su entera disposición para cualquier consulta adicional.",
-    "tiempo_total_ms": 8428.810582998267,
-    "tiempo_busqueda_ms": 0.0,
-    "tiempo_generacion_ms": 8428.810582998267,
-    "tokens_totales": 128,
-    "citas": []
-  },
-  {
-    "modelo_nombre": "sipangpt",
-    "respuesta_generada": "Estimado(a) estudiante, reciba un cordial saludo. Es un placer atender su consulta con la información oficial de la Universidad Señor de Sipán.\n\nCon respecto a su consulta sobre la obtención del grado académico de Maestro, la Dirección de Postgrado de nuestra universidad le informa lo siguiente, conforme al Capítulo I del Reglamento de Grado y Grado Académico (RESOL-071-2006-PED):\n\nEl puntaje académico mínimo que debe acreditar el estudiante al momento de graduarse con el título de Maestro es de **220 puntos** en el sistema de calificación por nota.\n\nPara obtener dicho título, además del promedio ponderado, deberá haber cumplido con los siguientes requisitos establecidos por la Ley y la Resolución:\n\n*   Acreditar el conocimiento en las áreas de Ciencias de Gestión, Gerencia, Desarrollo, Informática y Computación, según el plan de estudios de la especialidad correspondiente.\n*   Cumplir con el Plan de Estudios y reglamento de la Escuela Profesional y el Programa de Estudios en su totalidad.\n*   Completar una titulación (tesis, tesis de especialización o tesis de investigación).\n*   Acreder la certificación de haber cumplido con los requisitos éticos de investigación.\n\nLe recordamos que la Dirección de Postgrado y la Escuela Profesional están a su completa disposición para guiarle en el desarrollo de su proceso de titulación.",
-    "tiempo_total_ms": 12065.928792002524,
-    "tiempo_busqueda_ms": 0.0,
-    "tiempo_generacion_ms": 12065.928792002524,
-    "tokens_totales": 206,
-    "citas": []
-  },
-  {
-    "modelo_nombre": "sipangpt",
-    "respuesta_generada": "Hola. Entiendo perfectamente tu urgencia por conseguir el uniforme de enfermería, pero como Asistente Virtual oficial de la Universidad Señor de Sipán, mi acceso a la información está restringido a las plataformas institucionales (como el Campus Virtual, aula virtual y sistemas académicos), por lo que no tengo acceso al inventario comercial actual de las tiendas externas.\n\nTe sugiero contactar directamente a la tienda institucional de uniforme de la USS en el correo de atención al público, o dirigirte a la tienda en físico para confirmar el costo y disponibilidad de los artículos antes de que cierren. ¡Mucha suerte con tu uniforme!",
-    "tiempo_total_ms": 9764.090667002165,
-    "tiempo_busqueda_ms": 0.0,
-    "tiempo_generacion_ms": 9764.090667002165,
-    "tokens_totales": 101,
-    "citas": []
-  },
-  {
-    "modelo_nombre": "sipangpt",
-    "respuesta_generada": "Hola. Entiendo perfectamente tu preocupación, pero no te preocupes, el proceso está diseñado para ser seguro. Te explico los pasos clave y lo que debes tener en cuenta al pagar con tarjeta en las plataformas de la Universidad Señor de Sipán:\n\n1. Inicia sesión en tu correo electrónico instituido.\n2. Ingresa al rubro económico o al servicio que requieras (por ejemplo, Servicios Financieros o Pago al Servicio de Salud).\n3. Selecciona los conceptos correspondientes en la lista.\n4. En la pantalla de pago, ingresa tu número de tarjeta en la vista de pago y haz clic en el botón **Pagar**, dirigiéndote a la interfaz de seguridad de tu entidad financiera.\n5. **Es crucial esperar en esta interfaz:** El sistema te redirigirá a un proceso de seguridad gestionado por el banco. Ten en cuenta que el sistema mostrará un indicador de procesamiento mientras los bancos validan la operación. No cierres la pestaña ni la sesión antes de que el procesador de pago oficial de tu entidad te lo indique.\n\n**Recomendaciones adicionales:**\n\n* **Mantente en la misma ventana:** Asegúrate de que la ventana del navegador no se cierre de forma inesperada.\n* **Monitoreo del sistema:** En la plataforma universitaria (como el módulo de Tesorería o Sefpay), el sistema muestra los códigos de respuesta (A25 o A29) para confirmarte el estado del pago.\n* **Mensaje de confirmación:** Una vez aprobado el pago, el sistema te redirigirá automáticamente a una pantalla de resumen donde deberás revisar los datos antes de hacer clic en finalizar.\n\nCon seguir estos pasos, la transacción se realizará de forma segura y registrada con validación de tu institución financiera. ¡Mucho éxito con tu pago!",
-    "tiempo_total_ms": 13691.842915999587,
-    "tiempo_busqueda_ms": 0.0,
-    "tiempo_generacion_ms": 13691.842915999587,
-    "tokens_totales": 274,
+    "tiempo_generacion_ms": 11247.364415999982,
+    "tokens_totales": 174,
     "citas": []
   }
 ]

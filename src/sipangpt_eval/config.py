@@ -37,6 +37,10 @@ class Settings(BaseSettings):
         default="",
         description="Token opcional de autorización para la API de SipánGPT"
     )
+    sipan_rag_api_key: str = Field(
+        default="sipangpt-local-perf-key",
+        description="Clave pre-compartida (x-api-key) para pruebas de rendimiento en SipánGPT"
+    )
     sipan_rag_cookie: str = Field(
         default="",
         description="Cookie de sesión de NextAuth para autenticación en /api/chat"
@@ -56,6 +60,26 @@ class Settings(BaseSettings):
     reports_dir: str = Field(
         default="reports",
         description="Directorio raíz para salidas de informes y gráficos"
+    )
+    gemini_api_key: str = Field(
+        default="",
+        description="API Key de Google Gemini para el Juez LLM-as-a-Judge"
+    )
+    judge_model_name: str = Field(
+        default="gemini-3.5-flash",
+        description="Modelo de Gemini a utilizar como Juez Evaluador (Zheng et al., NeurIPS 2023)"
+    )
+    vercel_ai_gateway_key: str = Field(
+        default="",
+        description="API Key de Vercel AI Gateway para el evaluador TypeSafe AI Jev"
+    )
+    vercel_ai_gateway_url: str = Field(
+        default="https://ai-gateway.vercel.sh/v1/evaluate",
+        description="URL del endpoint experimental de evaluación de Vercel AI Gateway"
+    )
+    typesafe_api_key: str = Field(
+        default="",
+        description="API Key nativa directa opcional para TypeSafe AI"
     )
 
     @property
