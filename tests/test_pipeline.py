@@ -22,8 +22,8 @@ def test_full_evaluation_pipeline(tmp_path: Path) -> None:
     assert multiturno_count >= 10
 
     # 2. Correr inferencia con clientes de prueba/mock fallback
-    gemma_client = LocalGemmaClient()
-    rag_client = SipanRAGClient()
+    gemma_client = LocalGemmaClient(api_url="http://localhost:9999/test-dummy-gemma")
+    rag_client = SipanRAGClient(api_url="http://localhost:9999/test-dummy-rag")
     runner = BenchmarkRunner(gemma_client, rag_client, results_dir=tmp_path / "results")
 
     outs_ft, outs_rag = runner.run_benchmark(cases)

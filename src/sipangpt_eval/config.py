@@ -45,6 +45,10 @@ class Settings(BaseSettings):
         default="ussipan/sipangpt-V2",
         description="Identificador del dataset oficial en HuggingFace Hub"
     )
+    hf_token: str = Field(
+        default="",
+        description="Token de autenticación opcional de HuggingFace Hub"
+    )
     data_dir: str = Field(
         default="data",
         description="Directorio raíz para almacenamiento de datos"

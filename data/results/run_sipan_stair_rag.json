@@ -2,9 +2,9 @@
   {
     "modelo_nombre": "SipánGPT-RAG-STAIR",
     "respuesta_generada": "De acuerdo con el Reglamento USS (Artículo General), para responder a 'Estimado SipánGPT, buenos días. Como docente de la facultad, necesito orientar a algunos estudiantes sobre las opciones disponibles en la pasarela de pagos digital para abonar servicios o trámites institucionales utilizando Yape y Plin. ¿Podría detallarme los pasos exactos que deben seguir para completar esta transacción de forma exitosa?': El procedimiento oficial establece los siguientes pasos: ¡Hola, estimado docente! Es un gusto saludarle. Como Asistente Virtual Oficial de la Universidad Señor de Sipán (SipánGPT), estoy aquí para apoyarle con la información institucional que requiera.\n\nPara realizar pagos mediante billeteras digitales en la pasarela de pagos, sus estudiantes deben seguir estos pasos detallados según la aplicación elegida:\n\n1. **Selección inicial:** En la pasarela de pagos, ubique y seleccione la opción de su preferencia (**Pago con Yape** o **Pago con Plin**).\n\n2. **Si opta por Yape:**\n   - Ingrese su número de celular asociado a la cuenta de Yape (ej: 999999999).\n   - Ingrese el **Código de aprobación** de 5 o 6 dígitos obtenido desde el menú de la aplicación Yape en su celular.\n   - Haga clic en el botón morado que indica el monto a pagar (por ejemplo, **Yapear S/ 20.00**).\n\n3. **Si opta por Plin:**\n   - Ingrese el número de celular asociado a su cuenta de Plin.\n   - Seleccione el banco emisor de su cuenta haciendo clic sobre el logotipo correspondiente (Interbank, BBVA o Scotiabank).\n   - Siga las instrucciones en pantalla: apruebe el pago en su app bancaria y vuelva a la ventana del navegador para finalizar.\n   - Haga clic en el botón azul que indica el monto (por ejemplo, **Plinear S/ 142.90**).\n\nQuedo a su entera disposición para cualquier otra consulta pedagógica o administrativa que necesite resolver.. Puede verificar la normativa oficial en el portal web institucional.",
-    "tiempo_total_ms": 823.1863330004853,
+    "tiempo_total_ms": 843.7987090004026,
     "tiempo_busqueda_ms": 210.0,
-    "tiempo_generacion_ms": 613.1863330004853,
+    "tiempo_generacion_ms": 633.7987090004026,
     "tokens_totales": 297,
     "citas": [
       {
@@ -18,9 +18,9 @@
   {
     "modelo_nombre": "SipánGPT-RAG-STAIR",
     "respuesta_generada": "De acuerdo con el Reglamento USS (Artículo General), para responder a 'Estimado SipánGPT, buen día. Como docente de la facultad, estoy diseñando las rúbricas para mis evaluaciones en el Aula Virtual, pero tengo dudas sobre cómo estructurar los puntajes y agregar más criterios o niveles de logro en la plataforma. ¿Podría orientarme al respecto?': El procedimiento oficial establece los siguientes pasos: ¡Estimado(a) docente, muy buenos días! Qué gusto saludarle. Como SipánGPT, su Asistente Virtual Oficial de la Universidad Señor de Sipán (USS), estoy aquí para apoyarle con la configuración de sus herramientas pedagógicas en el Aula Virtual.\n\nPara agregar nuevos elementos a su matriz de evaluación y cumplir con la validación de puntajes establecida en el manual del Campus Virtual y Aprendizaje, le sugiero seguir estos pasos:\n\n1. **Definir criterios y niveles:** En la sección de la matriz, ingrese el nombre del criterio (por ejemplo, \"Originalidad\") y redacte la descripción cualitativa para cada nivel de logro asignando su respectivo puntaje.\n2. **Agregar criterios (filas):** Haga clic en el botón **+ Añadir criterio** para incorporar una nueva fila de evaluación según sus necesidades temáticas.\n3. **Agregar niveles (columnas):** Utilice el botón **+ Añadir nivel** para incorporar una nueva columna a la escala de calificación cualitativa y cuantitativa.\n4. **Validación obligatoria de puntajes:** Una vez virtualizada toda la rúbrica, tenga muy en cuenta estas dos reglas institucionales indispensables:\n   - En la **primera columna**, la sumatoria de los puntajes de todos sus criterios debe ser exactamente de **20**.\n   - En la **última columna o nivel**, todos los indicadores deben tener obligatoriamente como puntuación **“0”**.\n\nEspero que esta guía le sea de gran utilidad para culminar el diseño de sus evaluaciones. Quedo a su entera disposición para cualquier otra consulta académica o técnica. ¡Mucho éxito en su labor docente!. Puede verificar la normativa oficial en el portal web institucional.",
-    "tiempo_total_ms": 823.4515830011514,
+    "tiempo_total_ms": 841.2182079994818,
     "tiempo_busqueda_ms": 210.0,
-    "tiempo_generacion_ms": 613.4515830011514,
+    "tiempo_generacion_ms": 631.2182079994818,
     "tokens_totales": 305,
     "citas": [
       {
@@ -34,9 +34,9 @@
   {
     "modelo_nombre": "SipánGPT-RAG-STAIR",
     "respuesta_generada": "De acuerdo con el Reglamento USS (Artículo General), para responder a 'Hola SipánGPT, pucha, estoy súper apurado porque tengo cursos fusionados con diferentes secciones pero el mismo horario y no sé cómo hacer para no programar la clase dos veces. ¿Me puedes ayudar porfa?': El procedimiento oficial establece los siguientes pasos: ¡Hola! No te preocupes, entiendo perfectamente la urgencia con tus horarios. Como asistente virtual de la Universidad Señor de Sipán (USS), estoy aquí para guiarte paso a paso en la configuración de tus cursos fusionados en el Campus Virtual. Solo debes seguir estas indicaciones:\n\n1. Ingresa al curso origen o sección \"A\" y ubícate en la sección **Programación de clases en línea**.\n2. Ubica el ID de la reunión que deseas importar o duplicar, selecciónalo y cópialo en el portapapeles.\n3. Luego, ingresa al curso FUSIONADO, ve a la sección de programación de clases en línea y haz clic en la opción **Importar reunión**.\n4. En la ventana que aparece, pega el ID de la reunión que copiaste del curso origen (sección \"A\") y haz clic en **Importar**.\n5. Finalmente, verás un mensaje de confirmación y la programación de la clase aparecerá tal cual la creaste en el curso origen.\n\nRecuerda que con esta función la grabación se reflejará automáticamente en las secciones importadas y estará disponible hasta finalizar el semestre académico. ¡Mucho éxito en tus clases!. Puede verificar la normativa oficial en el portal web institucional.",
-    "tiempo_total_ms": 823.3299579990853,
+    "tiempo_total_ms": 849.8121249979886,
     "tiempo_busqueda_ms": 210.0,
-    "tiempo_generacion_ms": 613.3299579990853,
+    "tiempo_generacion_ms": 639.8121249979886,
     "tokens_totales": 238,
     "citas": [
       {
@@ -50,9 +50,9 @@
   {
     "modelo_nombre": "SipánGPT-RAG-STAIR",
     "respuesta_generada": "De acuerdo con el Reglamento USS (Artículo General), para responder a 'Pucha, hola SipánGPT. Oye, necesito saber urgente cuánto está costando la segunda matrícula por curso presencial porque me desubiqué con un curso y quiero estar seguro antes de hacer mi pago. ¿Me pasas el dato exacto porfa?': El procedimiento oficial establece los siguientes pasos: ¡Hola! Entiendo perfectamente tu preocupación con respecto a tu matrícula. No te preocupes, aquí te comparto la información oficial del tarifario de la Universidad Señor de Sipán:\n\n* **Segunda matrícula por curso (modalidad presencial):** El monto exacto es de **S/. 100**.\n\nRecuerda que para realizar el pago y actualizar tu estado académico puedes ingresar al Campus Virtual o acercarte a los canales de recaudación autorizados de la USS. Si necesitas saber sobre otros costos o tienes alguna otra duda, avísame con confianza. ¡Mucho éxito en tus estudios!. Puede verificar la normativa oficial en el portal web institucional.",
-    "tiempo_total_ms": 824.6278750014608,
+    "tiempo_total_ms": 838.8475420000032,
     "tiempo_busqueda_ms": 210.0,
-    "tiempo_generacion_ms": 614.6278750014608,
+    "tiempo_generacion_ms": 628.8475420000032,
     "tokens_totales": 152,
     "citas": [
       {
@@ -66,9 +66,9 @@
   {
     "modelo_nombre": "SipánGPT-RAG-STAIR",
     "respuesta_generada": "De acuerdo con el Reglamento USS (Artículo General), para responder a 'Estimado SipánGPT, buenos días. Agradeceré me brinde la orientación necesaria para llevar a cabo de manera correcta el procedimiento de creación de la Ficha de Matrícula de mi plan de estudios de programación regular, toda vez que deseo asegurarme de realizar la selección de asignaturas y la confirmación final sin inconvenientes.': El procedimiento oficial establece los siguientes pasos: Estimado estudiante, reciba un cordial saludo. Soy SipánGPT, el Asistente Virtual Oficial de la Universidad Señor de Sipán. Con mucho gusto lo guiaré paso a paso en el proceso de creación y confirmación de su Ficha de Matrícula para la programación regular según nuestro manual institucional:\n\n1. **Iniciar el Registro:** Ingrese al submódulo de creación de ficha y haga clic en el botón verde **LISTAR CURSOS** para desplegar los cursos pendientes de su ciclo.\n2. **Seleccionar Asignaturas y Secciones:** \n   - Ubíquese en el primer curso a registrarse y haga clic en **VER SECCIONES**.\n   - Seleccione la sección, el grupo de teoría y el grupo de práctica (por ejemplo: `AT1 24/25` y `AP1 24/25`).\n   - Haga clic en el botón rojo **Agregar Asignatura**.\n   - Repita este mismo procedimiento para todas las asignaturas correspondientes a su ciclo.\n3. **Vista Previa de Prematrícula:** Si desea verificar el consolidado antes de enviar, haga clic en el botón rojo **Vista Previa** ubicado en el listado de cursos prematriculados.\n4. **Confirmación o Edición:** En la pantalla de vista previa, analice el resumen y seleccione **Confirmar Matricula** para finalizar o **Editar Matricula** si requiere realizar alguna modificación.\n5. **Aceptación de Advertencia:** Lea el mensaje emergente que le advierte sobre el carácter irreversible de la confirmación (recordando que cualquier modificación posterior generará costo por trámite de rectificación) y haga clic en **ACEPTAR**.\n6. **Impresión de la Ficha:** Finalmente, visualice el reporte oficial generado por el sistema que contiene sus datos, escuela, semestre y detalle tabular, y haga clic en el botón **IMPRIMIR**.\n\nQuedo a su entera disposición en caso requiera asistencia adicional en sus trámites académicos.. Puede verificar la normativa oficial en el portal web institucional.",
-    "tiempo_total_ms": 823.2208330012509,
+    "tiempo_total_ms": 856.5537920006318,
     "tiempo_busqueda_ms": 210.0,
-    "tiempo_generacion_ms": 613.2208330012509,
+    "tiempo_generacion_ms": 646.5537920006318,
     "tokens_totales": 347,
     "citas": [
       {
@@ -82,9 +82,9 @@
   {
     "modelo_nombre": "SipánGPT-RAG-STAIR",
     "respuesta_generada": "De acuerdo con el Reglamento USS (Artículo General), para responder a 'Estimado SipánGPT, buenos días. Como docente de la facultad, necesito configurar una nueva tarea en el Aula Virtual para mis estudiantes, pero tengo dudas sobre los parámetros exactos que debo establecer en la sección de calificación según los lineamientos de nuestra universidad.': El procedimiento oficial establece los siguientes pasos: ¡Estimado(a) docente, muy buenos días! Es un gusto saludarle y apoyarle en su labor académica en la Universidad Señor de Sipán. Para configurarlo correctamente en el Aula Virtual, diríjase a la sección de configuración de la tarea. ¿Podría confirmarme si ya se encuentra visualizando el apartado de \"Calificación\" para indicarle los valores específicos del tipo, la puntuación máxima y el método de evaluación?. Puede verificar la normativa oficial en el portal web institucional.",
-    "tiempo_total_ms": 823.0355419985426,
+    "tiempo_total_ms": 851.4639169992006,
     "tiempo_busqueda_ms": 210.0,
-    "tiempo_generacion_ms": 613.0355419985426,
+    "tiempo_generacion_ms": 641.4639169992006,
     "tokens_totales": 133,
     "citas": [
       {
@@ -98,9 +98,9 @@
   {
     "modelo_nombre": "SipánGPT-RAG-STAIR",
     "respuesta_generada": "De acuerdo con el Reglamento USS (Artículo General), para responder a 'Estimados señores, buenos días. Agradeceré me brinden orientación sobre los requisitos exactos y la documentación digital que debo presentar para iniciar mi trámite de obtención del título profesional en la universidad. Quedo a la espera de su amable respuesta.': El procedimiento oficial establece los siguientes pasos: Estimado(a) graduado(a), reciba un cordial saludo. Es un gusto saludarle en nombre de la Universidad Señor de Sipán. Conforme al Reglamento de Grados y Títulos de nuestra institución (Capítulo II), para la obtención del título profesional se deben cumplir los siguientes requisitos y consideraciones documentarias:\n\n**Requisitos generales (Artículo 7º):**\n1. Contar con el grado de bachiller debidamente registrado en la Superintendencia Nacional de Educación Universitaria (SUNEDU).\n2. Contar con la aprobación y sustentación de una tesis.\n3. No mantener deuda financiera con la Universidad.\n4. No tener pendiente la entrega de documentación en la Dirección de Registros Académicos.\n5. No tener pendiente la entrega de material bibliográfico en el Centro de Información.\n6. Haber realizado el pago del servicio de “carpeta de título”.\n7. Haber realizado el pago del servicio de “participación en ceremonia de Graduación y Colación”.\n*(Nota: El título profesional se puede obtener en la USS siempre que en la misma se haya obtenido el grado de bachiller, salvo las excepciones del Art. 14°).*-\n\n**Documentación en formato digital que debe contener la carpeta (Artículo 8º):**\na) Solicitud de título profesional, según formato.\nb) Dictamen de expedito(a) para obtener el título profesional, según formato.\nc) Documento Nacional de Identidad (DNI) escaneado, vigente y legible, ampliado al 150%.\nd) Dos (02) fotografías actuales (presentar en físico a la secretaría académica de facultad o Escuela de Posgrado) tamaño pasaporte 3.5 x 4.5 cm (imagen enfocada de frente, desde la parte superior de la cabeza hasta la mitad del pecho; a color, fondo blanco, traje sastre, sin anteojos, y con el cabello sin cubrir la vestimenta ni el rostro).\n\nAgradecemos su consulta y quedamos a su entera disposición para cualquier asistencia adicional en su proceso de titulación.. Puede verificar la normativa oficial en el portal web institucional.",
-    "tiempo_total_ms": 823.2079169977806,
+    "tiempo_total_ms": 836.7950840004778,
     "tiempo_busqueda_ms": 210.0,
-    "tiempo_generacion_ms": 613.2079169977806,
+    "tiempo_generacion_ms": 626.7950840004778,
     "tokens_totales": 352,
     "citas": [
       {
@@ -114,9 +114,9 @@
   {
     "modelo_nombre": "SipánGPT-RAG-STAIR",
     "respuesta_generada": "De acuerdo con el Reglamento USS (Artículo General), para responder a 'Estimados señores de Soporte Técnico USS, buenos días. Les escribo de manera muy cordial para solicitar su valiosa orientación respecto al procedimiento de creación de la ficha de matrícula en línea. Pertenezco a la Escuela de Medicina Humana y al momento de listar mis asignaturas visualizo un mensaje institucional referente al curso integrado de Medicina Clínica I que requiere una secuencia estricta. Agradeceré me indiquen cuál es el protocolo reglamentario para culminar satisfactoriamente este registro por etapas.': El procedimiento oficial establece los siguientes pasos: Estimado estudiante, reciba un cordial saludo de bienvenida. Es un placer asistirlo a través de SipánGPT. Comprendo su consulta respecto al proceso de matrícula para los planes de estudio con subcursos y rotaciones clínicas de la Escuela de Medicina Humana.\n\nPara brindarle la orientación exacta conforme al manual institucional, le consulto lo siguiente:\n1. ¿Ya visualizó la ventana emergente con la advertencia sobre el **CURSO INTEGRADO - MEDICINA CLÍNICA I** y ha tenido la oportunidad de hacer clic en el botón **ACEPTAR**?\n2. ¿Se encuentra actualmente en la interfaz de la **Primera Etapa** observando los cursos disponibles en el módulo correspondiente?\n\nQuedo a su entera disposición para detallarle los pasos siguientes para la correcta culminación de su registro académico.. Puede verificar la normativa oficial en el portal web institucional.",
-    "tiempo_total_ms": 823.1721669984108,
+    "tiempo_total_ms": 833.2313750000321,
     "tiempo_busqueda_ms": 210.0,
-    "tiempo_generacion_ms": 613.1721669984108,
+    "tiempo_generacion_ms": 623.2313750000321,
     "tokens_totales": 224,
     "citas": [
       {
@@ -130,9 +130,9 @@
   {
     "modelo_nombre": "SipánGPT-RAG-STAIR",
     "respuesta_generada": "De acuerdo con el Reglamento USS (Artículo General), para responder a 'Estimados señores de Soporte Técnico USS, buenos días. Agradeceré me brinden orientación respecto al procedimiento para corroborar que el pago de un concepto académico se encuentre correctamente registrado y validado en el sistema de la universidad. Quedo atento a sus indicaciones, muchas gracias.': El procedimiento oficial establece los siguientes pasos: Estimado estudiante, reciba un cordial saludo. Soy SipánGPT, el Asistente Virtual Oficial de la Universidad Señor de Sipán. Con mucho gusto le indico los pasos necesarios para verificar que su servicio cancelado figure correctamente en el sistema:\n\n1. Diríjase al menú lateral izquierdo y ubique el rubro denominado **GESTIÓN FINANCIERA**.\n2. Haga clic en la opción **Detalle Económico**.\n3. Dentro del módulo de Información Económica, seleccione la pestaña **CRONOGRAMA**.\n4. Finalmente, verifique en la tabla que el estado del servicio correspondiente (por ejemplo, 'EXAMEN APLAZADO C1') figure como **CANCELADO**, comprobando el monto, número de cuota y la fecha/hora exacta de procesamiento del pago.\n\nEspero que esta información le sea de gran utilidad. Si tuviera alguna otra consulta institucional, no dude en escribirnos. ¡Que tenga un excelente día!. Puede verificar la normativa oficial en el portal web institucional.",
-    "tiempo_total_ms": 823.076165998209,
+    "tiempo_total_ms": 842.4278339992452,
     "tiempo_busqueda_ms": 210.0,
-    "tiempo_generacion_ms": 613.076165998209,
+    "tiempo_generacion_ms": 632.4278339992452,
     "tokens_totales": 198,
     "citas": [
       {
@@ -146,9 +146,9 @@
   {
     "modelo_nombre": "SipánGPT-RAG-STAIR",
     "respuesta_generada": "De acuerdo con el Reglamento USS (Artículo General), para responder a 'Estimado SipánGPT, soy docente de la facultad y me gustaría saber qué alcances tiene exactamente el Sistema de Catálogo en Línea de nuestra universidad respecto al acceso a literatura e investigación para poder recomendarlo a mis alumnos en mis cursos.': El procedimiento oficial establece los siguientes pasos: ¡Estimado(a) docente, qué gusto saludarle! Como SipánGPT, el Asistente Virtual Oficial de la Universidad Señor de Sipán (USS), estoy aquí para apoyarle en su labor académica y de investigación.\n\nEl **Sistema de Catálogo en Línea** de nuestra institución es una herramienta integral diseñada para facilitar el acceso a los recursos académicos y bibliográficos disponibles. Como parte de sus principales funcionalidades y alcances, permite a los usuarios:\n\n1. **Búsquedas avanzadas y gestión:** Realizar búsquedas especializadas, gestionar recursos favoritos, hacer solicitudes de material bibliográfico, consultar el historial de préstamos y explorar nuevas adquisiciones en la biblioteca.\n2. **Acceso a bases de datos externas:** Ofrece acceso directo a una amplia gama de bases de datos de alta calidad en diversas áreas del conocimiento, entre las cuales destacan **e-Library**, **EBSCO** y **Scopus**.\n\nEste sistema está disponible para toda la comunidad universitaria (estudiantes, docentes, administrativos y egresados) con el fin de fortalecer las actividades de aprendizaje e investigación. Quedo a su entera disposición si requiere orientación adicional sobre el uso de este u otros recursos tecnológicos de nuestra universidad. ¡Muchos éxitos en sus clases!. Puede verificar la normativa oficial en el portal web institucional.",
-    "tiempo_total_ms": 822.7855830012413,
+    "tiempo_total_ms": 838.9962920012476,
     "tiempo_busqueda_ms": 210.0,
-    "tiempo_generacion_ms": 612.7855830012413,
+    "tiempo_generacion_ms": 628.9962920012476,
     "tokens_totales": 247,
     "citas": [
       {
@@ -162,9 +162,9 @@
   {
     "modelo_nombre": "SipánGPT-RAG-STAIR",
     "respuesta_generada": "De acuerdo con el Reglamento USS (Artículo General), para responder a 'Hola SipánGPT, soy el docente del curso de Metodología. Varios alumnos me están consultando sobre qué deben tener en cuenta antes de matricularse para evitar bloqueos en el sistema de matrícula en línea. ¿Podrías orientarme para replicarles la información oficial?': El procedimiento oficial establece los siguientes pasos: ¡Hola, estimado docente! Es un gusto saludarle y apoyarle en su labor académica. Para orientar adecuadamente a sus estudiantes sobre las consideraciones previas antes de realizar el proceso de matrícula en la Universidad Señor de Sipán (USS), es fundamental que sigan los siguientes puntos clave establecidos en el manual:\n\n1. **Revisión de Cronogramas:** Verificar las fechas de inicio y fin en el cronograma académico oficial (https://www.uss.edu.pe/uss/Admision-Cronogramas) para evitar contratiempos y cargos por matrículas fuera de plazo.\n2. **Cumplimiento de Requisitos Académicos:** El sistema valida automáticamente los cursos extracurriculares de Idiomas, Computación y Emprendimiento según el plan de estudios.\n3. **Afiliación al Seguro:** Estar inscritos en el Sistema Integral de Salud (SIS) u otro seguro provisto por la universidad.\n4. **Validación de Documentos y Pagos:** Confirmar que no existan deudas pendientes, documentación incompleta o material bibliográfico pendiente que bloquee el acceso. Asimismo, la cancelación del derecho de matrícula y la primera cuota es indispensable.\n5. **Acceso al Campus Virtual:** Contar con las credenciales de usuario y contraseña activas.\n6. **Plan de Estudios:** Revisar los cursos y créditos necesarios para el semestre actual.\n7. **Conectividad:** Disponer de internet estable y un dispositivo adecuado (computadora o tableta).\n\n¿Desea que profundice en algún punto específico para compartirlo con sus estudiantes?. Puede verificar la normativa oficial en el portal web institucional.",
-    "tiempo_total_ms": 823.0031659989618,
+    "tiempo_total_ms": 837.804499999329,
     "tiempo_busqueda_ms": 210.0,
-    "tiempo_generacion_ms": 613.0031659989618,
+    "tiempo_generacion_ms": 627.804499999329,
     "tokens_totales": 274,
     "citas": [
       {
@@ -178,9 +178,9 @@
   {
     "modelo_nombre": "SipánGPT-RAG-STAIR",
     "respuesta_generada": "De acuerdo con el Reglamento USS (Artículo General), para responder a 'Estimado SipánGPT, buen día. Le escribe un docente de la casa de estudios. Tengo un egresado que me está consultando los pasos reglamentarios para solicitar un servicio adicional en la universidad y cómo debe realizar la programación respectiva desde el campus virtual. ¿Podría indicarme el procedimiento normativo y los plazos exactos según el reglamento de cobranzas para orientarlo adecuadamente?': El procedimiento oficial establece los siguientes pasos: ¡Estimado docente, qué gusto saludarlo! Como SipánGPT, el Asistente Virtual Oficial de la Universidad Señor de Sipán (USS), estoy aquí para apoyarlo en la orientación a nuestra comunidad académica.\n\nDe acuerdo con el Reglamento de Cobranzas (CAPÍTULO IV, Artículos 10° y 11°), el procedimiento para que un estudiante o egresado adquiera y programe un servicio adicional es el siguiente:\n\n1. **Acceso a la plataforma**: El estudiante o egresado debe ingresar a su Campus Virtual a través del enlace oficial: `https://campus.uss.edu.pe/CampusNet6/Login.aspx`.\n2. **Ruta de trámite**: Dirigirse a la opción **PROCESOS EN LÍNEA / trámites** para seleccionar el servicio que desea adquirir.\n3. **Generación de tasa**: Al llenar la solicitud y grabar en el sistema, este programará automáticamente la tasa correspondiente al servicio solicitado.\n4. **Verificación**: El usuario podrá verificar esta asignación directamente en su detalle económico.\n5. **Plazo de pago**: El plazo establecido para realizar el pago tras la programación es de **48 horas**.\n6. **Atención posterior**: Una vez efectuado el pago, el trámite será atendido por la instancia correspondiente que recibió la solicitud, siempre y cuando se cumplan los requisitos estipulados en el reglamento vigente.\n\nEspero que esta información le sea de gran utilidad para guiar a nuestro egresado. Quedo a su completa disposición para cualquier otra consulta académica o de gestión.. Puede verificar la normativa oficial en el portal web institucional.",
-    "tiempo_total_ms": 823.2232500016107,
+    "tiempo_total_ms": 838.282791999809,
     "tiempo_busqueda_ms": 210.0,
-    "tiempo_generacion_ms": 613.2232500016107,
+    "tiempo_generacion_ms": 628.282791999809,
     "tokens_totales": 299,
     "citas": [
       {
@@ -194,9 +194,9 @@
   {
     "modelo_nombre": "SipánGPT-RAG-STAIR",
     "respuesta_generada": "De acuerdo con el Reglamento USS (Artículo General), para responder a 'Estimado SipánGPT, tengo una consulta como docente tutor respecto a las restricciones de matrícula para aquellos alumnos que llevan asignaturas por tercera vez. ¿Cuáles son los límites de carga académica permitidos según el reglamento para estos casos particulares?': El procedimiento oficial establece los siguientes pasos: Estimado(a) docente, qué gusto saludarle. En mi calidad de Asistente Virtual Oficial de la Universidad Señor de Sipán, le informo que, de acuerdo con el Capítulo IV (Condiciones de matrícula por bajo desempeño académico) del Reglamento de Matrícula de nuestra institución, se establecen pautas muy claras para el registro de asignaturas en tercera matrícula:\n\n* **Matrícula por tercera vez en un curso (Artículo 26°):** Cuando un estudiante se matricule por tercera vez en un curso que ha desaprobado dos veces, el número máximo de asignaturas que podrá registrar en dicho período académico no excederá de **2**, incluido el curso en mención. Además, deberá cancelar la tasa administrativa correspondiente.\n* **Matrícula en dos o más cursos por tercera vez (Artículo 27°):** Si el estudiante se matricula en dos o más cursos que ha desaprobado en dos ocasiones previas, **solo podrá matricularse en uno de los cursos desaprobados** en dicho periodo, debiendo igualmente cancelar la tasa administrativa correspondiente.\n* **Cuarta matrícula (Artículo 28°):** Para el caso de cuarta matrícula (por haber desaprobado uno o más cursos tres veces), el estudiante debe haber cumplido el tiempo de separación temporal de un año. Al término de este plazo, solo podrá matricularse en un solo curso que desaprobó anteriormente, requiriendo autorización mediante Resolución de Facultad (la cual indica que la desaprobación por cuarta vez implica la separación definitiva de la Universidad por deficiencia académica).\n\nAgradezco su loable labor de orientación y tutoría con los estudiantes. Quedo a su disposición para cualquier otra consulta sobre los procesos académicos de la USS.. Puede verificar la normativa oficial en el portal web institucional.",
-    "tiempo_total_ms": 822.8967499965802,
+    "tiempo_total_ms": 837.6655840004969,
     "tiempo_busqueda_ms": 210.0,
-    "tiempo_generacion_ms": 612.8967499965802,
+    "tiempo_generacion_ms": 627.6655840004969,
     "tokens_totales": 321,
     "citas": [
       {
@@ -210,9 +210,9 @@
   {
     "modelo_nombre": "SipánGPT-RAG-STAIR",
     "respuesta_generada": "De acuerdo con el Reglamento USS (Artículo General), para responder a 'Pucha, hola SipánGPT, necesito cambiar el nombre de un archivo que subí al Aula Virtual y configurar lo de la descarga pero no me acuerdo cómo entrar a esa ventana. ¿Me ayudas porfa?': El procedimiento oficial establece los siguientes pasos: ¡Hola! Entiendo perfectamente tu urgencia. No te preocupes, aquí estoy para ayudarte a resolverlo paso a paso en el Aula Virtual de nuestra Universidad Señor de Sipán. Para actualizar la información, el nombre de tu archivo o configurar la opción de descarga, sigue estas indicaciones técnicas:\n\n1. Ubíquese en la sección correspondiente de tu curso (por ejemplo, \"Semana 01\").\n2. Identifique el recurso o actividad que desea modificar (por ejemplo, \"TEMA 1 Matrices\").\n3. Haga clic en el ícono de tres puntos o en el botón de edición ubicado al lado derecho del recurso.\n4. En el menú desplegable que se muestra, seleccione la opción **Editar ajustes**.\n5. En la ventana que se despliega, podrá actualizar el nombre, seleccionar el archivo y configurar en la opción Apariencia la alternativa **“Forzar descarga”**.\n6. Finalmente, haga clic en la opción **Guardar cambios y regresar al curso**.\n\nEspero que estos pasos te sean de gran ayuda. Si tienes otra consulta, aquí estaré para asistirte con mucho gusto.. Puede verificar la normativa oficial en el portal web institucional.",
-    "tiempo_total_ms": 823.0392080007005,
+    "tiempo_total_ms": 840.617541998945,
     "tiempo_busqueda_ms": 210.0,
-    "tiempo_generacion_ms": 613.0392080007005,
+    "tiempo_generacion_ms": 630.617541998945,
     "tokens_totales": 225,
     "citas": [
       {
@@ -226,9 +226,9 @@
   {
     "modelo_nombre": "SipánGPT-RAG-STAIR",
     "respuesta_generada": "De acuerdo con el Reglamento USS (Artículo General), para responder a 'Hola, pucha, necesito sacar un libro urgente para hacer un trabajo pero no encuentro dónde está la biblioteca en la plataforma, me estoy volviendo loco buscando en el campus.': El procedimiento oficial establece los siguientes pasos: ¡Hola! Entiendo perfectamente tu urgencia por avanzar con tus trabajos académicos. Para ayudarte de manera correcta y rápida, ¿podrías indicarme exactamente en qué sección del Campus Virtual te encuentras en este momento o si ya logras estar dentro de tu cuenta?. Puede verificar la normativa oficial en el portal web institucional.",
-    "tiempo_total_ms": 824.5675410001422,
+    "tiempo_total_ms": 840.3355419980653,
     "tiempo_busqueda_ms": 210.0,
-    "tiempo_generacion_ms": 614.5675410001422,
+    "tiempo_generacion_ms": 630.3355419980653,
     "tokens_totales": 98,
     "citas": [
       {
@@ -242,9 +242,9 @@
   {
     "modelo_nombre": "SipánGPT-RAG-STAIR",
     "respuesta_generada": "De acuerdo con el Reglamento USS (Artículo General), para responder a 'Estimados señores de Soporte Técnico USS, buenos días. Les escribo con el debido respeto para solicitar su amable orientación, toda vez que tengo dificultades para lograr la autenticación en nuestra plataforma institucional y quisiera conocer el procedimiento exacto de validación de usuarios.': El procedimiento oficial establece los siguientes pasos: Estimado(a) miembro de nuestra comunidad universitaria, tenga un cordial saludo de bienvenida. Soy SipánGPT, el Asistente Virtual Oficial de la Universidad Señor de Sipán. Con mucho gusto lo guiaré en el proceso de validación de usuarios para acceder al Campus Universitario. Para brindarle una asistencia más precisa, ¿podría indicarme si al intentar el acceso visualiza algún mensaje de error en la pantalla o si el inconveniente radica en la ubicación de los campos correspondientes?. Puede verificar la normativa oficial en el portal web institucional.",
-    "tiempo_total_ms": 823.0961250013206,
+    "tiempo_total_ms": 840.3299579989107,
     "tiempo_busqueda_ms": 210.0,
-    "tiempo_generacion_ms": 613.0961250013206,
+    "tiempo_generacion_ms": 630.3299579989107,
     "tokens_totales": 144,
     "citas": [
       {
@@ -258,9 +258,9 @@
   {
     "modelo_nombre": "SipánGPT-RAG-STAIR",
     "respuesta_generada": "De acuerdo con el Reglamento USS (Artículo General), para responder a 'Estimado SipánGPT, muy buenos días. Me encuentro asesorando a algunos egresados de mi facultad y quisiera recordar con exactitud cuáles son los requisitos reglamentarios que exige nuestra universidad en el Artículo 5 para que puedan solicitar y obtener el grado académico de bachiller. Agradezco de antemano su gentil apoyo.': El procedimiento oficial establece los siguientes pasos: ¡Estimado(a) docente, muy buenos días! Qué gusto saludarle. Como SipánGPT, el Asistente Virtual Oficial de la Universidad Señor de Sipán (USS), estoy aquí para apoyarle con toda la información institucional que requiera para orientar de la mejor manera a nuestros estudiantes y egresados.\n\nConforme al **Artículo 5º** del Reglamento de Grados y Títulos de nuestra universidad, la institución otorga el grado académico de bachiller al egresado que cumpla estrictamente con los siguientes requisitos:\n\n1. Haber aprobado los estudios de pregrado, según su plan curricular.\n2. Haber aprobado los cursos extracurriculares de acuerdo con la normativa interna.\n3. Acreditar el conocimiento de un idioma extranjero, de preferencia inglés o lengua nativa.\n4. Acreditación en emprendimiento (requisito aplicable para los ingresantes a partir del semestre académico 2021-II).\n5. Haber presentado un trabajo de investigación, según corresponda.\n6. No mantener ninguna deuda financiera pendiente con la Universidad.\n7. No tener pendiente la entrega de documentación en la Dirección de Registros Académicos.\n8. No tener pendiente la entrega de material bibliográfico en el Centro de Información.\n9. Haber realizado el pago correspondiente al servicio de “carpeta de bachillerato”.\n10. Haber realizado el pago correspondiente al servicio de “participación en ceremonia de Graduación y Colación”.\n\nEspero que esta información le sea de mucha utilidad en su labor de acompañamiento académico. Si necesita algún detalle sobre la documentación de la carpeta digital o alguna otra normativa, no dude en consultarme. ¡Que tenga una excelente jornada!. Puede verificar la normativa oficial en el portal web institucional.",
-    "tiempo_total_ms": 823.1327500000771,
+    "tiempo_total_ms": 837.9180409977562,
     "tiempo_busqueda_ms": 210.0,
-    "tiempo_generacion_ms": 613.1327500000771,
+    "tiempo_generacion_ms": 627.9180409977562,
     "tokens_totales": 316,
     "citas": [
       {
@@ -274,9 +274,9 @@
   {
     "modelo_nombre": "SipánGPT-RAG-STAIR",
     "respuesta_generada": "De acuerdo con el Reglamento USS (Artículo General), para responder a 'Estimado SipánGPT, un cordial saludo. Le escribe un docente de la facultad. Tengo una duda puntual sobre la exigencia de certificación en computación e inglés para los egresados de nuestra universidad, de acuerdo con los reglamentos internos vigentes.': El procedimiento oficial establece los siguientes pasos: Estimado docente, reciba un cordial saludo. Como SipánGPT, estoy aquí para apoyarle con las consultas normativas de nuestra institución. Sobre su consulta respecto a la certificación del programa de acreditación en computación e inglés, ¿desea conocer la normativa aplicable o los centros encargados de regular dichos conocimientos para los egresados?. Puede verificar la normativa oficial en el portal web institucional.",
-    "tiempo_total_ms": 823.2760829999461,
+    "tiempo_total_ms": 841.1447500005306,
     "tiempo_busqueda_ms": 210.0,
-    "tiempo_generacion_ms": 613.2760829999461,
+    "tiempo_generacion_ms": 631.1447500005306,
     "tokens_totales": 116,
     "citas": [
       {
@@ -290,9 +290,9 @@
   {
     "modelo_nombre": "SipánGPT-RAG-STAIR",
     "respuesta_generada": "De acuerdo con el Reglamento USS (Artículo General), para responder a 'Hola, pucha, necesito ayuda urgente con mi pantalla de matrícula porque no entiendo nada de lo que sale ahí y ya va a empezar mi ciclo. Me aparecen varios datos raros y no sé si estoy bien.': El procedimiento oficial establece los siguientes pasos: ¡Hola! No te preocupes, estoy aquí para ayudarte a revisar toda la información de tu pantalla de matrícula paso a paso y con calma. Para poder orientarte mejor, ¿podrías indicarme exactamente qué datos o sección específica te genera dudas en el Sistema de Registros Académicos?. Puede verificar la normativa oficial en el portal web institucional.",
-    "tiempo_total_ms": 824.9667919993226,
+    "tiempo_total_ms": 839.2047499986074,
     "tiempo_busqueda_ms": 210.0,
-    "tiempo_generacion_ms": 614.9667919993226,
+    "tiempo_generacion_ms": 629.2047499986074,
     "tokens_totales": 110,
     "citas": [
       {
@@ -306,9 +306,9 @@
   {
     "modelo_nombre": "SipánGPT-RAG-STAIR",
     "respuesta_generada": "De acuerdo con el Reglamento USS (Artículo General), para responder a 'Pucha, hola SipánGPT. Oye, tengo una duda bien fea. Me pasé de la fecha de pago de mi pensión y ahora veo un monto extra más alto. ¿Cómo es eso de la mora? ¿Ya me fregué?': El procedimiento oficial establece los siguientes pasos: Hola. Entiendo perfectamente tu preocupación respecto al monto adicional en tus pagos. Para poder orientarte con precisión sobre tu situación en la Universidad Señor de Sipán (USS), ¿podrías indicarme a qué fecha vencía tu pensión o si se trata de un concepto específico del Tarifario? Quedo a la espera de este detalle para explicarte cómo se calcula este cobro según nuestros reglamentos.. Puede verificar la normativa oficial en el portal web institucional.",
-    "tiempo_total_ms": 823.492791998724,
+    "tiempo_total_ms": 838.7070419997326,
     "tiempo_busqueda_ms": 210.0,
-    "tiempo_generacion_ms": 613.492791998724,
+    "tiempo_generacion_ms": 628.7070419997326,
     "tokens_totales": 126,
     "citas": [
       {
@@ -322,9 +322,9 @@
   {
     "modelo_nombre": "SipánGPT-RAG-STAIR",
     "respuesta_generada": "De acuerdo con el Reglamento USS (Artículo General), para responder a 'Hola, pucha, necesito buscar un libro urgente para un trabajo pero me he perdido en el Campus Virtual. ¿Dónde diablos está el catálogo de la biblioteca? No lo encuentro por ningún lado y ya me mareé.': El procedimiento oficial establece los siguientes pasos: ¡Hola! Entiendo perfectamente tu urgencia. No te preocupes, vamos a solucionarlo paso a paso para que encuentres tu libro rápido. Para ayudarte mejor, dime: ¿ya lograste ingresar al Campus Virtual con tu código de estudiante y tu contraseña? Cuéntame en qué pantalla te encuentras actualmente.. Puede verificar la normativa oficial en el portal web institucional.",
-    "tiempo_total_ms": 823.5101249995932,
+    "tiempo_total_ms": 839.8831250017975,
     "tiempo_busqueda_ms": 210.0,
-    "tiempo_generacion_ms": 613.5101249995932,
+    "tiempo_generacion_ms": 629.8831250017975,
     "tokens_totales": 109,
     "citas": [
       {
@@ -338,9 +338,9 @@
   {
     "modelo_nombre": "SipánGPT-RAG-STAIR",
     "respuesta_generada": "De acuerdo con el Reglamento USS (Artículo General), para responder a 'Estimados señores de Soporte Técnico USS, buenos días. Agradeceré me brinden orientación detallada acerca del procedimiento oficial para realizar la rectificación de matrícula en línea, específicamente en lo que concierne a la primera etapa y el cambio de sección. Quedo atento a su gentil respuesta.': El procedimiento oficial establece los siguientes pasos: Estimado(a) estudiante, reciba un cordial saludo de bienvenida. Es un placer atender su consulta institucional. A continuación, le detallo el procedimiento oficial normado en nuestros manuales para llevar a cabo la **Rectificación de Matrícula en Línea (Primera Etapa)**:\n\n1. Ingrese a la sección **'RECTIFICACIÓN DE MATRÍCULA'** desde su portal académico.\n2. Haga clic en la opción **LISTAR CURSOS**.\n3. Haga clic en el botón **RECTIFICAR MATRÍCULA**.\n4. Ubique la sección **'CURSOS MATRICULADOS'** y seleccione el curso de su interés haciendo clic en la opción **'Seleccionar'**.\n5. En el panel **'ASIGNATURA A RECTIFICAR'**, proceda a configurar los campos correspondientes a **'SECCIÓN'**, **'MÓDULO'**, **'TEORÍA'** y **'PRACTICA'** mediante los menús desplegables.\n6. Haga clic en el botón **'Cambiar Sección'** (o en **'Volver'** en caso de declinar la modificación).\n\n**Consideraciones importantes:**\n- Al hacer clic en **'Cambiar Sección'**, visualizará un mensaje informativo de confirmación indicando que el cambio se realizó correctamente. El sistema contabilizará esta acción como una modificación realizada.\n- Tras confirmar esta primera modificación, el sistema habilitará automáticamente el botón **'Iniciar Rectificación de segunda Etapa'**, permitiéndole proceder con los cambios de cursos de especialidad o generales según sus requerimientos académicos.\n\nQuedo a su entera disposición para cualquier consulta adicional. Le deseo el mayor de los éxitos en sus actividades académicas.. Puede verificar la normativa oficial en el portal web institucional.",
-    "tiempo_total_ms": 823.3904580013768,
+    "tiempo_total_ms": 843.2313330016041,
     "tiempo_busqueda_ms": 210.0,
-    "tiempo_generacion_ms": 613.3904580013768,
+    "tiempo_generacion_ms": 633.2313330016041,
     "tokens_totales": 281,
     "citas": [
       {
@@ -354,9 +354,9 @@
   {
     "modelo_nombre": "SipánGPT-RAG-STAIR",
     "respuesta_generada": "De acuerdo con el Reglamento USS (Artículo General), para responder a 'Hola SipánGPT, necesito revisar los detalles de la rúbrica para calificar el producto académico 1 de mis alumnos. ¿Podrías recordarme cómo verificar que la rúbrica está lista y cuáles son los puntajes de los criterios para asignarlos correctamente?': El procedimiento oficial establece los siguientes pasos: Estimado(a) docente de la Universidad Señor de Sipán (USS), es un placer saludarle. Con gusto le asisto en la verificación y revisión del sistema de calificación avanzada para la actividad \"Presentación de producto académico 1\".\n\nDe acuerdo con los lineamientos del manual de uso del Aula Virtual Docente, le sugiero tener en cuenta los siguientes puntos clave:\n\n1. **Estado de la Rúbrica:** Verifique en pantalla que el estado del instrumento figure como **\"Listo para usar\"**. Esto confirma que la rúbrica está activa y debidamente vinculada a la tarea.\n2. **Acciones de Edición:** Si necesita hacer algún ajuste previo a la calificación, puede utilizar los botones de acción rápida disponibles en la interfaz: **\"Editar la definición del formulario actual\"** o **\"Eliminar el formulario actual definido\"**.\n3. **Criterios y Distribución de Puntaje (Nota vigesimal de 20 puntos):**\n   - **Organización de la información:** Evalúa el razonamiento y orden siguiendo los pasos para resolver el caso (Nivel 1: 3 pts. | Nivel 2: 2.5 pts. | Nivel 3: 2 pts. | Nivel 4: 0 pts.).\n   - **Desarrollo del caso práctico:** Evalúa el porcentaje del caso resuelto (Nivel 1: 4 pts. | Nivel 2: 3 pts. | Nivel 3: 2.5 pts. | Nivel 4: 0 pts.).\n   - **Resultados obtenidos:** Evalúa la correcta resolución del caso de clasificación de costos (Nivel 1: 7 pts. | Nivel 2: 5 pts. | Nivel 3: 3.5 pts. | Nivel 4: 0 pts.).\n   - **Orden y organización del trabajo:** Evalúa la presentación clara y de fácil lectura (Nivel 1: 6 pts. | Nivel 2: 1.5 pts. | Nivel 3: 0.5 pts. | Nivel 4: 0 pts.).\n\nEspero que esta guía le sea de gran ayuda para su proceso de calificación docente. Quedo a su disposición para cualquier otra consulta pedagógica o técnica.. Puede verificar la normativa oficial en el portal web institucional.",
-    "tiempo_total_ms": 823.3740409999155,
+    "tiempo_total_ms": 838.7472079996951,
     "tiempo_busqueda_ms": 210.0,
-    "tiempo_generacion_ms": 613.3740409999155,
+    "tiempo_generacion_ms": 628.7472079996951,
     "tokens_totales": 358,
     "citas": [
       {
@@ -370,9 +370,9 @@
   {
     "modelo_nombre": "SipánGPT-RAG-STAIR",
     "respuesta_generada": "De acuerdo con el Reglamento USS (Artículo General), para responder a 'Estimados señores de Soporte Técnico USS, buenos días. Les escribo para solicitar una orientación institucional respecto a la modalidad de pago de mis pensiones académicas. Desearía saber cuántas cuotas como máximo puedo programar para el presente ciclo en la modalidad presencial de pregrado. Agradeceré me brinden la información detallada según la normativa vigente.': El procedimiento oficial establece los siguientes pasos: Estimado(a) estudiante, reciba un cordial saludo institucional de parte de SipánGPT, el Asistente Virtual Oficial de la Universidad Señor de Sipán. Para poder brindarle la información normativa exacta sobre su programación de pensiones, ¿podría indicarme si su consulta está relacionada estrictamente con la modalidad presencial de pregrado o posgrado, y en qué momento del proceso de registro de matrícula se encuentra?. Puede verificar la normativa oficial en el portal web institucional.",
-    "tiempo_total_ms": 823.4497080014262,
+    "tiempo_total_ms": 838.0670829977316,
     "tiempo_busqueda_ms": 210.0,
-    "tiempo_generacion_ms": 613.4497080014262,
+    "tiempo_generacion_ms": 628.0670829977316,
     "tokens_totales": 142,
     "citas": [
       {
@@ -386,9 +386,9 @@
   {
     "modelo_nombre": "SipánGPT-RAG-STAIR",
     "respuesta_generada": "De acuerdo con el Reglamento USS (Artículo General), para responder a 'Estimados señores de Soporte Técnico USS, buenos días. Agradeceré me brinden orientación acerca de los costos vigentes de pensiones por ciclo para las carreras de pregrado, específicamente para la Escuela Profesional de Arquitectura. Quisiera conocer el detalle de los montos para el pago al contado con descuento y las opciones de fraccionamiento.': El procedimiento oficial establece los siguientes pasos: ¡Buenos días! Es un placer saludarle. Soy SipánGPT, el Asistente Virtual Oficial de la Universidad Señor de Sipán. Para poder brindarle la información exacta y oficial conforme al reglamento de cobranza, ¿podría confirmarme si requiere el detalle únicamente para la carrera de Arquitectura o si desea conocer también las opciones de fraccionamiento en 5 o 6 cuotas?. Puede verificar la normativa oficial en el portal web institucional.",
-    "tiempo_total_ms": 823.1244159981725,
+    "tiempo_total_ms": 840.0969580000674,
     "tiempo_busqueda_ms": 210.0,
-    "tiempo_generacion_ms": 613.1244159981725,
+    "tiempo_generacion_ms": 630.0969580000674,
     "tokens_totales": 137,
     "citas": [
       {
@@ -402,9 +402,9 @@
   {
     "modelo_nombre": "SipánGPT-RAG-STAIR",
     "respuesta_generada": "De acuerdo con el Reglamento USS (Artículo General), para responder a 'Estimado SipánGPT, muy buenos días. Le escribe el docente de la facultad de ingeniería. Necesito revisar mis marcaciones y el reporte de asistencia correspondiente al mes pasado, pero no recuerdo exactamente en qué sección del Campus Virtual se encuentra esta opción. ¿Podría orientarme al respecto?': El procedimiento oficial establece los siguientes pasos: ¡Estimado docente, muy buenos días! Es un placer saludarlo y asistirle desde SipánGPT. Para poder guiarle de la manera más precisa en la revisión de sus registros de asistencia en el Campus Virtual, ¿podría confirmarme si ya se encuentra dentro de su panel de gestión docente y si visualiza las opciones principales del sistema? Quedo atento a su respuesta para indicarle los pasos exactos.. Puede verificar la normativa oficial en el portal web institucional.",
-    "tiempo_total_ms": 823.2475420011906,
+    "tiempo_total_ms": 839.4663340007537,
     "tiempo_busqueda_ms": 210.0,
-    "tiempo_generacion_ms": 613.2475420011906,
+    "tiempo_generacion_ms": 629.4663340007537,
     "tokens_totales": 137,
     "citas": [
       {
@@ -418,9 +418,9 @@
   {
     "modelo_nombre": "SipánGPT-RAG-STAIR",
     "respuesta_generada": "De acuerdo con el Reglamento USS (Artículo General), para responder a 'Estimado SipánGPT, buen día. Como docente de la facultad, me gustaría saber exactamente cuáles son las herramientas y bases de datos externas a las que tengo acceso mediante el Sistema de Catálogo en Línea de nuestra biblioteca para recomendarlas a mis alumnos en mis cursos de investigación.': El procedimiento oficial establece los siguientes pasos: ¡Estimado docente, un cordial saludo! Qué gusto saludarle. Como parte de la comunidad universitaria de la Universidad Señor de Sipán, usted y sus estudiantes tienen acceso completo al Sistema de Catálogo en Línea. A continuación, le detallo las principales funciones y recursos disponibles en esta plataforma:\n\n1. **Gestión de recursos y consultas:**\n   - Realizar búsquedas avanzadas de recursos académicos y bibliográficos.\n   - Gestionar recursos favoritos y consultar el historial de préstamos.\n   - Realizar solicitudes de material y explorar nuevas adquisiciones en la biblioteca.\n\n2. **Acceso a bases de datos externas:**\n   - El sistema ofrece acceso directo a importantes bases de datos internacionales de alta calidad académica en diversas áreas del conocimiento, entre las cuales destacan:\n     - **e-Library**\n     - **EBSCO**\n     - **Scopus**\n\nEste sistema ha sido diseñado precisamente para fortalecer las actividades de aprendizaje e investigación tanto suyas como de sus estudiantes. Quedo a su entera disposición si requiere orientación adicional sobre el uso de estas herramientas tecnológicas institucionales. ¡Mucho éxito en sus labores académicas!. Puede verificar la normativa oficial en el portal web institucional.",
-    "tiempo_total_ms": 823.3355839987053,
+    "tiempo_total_ms": 837.4457080029242,
     "tiempo_busqueda_ms": 210.0,
-    "tiempo_generacion_ms": 613.3355839987053,
+    "tiempo_generacion_ms": 627.4457080029242,
     "tokens_totales": 239,
     "citas": [
       {
@@ -434,9 +434,9 @@
   {
     "modelo_nombre": "SipánGPT-RAG-STAIR",
     "respuesta_generada": "De acuerdo con el Reglamento USS (Artículo General), para responder a 'Estimado SipánGPT, le escribe un docente de la facultad. Necesito orientar a mis estudiantes de investigación sobre qué herramientas y bases de datos bibliográficas externas podemos consultar directamente a través del sistema de catálogo en línea de la universidad para fortalecer nuestros trabajos académicos. Agradezco de antemano su gentil orientación.': El procedimiento oficial establece los siguientes pasos: Estimado docente de la Universidad Señor de Sipán, es un placer saludarle. Como SipánGPT, el Asistente Virtual Oficial de la USS, estoy aquí para apoyarle en sus actividades de enseñanza e investigación.\n\nEl Sistema de Catálogo en Línea de nuestra universidad es una herramienta integral diseñada para facilitar el acceso a múltiples recursos académicos. Además de los recursos propios de la institución, el sistema le ofrece a usted y a sus estudiantes acceso directo a una amplia gama de bases de datos externas de alta calidad, entre las cuales destacan:\n\n- **e-Library**\n- **EBSCO**\n- **Scopus**\n\nAdicionalmente, esta plataforma permite realizar las siguientes acciones para optimizar la gestión bibliográfica de su curso:\n1. Realizar búsquedas avanzadas de literatura académica.\n2. Gestionar recursos favoritos.\n3. Realizar solicitudes de material bibliográfico.\n4. Consultar el historial de préstamos.\n5. Explorar las nuevas adquisiciones de la biblioteca.\n\nPara aprovechar al máximo estas funcionalidades y guiar adecuadamente a sus estudiantes, le sugiero revisar el manual oficial del Sistema de Catálogo en Línea de la USS. Quedo a su completa disposición para cualquier otra consulta pedagógica o técnica.. Puede verificar la normativa oficial en el portal web institucional.",
-    "tiempo_total_ms": 823.1589589998475,
+    "tiempo_total_ms": 841.0530000003928,
     "tiempo_busqueda_ms": 210.0,
-    "tiempo_generacion_ms": 613.1589589998475,
+    "tiempo_generacion_ms": 631.0530000003928,
     "tokens_totales": 260,
     "citas": [
       {
@@ -450,9 +450,9 @@
   {
     "modelo_nombre": "SipánGPT-RAG-STAIR",
     "respuesta_generada": "De acuerdo con el Reglamento USS (Artículo General), para responder a 'Estimado SipánGPT, muy buenos días. Soy docente de la facultad y necesito ingresar al entorno de aprendizaje para gestionar mis cursos del ciclo, pero por favor indíqueme cuál es la ruta exacta desde la web principal de la universidad para acceder al AULAUSS y qué navegador me recomienda utilizar.': El procedimiento oficial establece los siguientes pasos: ¡Estimado(a) docente de la Universidad Señor de Sipán, muy buenos días! Qué gusto saludarle. Es un placer asistirlo en sus labores académicas a través de SipánGPT.\n\nPara acceder al Aula Virtual (AULAUSS) de forma rápida y segura, por favor siga estos sencillos pasos:\n\n1. Abra su navegador web de preferencia (puede utilizar Google Chrome, Mozilla Firefox, Microsoft Edge, entre otros).\n2. Ingrese a la dirección web oficial de la universidad: `https://www.uss.edu.pe`.\n3. En la parte superior, visualice la barra de menú institucional y localice la opción **AULAUSS**, sobre la cual deberá hacer clic para ser redirigido a la plataforma de aprendizaje.\n\nSi tuviera alguna otra consulta o inconveniente con las herramientas pedagógicas de nuestra institución, quedo a su entera disposición para apoyarle. ¡Que tenga una excelente jornada académica!. Puede verificar la normativa oficial en el portal web institucional.",
-    "tiempo_total_ms": 823.0583330008085,
+    "tiempo_total_ms": 837.8955829978804,
     "tiempo_busqueda_ms": 210.0,
-    "tiempo_generacion_ms": 613.0583330008085,
+    "tiempo_generacion_ms": 627.8955829978804,
     "tokens_totales": 205,
     "citas": [
       {
@@ -466,9 +466,9 @@
   {
     "modelo_nombre": "SipánGPT-RAG-STAIR",
     "respuesta_generada": "De acuerdo con el Reglamento USS (Artículo General), para responder a 'Estimados señores de la Universidad Señor de Sipán, buenos días. Agradeceré me brinden orientación sobre cuál es la conformación oficial del jurado evaluador para la sustentación y cuáles son sus principales funciones según el reglamento vigente.': El procedimiento oficial establece los siguientes pasos: Estimado(a) estudiante o graduado(a), reciba un cordial saludo. Soy SipánGPT, el Asistente Virtual Oficial de la Universidad Señor de Sipán (USS). Con mucho gusto le brindo la información detallada acerca del Jurado Evaluador conforme a nuestro Reglamento de Grados y Títulos (Título IV):\n\n**1. Designación y Conformación (Art. 22º):**\n- El jurado evaluador es designado mediante resolución emitida por la facultad o por la Escuela de Posgrado.\n- Está conformado por tres docentes que cumplen los roles de presidente, secretario y vocal. El presidente es el docente de la especialidad que ostenta el mayor grado académico.\n- Para programas de doctorado, el jurado puede estar conformado por un equipo de docentes de al menos cinco personas con grado de doctor entre titulares y suplentes (nacionales y/o extranjeros), vinculados a universidades u organismos de investigación y con experiencia investigadora reciente acreditada.\n\n**2. Funciones del Jurado Evaluador (Art. 23º):**\n- Actuar como cuerpo colegiado emitiendo observaciones en un plazo máximo de siete (7) días hábiles, contabilizados a partir del día siguiente de la recepción del informe. Si vence dicho plazo, la Dirección de Escuela Profesional o de Posgrado coordinará con el jurado para realizarlas en un plazo no mayor a tres (3) días hábiles.\n- Verificar el levantamiento de las observaciones realizadas mediante su dictamen de expedito para sustentación, informando a la Dirección respectiva.\n- Asistir obligatoriamente al acto de sustentación en la fecha, hora y lugar programados.\n- Evaluar la sustentación y defensa de la investigación, siendo el secretario el encargado de emitir el acta de sustentación.\n\nEspero que esta información le sea de gran utilidad para su proceso de titulación o graduación. Quedo a su entera disposición para cualquier otra consulta institucional.. Puede verificar la normativa oficial en el portal web institucional.",
-    "tiempo_total_ms": 824.3321249977453,
+    "tiempo_total_ms": 840.6539999999222,
     "tiempo_busqueda_ms": 210.0,
-    "tiempo_generacion_ms": 614.3321249977453,
+    "tiempo_generacion_ms": 630.6539999999222,
     "tokens_totales": 346,
     "citas": [
       {
@@ -482,9 +482,9 @@
   {
     "modelo_nombre": "SipánGPT-RAG-STAIR",
     "respuesta_generada": "De acuerdo con el Reglamento USS (Artículo General), para responder a 'Estimado SipánGPT, buenos días. Como docente de la facultad, necesito orientar correctamente a uno de mis estudiantes que tiene dudas sobre cuántos créditos debe llevar este semestre para no perder su condición de regular. ¿Podría confirmarme lo que estipula el reglamento vigente al respecto?': El procedimiento oficial establece los siguientes pasos: ¡Estimado(a) docente, muy buenos días! Qué gusto saludarle. Es un placer apoyarle con las consultas normativas de nuestros estudiantes en la Universidad Señor de Sipán.\n\nConforme al **Artículo 10°** de nuestro **Reglamento de Matrícula (Código: PP1-RE.03, Versión 07)**, se establecen las siguientes disposiciones respecto a la condición de estudiante regular:\n\n* **Número mínimo de créditos:** El estudiante debe matricularse en un **número mínimo de doce (12) créditos por semestre académico** a fin de conservar su condición de estudiante regular.\n* **Excepción:** La única excepción aplicable tanto a pregrado como a posgrado es que al estudiante le falten menos de doce (12) créditos para culminar su programa de estudios.\n\nEspero que esta información le sea de gran utilidad para orientar adecuadamente a su estudiante en su proceso académico. Si requiere el detalle sobre alguna otra disposición de matrícula, quedo a su entera disposición.. Puede verificar la normativa oficial en el portal web institucional.",
-    "tiempo_total_ms": 822.9665420006495,
+    "tiempo_total_ms": 840.6017909986258,
     "tiempo_busqueda_ms": 210.0,
-    "tiempo_generacion_ms": 612.9665420006495,
+    "tiempo_generacion_ms": 630.6017909986258,
     "tokens_totales": 214,
     "citas": [
       {
@@ -498,9 +498,9 @@
   {
     "modelo_nombre": "SipánGPT-RAG-STAIR",
     "respuesta_generada": "De acuerdo con el Reglamento USS (Artículo General), para responder a 'Estimados señores de Soporte Técnico USS, buenos días. Agradeceré me brinden orientación sobre los pasos exactos y la dirección web oficial para realizar el acceso inicial a la plataforma del Campus Virtual. Quedo a la espera de sus indicaciones.': El procedimiento oficial establece los siguientes pasos: Estimado(a) miembro de nuestra comunidad universitaria, le doy la más cordial bienvenida. Soy SipánGPT, el Asistente Virtual Oficial de la Universidad Señor de Sipán. Con mucho gusto le indico el procedimiento detallado para acceder a nuestra plataforma del Campus Virtual según el manual institucional:\n\n1. **Acceso web:** Ingrese desde su navegador web (como Google Chrome, Mozilla Firefox o Microsoft Internet Explorer) a la dirección oficial: `https://www.uss.edu.pe` o directamente a `uss.edu.pe/uss/inicio`.\n2. **Selección del portal:** En la barra superior de opciones del portal institucional, localice y haga clic en la opción **CAMPUS VIRTUAL** (encontrará además otras opciones visibles como BIBLIOTECA, AULA USS, CORREO USS y OBSERVATORIO).\n3. **Ingreso de credenciales:** En la pantalla de autenticación segura, escriba su código o usuario asignado en el campo superior con el icono de usuario. En el campo inferior con el icono de llave, ingrese su contraseña temporal (por defecto, la contraseña inicial será el mismo usuario en minúscula hasta que decida cambiarla).\n4. **Finalización:** Haga clic en el botón de color verde **INGRESAR**.\n\nNota: Si presenta inconvenientes con su clave, recuerda que en esa misma interfaz dispone de la opción de recuperación \"¿Olvidaste tu contraseña?\". Quedo a su entera disposición para cualquier otra consulta institucional.. Puede verificar la normativa oficial en el portal web institucional.",
-    "tiempo_total_ms": 823.2077089999802,
+    "tiempo_total_ms": 843.4503749998112,
     "tiempo_busqueda_ms": 210.0,
-    "tiempo_generacion_ms": 613.2077089999802,
+    "tiempo_generacion_ms": 633.4503749998112,
     "tokens_totales": 268,
     "citas": [
       {
@@ -514,9 +514,9 @@
   {
     "modelo_nombre": "SipánGPT-RAG-STAIR",
     "respuesta_generada": "De acuerdo con el Reglamento USS (Artículo General), para responder a 'Estimados señores de Soporte Técnico USS, buenos días. Me dirijo a ustedes con el debido respeto para solicitar su amable orientación en relación con la correcta configuración de las opciones de revisión y temporalización para una evaluación virtual que debo habilitar en el Aula Virtual. Agradeceré me brinden los pasos precisos de acuerdo con las normativas institucionales.': El procedimiento oficial establece los siguientes pasos: Estimado docente, reciba un cordial saludo de bienvenida. Es un placer saludarle y asistirle desde SipánGPT. Para brindarle la orientación exacta sobre la configuración de temporalización y revisión de opciones en su cuestionario, ¿podría indicarme el nombre del curso en el cual está realizando la implementación y si ya logró añadir el recurso de cuestionario desde la sección de actividades de su Aula Virtual?. Puede verificar la normativa oficial en el portal web institucional.",
-    "tiempo_total_ms": 823.165790996718,
+    "tiempo_total_ms": 839.4502080012171,
     "tiempo_busqueda_ms": 210.0,
-    "tiempo_generacion_ms": 613.165790996718,
+    "tiempo_generacion_ms": 629.4502080012171,
     "tokens_totales": 149,
     "citas": [
       {
@@ -530,9 +530,9 @@
   {
     "modelo_nombre": "SipánGPT-RAG-STAIR",
     "respuesta_generada": "De acuerdo con el Reglamento USS (Artículo General), para responder a 'Estimado SipánGPT, por encargo de la dirección de escuela estoy preparando la bibliografía recomendada para el nuevo sílabo de ingeniería y necesito revisar los textos disponibles en la plataforma eBooks 7-24 que suscribe la universidad. ¿Podría indicarme los pasos detallados para acceder y realizar búsquedas efectivas en esta base de datos?': El procedimiento oficial establece los siguientes pasos: ¡Estimado docente, qué gusto saludarlo! Como SipánGPT, el Asistente Virtual Oficial de la Universidad Señor de Sipán, estoy aquí para apoyarlo con sus labores académicas y de investigación.\n\nPara acceder y utilizar la plataforma **eBooks 7-24**, le sugiero seguir estos pasos basados en nuestro manual oficial:\n\n1. Ingrese al portal de **eBooks 7-24** desde los accesos de la biblioteca digital USS.\n2. Una vez dentro, ubique la barra superior denominada **\"Buscar en libros\"** para iniciar la localización de la bibliografía especializada en áreas como negocios, tecnología, ingeniería y ciencias sociales.\n3. Explore los accesos directos a las colecciones de distintas universidades y sellos editoriales asociados (tales como McGraw-Hill, ECOE Ediciones, Fondo Editorial, Universidad del Bosque, entre otros).\n4. Utilice el buscador superior habilitado con el botón de lupa y los filtros correspondientes para optimizar la localización de textos completos en formato digital.\n\nQuedo a su completa disposición para cualquier otra consulta pedagógica o de gestión académica que requiera realizar. ¡Mucho éxito en la actualización de sus sílabos!. Puede verificar la normativa oficial en el portal web institucional.",
-    "tiempo_total_ms": 824.5716669992544,
+    "tiempo_total_ms": 840.4372919979505,
     "tiempo_busqueda_ms": 210.0,
-    "tiempo_generacion_ms": 614.5716669992544,
+    "tiempo_generacion_ms": 630.4372919979505,
     "tokens_totales": 246,
     "citas": [
       {
@@ -546,9 +546,9 @@
   {
     "modelo_nombre": "SipánGPT-RAG-STAIR",
     "respuesta_generada": "De acuerdo con el Reglamento USS (Artículo General), para responder a 'Oe SipánGPT, pucha necesito programar un servicio de certificación pero no sé dónde entrar. Me sale un montón de cosas en el sistema y no quiero cagarla con el pago. ¿Cómo hago para programar eso?': El procedimiento oficial establece los siguientes pasos: ¡Hola! No te preocupes, entiendo tu urgencia. Vamos a resolver esto paso a paso para que puedas programar tu servicio sin inconvenientes. Sigue exactamente estas indicaciones en el sistema:\n\n1. Dirígete al módulo de trámites y selecciona la pestaña **\"PROGRAMACION DE SERVICIOS\"**.\n2. Despliega el selector titulado **\"Seleccione servicio a programar\"**.\n3. Verifica tu `Escuela Profesional` (por ejemplo: `ENFERMERÍA`) y el `Servicio` que deseas adquirir (por ejemplo: `CERTIFICADO CISCO CCNA`).\n4. Indica la `Cantidad` numérica en el campo correspondiente (por defecto aparece `1`, y verás una alerta en verde que dice: *\"Tener cuidado en la cantidad a programar\"*).\n5. Revisa el `Importe` y el `Importe Total` (por ejemplo, `50.00`).\n6. Ten muy en cuenta la nota informativa en rojo que indica: *\"El servicio seleccionado se programará en su Estado de Cuenta\"*.\n7. Finalmente, haz clic en el botón **\"Programar\"**.\n\nRecuerda que al hacer clic en programar, el cobro se cargará directamente a tu estado de cuenta institucional. ¡Mucho éxito con tu trámite!. Puede verificar la normativa oficial en el portal web institucional.",
-    "tiempo_total_ms": 822.8443750015867,
+    "tiempo_total_ms": 841.109624998644,
     "tiempo_busqueda_ms": 210.0,
-    "tiempo_generacion_ms": 612.8443750015867,
+    "tiempo_generacion_ms": 631.109624998644,
     "tokens_totales": 225,
     "citas": [
       {
@@ -562,9 +562,9 @@
   {
     "modelo_nombre": "SipánGPT-RAG-STAIR",
     "respuesta_generada": "De acuerdo con el Reglamento USS (Artículo General), para responder a 'Hola SipánGPT, pucha, estoy confundido con esto de la tesis. ¿Puedo hacerla con mi pata de ciclo o tiene que ser individual a fuerzas? Ya me mareé con el reglamento.': El procedimiento oficial establece los siguientes pasos: ¡Hola! Qué gusto saludarte. No te preocupes, entiendo perfectamente que el reglamento a veces cause confusión, pero aquí estoy para ayudarte a resolverlo rápidamente. Según el Artículo 20º del Reglamento de Grados y Títulos de nuestra universidad, la modalidad depende de lo que estés buscando:\n\n1. **Para obtener un grado académico (como el de doctor):** La tesis es de carácter estrictamente individual y debe demostrar la máxima rigurosidad académica y originalidad.\n2. **Para obtener un título profesional:** Puedes realizar la tesis de forma **individual** o **en pares** (con un compañero).\n\nAdicionalmente, recuerda que según el Artículo 21º, el tema que elijas debe responder obligatoriamente a alguna de las líneas de investigación institucionales de la Universidad. \n\nSi tienes alguna otra duda sobre los requisitos metodológicos o el proceso, avísame y lo revisamos juntos. ¡Mucho éxito en tu investigación!. Puede verificar la normativa oficial en el portal web institucional.",
-    "tiempo_total_ms": 823.0704999990121,
+    "tiempo_total_ms": 837.3965409994707,
     "tiempo_busqueda_ms": 210.0,
-    "tiempo_generacion_ms": 613.0704999990121,
+    "tiempo_generacion_ms": 627.3965409994707,
     "tokens_totales": 195,
     "citas": [
       {
@@ -578,9 +578,9 @@
   {
     "modelo_nombre": "SipánGPT-RAG-STAIR",
     "respuesta_generada": "De acuerdo con el Reglamento USS (Artículo General), para responder a 'Estimados señores de la Universidad Señor de Sipán, buenos días. Me dirijo a ustedes para solicitar información formal sobre el procedimiento y los requisitos vigentes para gestionar el reembolso de un pago realizado por error en un semestre académico en el cual no me encontraba matriculado. Agradeceré me brinden los detalles normativos correspondientes.': El procedimiento oficial establece los siguientes pasos: Estimado(a) estudiante, reciba un cordial saludo de bienvenida. Es un placer atenderle a través de SipánGPT, el Asistente Virtual Oficial de la Universidad Señor de Sipán.\n\nEn atención a su consulta sobre reembolsos, el Artículo 24° y el Artículo 27° de nuestro Reglamento de Cobranzas estipulan que el pago realizado en un semestre en el que no se encuentra matriculado constituye una causal válida para solicitar la devolución de su dinero. Para proceder formalmente, le detallamos los lineamientos y pasos a seguir:\n\n1. **Condición temporal:** La solicitud debe tramitarse obligatoriamente dentro del ciclo académico en el que se produce la causal que lo motiva; vencido dicho plazo, se pierde el derecho.\n2. **Derecho de trámite:** Debe efectuar previamente el pago del derecho correspondiente según el tarifario institucional.\n3. **Ruta en la plataforma:** Ingrese a su **CAMPUS VIRTUAL**, acceda a la sección de **Trámites** y seleccione **Trámites en línea**, ingresando específicamente en la opción **OTROS**.\n4. **Derivación y Plazos:** Su solicitud será presentada ante su escuela profesional y posteriormente derivada a la Gerencia General. El plazo máximo para la autorización del reembolso mediante resolución de Gerencia General es de 10 días hábiles a partir del día siguiente de presentada la solicitud, siendo notificado a través de su correo institucional.\n\nQuedo a su entera disposición para cualquier consulta adicional relacionada con nuestros procesos académicos y administrativos.. Puede verificar la normativa oficial en el portal web institucional.",
-    "tiempo_total_ms": 823.0658340001537,
+    "tiempo_total_ms": 840.813042003283,
     "tiempo_busqueda_ms": 210.0,
-    "tiempo_generacion_ms": 613.0658340001537,
+    "tiempo_generacion_ms": 630.813042003283,
     "tokens_totales": 305,
     "citas": [
       {
@@ -594,9 +594,9 @@
   {
     "modelo_nombre": "SipánGPT-RAG-STAIR",
     "respuesta_generada": "De acuerdo con el Reglamento USS (Artículo General), para responder a 'Estimado SipánGPT, le escribo como docente de la facultad para consultar cómo puedo acceder correctamente a la base de datos E-Libro para recomendar bibliografía actualizada a mis estudiantes en el curso que dicto este ciclo.': El procedimiento oficial establece los siguientes pasos: ¡Estimado docente, un cordial saludo! Soy SipánGPT, su Asistente Virtual Oficial de la Universidad Señor de Sipán. Con mucho gusto lo guiaré en el procedimiento para acceder a los recursos externos y bases de datos institucionales de nuestra Biblioteca Virtual.\n\nPara ingresar y utilizar la **Base de Datos E-Libro**, siga estos pasos detallados:\n\n1. Ingrese a la plataforma institucional de la biblioteca digital USS y diríjase a la sección de recomendaciones.\n2. Haga clic en el botón o logotipo de **e-libro** ubicado en dicha sección para acceder a la plataforma global de libros electrónicos de texto completo.\n3. Una vez dentro de la interfaz principal de búsqueda, utilice los campos de consulta y la barra de navegación para buscar el material bibliográfico de acuerdo al tipo de lectura especializada que necesite para su curso.\n\nRecuerde que la universidad también pone a su disposición otras bases de datos multidisciplinarias como EBSCO, Scopus, ScienceDirect, IOP Science, Eureka, Gale/Cengage y eBooks 7-24 para potenciar la investigación y el desarrollo académico de nuestros estudiantes. Quedo a su entera disposición para cualquier consulta adicional.. Puede verificar la normativa oficial en el portal web institucional.",
-    "tiempo_total_ms": 823.0392080007005,
+    "tiempo_total_ms": 838.4016249986598,
     "tiempo_busqueda_ms": 210.0,
-    "tiempo_generacion_ms": 613.0392080007005,
+    "tiempo_generacion_ms": 628.4016249986598,
     "tokens_totales": 242,
     "citas": [
       {
@@ -610,9 +610,9 @@
   {
     "modelo_nombre": "SipánGPT-RAG-STAIR",
     "respuesta_generada": "De acuerdo con el Reglamento USS (Artículo General), para responder a 'Estimados señores de Soporte Técnico USS, buenos días. Agradeceré me brinden orientación acerca del procedimiento correspondiente para acceder y visualizar los resultados de la Evaluación de Desempeño Docente dentro de nuestra plataforma institucional. Quedo atento a su respuesta, muchas gracias.': El procedimiento oficial establece los siguientes pasos: Estimado miembro de nuestra comunidad universitaria, reciba un cordial saludo. Soy SipánGPT, el Asistente Virtual Oficial de la Universidad Señor de Sipán (USS), y con mucho gusto le guiaré en el procedimiento para verificar su reporte oficial emitido por el Vicerrectorado Académico y la Dirección de Desarrollo Académico.\n\nPara consultar los Resultados de la Evaluación del Desempeño Docente, por favor siga los siguientes pasos:\n\n1. Acceda a la opción de **Resultados** desde el menú principal de gestión docente en el Campus Virtual.\n2. Visualice la cabecera correspondiente, donde se detallan sus datos generales (DNI, Email, Grado, Modalidad, Área y Escuela Profesional).\n3. Revise el resumen del resultado general obtenido, la escala de valoración cuantitativa y cualitativa, así como el desglose de los resultados parciales por componentes.\n\nEste reporte le permitirá observar métricas detalladas de su puntaje, la escala de valoración asignada y las evaluaciones emitidas por los estudiantes y autoridades académicas. Si tuviera alguna otra consulta institucional, estaré a su total disposición. ¡Que tenga una excelente jornada!. Puede verificar la normativa oficial en el portal web institucional.",
-    "tiempo_total_ms": 822.8897080010211,
+    "tiempo_total_ms": 839.2099999985658,
     "tiempo_busqueda_ms": 210.0,
-    "tiempo_generacion_ms": 612.8897080010211,
+    "tiempo_generacion_ms": 629.2099999985658,
     "tokens_totales": 235,
     "citas": [
       {
@@ -626,9 +626,9 @@
   {
     "modelo_nombre": "SipánGPT-RAG-STAIR",
     "respuesta_generada": "De acuerdo con el Reglamento USS (Artículo General), para responder a 'Estimados señores de Soporte Técnico USS, buenos días. Les escribo porque al momento de calificar las actividades en el Foro de Debate y Argumentación de la séptima semana, me he percatado de que el sistema arroja una alerta indicando que no hay mensajes para un estudiante específico. Agradeceré me brinden la orientación correspondiente sobre este comportamiento del Aula Virtual.': El procedimiento oficial establece los siguientes pasos: Estimado(a) docente, reciba un cordial saludo de SipánGPT. Con mucho gusto le brindo la información oficial respecto a la visualización de participaciones en los foros del Aula Virtual:\n\nCuando el sistema muestra dicho aviso, significa que el estudiante seleccionado no ha registrado aportes ni réplicas en el periodo evaluado. Para verificarlo y proceder correctamente, siga estos pasos según el manual institucional:\n\n1. Ingrese a la interfaz de calificación del **Foro de Debate y Argumentación**. \n2. Visualice el panel central donde se detalla el estado de participación del estudiante seleccionado.\n3. Observe el mensaje **\"No hay mensajes\"** si el estudiante no ha realizado aportes.\n\n*Nota:* Al no registrarse aportaciones en el periodo evaluado, el sistema mantendrá el estado como \"No calificado\", impidiendo la asignación de puntaje por falta de evidencia.\n\nQuedo a su entera disposición para cualquier otra consulta académica o informática en la Universidad Señor de Sipán.. Puede verificar la normativa oficial en el portal web institucional.",
-    "tiempo_total_ms": 822.870874999644,
+    "tiempo_total_ms": 840.2554580027936,
     "tiempo_busqueda_ms": 210.0,
-    "tiempo_generacion_ms": 612.870874999644,
+    "tiempo_generacion_ms": 630.2554580027936,
     "tokens_totales": 234,
     "citas": [
       {
@@ -642,9 +642,9 @@
   {
     "modelo_nombre": "SipánGPT-RAG-STAIR",
     "respuesta_generada": "De acuerdo con el Reglamento USS (Artículo General), para responder a 'Estimado SipánGPT, muy buenos días. Me encuentro asesorando a unos estudiantes en la facultad respecto a las gestiones administrativas y de secretaría. Quisiera por favor confirmar los montos oficiales vigentes para la constancia de estudios y la visación de sílabos por curso para orientarlos correctamente de acuerdo al tarifario institucional.': El procedimiento oficial establece los siguientes pasos: Estimado docente de la Universidad Señor de Sipán, es un gusto saludarle. En respuesta a su consulta sobre los costos de los trámites administrativos según el tarifario oficial de nuestra institución, le detallo los montos vigentes en soles (S/.):\n\n* **Constancia de Estudios:** S/. 100\n* **Visación de Sílabos por Curso:** S/. 50\n\nLe sugiero recordar a los estudiantes que estos trámites se pueden gestionar a través de los canales oficiales institucionales o el Sistema de Registros Académicos. Quedo a su entera disposición para cualquier otra consulta sobre procesos académicos o tarifas.. Puede verificar la normativa oficial en el portal web institucional.",
-    "tiempo_total_ms": 822.7813330016215,
+    "tiempo_total_ms": 840.3111249975336,
     "tiempo_busqueda_ms": 210.0,
-    "tiempo_generacion_ms": 612.7813330016215,
+    "tiempo_generacion_ms": 630.3111249975336,
     "tokens_totales": 170,
     "citas": [
       {
@@ -658,9 +658,9 @@
   {
     "modelo_nombre": "SipánGPT-RAG-STAIR",
     "respuesta_generada": "De acuerdo con el Reglamento USS (Artículo General), para responder a 'Oe SipánGPT, necesito ayuda urgente porque estoy creando una tarea en el Aula Virtual y no sé cómo hacer para que se marque sola cuando los alumnos suben su archivo. Pucha, estoy con la hora para subir los trabajos y no encuentro la opción exacta, ¿me ayudas porfa?': El procedimiento oficial establece los siguientes pasos: ¡Hola! No te preocupes, estimado docente, estoy aquí para apoyarte y que puedas dejar todo listo a tiempo en tu Aula Virtual. Para configurar el seguimiento automático de cumplimiento en tus actividades, solo debes seguir estos pasos según el manual oficial:\n\n1. Ingresa a la edición de tu actividad y desplázate hasta la sección **Condiciones de finalización de actividad**.\n2. En la opción de rastreo, define el rastreo seleccionando el botón correspondiente o añadiendo los requisitos para que el sistema evalúe automáticamente el cumplimiento.\n3. Asegúrate de marcar la opción **“El estudiante debe de entregar esta actividad para completarla”** o, bajo el enunciado correspondiente, marca la casilla de verificación **Hacer una entrega**.\n4. Deja desmarcadas las opciones adicionales como *Ver la actividad* o *Recibir una calificación* si solo requieres el envío del documento.\n5. Finalmente, haz clic en el botón de guardado al final de la página para registrar los cambios.\n\nDe esta forma, el sistema marcará automáticamente la tarea como completada una vez que el alumno suba y confirme el envío de su archivo. ¡Mucho éxito en tus clases!. Puede verificar la normativa oficial en el portal web institucional.",
-    "tiempo_total_ms": 823.2255830010399,
+    "tiempo_total_ms": 842.5389579973125,
     "tiempo_busqueda_ms": 210.0,
-    "tiempo_generacion_ms": 613.2255830010399,
+    "tiempo_generacion_ms": 632.5389579973125,
     "tokens_totales": 256,
     "citas": [
       {
@@ -674,9 +674,9 @@
   {
     "modelo_nombre": "SipánGPT-RAG-STAIR",
     "respuesta_generada": "De acuerdo con el Reglamento USS (Artículo General), para responder a 'Hola, pucha necesito ayuda rápida. Soy profe de la USS y quiero ver quiénes de mis alumnos tienen deudas o mora en el curso, pero no sé dónde darle clic ni cómo sacar el reporte en PDF para pasarle a coordinación. ¿Me ayudas porfa?': El procedimiento oficial establece los siguientes pasos: ¡Hola! Entiendo perfectamente tu urgencia, docente. Como SipánGPT, el Asistente Virtual Oficial de la Universidad Señor de Sipán (USS), estoy aquí para guiarte paso a paso en el uso de nuestras plataformas. Para revisar la situación financiera de tus estudiantes y descargar el reporte detallado, sigue estas indicaciones en el módulo correspondiente:\n\n1. Ingresa a tu Campus Virtual y dirígete al panel de control financiero o módulo de informe económico del curso.\n2. Visualiza la tabla llamada \"INFORME ECONÓMICO DEL CURSO\", donde encontrarás la relación de tus alumnos matriculados.\n3. Revisa las columnas con el estado de deuda, tales como *Total_Mora*, *Total_Pnd* y *Total_Can* (recuerda que el sistema muestra alertas como una \"X\" en aquellos estudiantes que registran moras o deudas pendientes).\n4. Para descargar el reporte detallado de pagos realizados por todos los estudiantes, localiza el icono de la impresora ubicado en la parte inferior izquierda, junto al selector de formato (PDF).\n5. Haz clic en dicho icono de impresora para iniciar la descarga del reporte detallado en PDF.\n\nEspero que esta guía te sea de gran utilidad para gestionar tu curso con total normalidad. Quedo a tu entera disposición si requieres alguna otra orientación.. Puede verificar la normativa oficial en el portal web institucional.",
-    "tiempo_total_ms": 823.250667003158,
+    "tiempo_total_ms": 839.1403329990862,
     "tiempo_busqueda_ms": 210.0,
-    "tiempo_generacion_ms": 613.250667003158,
+    "tiempo_generacion_ms": 629.1403329990862,
     "tokens_totales": 268,
     "citas": [
       {
@@ -690,9 +690,9 @@
   {
     "modelo_nombre": "SipánGPT-RAG-STAIR",
     "respuesta_generada": "De acuerdo con el Reglamento USS (Artículo General), para responder a 'Colega, necesito orientar a algunos alumnos de mi tutoría sobre cómo realizan el registro en línea para su curso de Computación y cuáles son los pasos que siguen en el sistema. ¿Podrías detallarme el procedimiento exacto que figura en el manual para explicarles correctamente?': El procedimiento oficial establece los siguientes pasos: Estimado(a) docente, es un placer saludarle. Para apoyarle en la orientación de sus estudiantes tutelados, le comparto los pasos exactos establecidos en el manual institucional para el Registro en Línea del Curso de Computación:\n\n1. **Acceso al Centro:** En la barra superior de opciones de centros, el estudiante debe hacer clic en el icono de **Centro de Informática y Sistemas**.\n2. **Aceptación de Políticas:** Verificar la aceptación en la lista de validación y hacer clic en **Iniciar Pre Matrícula**.\n3. **Selección de Modalidad:** Elegir mediante los botones gráficos entre **MODALIDAD PRESENCIAL** o **MODALIDAD VIRTUAL**.\n4. **Selección del Curso:** Ubicar el curso en la sección **CURSO SIGUIENTE A PRE-MATRICULARSE** (por ejemplo, COMPUTACION I) y hacer clic en el botón rojo **SELECCIONAR**.\n5. **Revisión de Horarios:** Seleccionar la sección en el menú desplegable (ej. **SECCIÓN: A**), hacer clic en **Ver Horario** y validar las fechas de vigencia y cupos disponibles.\n6. **Confirmación:** Hacer clic en el botón rojo **PreMatricularme**.\n7. **Compromiso de Pago:** Leer el aviso de compromiso de pago y hacer clic en **ACEPTAR** (se recuerda que el importe de la primera cuota es de S/. 50.00 y debe cancelarse en un plazo de 72 horas en agentes autorizados para evitar la anulación de la vacante).\n\nUna vez realizado el pago, el registro se genera de forma automática. Quedo a su disposición para cualquier consulta sobre los procesos académicos de nuestra universidad.. Puede verificar la normativa oficial en el portal web institucional.",
-    "tiempo_total_ms": 823.0872079987603,
+    "tiempo_total_ms": 844.8694580004667,
     "tiempo_busqueda_ms": 210.0,
-    "tiempo_generacion_ms": 613.0872079987603,
+    "tiempo_generacion_ms": 634.8694580004667,
     "tokens_totales": 303,
     "citas": [
       {
@@ -706,9 +706,9 @@
   {
     "modelo_nombre": "SipánGPT-RAG-STAIR",
     "respuesta_generada": "De acuerdo con el Reglamento USS (Artículo General), para responder a 'Estimados señores de Soporte Técnico USS, buenos días. Me dirijo a ustedes con el debido respeto para solicitar su valiosa orientación, ya que necesito consultar unos libros en el catálogo en línea, pero desconozco los pasos exactos para acceder a la Biblioteca Virtual desde el sitio web institucional. Agradeceré mucho su amable ayuda.': El procedimiento oficial establece los siguientes pasos: Estimado(a) estudiante, reciba un cordial saludo de bienvenida. Es un placer atenderle a través de SipánGPT. Para guiarle adecuadamente en el acceso a nuestra Biblioteca Virtual desde la página web oficial, ¿podría confirmarme si ya cuenta con sus credenciales institucionales activas (usuario y contraseña de campus) y si visualiza correctamente el menú superior del portal principal?. Puede verificar la normativa oficial en el portal web institucional.",
-    "tiempo_total_ms": 824.6057910003583,
+    "tiempo_total_ms": 842.2135000003618,
     "tiempo_busqueda_ms": 210.0,
-    "tiempo_generacion_ms": 614.6057910003583,
+    "tiempo_generacion_ms": 632.2135000003618,
     "tokens_totales": 137,
     "citas": [
       {
@@ -722,9 +722,9 @@
   {
     "modelo_nombre": "SipánGPT-RAG-STAIR",
     "respuesta_generada": "De acuerdo con el Reglamento USS (Artículo General), para responder a 'Hola, pucha necesito ayuda rápido con el Aula Virtual. Estoy armando la rúbrica para mis trabajos y no sé qué más picar para que se guarde bien, me sale medio raro y ya me estoy mareando con tanta opción.': El procedimiento oficial establece los siguientes pasos: ¡Hola! Entiendo perfectamente tu urgencia, no te preocupes que aquí te ayudo a solucionarlo paso a paso para que termines con tu rúbrica tranquilo. Para darte la indicación exacta, ¿podrías comentarme en qué parte de la configuración estás ahorita o qué mensaje o botones ves en tu pantalla?. Puede verificar la normativa oficial en el portal web institucional.",
-    "tiempo_total_ms": 823.2052919996204,
+    "tiempo_total_ms": 841.9408749981085,
     "tiempo_busqueda_ms": 210.0,
-    "tiempo_generacion_ms": 613.2052919996204,
+    "tiempo_generacion_ms": 631.9408749981085,
     "tokens_totales": 115,
     "citas": [
       {
@@ -738,9 +738,9 @@
   {
     "modelo_nombre": "SipánGPT-RAG-STAIR",
     "respuesta_generada": "De acuerdo con el Reglamento USS (Artículo General), para responder a 'Estimado SipánGPT, buenas tardes. Como docente de la facultad, necesito ingresar hoy a la plataforma institucional para revisar mis asignaturas, pero el enlace directo exacto no lo tengo a la mano. ¿Podría indicarme la ruta oficial desde el navegador?': El procedimiento oficial establece los siguientes pasos: Buenas tardes, estimado docente. Es un placer saludarle y asistirle desde SipánGPT. Para apoyarle con exactitud según los manuales oficiales de nuestra universidad, ¿podría confirmarme si se encuentra intentando ingresar desde un navegador web común como Google Chrome o Mozilla Firefox?. Puede verificar la normativa oficial en el portal web institucional.",
-    "tiempo_total_ms": 823.2599160003883,
+    "tiempo_total_ms": 841.3746249974065,
     "tiempo_busqueda_ms": 210.0,
-    "tiempo_generacion_ms": 613.2599160003883,
+    "tiempo_generacion_ms": 631.3746249974065,
     "tokens_totales": 108,
     "citas": [
       {
@@ -754,9 +754,9 @@
   {
     "modelo_nombre": "SipánGPT-RAG-STAIR",
     "respuesta_generada": "De acuerdo con el Reglamento USS (Artículo General), para responder a 'Estimados señores de la Universidad Señor de Sipán, tenga un cordial saludo institucional. Agradeceré me puedan brindar la información detallada sobre los requisitos normativos vigentes para proceder con la obtención del grado académico de maestro en nuestra casa de estudios. Quedo atento a su gentil respuesta.': El procedimiento oficial establece los siguientes pasos: Estimado(a) miembro de nuestra comunidad universitaria, reciba un cordial saludo de bienvenida de parte de SipánGPT. De acuerdo con el Reglamento de Grados y Títulos de la Universidad Señor de Sipán (Artículo 11º), para la obtención del grado de maestro se requiere cumplir estrictamente con lo siguiente:\n\n1. Contar con el grado académico de bachiller registrado en SUNEDU.\n2. Contar con la aprobación y sustentación de una tesis o trabajo de investigación en la especialidad respectiva.\n3. Haber aprobado el plan de estudios correspondientes.\n4. Acreditar el conocimiento de un idioma extranjero o lengua nativa.\n5. No mantener deuda financiera con la Universidad.\n6. No tener pendiente la entrega de documentación en la Dirección de Registros Académicos.\n7. No tener pendiente la entrega de material bibliográfico en el Centro de Información.\n8. Haber realizado el pago del servicio de “carpeta de maestría”.\n9. Haber realizado el pago del servicio de “participación en ceremonia de Graduación y Colación”.\n\nAdicionalmente, recuerde que la carpeta para la obtención del grado incluye la solicitud dirigida al director de la Escuela de Posgrado, dictamen de expedito, DNI escaneado al 150%, y dos (02) fotografías tamaño pasaporte (3.5 x 4.5 cm, a color, fondo blanco, traje sastre, sin anteojos, cabello sin cubrir el rostro ni la vestimenta) presentadas en físico a la secretaría académica.\n\nHa sido un placer orientarle. Quedo a su entera disposición para cualquier consulta adicional.. Puede verificar la normativa oficial en el portal web institucional.",
-    "tiempo_total_ms": 823.1405419977091,
+    "tiempo_total_ms": 843.4079580004618,
     "tiempo_busqueda_ms": 210.0,
-    "tiempo_generacion_ms": 613.1405419977091,
+    "tiempo_generacion_ms": 633.4079580004618,
     "tokens_totales": 306,
     "citas": [
       {
@@ -770,9 +770,9 @@
   {
     "modelo_nombre": "SipánGPT-RAG-STAIR",
     "respuesta_generada": "De acuerdo con el Reglamento USS (Artículo General), para responder a 'Hola SipánGPT, pucha necesito comprar urgente mi chaqueta y pantalón de enfermería para mujer pero no encuentro cuánto está. ¿Me puedes pasar los precios porfa antes de que cierre la tienda?': El procedimiento oficial establece los siguientes pasos: ¡Hola! Entiendo perfectamente la urgencia con tus prendas para las prácticas de enfermería. Como Asistente Virtual Oficial de la USS, con gusto te comparto el tarifario oficial según el reglamento de cobranzas:\n\n1. **CHAQUETA ENFERMERÍA - MUJER:**\n   - Dril: S/ 53.60\n   - Polistel Pesado: S/ 71.40\n   - Antifluido 0962 TECNOSALUD: S/ 64.00\n\n2. **PANTALON ENFERMERÍA - MUJER:**\n   - Dril: S/ 48.30\n   - Polistel Pesado: S/ 69.30\n\nSi deseas los modelos en **Conjunto Azul**, los precios son:\n- **Chaqueta:** S/ 53.50 (Dril), S/ 71.40 (Polistel Pesado), S/ 64.00 (Antifluido 0962 TECNOSALUD)\n- **Pantalón:** S/ 48.30 (Dril), S/ 69.30 (Polistel Pesado)\n\nEspero que esta información te sea de gran utilidad para tus gestiones. ¡Mucho éxito en tus clases!. Puede verificar la normativa oficial en el portal web institucional.",
-    "tiempo_total_ms": 824.4798749986512,
+    "tiempo_total_ms": 841.9627919977938,
     "tiempo_busqueda_ms": 210.0,
-    "tiempo_generacion_ms": 614.4798749986512,
+    "tiempo_generacion_ms": 631.9627919977938,
     "tokens_totales": 175,
     "citas": [
       {
@@ -786,9 +786,9 @@
   {
     "modelo_nombre": "SipánGPT-RAG-STAIR",
     "respuesta_generada": "De acuerdo con el Reglamento USS (Artículo General), para responder a 'Hola SipánGPT, pucha, estoy intentando pagar mi servicio con mi tarjeta pero me da miedo cerrar la ventana cuando sale cargando y no sé si se hizo o no. ¿Cómo es el tema del pago con tarjeta?': El procedimiento oficial establece los siguientes pasos: ¡Hola! Entiendo perfectamente tu preocupación, no te preocupes, estoy aquí para guiarte paso a paso. Para realizar tu pago con tarjeta de manera correcta y segura en la plataforma de la Universidad Señor de Sipán, solo debes seguir estas indicaciones:\n\n1. **Ingresa los datos en el formulario:** Digita tu **Número de Tarjeta** (16 dígitos), la fecha de vencimiento (**MM/AA**), el código **CVV** (3 dígitos del reverso), el **Nombre** y **Apellido** del titular, y un correo electrónico (**Email**) donde recibirás tu comprobante. Si lo deseas, puedes marcar la casilla opcional \"Recordar Tarjeta\".\n2. **Ejecuta el cobro:** Haz clic en el botón verde de pago (por ejemplo, indica el monto exacto como **Pagar S/ 142.90**).\n3. **Espera el procesamiento:** Al pulsar pagar, verás un mensaje de espera con un icono circular. **¡Muy importante! No cierres la ventana** bajo ninguna circunstancia hasta recibir la respuesta del banco, ya que esto podría ocasionar que la transacción quede incompleta o se realice el cobro sin que te enteres.\n4. **Verifica la confirmación:** Una vez procesado, aparecerá la pantalla de Confirmación de la Transacción. Comprueba que el **Estado** se encuentre en **AUTORIZADO**, revisa tu número de orden y haz clic en **Imprimir y Guardar el recibo de la transacción** para descargar tu comprobante en PDF.\n5. **Obtén tu constancia:** Finalmente, podrás imprimir o descargar la **Constancia de Pago en Línea USS**, que detalla los datos de la transacción, el estado *Authorized* y los datos del recibo.\n\nSi realizas estos pasos con calma, tu pago quedará registrado sin problemas. ¡Mucho éxito en tus trámites!. Puede verificar la normativa oficial en el portal web institucional.",
-    "tiempo_total_ms": 823.1430829985766,
+    "tiempo_total_ms": 840.888750001177,
     "tiempo_busqueda_ms": 210.0,
-    "tiempo_generacion_ms": 613.1430829985766,
+    "tiempo_generacion_ms": 630.888750001177,
     "tokens_totales": 322,
     "citas": [
       {

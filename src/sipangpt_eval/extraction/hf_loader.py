@@ -105,7 +105,10 @@ def load_or_generate_test_benchmark(dataset_name: str = settings.hf_dataset_name
     try:
         from datasets import load_dataset  # type: ignore
 
-        ds = load_dataset(dataset_name, split="test")
+        load_kwargs: Dict[str, str] = {}
+        if settings.hf_token:
+            load_kwargs["token"] = settings.hf_token
+        ds = load_dataset(dataset_name, split="test", **load_kwargs)
         idx: int = 1
         for item in ds:
             convs_val = item.get("conversations", []) if hasattr(item, "get") else []
