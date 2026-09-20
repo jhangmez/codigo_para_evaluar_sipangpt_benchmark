@@ -11,7 +11,6 @@ from sipangpt_eval.schemas.evaluation import (
     ScoreCategory,
 )
 
-
 def generate_accuracy_chart(
     metrics: BenchmarkSummaryMetrics,
     pairs: Sequence[EvaluatedPair],
