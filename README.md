@@ -18,11 +18,11 @@ La siguiente tabla resume los resultados cuantitativos obtenidos tras evaluar la
 | Métrica / Dimensión de Evaluación                       | Gemma-4 Fine-Tuned (LoRA) | Sipán-STAIR (RAG Architecture) |      Diferencia (%) / Impacto       |
 | :------------------------------------------------------ | :-----------------------: | :----------------------------: | :---------------------------------: |
 | **Total de Casos Evaluados**                            |          **50**           |             **50**             |                  -                  |
-| **Respuestas Correctas (C - 1.0 pt)**                   |         1 (2.0%)          |          50 (100.0%)           |  **+98.0%** en respuestas exactas   |
-| **Respuestas Parciales (P - 0.5 pt)**                   |        25 (50.0%)         |            0 (0.0%)            |               -50.0%                |
-| **Respuestas Incorrectas / Alucinaciones (I - 0.0 pt)** |        24 (48.0%)         |            0 (0.0%)            |  **-48.0% alucinaciones fácticas**  |
-| **Porcentaje Global de Exactitud (%)**                  |        **27.00%**         |          **100.00%**           |        **+73.00% exactitud**        |
-| **Latencia Media por Consulta**                         | **14,790.50 ms** (~14.7s) |     **840.83 ms** (< 0.9s)     | **17.5x más rápido el sistema RAG** |
+| **Respuestas Correctas (C - 1.0 pt)**                   |         2 (4.0%)          |           14 (28.0%)           |  **+24.0%** en respuestas exactas   |
+| **Respuestas Parciales (P - 0.5 pt)**                   |        42 (84.0%)         |           29 (58.0%)           |               -26.0%                |
+| **Respuestas Incorrectas / Alucinaciones (I - 0.0 pt)** |         6 (12.0%)         |           7 (14.0%)            |          -2.0% diferencia           |
+| **Porcentaje Global de Exactitud (%)**                  |        **46.00%**         |           **57.00%**           |        **+11.00% exactitud**        |
+| **Latencia Media por Consulta**                         | **11,539.74 ms** (~11.5s) |   **13,173.25 ms** (~13.2s)    | +1,633.51 ms (overhead de RAG + LLM) |
 
 ### 📈 Gráficos Comparativos Generados para la Tesis (300 DPI)
 
@@ -32,8 +32,9 @@ La siguiente tabla resume los resultados cuantitativos obtenidos tras evaluar la
 
 ### 💡 Hallazgos Principales para la Tesis:
 
-1. **Fidelidad Fáctica y Reducción de Alucinaciones:** La arquitectura RAG alcanzó un **100.00%** de exactitud frente a un **27.00%** del modelo Fine-Tuned. Gemma-4 Fine-Tuned responde con excelente tono institucional USS, pero tiende a alucinar en fechas límite, costos exactos de trámites o números de artículos específicos.
-2. **Rendimiento de Inferencia:** Sipán-STAIR RAG responde en promedio en **840 ms**, mientras que el modelo Fine-Tuned local requiere **14.7 segundos** por respuesta en la CPU/GPU unificada del hardware de prueba.
+1. **Fidelidad Fáctica y Reducción de Alucinaciones:** La arquitectura **Sipán-STAIR (RAG)** alcanza una exactitud global del **57.00%** frente al **46.00%** de **Gemma-4 Fine-Tuned (LoRA)**, representando una mejora neta de **+11.00%**. Sipán-STAIR logra 7 veces más respuestas totalmente precisas (14 frente a 2), gracias a la búsqueda vectorial híbrida y la citación explícita de reglamentos de la USS.
+2. **Distribución de Calidad:** Gemma-4 Fine-Tuned concentra la mayoría de sus respuestas en la categoría **Parcial (84.0%)**; posee un excelente tono institucional y estructura pero carece de contexto actualizado en tiempo real para detalles como fechas específicas o requisitos normativos exactos.
+3. **Análisis de Latencia:** Gemma-4 Fine-Tuned registra una latencia media de **11.54s** corriendo localmente en Ollama con cuantización GGUF (Q4_K_M) sobre Mac Mini M4 (Apple Silicon). Sipán-STAIR RAG registra **13.17s** en promedio, incorporando el procesamiento completo del pipeline Next.js (/api/chat con Vercel AI SDK, búsqueda vectorial en PostgreSQL/Prisma, reranking y llamada al LLM backbone).
 
 ---
 
