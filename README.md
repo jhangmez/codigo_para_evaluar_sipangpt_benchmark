@@ -105,7 +105,7 @@ Para garantizar la **reproducibilidad científica** exigida en la sustentación 
 - **Vector Store:** PostgreSQL con extensión pgvector, consultas vía Prisma ORM y reranking contextual.
 
 ### 4. Banco de Pruebas (Ground Truth)
-- **Origen:** 50 preguntas balanceadas extraídas del split `test` de `ussipan/sipangpt-V2` en Hugging Face Hub.
+- **Origen Oficial en Hugging Face:** Las 50 preguntas de prueba fueron extraídas directamente del dataset público [ussipan/sipangpt-V2](https://huggingface.co/datasets/ussipan/sipangpt-V2) (disponible en: `https://huggingface.co/datasets/ussipan/sipangpt-V2`, split `test`), garantizando un muestreo representativo de las consultas estudiantiles reales.
 - **Distribución:** **70% Monoturno (35 preguntas)** y **30% Multiturno (15 diálogos de soporte continuo)**, cubriendo los 5 módulos:
   - Campus Virtual y Aprendizaje (14 casos)
   - Pagos y Cobranzas (12 casos)
@@ -136,7 +136,15 @@ A diferencia de los LLMs conversacionales que generan texto libre token a token,
 | **Calidad Técnica Media (Escala 0 a 3)** | 0.33 | 1.06 | +0.73 puntos de fidelidad |
 | **Latencia Media del Evaluador Jev** | 1,167.89 ms | 1,167.89 ms | Inferencia tipada ultra-rápida |
 
-> **Conclusión del apoyo experimental:** Jev ratifica de forma independiente la misma tendencia fáctica del Juez principal: la arquitectura RAG supera ampliamente al modelo Fine-Tuned en veracidad y calidad técnica reglamentaria.
+### 📈 Gráficos de Evaluación Experimental con Jev (300 DPI)
+
+Ambos gráficos analizan las decisiones tipadas del modelo Jev para los 5 módulos temáticos institucionales:
+
+| Exactitud Calibrada por Módulo (Jev System One) | Calidad Técnica Media por Módulo (Escala 0 a 3 - Jev) |
+| :---: | :---: |
+| ![Exactitud Calibrada Jev](reports/figures/jev_exactitud_comparada.png) | ![Calidad Técnica Jev](reports/figures/jev_calidad_tecnica.png) |
+
+> **Conclusión del apoyo experimental:** Jev ratifica de forma independiente la misma tendencia fáctica del Juez principal: la arquitectura RAG supera ampliamente al modelo Fine-Tuned en veracidad, control de alucinaciones y calidad técnica reglamentaria.
 
 ---
 
@@ -164,8 +172,10 @@ codigo_para_evaluar_sipangpt_benchmark/
 │
 ├── reports/
 │   ├── figures/                     # Figuras en alta resolución (300 DPI)
-│   │   ├── curva_exactitud_comparada.png      # Exactitud por módulo académico
-│   │   └── latencia_boxplots.png              # Latencia media por módulo académico
+│   │   ├── curva_exactitud_comparada.png      # Exactitud por módulo académico (Juez LLM)
+│   │   ├── latencia_boxplots.png              # Latencia media por módulo académico
+│   │   ├── jev_exactitud_comparada.png        # Exactitud calibrada por módulo (Jev)
+│   │   └── jev_calidad_tecnica.png            # Calidad técnica por módulo (Jev)
 │   └── tables/                      # Tablas Markdown para el documento de tesis
 │       └── tabla_exactitud_50_preguntas.md
 │

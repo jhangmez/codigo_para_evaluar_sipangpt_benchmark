@@ -252,14 +252,182 @@ def generate_markdown_table(
         f.write(md_content)
 
 
+def generate_jev_accuracy_chart(
+    pairs: Sequence[EvaluatedPair],
+    output_path: Path = settings.figures_dir / "jev_exactitud_comparada.png",
+) -> None:
+    """Genera gráfico comparativo de exactitud calibrada por módulo con TypeSafe AI Jev a 300 DPI."""
+    output_path.parent.mkdir(parents=True, exist_ok=True)
+
+    mod_order: List[str] = [
+        "Matrícula y Registros",
+        "Campus Virtual y Aprendizaje",
+        "Pagos y Cobranzas",
+        "Biblioteca Virtual",
+        "Normativa y Trámites",
+    ]
+
+    pts_map: Dict[str, float] = {"C": 1.0, "P": 0.5, "I": 0.0}
+    mod_scores_ft: Dict[str, List[float]] = {}
+    mod_scores_rag: Dict[str, List[float]] = {}
+
+    for pair in pairs:
+        if not pair.jev_eval_finetuned or not pair.jev_eval_rag:
+            continue
+        mod_name: str = pair.caso.modulo.value
+        if mod_name not in mod_scores_ft:
+            mod_scores_ft[mod_name] = []
+            mod_scores_rag[mod_name] = []
+
+        mod_scores_ft[mod_name].append(pts_map.get(pair.jev_eval_finetuned.veredicto_choice, 0.0))
+        mod_scores_rag[mod_name].append(pts_map.get(pair.jev_eval_rag.veredicto_choice, 0.0))
+
+    if not mod_scores_ft:
+        return
+
+    mod_data: List[Dict[str, str | float]] = []
+    active_mods: List[str] = [m for m in mod_order if m in mod_scores_ft]
+    for mod in active_mods:
+        pct_ft: float = (sum(mod_scores_ft[mod]) / len(mod_scores_ft[mod])) * 100.0
+        pct_rag: float = (sum(mod_scores_rag[mod]) / len(mod_scores_rag[mod])) * 100.0
+
+        mod_data.append({"Módulo": mod, "Modelo": "Gemma-4 Fine-Tuned", "Exactitud Calibrada (%)": round(pct_ft, 1)})
+        mod_data.append({"Módulo": mod, "Modelo": "Sipán-STAIR (RAG)", "Exactitud Calibrada (%)": round(pct_rag, 1)})
+
+    df_plot = pd.DataFrame(mod_data)
+
+    plt.figure(figsize=(10, 6), dpi=300)
+    sns.set_theme(style="whitegrid")
+
+    palette: Dict[str, str] = {
+        "Gemma-4 Fine-Tuned": "#D9534F",
+        "Sipán-STAIR (RAG)": "#0275D8",
+    }
+
+    from matplotlib.container import BarContainer
+
+    ax = sns.barplot(
+        data=df_plot,
+        x="Exactitud Calibrada (%)",
+        y="Módulo",
+        hue="Modelo",
+        order=active_mods,
+        palette=palette,
+    )
+
+    plt.title(
+        "Exactitud Calibrada por Módulo Académico (TypeSafe AI Jev System One)",
+        fontsize=13,
+        fontweight="bold",
+        pad=15,
+    )
+    plt.xlabel("Exactitud Calibrada (%)", fontsize=11, fontweight="bold")
+    plt.ylabel("Módulo Evaluado", fontsize=11, fontweight="bold")
+    plt.xlim(0, 100)
+
+    for container in ax.containers:
+        if isinstance(container, BarContainer):
+            ax.bar_label(container, fmt="%.1f%%", padding=4, fontsize=10, fontweight="bold")
+
+    plt.tight_layout()
+    plt.savefig(output_path, dpi=300)
+    plt.close()
+
+
+def generate_jev_quality_chart(
+    pairs: Sequence[EvaluatedPair],
+    output_path: Path = settings.figures_dir / "jev_calidad_tecnica.png",
+) -> None:
+    """Genera gráfico comparativo de calidad técnica (escala 0-3) evaluada por Jev a 300 DPI."""
+    output_path.parent.mkdir(parents=True, exist_ok=True)
+
+    mod_order: List[str] = [
+        "Matrícula y Registros",
+        "Campus Virtual y Aprendizaje",
+        "Pagos y Cobranzas",
+        "Biblioteca Virtual",
+        "Normativa y Trámites",
+    ]
+
+    mod_cal_ft: Dict[str, List[float]] = {}
+    mod_cal_rag: Dict[str, List[float]] = {}
+
+    for pair in pairs:
+        if not pair.jev_eval_finetuned or not pair.jev_eval_rag:
+            continue
+        mod_name: str = pair.caso.modulo.value
+        if mod_name not in mod_cal_ft:
+            mod_cal_ft[mod_name] = []
+            mod_cal_rag[mod_name] = []
+
+        mod_cal_ft[mod_name].append(pair.jev_eval_finetuned.calidad_score)
+        mod_cal_rag[mod_name].append(pair.jev_eval_rag.calidad_score)
+
+    if not mod_cal_ft:
+        return
+
+    mod_data: List[Dict[str, str | float]] = []
+    active_mods: List[str] = [m for m in mod_order if m in mod_cal_ft]
+    for mod in active_mods:
+        score_ft: float = sum(mod_cal_ft[mod]) / len(mod_cal_ft[mod])
+        score_rag: float = sum(mod_cal_rag[mod]) / len(mod_cal_rag[mod])
+
+        mod_data.append({"Módulo": mod, "Modelo": "Gemma-4 Fine-Tuned", "Calidad Técnica (0-3)": round(score_ft, 2)})
+        mod_data.append({"Módulo": mod, "Modelo": "Sipán-STAIR (RAG)", "Calidad Técnica (0-3)": round(score_rag, 2)})
+
+    df_plot = pd.DataFrame(mod_data)
+
+    plt.figure(figsize=(10, 6), dpi=300)
+    sns.set_theme(style="whitegrid")
+
+    palette: Dict[str, str] = {
+        "Gemma-4 Fine-Tuned": "#D9534F",
+        "Sipán-STAIR (RAG)": "#0275D8",
+    }
+
+    from matplotlib.container import BarContainer
+
+    ax = sns.barplot(
+        data=df_plot,
+        x="Calidad Técnica (0-3)",
+        y="Módulo",
+        hue="Modelo",
+        order=active_mods,
+        palette=palette,
+    )
+
+    plt.title(
+        "Calidad Técnica Media por Módulo Académico (Escala 0 a 3 - Jev)",
+        fontsize=13,
+        fontweight="bold",
+        pad=15,
+    )
+    plt.xlabel("Calidad Técnica Media (Puntos de 0.0 a 3.0)", fontsize=11, fontweight="bold")
+    plt.ylabel("Módulo Evaluado", fontsize=11, fontweight="bold")
+    plt.xlim(0, 3.0)
+
+    for container in ax.containers:
+        if isinstance(container, BarContainer):
+            ax.bar_label(container, fmt="%.2f", padding=4, fontsize=10, fontweight="bold")
+
+    plt.tight_layout()
+    plt.savefig(output_path, dpi=300)
+    plt.close()
+
+
 def generate_all_reports_and_charts(
     metrics: BenchmarkSummaryMetrics,
     pairs: Sequence[EvaluatedPair],
     accuracy_path: Path = settings.figures_dir / "curva_exactitud_comparada.png",
     latency_path: Path = settings.figures_dir / "latencia_boxplots.png",
     table_path: Path = settings.tables_dir / "tabla_exactitud_50_preguntas.md",
+    jev_accuracy_path: Path = settings.figures_dir / "jev_exactitud_comparada.png",
+    jev_quality_path: Path = settings.figures_dir / "jev_calidad_tecnica.png",
 ) -> None:
     """Genera todos los reportes, figuras a 300 DPI y tablas Markdown."""
     generate_accuracy_chart(metrics, pairs, output_path=accuracy_path)
     generate_latency_boxplot(pairs, output_path=latency_path)
     generate_markdown_table(metrics, pairs, output_path=table_path)
+    if any(p.jev_eval_finetuned is not None for p in pairs):
+        generate_jev_accuracy_chart(pairs, output_path=jev_accuracy_path)
+        generate_jev_quality_chart(pairs, output_path=jev_quality_path)
