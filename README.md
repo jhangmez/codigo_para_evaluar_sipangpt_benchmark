@@ -144,6 +144,20 @@ Ambos gráficos analizan las decisiones tipadas del modelo Jev para los 5 módul
 | :---: | :---: |
 | ![Exactitud Calibrada Jev](reports/figures/jev_exactitud_comparada.png) | ![Calidad Técnica Jev](reports/figures/jev_calidad_tecnica.png) |
 
+### 💡 Hallazgos Principales de la Evaluación Experimental con Jev:
+
+1. **Severidad y Calibración Estricta de la Evaluación System One:**
+   A diferencia del Juez conversacional LLM (Gemini), que evalúa el discurso y la estructura sintáctica, el modelo **Jev** analiza directamente el estado lógico tipado del caso. Como resultado, penalizó drásticamente a **Gemma-4 Fine-Tuned (1.00% de exactitud calibrada)** debido a su incapacidad para reproducir con exactitud parámetros normativos (montos, fechas y requisitos oficiales) sin memoria documental en tiempo real, detectando un **98.0%** de tasa de alucinación fáctica en sus respuestas.
+
+2. **Superioridad y Resiliencia Fáctica de Sipán-STAIR (RAG):**
+   Sipán-STAIR alcanzó un **26.00%** de exactitud calibrada estricta bajo Jev, superando por **+25.00%** al modelo Fine-Tuned. Asimismo, la calidad técnica media asignada por Jev fue de **1.06 sobre 3.00** para RAG frente a apenas **0.33 sobre 3.00** para Fine-Tuned (más de 3.2 veces mayor solidez procedimental). Los módulos con requerimientos de trámite más estrictos (*Normativa y Trámites* con 41.7% y *Pagos y Cobranzas* con 33.3%) demostraron el mayor beneficio del anclaje documental y las citas normativas.
+
+3. **Detección Fina de Desviaciones Fácticas:**
+   Jev identificó un 82.0% de advertencia de alucinación en Sipán-STAIR y 98.0% en Fine-Tuned. Este análisis probabilístico reveló que, si bien Sipán-STAIR extrae las normativas correctas, omisiones menores en pasos secundarios o resúmenes no literales son catalogados por un evaluador System One como desvíos de la referencia, proveyendo una auditoría complementaria invaluable para robustecer el grounding fáctico.
+
+4. **Eficiencia Computacional y Latencia de Decisión Tipada:**
+   Mientras que el arbitraje con el Juez LLM conversacional requiere generación secuencial token a token de razonamientos en lenguaje natural (~5 a 10 segundos por evaluación), Jev resolvió cada decisión tipada (`choice`, `boolean`, `score`) en una latencia media de **1,167.89 ms** (~1.17 s), demostrando su utilidad como guardián de calidad (*guardrail*) en tiempo real para aplicaciones de producción.
+
 > **Conclusión del apoyo experimental:** Jev ratifica de forma independiente la misma tendencia fáctica del Juez principal: la arquitectura RAG supera ampliamente al modelo Fine-Tuned en veracidad, control de alucinaciones y calidad técnica reglamentaria.
 
 ---
@@ -275,3 +289,38 @@ mypy src/
 # Ejecución de la suite completa de pruebas unitarias e integración
 pytest -v
 ```
+
+---
+
+## 📚 Referencias Bibliográficas y Fuentes de Información (Normas APA 7ma Edición)
+
+### 1. Literatura Científica y Metodología de Evaluación
+
+* Dettmers, T., Pagnoni, A., Holtzman, A., & Zettlemoyer, L. (2023). QLoRA: Efficient finetuning of quantized LLMs. *Advances in Neural Information Processing Systems (NeurIPS 2023)*, 36, 10088–10115. https://doi.org/10.48550/arXiv.2305.14314
+* Gemma Team, Mesnard, T., Hardin, C., Dadashi, R., Bhupatiraju, S., Pathak, S., Sifre, L., Rivière, M., Kale, M. S., Love, J., Tafti, P., Léonard, L., & Google DeepMind. (2024). Gemma: Open models based on Gemini research and technology. *arXiv preprint arXiv:2403.08295*. https://doi.org/10.48550/arXiv.2403.08295
+* Hu, E. J., Shen, Y., Wallis, P., Allen-Zhu, Z., Li, Y., Wang, S., Wang, L., & Chen, W. (2021). LoRA: Low-rank adaptation of large language models. *arXiv preprint arXiv:2106.09685*. https://doi.org/10.48550/arXiv.2106.09685
+* Kahneman, D. (2011). *Thinking, fast and slow*. Farrar, Straus and Giroux. *(Fundamento cognitivo de la dualidad de arquitecturas System One vs. System Two en modelos de evaluación).*
+* Lewis, P., Perez, E., Piktus, A., Petroni, F., Karpukhin, V., Goyal, N., Küttler, H., Lewis, M., Yih, W.-t., Rocktäschel, T., Riedel, S., & Kiela, D. (2020). Retrieval-augmented generation for knowledge-intensive NLP tasks. *Advances in Neural Information Processing Systems (NeurIPS 2020)*, 33, 9459–9474. https://doi.org/10.48550/arXiv.2005.11401
+* Zheng, L., Chiang, W.-L., Sheng, Y., Zhuang, S., Wu, Z., Zhuang, Y., Lin, Z., Li, Z., Li, D., Xing, E. P., Zhang, H., Gonzalez, J. E., & Stoica, I. (2023). Judging LLM-as-a-judge with MT-Bench and Chatbot Arena. *Advances in Neural Information Processing Systems (NeurIPS 2023)*, 36, 46595–46623. https://doi.org/10.48550/arXiv.2306.05685
+
+### 2. Normativas, Reglamentos y Manuales Oficiales (Universidad Señor de Sipán)
+
+* Universidad Señor de Sipán. (2022). *Reglamento de Grados y Títulos de la Universidad Señor de Sipán*. Vicerrectorado de Investigación, Dirección de Grados y Títulos. Chiclayo, Perú.
+* Universidad Señor de Sipán. (2023). *Manual de Usuario de la Plataforma Aula Virtual y Campus Virtual USS*. Dirección de Tecnologías de Información y Comunicaciones (DTI). Chiclayo, Perú.
+* Universidad Señor de Sipán. (2023). *Reglamento de Cobranzas y Derechos Académicos*. Dirección General de Administración y Finanzas. Chiclayo, Perú.
+* Universidad Señor de Sipán. (2023). *Reglamento General de Matrícula y Registros Académicos*. Vicerrectorado Académico, Dirección de Registros Académicos. Chiclayo, Perú.
+* Universidad Señor de Sipán. (2023). *Tarifario Oficial de Tasas y Servicios Administrativos de Pregrado y Posgrado*. Chiclayo, Perú.
+* Universidad Señor de Sipán. (2024). *Guía de Acceso al Sistema de Catálogo en Línea y Recursos Bibliográficos Digitales (Scopus, EBSCO, e-Library)*. Dirección del Centro de Información y Biblioteca Central. Chiclayo, Perú.
+
+### 3. Datasets y Repositorios Oficiales del Proyecto
+
+* Gómez Padilla, J. (2026). *SipánGPT Benchmark Test Dataset (ussipan/sipangpt-V2)* [Conjunto de datos]. Hugging Face Hub. https://huggingface.co/datasets/ussipan/sipangpt-V2
+* Gómez Padilla, J. (2026). *Suite de Evaluación Comparativa de Rigor Científico: Gemma-4 Fine-Tuned vs. Sipán-STAIR (RAG)* [Código fuente]. GitHub. https://github.com/jhangmez/codigo_para_evaluar_sipangpt_benchmark
+* Gómez Padilla, J. (2026). *SipánGPT: Asistente Virtual Oficial Inteligente de la Universidad Señor de Sipán basado en RAG y Next.js* [Código fuente]. Repositorio Institucional de Software de Tesis, Universidad Nacional Pedro Ruiz Gallo.
+
+### 4. Especificaciones Tecnológicas, APIs y Frameworks
+
+* Google AI. (2024). *Gemini API: Structured outputs and developer guide*. Google DeepMind. https://ai.google.dev/
+* TypeSafe AI. (2024). *Jev: The first System One decision model for typed software evaluations*. TypeSafe AI Inc. https://jevtypesafeai.com/
+* Unsloth AI. (2024). *Unsloth: Fast and memory-efficient LLM fine-tuning with 4-bit LoRA and GGUF export*. https://github.com/unslothai/unsloth
+* Vercel. (2024). *Vercel AI SDK & AI Gateway: Unified specification for model inference and evaluation routing*. Vercel Inc. https://ai-gateway.vercel.sh/
