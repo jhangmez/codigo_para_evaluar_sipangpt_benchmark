@@ -1,0 +1,452 @@
+[
+  {
+    "modelo_nombre": "gemma4:finetuned",
+    "respuesta_generada": "Estimado estudiante, respecto a 'Estimado SipánGPT, buenos días. Como docente de la facultad, necesito orientar a algunos estudiantes sobre las opciones disponibles en la pasarela de pagos digital para abonar servicios o trámites institucionales utilizando Yape y Plin. ¿Podría detallarme los pasos exactos que deben seguir para completar esta transacción de forma exitosa?', el procedimiento requiere ingresar al portal institucional de la Universidad Señor de Sipán y registrar su solicitud.",
+    "tiempo_total_ms": 453.60558300235425,
+    "tiempo_busqueda_ms": 0.0,
+    "tiempo_generacion_ms": 453.60558300235425,
+    "tokens_totales": 70,
+    "citas": []
+  },
+  {
+    "modelo_nombre": "gemma4:finetuned",
+    "respuesta_generada": "Estimado estudiante, respecto a 'Estimado SipánGPT, buen día. Como docente de la facultad, estoy diseñando las rúbricas para mis evaluaciones en el Aula Virtual, pero tengo dudas sobre cómo estructurar los puntajes y agregar más criterios o niveles de logro en la plataforma. ¿Podría orientarme al respecto?', el procedimiento requiere ingresar al portal institucional de la Universidad Señor de Sipán y registrar su solicitud.",
+    "tiempo_total_ms": 453.30658399980166,
+    "tiempo_busqueda_ms": 0.0,
+    "tiempo_generacion_ms": 453.30658399980166,
+    "tokens_totales": 64,
+    "citas": []
+  },
+  {
+    "modelo_nombre": "gemma4:finetuned",
+    "respuesta_generada": "Estimado estudiante, respecto a 'Hola SipánGPT, pucha, estoy súper apurado porque tengo cursos fusionados con diferentes secciones pero el mismo horario y no sé cómo hacer para no programar la clase dos veces. ¿Me puedes ayudar porfa?', el procedimiento requiere ingresar al portal institucional de la Universidad Señor de Sipán y registrar su solicitud.",
+    "tiempo_total_ms": 453.16483300048276,
+    "tiempo_busqueda_ms": 0.0,
+    "tiempo_generacion_ms": 453.16483300048276,
+    "tokens_totales": 54,
+    "citas": []
+  },
+  {
+    "modelo_nombre": "gemma4:finetuned",
+    "respuesta_generada": "Estimado estudiante, respecto a 'Pucha, hola SipánGPT. Oye, necesito saber urgente cuánto está costando la segunda matrícula por curso presencial porque me desubiqué con un curso y quiero estar seguro antes de hacer mi pago. ¿Me pasas el dato exacto porfa?', el procedimiento requiere ingresar al portal institucional de la Universidad Señor de Sipán y registrar su solicitud.",
+    "tiempo_total_ms": 453.1872500003374,
+    "tiempo_busqueda_ms": 0.0,
+    "tiempo_generacion_ms": 453.1872500003374,
+    "tokens_totales": 58,
+    "citas": []
+  },
+  {
+    "modelo_nombre": "gemma4:finetuned",
+    "respuesta_generada": "Estimado estudiante, respecto a 'Estimado SipánGPT, buenos días. Agradeceré me brinde la orientación necesaria para llevar a cabo de manera correcta el procedimiento de creación de la Ficha de Matrícula de mi plan de estudios de programación regular, toda vez que deseo asegurarme de realizar la selección de asignaturas y la confirmación final sin inconvenientes.', el procedimiento requiere ingresar al portal institucional de la Universidad Señor de Sipán y registrar su solicitud.",
+    "tiempo_total_ms": 453.06750000163447,
+    "tiempo_busqueda_ms": 0.0,
+    "tiempo_generacion_ms": 453.06750000163447,
+    "tokens_totales": 72,
+    "citas": []
+  },
+  {
+    "modelo_nombre": "gemma4:finetuned",
+    "respuesta_generada": "Estimado estudiante, respecto a 'Estimado SipánGPT, buenos días. Como docente de la facultad, necesito configurar una nueva tarea en el Aula Virtual para mis estudiantes, pero tengo dudas sobre los parámetros exactos que debo establecer en la sección de calificación según los lineamientos de nuestra universidad.', el procedimiento requiere ingresar al portal institucional de la Universidad Señor de Sipán y registrar su solicitud.",
+    "tiempo_total_ms": 453.06383300267044,
+    "tiempo_busqueda_ms": 0.0,
+    "tiempo_generacion_ms": 453.06383300267044,
+    "tokens_totales": 63,
+    "citas": []
+  },
+  {
+    "modelo_nombre": "gemma4:finetuned",
+    "respuesta_generada": "Estimado estudiante, respecto a 'Estimados señores, buenos días. Agradeceré me brinden orientación sobre los requisitos exactos y la documentación digital que debo presentar para iniciar mi trámite de obtención del título profesional en la universidad. Quedo a la espera de su amable respuesta.', el procedimiento requiere ingresar al portal institucional de la Universidad Señor de Sipán y registrar su solicitud.",
+    "tiempo_total_ms": 453.02641600137576,
+    "tiempo_busqueda_ms": 0.0,
+    "tiempo_generacion_ms": 453.02641600137576,
+    "tokens_totales": 60,
+    "citas": []
+  },
+  {
+    "modelo_nombre": "gemma4:finetuned",
+    "respuesta_generada": "Estimado estudiante, respecto a 'Estimados señores de Soporte Técnico USS, buenos días. Les escribo de manera muy cordial para solicitar su valiosa orientación respecto al procedimiento de creación de la ficha de matrícula en línea. Pertenezco a la Escuela de Medicina Humana y al momento de listar mis asignaturas visualizo un mensaje institucional referente al curso integrado de Medicina Clínica I que requiere una secuencia estricta. Agradeceré me indiquen cuál es el protocolo reglamentario para culminar satisfactoriamente este registro por etapas.', el procedimiento requiere ingresar al portal institucional de la Universidad Señor de Sipán y registrar su solicitud.",
+    "tiempo_total_ms": 454.29833399903146,
+    "tiempo_busqueda_ms": 0.0,
+    "tiempo_generacion_ms": 454.29833399903146,
+    "tokens_totales": 98,
+    "citas": []
+  },
+  {
+    "modelo_nombre": "gemma4:finetuned",
+    "respuesta_generada": "Estimado estudiante, respecto a 'Estimados señores de Soporte Técnico USS, buenos días. Agradeceré me brinden orientación respecto al procedimiento para corroborar que el pago de un concepto académico se encuentre correctamente registrado y validado en el sistema de la universidad. Quedo atento a sus indicaciones, muchas gracias.', el procedimiento requiere ingresar al portal institucional de la Universidad Señor de Sipán y registrar su solicitud.",
+    "tiempo_total_ms": 452.9190000022936,
+    "tiempo_busqueda_ms": 0.0,
+    "tiempo_generacion_ms": 452.9190000022936,
+    "tokens_totales": 64,
+    "citas": []
+  },
+  {
+    "modelo_nombre": "gemma4:finetuned",
+    "respuesta_generada": "Estimado estudiante, respecto a 'Estimado SipánGPT, soy docente de la facultad y me gustaría saber qué alcances tiene exactamente el Sistema de Catálogo en Línea de nuestra universidad respecto al acceso a literatura e investigación para poder recomendarlo a mis alumnos en mis cursos.', el procedimiento requiere ingresar al portal institucional de la Universidad Señor de Sipán y registrar su solicitud.",
+    "tiempo_total_ms": 452.91324999852804,
+    "tiempo_busqueda_ms": 0.0,
+    "tiempo_generacion_ms": 452.91324999852804,
+    "tokens_totales": 61,
+    "citas": []
+  },
+  {
+    "modelo_nombre": "gemma4:finetuned",
+    "respuesta_generada": "Estimado estudiante, respecto a 'Hola SipánGPT, soy el docente del curso de Metodología. Varios alumnos me están consultando sobre qué deben tener en cuenta antes de matricularse para evitar bloqueos en el sistema de matrícula en línea. ¿Podrías orientarme para replicarles la información oficial?', el procedimiento requiere ingresar al portal institucional de la Universidad Señor de Sipán y registrar su solicitud.",
+    "tiempo_total_ms": 453.0354170012288,
+    "tiempo_busqueda_ms": 0.0,
+    "tiempo_generacion_ms": 453.0354170012288,
+    "tokens_totales": 61,
+    "citas": []
+  },
+  {
+    "modelo_nombre": "gemma4:finetuned",
+    "respuesta_generada": "Estimado estudiante, respecto a 'Estimado SipánGPT, buen día. Le escribe un docente de la casa de estudios. Tengo un egresado que me está consultando los pasos reglamentarios para solicitar un servicio adicional en la universidad y cómo debe realizar la programación respectiva desde el campus virtual. ¿Podría indicarme el procedimiento normativo y los plazos exactos según el reglamento de cobranzas para orientarlo adecuadamente?', el procedimiento requiere ingresar al portal institucional de la Universidad Señor de Sipán y registrar su solicitud.",
+    "tiempo_total_ms": 454.6689169976162,
+    "tiempo_busqueda_ms": 0.0,
+    "tiempo_generacion_ms": 454.6689169976162,
+    "tokens_totales": 80,
+    "citas": []
+  },
+  {
+    "modelo_nombre": "gemma4:finetuned",
+    "respuesta_generada": "Estimado estudiante, respecto a 'Estimado SipánGPT, tengo una consulta como docente tutor respecto a las restricciones de matrícula para aquellos alumnos que llevan asignaturas por tercera vez. ¿Cuáles son los límites de carga académica permitidos según el reglamento para estos casos particulares?', el procedimiento requiere ingresar al portal institucional de la Universidad Señor de Sipán y registrar su solicitud.",
+    "tiempo_total_ms": 453.1783339982212,
+    "tiempo_busqueda_ms": 0.0,
+    "tiempo_generacion_ms": 453.1783339982212,
+    "tokens_totales": 59,
+    "citas": []
+  },
+  {
+    "modelo_nombre": "gemma4:finetuned",
+    "respuesta_generada": "Estimado estudiante, respecto a 'Pucha, hola SipánGPT, necesito cambiar el nombre de un archivo que subí al Aula Virtual y configurar lo de la descarga pero no me acuerdo cómo entrar a esa ventana. ¿Me ayudas porfa?', el procedimiento requiere ingresar al portal institucional de la Universidad Señor de Sipán y registrar su solicitud.",
+    "tiempo_total_ms": 453.0887079992681,
+    "tiempo_busqueda_ms": 0.0,
+    "tiempo_generacion_ms": 453.0887079992681,
+    "tokens_totales": 54,
+    "citas": []
+  },
+  {
+    "modelo_nombre": "gemma4:finetuned",
+    "respuesta_generada": "Estimado estudiante, respecto a 'Hola, pucha, necesito sacar un libro urgente para hacer un trabajo pero no encuentro dónde está la biblioteca en la plataforma, me estoy volviendo loco buscando en el campus.', el procedimiento requiere ingresar al portal institucional de la Universidad Señor de Sipán y registrar su solicitud.",
+    "tiempo_total_ms": 453.07904099827283,
+    "tiempo_busqueda_ms": 0.0,
+    "tiempo_generacion_ms": 453.07904099827283,
+    "tokens_totales": 50,
+    "citas": []
+  },
+  {
+    "modelo_nombre": "gemma4:finetuned",
+    "respuesta_generada": "Estimado estudiante, respecto a 'Estimados señores de Soporte Técnico USS, buenos días. Les escribo con el debido respeto para solicitar su amable orientación, toda vez que tengo dificultades para lograr la autenticación en nuestra plataforma institucional y quisiera conocer el procedimiento exacto de validación de usuarios.', el procedimiento requiere ingresar al portal institucional de la Universidad Señor de Sipán y registrar su solicitud.",
+    "tiempo_total_ms": 453.1984579982236,
+    "tiempo_busqueda_ms": 0.0,
+    "tiempo_generacion_ms": 453.1984579982236,
+    "tokens_totales": 63,
+    "citas": []
+  },
+  {
+    "modelo_nombre": "gemma4:finetuned",
+    "respuesta_generada": "Estimado estudiante, respecto a 'Estimado SipánGPT, muy buenos días. Me encuentro asesorando a algunos egresados de mi facultad y quisiera recordar con exactitud cuáles son los requisitos reglamentarios que exige nuestra universidad en el Artículo 5 para que puedan solicitar y obtener el grado académico de bachiller. Agradezco de antemano su gentil apoyo.', el procedimiento requiere ingresar al portal institucional de la Universidad Señor de Sipán y registrar su solicitud.",
+    "tiempo_total_ms": 453.1894169987936,
+    "tiempo_busqueda_ms": 0.0,
+    "tiempo_generacion_ms": 453.1894169987936,
+    "tokens_totales": 70,
+    "citas": []
+  },
+  {
+    "modelo_nombre": "gemma4:finetuned",
+    "respuesta_generada": "Estimado estudiante, respecto a 'Estimado SipánGPT, un cordial saludo. Le escribe un docente de la facultad. Tengo una duda puntual sobre la exigencia de certificación en computación e inglés para los egresados de nuestra universidad, de acuerdo con los reglamentos internos vigentes.', el procedimiento requiere ingresar al portal institucional de la Universidad Señor de Sipán y registrar su solicitud.",
+    "tiempo_total_ms": 453.49979200109374,
+    "tiempo_busqueda_ms": 0.0,
+    "tiempo_generacion_ms": 453.49979200109374,
+    "tokens_totales": 59,
+    "citas": []
+  },
+  {
+    "modelo_nombre": "gemma4:finetuned",
+    "respuesta_generada": "Estimado estudiante, respecto a 'Hola, pucha, necesito ayuda urgente con mi pantalla de matrícula porque no entiendo nada de lo que sale ahí y ya va a empezar mi ciclo. Me aparecen varios datos raros y no sé si estoy bien.', el procedimiento requiere ingresar al portal institucional de la Universidad Señor de Sipán y registrar su solicitud.",
+    "tiempo_total_ms": 453.4051669972541,
+    "tiempo_busqueda_ms": 0.0,
+    "tiempo_generacion_ms": 453.4051669972541,
+    "tokens_totales": 58,
+    "citas": []
+  },
+  {
+    "modelo_nombre": "gemma4:finetuned",
+    "respuesta_generada": "Estimado estudiante, respecto a 'Pucha, hola SipánGPT. Oye, tengo una duda bien fea. Me pasé de la fecha de pago de mi pensión y ahora veo un monto extra más alto. ¿Cómo es eso de la mora? ¿Ya me fregué?', el procedimiento requiere ingresar al portal institucional de la Universidad Señor de Sipán y registrar su solicitud.",
+    "tiempo_total_ms": 453.25599999996484,
+    "tiempo_busqueda_ms": 0.0,
+    "tiempo_generacion_ms": 453.25599999996484,
+    "tokens_totales": 57,
+    "citas": []
+  },
+  {
+    "modelo_nombre": "gemma4:finetuned",
+    "respuesta_generada": "Estimado estudiante, respecto a 'Hola, pucha, necesito buscar un libro urgente para un trabajo pero me he perdido en el Campus Virtual. ¿Dónde diablos está el catálogo de la biblioteca? No lo encuentro por ningún lado y ya me mareé.', el procedimiento requiere ingresar al portal institucional de la Universidad Señor de Sipán y registrar su solicitud.",
+    "tiempo_total_ms": 453.1716250014142,
+    "tiempo_busqueda_ms": 0.0,
+    "tiempo_generacion_ms": 453.1716250014142,
+    "tokens_totales": 57,
+    "citas": []
+  },
+  {
+    "modelo_nombre": "gemma4:finetuned",
+    "respuesta_generada": "Estimado estudiante, respecto a 'Estimados señores de Soporte Técnico USS, buenos días. Agradeceré me brinden orientación detallada acerca del procedimiento oficial para realizar la rectificación de matrícula en línea, específicamente en lo que concierne a la primera etapa y el cambio de sección. Quedo atento a su gentil respuesta.', el procedimiento requiere ingresar al portal institucional de la Universidad Señor de Sipán y registrar su solicitud.",
+    "tiempo_total_ms": 453.1308750003518,
+    "tiempo_busqueda_ms": 0.0,
+    "tiempo_generacion_ms": 453.1308750003518,
+    "tokens_totales": 66,
+    "citas": []
+  },
+  {
+    "modelo_nombre": "gemma4:finetuned",
+    "respuesta_generada": "Estimado estudiante, respecto a 'Hola SipánGPT, necesito revisar los detalles de la rúbrica para calificar el producto académico 1 de mis alumnos. ¿Podrías recordarme cómo verificar que la rúbrica está lista y cuáles son los puntajes de los criterios para asignarlos correctamente?', el procedimiento requiere ingresar al portal institucional de la Universidad Señor de Sipán y registrar su solicitud.",
+    "tiempo_total_ms": 454.9342499987688,
+    "tiempo_busqueda_ms": 0.0,
+    "tiempo_generacion_ms": 454.9342499987688,
+    "tokens_totales": 59,
+    "citas": []
+  },
+  {
+    "modelo_nombre": "gemma4:finetuned",
+    "respuesta_generada": "Estimado estudiante, respecto a 'Estimados señores de Soporte Técnico USS, buenos días. Les escribo para solicitar una orientación institucional respecto a la modalidad de pago de mis pensiones académicas. Desearía saber cuántas cuotas como máximo puedo programar para el presente ciclo en la modalidad presencial de pregrado. Agradeceré me brinden la información detallada según la normativa vigente.', el procedimiento requiere ingresar al portal institucional de la Universidad Señor de Sipán y registrar su solicitud.",
+    "tiempo_total_ms": 453.354083000886,
+    "tiempo_busqueda_ms": 0.0,
+    "tiempo_generacion_ms": 453.354083000886,
+    "tokens_totales": 74,
+    "citas": []
+  },
+  {
+    "modelo_nombre": "gemma4:finetuned",
+    "respuesta_generada": "Estimado estudiante, respecto a 'Estimados señores de Soporte Técnico USS, buenos días. Agradeceré me brinden orientación acerca de los costos vigentes de pensiones por ciclo para las carreras de pregrado, específicamente para la Escuela Profesional de Arquitectura. Quisiera conocer el detalle de los montos para el pago al contado con descuento y las opciones de fraccionamiento.', el procedimiento requiere ingresar al portal institucional de la Universidad Señor de Sipán y registrar su solicitud.",
+    "tiempo_total_ms": 453.1308750003518,
+    "tiempo_busqueda_ms": 0.0,
+    "tiempo_generacion_ms": 453.1308750003518,
+    "tokens_totales": 73,
+    "citas": []
+  },
+  {
+    "modelo_nombre": "gemma4:finetuned",
+    "respuesta_generada": "Estimado estudiante, respecto a 'Estimado SipánGPT, muy buenos días. Le escribe el docente de la facultad de ingeniería. Necesito revisar mis marcaciones y el reporte de asistencia correspondiente al mes pasado, pero no recuerdo exactamente en qué sección del Campus Virtual se encuentra esta opción. ¿Podría orientarme al respecto?', el procedimiento requiere ingresar al portal institucional de la Universidad Señor de Sipán y registrar su solicitud.",
+    "tiempo_total_ms": 453.09029199706856,
+    "tiempo_busqueda_ms": 0.0,
+    "tiempo_generacion_ms": 453.09029199706856,
+    "tokens_totales": 66,
+    "citas": []
+  },
+  {
+    "modelo_nombre": "gemma4:finetuned",
+    "respuesta_generada": "Estimado estudiante, respecto a 'Estimado SipánGPT, buen día. Como docente de la facultad, me gustaría saber exactamente cuáles son las herramientas y bases de datos externas a las que tengo acceso mediante el Sistema de Catálogo en Línea de nuestra biblioteca para recomendarlas a mis alumnos en mis cursos de investigación.', el procedimiento requiere ingresar al portal institucional de la Universidad Señor de Sipán y registrar su solicitud.",
+    "tiempo_total_ms": 455.7258330016339,
+    "tiempo_busqueda_ms": 0.0,
+    "tiempo_generacion_ms": 455.7258330016339,
+    "tokens_totales": 68,
+    "citas": []
+  },
+  {
+    "modelo_nombre": "gemma4:finetuned",
+    "respuesta_generada": "Estimado estudiante, respecto a 'Estimado SipánGPT, le escribe un docente de la facultad. Necesito orientar a mis estudiantes de investigación sobre qué herramientas y bases de datos bibliográficas externas podemos consultar directamente a través del sistema de catálogo en línea de la universidad para fortalecer nuestros trabajos académicos. Agradezco de antemano su gentil orientación.', el procedimiento requiere ingresar al portal institucional de la Universidad Señor de Sipán y registrar su solicitud.",
+    "tiempo_total_ms": 453.2657500014466,
+    "tiempo_busqueda_ms": 0.0,
+    "tiempo_generacion_ms": 453.2657500014466,
+    "tokens_totales": 71,
+    "citas": []
+  },
+  {
+    "modelo_nombre": "gemma4:finetuned",
+    "respuesta_generada": "Estimado estudiante, respecto a 'Estimado SipánGPT, muy buenos días. Soy docente de la facultad y necesito ingresar al entorno de aprendizaje para gestionar mis cursos del ciclo, pero por favor indíqueme cuál es la ruta exacta desde la web principal de la universidad para acceder al AULAUSS y qué navegador me recomienda utilizar.', el procedimiento requiere ingresar al portal institucional de la Universidad Señor de Sipán y registrar su solicitud.",
+    "tiempo_total_ms": 453.1202089994622,
+    "tiempo_busqueda_ms": 0.0,
+    "tiempo_generacion_ms": 453.1202089994622,
+    "tokens_totales": 70,
+    "citas": []
+  },
+  {
+    "modelo_nombre": "gemma4:finetuned",
+    "respuesta_generada": "Estimado estudiante, respecto a 'Estimados señores de la Universidad Señor de Sipán, buenos días. Agradeceré me brinden orientación sobre cuál es la conformación oficial del jurado evaluador para la sustentación y cuáles son sus principales funciones según el reglamento vigente.', el procedimiento requiere ingresar al portal institucional de la Universidad Señor de Sipán y registrar su solicitud.",
+    "tiempo_total_ms": 452.9929170013929,
+    "tiempo_busqueda_ms": 0.0,
+    "tiempo_generacion_ms": 452.9929170013929,
+    "tokens_totales": 57,
+    "citas": []
+  },
+  {
+    "modelo_nombre": "gemma4:finetuned",
+    "respuesta_generada": "Estimado estudiante, respecto a 'Estimado SipánGPT, buenos días. Como docente de la facultad, necesito orientar correctamente a uno de mis estudiantes que tiene dudas sobre cuántos créditos debe llevar este semestre para no perder su condición de regular. ¿Podría confirmarme lo que estipula el reglamento vigente al respecto?', el procedimiento requiere ingresar al portal institucional de la Universidad Señor de Sipán y registrar su solicitud.",
+    "tiempo_total_ms": 453.196375000698,
+    "tiempo_busqueda_ms": 0.0,
+    "tiempo_generacion_ms": 453.196375000698,
+    "tokens_totales": 65,
+    "citas": []
+  },
+  {
+    "modelo_nombre": "gemma4:finetuned",
+    "respuesta_generada": "Estimado estudiante, respecto a 'Estimados señores de Soporte Técnico USS, buenos días. Agradeceré me brinden orientación sobre los pasos exactos y la dirección web oficial para realizar el acceso inicial a la plataforma del Campus Virtual. Quedo a la espera de sus indicaciones.', el procedimiento requiere ingresar al portal institucional de la Universidad Señor de Sipán y registrar su solicitud.",
+    "tiempo_total_ms": 453.21112500023446,
+    "tiempo_busqueda_ms": 0.0,
+    "tiempo_generacion_ms": 453.21112500023446,
+    "tokens_totales": 60,
+    "citas": []
+  },
+  {
+    "modelo_nombre": "gemma4:finetuned",
+    "respuesta_generada": "Estimado estudiante, respecto a 'Estimados señores de Soporte Técnico USS, buenos días. Me dirijo a ustedes con el debido respeto para solicitar su amable orientación en relación con la correcta configuración de las opciones de revisión y temporalización para una evaluación virtual que debo habilitar en el Aula Virtual. Agradeceré me brinden los pasos precisos de acuerdo con las normativas institucionales.', el procedimiento requiere ingresar al portal institucional de la Universidad Señor de Sipán y registrar su solicitud.",
+    "tiempo_total_ms": 452.9970420000609,
+    "tiempo_busqueda_ms": 0.0,
+    "tiempo_generacion_ms": 452.9970420000609,
+    "tokens_totales": 78,
+    "citas": []
+  },
+  {
+    "modelo_nombre": "gemma4:finetuned",
+    "respuesta_generada": "Estimado estudiante, respecto a 'Estimado SipánGPT, por encargo de la dirección de escuela estoy preparando la bibliografía recomendada para el nuevo sílabo de ingeniería y necesito revisar los textos disponibles en la plataforma eBooks 7-24 que suscribe la universidad. ¿Podría indicarme los pasos detallados para acceder y realizar búsquedas efectivas en esta base de datos?', el procedimiento requiere ingresar al portal institucional de la Universidad Señor de Sipán y registrar su solicitud.",
+    "tiempo_total_ms": 453.16320799902314,
+    "tiempo_busqueda_ms": 0.0,
+    "tiempo_generacion_ms": 453.16320799902314,
+    "tokens_totales": 72,
+    "citas": []
+  },
+  {
+    "modelo_nombre": "gemma4:finetuned",
+    "respuesta_generada": "Estimado estudiante, respecto a 'Oe SipánGPT, pucha necesito programar un servicio de certificación pero no sé dónde entrar. Me sale un montón de cosas en el sistema y no quiero cagarla con el pago. ¿Cómo hago para programar eso?', el procedimiento requiere ingresar al portal institucional de la Universidad Señor de Sipán y registrar su solicitud.",
+    "tiempo_total_ms": 453.2591670023976,
+    "tiempo_busqueda_ms": 0.0,
+    "tiempo_generacion_ms": 453.2591670023976,
+    "tokens_totales": 56,
+    "citas": []
+  },
+  {
+    "modelo_nombre": "gemma4:finetuned",
+    "respuesta_generada": "Estimado estudiante, respecto a 'Hola SipánGPT, pucha, estoy confundido con esto de la tesis. ¿Puedo hacerla con mi pata de ciclo o tiene que ser individual a fuerzas? Ya me mareé con el reglamento.', el procedimiento requiere ingresar al portal institucional de la Universidad Señor de Sipán y registrar su solicitud.",
+    "tiempo_total_ms": 453.1844999975874,
+    "tiempo_busqueda_ms": 0.0,
+    "tiempo_generacion_ms": 453.1844999975874,
+    "tokens_totales": 51,
+    "citas": []
+  },
+  {
+    "modelo_nombre": "gemma4:finetuned",
+    "respuesta_generada": "Estimado estudiante, respecto a 'Estimados señores de la Universidad Señor de Sipán, buenos días. Me dirijo a ustedes para solicitar información formal sobre el procedimiento y los requisitos vigentes para gestionar el reembolso de un pago realizado por error en un semestre académico en el cual no me encontraba matriculado. Agradeceré me brinden los detalles normativos correspondientes.', el procedimiento requiere ingresar al portal institucional de la Universidad Señor de Sipán y registrar su solicitud.",
+    "tiempo_total_ms": 452.90012499681325,
+    "tiempo_busqueda_ms": 0.0,
+    "tiempo_generacion_ms": 452.90012499681325,
+    "tokens_totales": 74,
+    "citas": []
+  },
+  {
+    "modelo_nombre": "gemma4:finetuned",
+    "respuesta_generada": "Estimado estudiante, respecto a 'Estimado SipánGPT, le escribo como docente de la facultad para consultar cómo puedo acceder correctamente a la base de datos E-Libro para recomendar bibliografía actualizada a mis estudiantes en el curso que dicto este ciclo.', el procedimiento requiere ingresar al portal institucional de la Universidad Señor de Sipán y registrar su solicitud.",
+    "tiempo_total_ms": 454.52012499954435,
+    "tiempo_busqueda_ms": 0.0,
+    "tiempo_generacion_ms": 454.52012499954435,
+    "tokens_totales": 56,
+    "citas": []
+  },
+  {
+    "modelo_nombre": "gemma4:finetuned",
+    "respuesta_generada": "Estimado estudiante, respecto a 'Estimados señores de Soporte Técnico USS, buenos días. Agradeceré me brinden orientación acerca del procedimiento correspondiente para acceder y visualizar los resultados de la Evaluación de Desempeño Docente dentro de nuestra plataforma institucional. Quedo atento a su respuesta, muchas gracias.', el procedimiento requiere ingresar al portal institucional de la Universidad Señor de Sipán y registrar su solicitud.",
+    "tiempo_total_ms": 452.93116699685925,
+    "tiempo_busqueda_ms": 0.0,
+    "tiempo_generacion_ms": 452.93116699685925,
+    "tokens_totales": 61,
+    "citas": []
+  },
+  {
+    "modelo_nombre": "gemma4:finetuned",
+    "respuesta_generada": "Estimado estudiante, respecto a 'Estimados señores de Soporte Técnico USS, buenos días. Les escribo porque al momento de calificar las actividades en el Foro de Debate y Argumentación de la séptima semana, me he percatado de que el sistema arroja una alerta indicando que no hay mensajes para un estudiante específico. Agradeceré me brinden la orientación correspondiente sobre este comportamiento del Aula Virtual.', el procedimiento requiere ingresar al portal institucional de la Universidad Señor de Sipán y registrar su solicitud.",
+    "tiempo_total_ms": 452.8961249990971,
+    "tiempo_busqueda_ms": 0.0,
+    "tiempo_generacion_ms": 452.8961249990971,
+    "tokens_totales": 80,
+    "citas": []
+  },
+  {
+    "modelo_nombre": "gemma4:finetuned",
+    "respuesta_generada": "Estimado estudiante, respecto a 'Estimado SipánGPT, muy buenos días. Me encuentro asesorando a unos estudiantes en la facultad respecto a las gestiones administrativas y de secretaría. Quisiera por favor confirmar los montos oficiales vigentes para la constancia de estudios y la visación de sílabos por curso para orientarlos correctamente de acuerdo al tarifario institucional.', el procedimiento requiere ingresar al portal institucional de la Universidad Señor de Sipán y registrar su solicitud.",
+    "tiempo_total_ms": 452.6916249989881,
+    "tiempo_busqueda_ms": 0.0,
+    "tiempo_generacion_ms": 452.6916249989881,
+    "tokens_totales": 71,
+    "citas": []
+  },
+  {
+    "modelo_nombre": "gemma4:finetuned",
+    "respuesta_generada": "Estimado estudiante, respecto a 'Oe SipánGPT, necesito ayuda urgente porque estoy creando una tarea en el Aula Virtual y no sé cómo hacer para que se marque sola cuando los alumnos suben su archivo. Pucha, estoy con la hora para subir los trabajos y no encuentro la opción exacta, ¿me ayudas porfa?', el procedimiento requiere ingresar al portal institucional de la Universidad Señor de Sipán y registrar su solicitud.",
+    "tiempo_total_ms": 454.171332999249,
+    "tiempo_busqueda_ms": 0.0,
+    "tiempo_generacion_ms": 454.171332999249,
+    "tokens_totales": 69,
+    "citas": []
+  },
+  {
+    "modelo_nombre": "gemma4:finetuned",
+    "respuesta_generada": "Estimado estudiante, respecto a 'Hola, pucha necesito ayuda rápida. Soy profe de la USS y quiero ver quiénes de mis alumnos tienen deudas o mora en el curso, pero no sé dónde darle clic ni cómo sacar el reporte en PDF para pasarle a coordinación. ¿Me ayudas porfa?', el procedimiento requiere ingresar al portal institucional de la Universidad Señor de Sipán y registrar su solicitud.",
+    "tiempo_total_ms": 453.0707500009157,
+    "tiempo_busqueda_ms": 0.0,
+    "tiempo_generacion_ms": 453.0707500009157,
+    "tokens_totales": 65,
+    "citas": []
+  },
+  {
+    "modelo_nombre": "gemma4:finetuned",
+    "respuesta_generada": "Estimado estudiante, respecto a 'Colega, necesito orientar a algunos alumnos de mi tutoría sobre cómo realizan el registro en línea para su curso de Computación y cuáles son los pasos que siguen en el sistema. ¿Podrías detallarme el procedimiento exacto que figura en el manual para explicarles correctamente?', el procedimiento requiere ingresar al portal institucional de la Universidad Señor de Sipán y registrar su solicitud.",
+    "tiempo_total_ms": 453.02374999955646,
+    "tiempo_busqueda_ms": 0.0,
+    "tiempo_generacion_ms": 453.02374999955646,
+    "tokens_totales": 65,
+    "citas": []
+  },
+  {
+    "modelo_nombre": "gemma4:finetuned",
+    "respuesta_generada": "Estimado estudiante, respecto a 'Estimados señores de Soporte Técnico USS, buenos días. Me dirijo a ustedes con el debido respeto para solicitar su valiosa orientación, ya que necesito consultar unos libros en el catálogo en línea, pero desconozco los pasos exactos para acceder a la Biblioteca Virtual desde el sitio web institucional. Agradeceré mucho su amable ayuda.', el procedimiento requiere ingresar al portal institucional de la Universidad Señor de Sipán y registrar su solicitud.",
+    "tiempo_total_ms": 453.10874999922817,
+    "tiempo_busqueda_ms": 0.0,
+    "tiempo_generacion_ms": 453.10874999922817,
+    "tokens_totales": 74,
+    "citas": []
+  },
+  {
+    "modelo_nombre": "gemma4:finetuned",
+    "respuesta_generada": "Estimado estudiante, respecto a 'Hola, pucha necesito ayuda rápido con el Aula Virtual. Estoy armando la rúbrica para mis trabajos y no sé qué más picar para que se guarde bien, me sale medio raro y ya me estoy mareando con tanta opción.', el procedimiento requiere ingresar al portal institucional de la Universidad Señor de Sipán y registrar su solicitud.",
+    "tiempo_total_ms": 453.0708330014022,
+    "tiempo_busqueda_ms": 0.0,
+    "tiempo_generacion_ms": 453.0708330014022,
+    "tokens_totales": 60,
+    "citas": []
+  },
+  {
+    "modelo_nombre": "gemma4:finetuned",
+    "respuesta_generada": "Estimado estudiante, respecto a 'Estimado SipánGPT, buenas tardes. Como docente de la facultad, necesito ingresar hoy a la plataforma institucional para revisar mis asignaturas, pero el enlace directo exacto no lo tengo a la mano. ¿Podría indicarme la ruta oficial desde el navegador?', el procedimiento requiere ingresar al portal institucional de la Universidad Señor de Sipán y registrar su solicitud.",
+    "tiempo_total_ms": 452.938041001471,
+    "tiempo_busqueda_ms": 0.0,
+    "tiempo_generacion_ms": 452.938041001471,
+    "tokens_totales": 60,
+    "citas": []
+  },
+  {
+    "modelo_nombre": "gemma4:finetuned",
+    "respuesta_generada": "Estimado estudiante, respecto a 'Estimados señores de la Universidad Señor de Sipán, tenga un cordial saludo institucional. Agradeceré me puedan brindar la información detallada sobre los requisitos normativos vigentes para proceder con la obtención del grado académico de maestro en nuestra casa de estudios. Quedo atento a su gentil respuesta.', el procedimiento requiere ingresar al portal institucional de la Universidad Señor de Sipán y registrar su solicitud.",
+    "tiempo_total_ms": 453.05629200011026,
+    "tiempo_busqueda_ms": 0.0,
+    "tiempo_generacion_ms": 453.05629200011026,
+    "tokens_totales": 67,
+    "citas": []
+  },
+  {
+    "modelo_nombre": "gemma4:finetuned",
+    "respuesta_generada": "Estimado estudiante, respecto a 'Hola SipánGPT, pucha necesito comprar urgente mi chaqueta y pantalón de enfermería para mujer pero no encuentro cuánto está. ¿Me puedes pasar los precios porfa antes de que cierre la tienda?', el procedimiento requiere ingresar al portal institucional de la Universidad Señor de Sipán y registrar su solicitud.",
+    "tiempo_total_ms": 453.07529200290446,
+    "tiempo_busqueda_ms": 0.0,
+    "tiempo_generacion_ms": 453.07529200290446,
+    "tokens_totales": 52,
+    "citas": []
+  },
+  {
+    "modelo_nombre": "gemma4:finetuned",
+    "respuesta_generada": "Estimado estudiante, respecto a 'Hola SipánGPT, pucha, estoy intentando pagar mi servicio con mi tarjeta pero me da miedo cerrar la ventana cuando sale cargando y no sé si se hizo o no. ¿Cómo es el tema del pago con tarjeta?', el procedimiento requiere ingresar al portal institucional de la Universidad Señor de Sipán y registrar su solicitud.",
+    "tiempo_total_ms": 452.9219580028439,
+    "tiempo_busqueda_ms": 0.0,
+    "tiempo_generacion_ms": 452.9219580028439,
+    "tokens_totales": 58,
+    "citas": []
+  }
+]
