@@ -156,13 +156,35 @@ def evaluate_jev() -> Tuple[List[EvaluatedPair], JevSummaryMetrics]:
 
 
 @app.command()
-def report() -> None:
-    """Genera gráficos a 300 DPI y tablas Markdown para la Tesis."""
+def report(
+    output_dir: str = typer.Option("tanda_2", help="Subdirectorio de destino para reportes y gráficos (ej. 'tanda_2', 'tanda_1' o '' para raíz)")
+) -> None:
+    """Genera gráficos a 300 DPI y tablas Markdown para la Tesis en el subdirectorio especificado."""
     pairs, metrics = evaluate()
-    console.print("[bold cyan]Generando gráficos comparativos (300 DPI) y tablas para la Tesis...[/bold cyan]")
-    generate_all_reports_and_charts(metrics, pairs)
-    console.print(f"-> Gráficos guardados en: {settings.figures_dir}")
-    console.print(f"-> Tabla Markdown para Tesis: {settings.tables_dir / 'tabla_exactitud_50_preguntas.md'}")
+    console.print(f"[bold cyan]Generando gráficos comparativos (300 DPI) y tablas para la Tesis en carpeta '{output_dir}'...[/bold cyan]")
+    
+    sub_fig_dir = settings.figures_dir / output_dir if output_dir else settings.figures_dir
+    sub_tab_dir = settings.tables_dir / output_dir if output_dir else settings.tables_dir
+    sub_fig_dir.mkdir(parents=True, exist_ok=True)
+    sub_tab_dir.mkdir(parents=True, exist_ok=True)
+
+    acc_path = sub_fig_dir / "curva_exactitud_comparada.png"
+    lat_path = sub_fig_dir / "latencia_boxplots.png"
+    tab_path = sub_tab_dir / "tabla_exactitud_50_preguntas.md"
+    jev_acc_path = sub_fig_dir / "jev_exactitud_comparada.png"
+    jev_qual_path = sub_fig_dir / "jev_calidad_tecnica.png"
+
+    generate_all_reports_and_charts(
+        metrics,
+        pairs,
+        accuracy_path=acc_path,
+        latency_path=lat_path,
+        table_path=tab_path,
+        jev_accuracy_path=jev_acc_path,
+        jev_quality_path=jev_qual_path,
+    )
+    console.print(f"-> Gráficos guardados en: {sub_fig_dir}")
+    console.print(f"-> Tabla Markdown para Tesis: {tab_path}")
 
 
 @app.command(name="all")

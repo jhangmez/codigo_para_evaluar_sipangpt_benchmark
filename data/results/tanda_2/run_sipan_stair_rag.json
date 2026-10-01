@@ -1,0 +1,1402 @@
+[
+  {
+    "modelo_nombre": "SipánGPT-RAG-STAIR",
+    "respuesta_generada": "Estimado docente, reciba un cordial saludo.\n\nRespecto a su consulta sobre los procedimientos de pago para trámites institucionales, le informo que, de acuerdo con el **Reglamento de Cobranza (Versión 8), Capítulo IV, Artículo 11°**, el procedimiento oficial para gestionar y pagar servicios es el siguiente:\n\n1.  **Programación del trámite:** El estudiante o egresado debe ingresar a su **Campus Virtual** (https://campus.uss.edu.pe/CampusNet6/Login.aspx) y acceder a la opción **PROCESOS EN LÍNEA / Trámites**.\n2.  **Generación de tasa:** Al completar la solicitud y grabarla, el sistema generará automáticamente la tasa correspondiente, la cual podrá visualizar en su **detalle económico**.\n3.  **Plazo de pago:** Una vez generado el concepto, el estudiante cuenta con un plazo máximo de **48 horas** para realizar el abono.\n\n**Nota importante:** Sobre el uso específico de billeteras digitales como Yape o Plin, el reglamento vigente no detalla métodos de pago externos específicos. Por ello, le sugiero orientar a sus estudiantes a verificar las opciones de pago habilitadas directamente en su **detalle económico** dentro del Campus Virtual, ya que es la plataforma oficial donde se consolidan las transacciones.\n\nSi los estudiantes presentan dificultades técnicas o requieren información adicional sobre los métodos de pago habilitados, le sugiero derivarlos a los canales de atención oficiales de la universidad o a través de la sección de soporte en su Campus Virtual.",
+    "tiempo_total_ms": 8503.401667003345,
+    "tiempo_busqueda_ms": 4189.0,
+    "tiempo_generacion_ms": 4314.401667003345,
+    "tokens_totales": 216,
+    "citas": [
+      {
+        "documento": "REGLAMENTO DE COBRANZA",
+        "articulo_o_seccion": "ARTÍCULO 11°:",
+        "url_publica": "https://www.uss.edu.pe/uss/TransparenciaDoc/RegEstudiantes/cobranzas2026.pdf",
+        "similitud": 0.709
+      },
+      {
+        "documento": "REGLAMENTO DE COBRANZA",
+        "articulo_o_seccion": "REGLAMENTO DE COBRANZA > RESOLUCIÓN DE DIRECTORIO N° 078-2026/PD-USS (Parte 1/2)",
+        "url_publica": "https://www.uss.edu.pe/uss/TransparenciaDoc/RegEstudiantes/cobranzas2026.pdf",
+        "similitud": 0.674
+      },
+      {
+        "documento": "REGLAMENTO DE COBRANZA",
+        "articulo_o_seccion": "ARTÍCULO 5°:",
+        "url_publica": "https://www.uss.edu.pe/uss/TransparenciaDoc/RegEstudiantes/cobranzas2026.pdf",
+        "similitud": 0.665
+      }
+    ]
+  },
+  {
+    "modelo_nombre": "SipánGPT-RAG-STAIR",
+    "respuesta_generada": "Buen día, estimado docente. Es un gusto saludarle y apoyarle en la gestión de sus actividades académicas.\n\nConforme al **Manual de Usuario del Aula Virtual – Docente (Vigencia 2026, págs. 25-26)**, para estructurar correctamente sus rúbricas en el Aula Virtual, le sugiero seguir estos lineamientos técnicos:\n\n1.  **Acceso a la configuración:** Ingrese a la actividad (Tarea o Foro) y seleccione la opción **\"Calificación avanzada\"**. Luego, elija **\"Nuevo formulario desde cero\"**.\n2.  **Gestión de criterios y niveles:**\n    *   Para añadir nuevos criterios de evaluación, utilice el botón **\"Añadir criterio\"**.\n    *   Para incorporar nuevos niveles de logro, utilice el botón **\"Añadir nivel\"**.\n3.  **Estructura de puntuación:**\n    *   La sumatoria de los puntajes en la primera columna debe ser **20**.\n    *   La última columna o nivel de cada indicador debe tener una puntuación de **0**.\n    *   Se recomienda seleccionar el criterio de ordenación de niveles de manera **\"Descendente\"**.\n4.  **Finalización:** Una vez configurada la matriz, haga clic en el botón **\"Guardar y dejar rúbrica preparada\"**.\n\nLe sugiero verificar que la configuración de calificación de la actividad esté establecida como \"Puntuación\" con una calificación máxima de 20 antes de proceder con la creación de la rúbrica.\n\nSi requiere asistencia técnica adicional sobre el uso de la plataforma, puede contactar con el soporte técnico a través de su **Campus Virtual** o mediante los canales institucionales de atención docente.",
+    "tiempo_total_ms": 7946.683625006699,
+    "tiempo_busqueda_ms": 4044.0,
+    "tiempo_generacion_ms": 3902.683625006699,
+    "tokens_totales": 223,
+    "citas": [
+      {
+        "documento": "MANUAL DE USUARIO DEL AULA VIRTUAL – DOCENTE",
+        "articulo_o_seccion": "MANUAL DE USUARIO DEL AULA VIRTUAL – DOCENTE",
+        "url_publica": "https://campus.uss.edu.pe/SeussFile/FileInfSeuss/Manualesdeusuario/_10007200552026_5_16_14.pdf",
+        "similitud": 0.803
+      },
+      {
+        "documento": "MANUAL DE USUARIO DE PAGOS VIRTUALES",
+        "articulo_o_seccion": "MANUAL DE USUARIO DE PAGOS VIRTUALES",
+        "url_publica": "https://campus.uss.edu.pe/CampusNet6/PagosVisa.pdf",
+        "similitud": 0.737
+      },
+      {
+        "documento": "MANUAL DE USUARIO DEL AULA VIRTUAL – DOCENTE",
+        "articulo_o_seccion": "MANUAL DE USUARIO DEL AULA VIRTUAL – DOCENTE > MANUAL DE USUARIO DEL AULA VIRTUAL – DOCENTE (Parte 3/6)",
+        "url_publica": "https://campus.uss.edu.pe/SeussFile/FileInfSeuss/Manualesdeusuario/_10007200552026_5_16_14.pdf",
+        "similitud": 0.737
+      }
+    ]
+  },
+  {
+    "modelo_nombre": "SipánGPT-RAG-STAIR",
+    "respuesta_generada": "Hola. Entiendo tu preocupación respecto a la organización de tus clases.\n\nAl respecto, es importante informarte que, conforme al **Reglamento de Matrícula (Vigencia 2025), Título IV, Capítulo I, Artículo 20°**, está estrictamente prohibido el registro de matrícula con cruce de horario bajo cualquier circunstancia.\n\nSi presentas inconvenientes con la programación de tus asignaturas o requieres orientación específica sobre la gestión de tus secciones, te sugiero realizar lo siguiente:\n\n1.  **Verifica tu carga académica** a través del Campus Virtual para asegurar que no exista un traslape de horarios.\n2.  **Contacta a tu Escuela Profesional** o a la oficina de Registro Académico para validar la programación de tus cursos.\n3.  Si el problema persiste, puedes escribir a **informes@uss.edu.pe** o acudir a la plataforma de atención al estudiante en el Campus Virtual para recibir asistencia técnica personalizada.\n\nQuedo a tu disposición para cualquier otra consulta normativa.",
+    "tiempo_total_ms": 7957.963875000132,
+    "tiempo_busqueda_ms": 4617.0,
+    "tiempo_generacion_ms": 3340.9638750001322,
+    "tokens_totales": 143,
+    "citas": [
+      {
+        "documento": "REGLAMENTO DE MATRÍCULA",
+        "articulo_o_seccion": "ARTÍCULO 27°:",
+        "url_publica": "https://www.uss.edu.pe/uss/TransparenciaDoc/RegEstudiantes/REGLAMENTO%20DE%20MATRICULA%20GENERAL%20USS.pdf",
+        "similitud": 0.733
+      },
+      {
+        "documento": "REGLAMENTO DE MATRÍCULA",
+        "articulo_o_seccion": "ARTÍCULO 26°:",
+        "url_publica": "https://www.uss.edu.pe/uss/TransparenciaDoc/RegEstudiantes/REGLAMENTO%20DE%20MATRICULA%20GENERAL%20USS.pdf",
+        "similitud": 0.715
+      },
+      {
+        "documento": "REGLAMENTO DE MATRÍCULA",
+        "articulo_o_seccion": "ARTÍCULO 20°:",
+        "url_publica": "https://www.uss.edu.pe/uss/TransparenciaDoc/RegEstudiantes/REGLAMENTO%20DE%20MATRICULA%20GENERAL%20USS.pdf",
+        "similitud": 0.71
+      }
+    ]
+  },
+  {
+    "modelo_nombre": "SipánGPT-RAG-STAIR",
+    "respuesta_generada": "Hola. Entiendo tu preocupación respecto a la regularización de tu situación académica.\n\nSobre tu consulta, debo informarte que, conforme al **Reglamento de Cobranza (Versión 8), Capítulo II, Artículo 3°**, las pensiones y costos por servicios educativos se establecen por semestre académico para cubrir los gastos operativos de la institución.\n\nSin embargo, en la base normativa actual de la que dispongo, no figura el monto específico detallado para la \"segunda matrícula por curso presencial\". Por ello, para brindarte una información precisa y evitar errores en tu proceso de pago, te sugiero realizar lo siguiente:\n\n1. **Consulta a través del Campus Virtual:** Accede a tu plataforma para visualizar el detalle de tus conceptos de pago pendientes.\n2. **Canal oficial de atención:** Te recomiendo escribir al correo **informes@uss.edu.pe** o contactar con el área de Tesorería de la universidad, quienes podrán proporcionarte el monto exacto y el procedimiento correcto para realizar tu pago de manera segura.\n\nQuedo a tu disposición para cualquier otra consulta sobre reglamentos o servicios institucionales.",
+    "tiempo_total_ms": 6957.268833997659,
+    "tiempo_busqueda_ms": 3947.0,
+    "tiempo_generacion_ms": 3010.2688339976594,
+    "tokens_totales": 165,
+    "citas": [
+      {
+        "documento": "REGLAMENTO DE COBRANZA",
+        "articulo_o_seccion": "REGLAMENTO DE COBRANZA",
+        "url_publica": "https://www.uss.edu.pe/uss/TransparenciaDoc/RegEstudiantes/cobranzas2026.pdf",
+        "similitud": 0.689
+      },
+      {
+        "documento": "REGLAMENTO DE COBRANZA",
+        "articulo_o_seccion": "ARTÍCULO 3°:",
+        "url_publica": "https://www.uss.edu.pe/uss/TransparenciaDoc/RegEstudiantes/cobranzas2026.pdf",
+        "similitud": 0.683
+      },
+      {
+        "documento": "REGLAMENTO DE COBRANZA",
+        "articulo_o_seccion": "ARTÍCULO 5°:",
+        "url_publica": "https://www.uss.edu.pe/uss/TransparenciaDoc/RegEstudiantes/cobranzas2026.pdf",
+        "similitud": 0.676
+      }
+    ]
+  },
+  {
+    "modelo_nombre": "SipánGPT-RAG-STAIR",
+    "respuesta_generada": "Buenos días. Es un gusto saludarte y apoyarte en tu proceso académico en la Universidad Señor de Sipán.\n\nPara realizar tu **matrícula regular**, debes seguir las disposiciones establecidas en el **Reglamento de Matrícula (Versión 07)**, específicamente en su **Título IV, Capítulo III, Artículo 23°**:\n\n1.  **Procedimiento:** La matrícula se formaliza a través del **Campus Virtual** utilizando tu usuario y clave de acceso personal.\n2.  **Selección de asignaturas:** Debes seleccionar las asignaturas correspondientes a tu plan de estudios vigente para las cuales te encuentres habilitado.\n3.  **Carga académica:** Ten en cuenta que, según el mismo artículo, el número de créditos permitidos será igual al total de créditos establecido en el plan de estudios del ciclo menor en el cual tengas asignaturas pendientes por aprobar.\n4.  **Requisitos previos:** Asegúrate de cumplir con lo estipulado en los artículos 16° y 17° del Reglamento de Matrícula (referentes a los requisitos para programas de pregrado).\n\n**Recomendaciones adicionales:**\n*   Verifica que tu situación académica y administrativa esté al día para evitar bloqueos en el sistema.\n*   Si experimentas algún inconveniente técnico durante el proceso en el Campus Virtual, te recomiendo contactar con el área de soporte técnico o dirigirte a la Secretaría Académica de tu facultad.\n\nSi requieres asistencia personalizada sobre tu plan de estudios específico o tienes dudas adicionales, puedes escribir a **informes@uss.edu.pe** o consultar directamente a través de los canales de atención disponibles en tu **Campus Virtual**.\n\n¡Éxitos en tu proceso de matrícula!",
+    "tiempo_total_ms": 7876.599750001333,
+    "tiempo_busqueda_ms": 4128.0,
+    "tiempo_generacion_ms": 3748.5997500013327,
+    "tokens_totales": 239,
+    "citas": [
+      {
+        "documento": "REGLAMENTO DE MATRÍCULA",
+        "articulo_o_seccion": "REGLAMENTO DE MATRÍCULA",
+        "url_publica": "https://www.uss.edu.pe/uss/TransparenciaDoc/RegEstudiantes/REGLAMENTO%20DE%20MATRICULA%20GENERAL%20USS.pdf",
+        "similitud": 0.75
+      },
+      {
+        "documento": "REGLAMENTO DE MATRÍCULA",
+        "articulo_o_seccion": "ARTÍCULO 23°:",
+        "url_publica": "https://www.uss.edu.pe/uss/TransparenciaDoc/RegEstudiantes/REGLAMENTO%20DE%20MATRICULA%20GENERAL%20USS.pdf",
+        "similitud": 0.727
+      },
+      {
+        "documento": "REGLAMENTO DE MATRÍCULA",
+        "articulo_o_seccion": "REGLAMENTO DE MATRÍCULA > RESOLUCIÓN DE DIRECTORIO N°0093-2025/PD-USS",
+        "url_publica": "https://www.uss.edu.pe/uss/TransparenciaDoc/RegEstudiantes/REGLAMENTO%20DE%20MATRICULA%20GENERAL%20USS.pdf",
+        "similitud": 0.707
+      }
+    ]
+  },
+  {
+    "modelo_nombre": "SipánGPT-RAG-STAIR",
+    "respuesta_generada": "Estimado docente, reciba un cordial saludo.\n\nRespecto a su consulta sobre la configuración de tareas y parámetros de calificación en el Aula Virtual, le informo que, de acuerdo con la base normativa proporcionada (Reglamento de Grados y Títulos, Versión 10), esta documentación se centra específicamente en los procedimientos para la obtención de grados y títulos, no detallando los parámetros técnicos de configuración de tareas en el entorno virtual de aprendizaje.\n\nPara recibir orientación técnica precisa y alineada a los lineamientos pedagógicos vigentes de la Universidad Señor de Sipán, le sugiero realizar lo siguiente:\n\n1.  **Soporte Técnico:** Contactar con el área de soporte del Campus Virtual a través de los canales institucionales internos para docentes.\n2.  **Dirección de Tecnologías de la Información (DTI):** Consultar los manuales de usuario disponibles en el portal docente o solicitar asistencia técnica mediante el correo oficial de soporte de su facultad.\n3.  **Coordinación Académica:** Comunicarse con la dirección de su escuela profesional para verificar si existen lineamientos específicos de evaluación para su asignatura.\n\nQuedo a su disposición para cualquier otra consulta relacionada con la normativa académica de nuestra institución.",
+    "tiempo_total_ms": 8055.142707999039,
+    "tiempo_busqueda_ms": 4546.0,
+    "tiempo_generacion_ms": 3509.142707999039,
+    "tokens_totales": 183,
+    "citas": [
+      {
+        "documento": "REGLAMENTO DE GRADOS Y TÍTULOS",
+        "articulo_o_seccion": "REGLAMENTO DE GRADOS Y TÍTULOS",
+        "url_publica": "https://www.uss.edu.pe/uss/TransparenciaDoc/RegEstudiantes/REGLAMENTOGRADOSYTITULOS.pdf",
+        "similitud": 0.752
+      },
+      {
+        "documento": "REGLAMENTO DE GRADOS Y TÍTULOS",
+        "articulo_o_seccion": "Artículo 1°",
+        "url_publica": "https://www.uss.edu.pe/uss/TransparenciaDoc/RegEstudiantes/REGLAMENTOGRADOSYTITULOS.pdf",
+        "similitud": 0.665
+      },
+      {
+        "documento": "REGLAMENTO DE GRADOS Y TÍTULOS",
+        "articulo_o_seccion": "REGLAMENTO DE GRADOS Y TÍTULOS > REGLAMENTO DE GRADOS Y TÍTULOS (VERSIÓN 10)",
+        "url_publica": "https://www.uss.edu.pe/uss/TransparenciaDoc/RegEstudiantes/REGLAMENTOGRADOSYTITULOS.pdf",
+        "similitud": 0.661
+      }
+    ]
+  },
+  {
+    "modelo_nombre": "SipánGPT-RAG-STAIR",
+    "respuesta_generada": "Estimado(a) estudiante, reciba un cordial saludo. Es un gusto asistirle en su proceso de titulación.\n\nDe acuerdo con el **Reglamento de Grados y Títulos (Versión 10)**, vigente para el año 2025, los requisitos y la documentación necesaria para la obtención de su título profesional son los siguientes:\n\n### 1. Requisitos (Artículo 7°)\n*   Contar con el grado de bachiller registrado en SUNEDU.\n*   Haber aprobado y sustentado la tesis.\n*   No mantener deuda financiera con la universidad.\n*   No tener pendiente la entrega de documentación en Registros Académicos.\n*   No tener pendiente la entrega de material bibliográfico.\n*   Realizar el pago por concepto de \"carpeta de título\".\n*   Realizar el pago por concepto de \"participación en ceremonia de Graduación y Colación\".\n\n### 2. Documentación para la carpeta digital (Artículo 8°)\nSu carpeta digital debe contener obligatoriamente:\n*   Solicitud de título profesional.\n*   Dictamen de expedito.\n*   Copia de DNI escaneada (ampliada al 150%).\n*   Dos (02) fotografías (con las características técnicas especificadas en el Artículo 6° del reglamento).\n\nLe sugiero realizar el seguimiento de su trámite a través de su **Campus Virtual** o contactar con la oficina de Grados y Títulos de su facultad para verificar el estado de sus requisitos académicos.\n\nSi requiere información adicional sobre los procedimientos de pago o plazos específicos, le recomiendo escribir al correo institucional **informes@uss.edu.pe** o acercarse a las oficinas de atención al estudiante en el campus.\n\nQuedo a su disposición para cualquier otra consulta.",
+    "tiempo_total_ms": 7460.267874994315,
+    "tiempo_busqueda_ms": 2845.0,
+    "tiempo_generacion_ms": 4615.267874994315,
+    "tokens_totales": 241,
+    "citas": [
+      {
+        "documento": "REGLAMENTO DE GRADOS Y TÍTULOS",
+        "articulo_o_seccion": "Artículo 7°",
+        "url_publica": "https://www.uss.edu.pe/uss/TransparenciaDoc/RegEstudiantes/REGLAMENTOGRADOSYTITULOS.pdf",
+        "similitud": 0.84
+      },
+      {
+        "documento": "REGLAMENTO DE GRADOS Y TÍTULOS",
+        "articulo_o_seccion": "Artículo 8°",
+        "url_publica": "https://www.uss.edu.pe/uss/TransparenciaDoc/RegEstudiantes/REGLAMENTOGRADOSYTITULOS.pdf",
+        "similitud": 0.802
+      },
+      {
+        "documento": "REGLAMENTO DE GRADOS Y TÍTULOS",
+        "articulo_o_seccion": "REGLAMENTO DE GRADOS Y TÍTULOS",
+        "url_publica": "https://www.uss.edu.pe/uss/TransparenciaDoc/RegEstudiantes/REGLAMENTOGRADOSYTITULOS.pdf",
+        "similitud": 0.802
+      }
+    ]
+  },
+  {
+    "modelo_nombre": "SipánGPT-RAG-STAIR",
+    "respuesta_generada": "Estimado estudiante de la Escuela de Medicina Humana, reciba un cordial saludo. Soy SipánGPT, su asistente virtual.\n\nRespecto a su consulta sobre el proceso de matrícula y la secuencia de asignaturas, le informo lo siguiente:\n\nDe acuerdo con el **Reglamento de Matrícula (Versión 07)**, aprobado mediante la **Resolución de Directorio N°0093-2025/PD-USS**, el proceso de matrícula se rige bajo las disposiciones generales establecidas en el Título I, las cuales aseguran el cumplimiento de la normativa académica institucional.\n\nSobre su caso particular relacionado con la \"secuencia estricta\" de la asignatura **Medicina Clínica I**, le comunico que, si bien el reglamento establece las bases legales para el proceso de matrícula, los detalles específicos sobre prerrequisitos, secuencias curriculares o bloqueos en el sistema por correlatividad deben ser validados directamente con su facultad.\n\n**Recomendaciones para proceder:**\n\n1.  **Verificación Académica:** Le sugiero ponerse en contacto con la secretaría académica de la Escuela de Medicina Humana, quienes gestionan la carga académica y las restricciones de secuencia de su plan de estudios.\n2.  **Canales Oficiales:** Si el inconveniente persiste en el Campus Virtual, le recomiendo elevar su caso a través de los canales oficiales de soporte:\n    *   **Correo electrónico:** informes@uss.edu.pe\n    *   **Campus Virtual:** Utilice el módulo de atención al estudiante para generar un ticket de soporte técnico.\n\nLamento no poder brindarle una resolución directa desde esta plataforma, ya que los detalles de la malla curricular específica son gestionados por su dirección de escuela. Quedo a su disposición para cualquier otra consulta normativa.",
+    "tiempo_total_ms": 8324.59395800106,
+    "tiempo_busqueda_ms": 4191.0,
+    "tiempo_generacion_ms": 4133.59395800106,
+    "tokens_totales": 244,
+    "citas": [
+      {
+        "documento": "REGLAMENTO DE MATRÍCULA",
+        "articulo_o_seccion": "REGLAMENTO DE MATRÍCULA",
+        "url_publica": "https://www.uss.edu.pe/uss/TransparenciaDoc/RegEstudiantes/REGLAMENTO%20DE%20MATRICULA%20GENERAL%20USS.pdf",
+        "similitud": 0.74
+      },
+      {
+        "documento": "REGLAMENTO DE MATRÍCULA",
+        "articulo_o_seccion": "ARTÍCULO 1°:",
+        "url_publica": "https://www.uss.edu.pe/uss/TransparenciaDoc/RegEstudiantes/REGLAMENTO%20DE%20MATRICULA%20GENERAL%20USS.pdf",
+        "similitud": 0.718
+      },
+      {
+        "documento": "REGLAMENTO DE MATRÍCULA",
+        "articulo_o_seccion": "REGLAMENTO DE MATRÍCULA > RESOLUCIÓN DE DIRECTORIO N°0093-2025/PD-USS",
+        "url_publica": "https://www.uss.edu.pe/uss/TransparenciaDoc/RegEstudiantes/REGLAMENTO%20DE%20MATRICULA%20GENERAL%20USS.pdf",
+        "similitud": 0.713
+      }
+    ]
+  },
+  {
+    "modelo_nombre": "SipánGPT-RAG-STAIR",
+    "respuesta_generada": "Estimado estudiante, reciba un cordial saludo. Soy SipánGPT, su asistente virtual.\n\nPara verificar el registro y validación de sus pagos por conceptos académicos, le informo que el procedimiento oficial se encuentra detallado en el **Reglamento de Cobranza (Versión 8)**, Capítulo IV, Artículo 11°:\n\n1.  **Acceso:** Debe ingresar a su **Campus Virtual** (https://campus.uss.edu.pe/CampusNet6/Login.aspx).\n2.  **Verificación:** Dentro de la plataforma, diríjase a la opción **\"Procesos en Línea / Trámites\"**.\n3.  **Detalle Económico:** En dicha sección podrá visualizar el estado de sus solicitudes y el **detalle económico** de su cuenta, donde se reflejará la validación de los pagos realizados.\n\nRecuerde que, al generar una solicitud de servicio, el sistema programa automáticamente la tasa correspondiente, la cual cuenta con un plazo de pago de 48 horas. Una vez efectuado el pago, el trámite será atendido por la instancia académica o administrativa correspondiente.\n\nSi presenta algún inconveniente técnico con la visualización de sus pagos en el Campus Virtual, le sugiero contactar a través de los canales oficiales de atención o escribir al correo **informes@uss.edu.pe** para una revisión detallada de su caso.\n\nQuedo a su disposición para cualquier otra consulta académica o administrativa.",
+    "tiempo_total_ms": 8133.243999996921,
+    "tiempo_busqueda_ms": 4372.0,
+    "tiempo_generacion_ms": 3761.243999996921,
+    "tokens_totales": 187,
+    "citas": [
+      {
+        "documento": "REGLAMENTO DE COBRANZA",
+        "articulo_o_seccion": "ARTÍCULO 11°:",
+        "url_publica": "https://www.uss.edu.pe/uss/TransparenciaDoc/RegEstudiantes/cobranzas2026.pdf",
+        "similitud": 0.737
+      },
+      {
+        "documento": "REGLAMENTO DE COBRANZA",
+        "articulo_o_seccion": "REGLAMENTO DE COBRANZA",
+        "url_publica": "https://www.uss.edu.pe/uss/TransparenciaDoc/RegEstudiantes/cobranzas2026.pdf",
+        "similitud": 0.722
+      },
+      {
+        "documento": "REGLAMENTO DE COBRANZA",
+        "articulo_o_seccion": "REGLAMENTO DE COBRANZA > RESOLUCIÓN DE DIRECTORIO N° 078-2026/PD-USS (Parte 1/2)",
+        "url_publica": "https://www.uss.edu.pe/uss/TransparenciaDoc/RegEstudiantes/cobranzas2026.pdf",
+        "similitud": 0.713
+      }
+    ]
+  },
+  {
+    "modelo_nombre": "SipánGPT-RAG-STAIR",
+    "respuesta_generada": "Estimado docente, es un gusto saludarle.\n\nEl **Sistema de Catálogo en Línea** de la Universidad Señor de Sipán es una herramienta integral diseñada para facilitar el acceso a recursos académicos y bibliográficos. Según el **\"Manual de usuario: Sistema de gestión de biblioteca – catálogo en línea\" (Vigencia 2026)**, sus alcances para la labor docente y estudiantil son los siguientes:\n\n**1. Gestión de recursos bibliográficos:**\nEl sistema permite realizar búsquedas avanzadas de material físico y digital, gestionar recursos favoritos, consultar el historial de préstamos y visualizar las nuevas adquisiciones del Centro de Información. Además, permite a los estudiantes acceder a la bibliografía recomendada por usted a través de la opción **\"Mis cursos\"**.\n\n**2. Acceso a bases de datos externas:**\nEl sistema actúa como una puerta de entrada a literatura académica de alta calidad, proporcionando acceso a diversas bases de datos multidisciplinarias, tales como:\n*   **E-Libro y eBooks 7-24:** Para libros electrónicos en español.\n*   **EBSCO y Gale/Cengage:** Para textos completos, referencias y resúmenes de publicaciones científicas y académicas.\n*   **Scopus y ScienceDirect:** Para análisis de citas, métricas de impacto y artículos revisados por pares.\n*   **Eureka:** Especializada en contenidos de salud.\n*   **IOP Science:** Enfocada en física y disciplinas relacionadas.\n\n**3. Funcionalidades para el usuario:**\nLos estudiantes pueden realizar solicitudes de material para sala o para casa directamente desde la plataforma. Al solicitar material \"Para Sala\", el sistema indica el procedimiento de recepción en la biblioteca.\n\nPara acceder a estos recursos, tanto usted como sus alumnos pueden ingresar a través del **Campus Virtual** o mediante la opción **\"Biblioteca\"** en el portal web institucional (https://www.uss.edu.pe), utilizando sus credenciales de acceso.\n\nLe sugiero motivar a sus alumnos a explorar estas herramientas para fortalecer sus actividades de investigación y aprendizaje. Si requiere asistencia técnica adicional, puede contactar con el Centro de Información de nuestra universidad.",
+    "tiempo_total_ms": 8640.059165998537,
+    "tiempo_busqueda_ms": 4395.0,
+    "tiempo_generacion_ms": 4245.059165998537,
+    "tokens_totales": 301,
+    "citas": [
+      {
+        "documento": "Manual de usuario sistema de gestión de biblioteca - catálogo en línea",
+        "articulo_o_seccion": "Manual de usuario sistema de gestión de biblioteca - catálogo en línea > MANUAL DE USUARIO: SISTEMA DE GESTIÓN DE BIBLIOTECA – CATÁLOGO EN LÍNEA (Parte 1/3)",
+        "url_publica": "https://campus.uss.edu.pe/SeussFile/FileInfSeuss/Manualesdeusuario/_10000000582024_12_15_14.pdf",
+        "similitud": 0.763
+      },
+      {
+        "documento": "Manual de usuario sistema de gestión de biblioteca - catálogo en línea",
+        "articulo_o_seccion": "Manual de usuario sistema de gestión de biblioteca - catálogo en línea > MANUAL DE USUARIO: SISTEMA DE GESTIÓN DE BIBLIOTECA – CATÁLOGO EN LÍNEA (Parte 2/3)",
+        "url_publica": "https://campus.uss.edu.pe/SeussFile/FileInfSeuss/Manualesdeusuario/_10000000582024_12_15_14.pdf",
+        "similitud": 0.726
+      },
+      {
+        "documento": "Manual de usuario sistema de gestión de biblioteca - catálogo en línea",
+        "articulo_o_seccion": "Manual de usuario sistema de gestión de biblioteca - catálogo en línea > MANUAL DE USUARIO: SISTEMA DE GESTIÓN DE BIBLIOTECA – CATÁLOGO EN LÍNEA (Parte 3/3)",
+        "url_publica": "https://campus.uss.edu.pe/SeussFile/FileInfSeuss/Manualesdeusuario/_10000000582024_12_15_14.pdf",
+        "similitud": 0.725
+      }
+    ]
+  },
+  {
+    "modelo_nombre": "SipánGPT-RAG-STAIR",
+    "respuesta_generada": "Estimado docente, es un gusto saludarle. Con el fin de orientar adecuadamente a sus estudiantes y asegurar un proceso de matrícula fluido, le informo que, según el **\"Manual de Usuario: Matrícula en Línea\" (Vigencia 2026, Pág. 5 y 6)**, los estudiantes deben cumplir con las siguientes consideraciones previas:\n\n1.  **Revisión de Cronogramas:** Verificar las fechas establecidas para el registro de matrícula en el portal oficial: [https://www.uss.edu.pe/uss/Admision-Cronogramas](https://www.uss.edu.pe/uss/Admision-Cronogramas).\n2.  **Cumplimiento de Requisitos Académicos:** El sistema validará automáticamente la inscripción en cursos extracurriculares obligatorios según el plan de estudios (Idiomas, Computación y Emprendimiento).\n3.  **Afiliación al Seguro:** Es obligatorio contar con el Sistema Integral de Salud (SIS), seguro provisto por la universidad o registrar a un beneficiario en caso de no contar con uno.\n4.  **Validación de Pagos y Documentos:** Es indispensable haber cancelado el derecho de matrícula y la primera cuota, además de estar al día con el material bibliográfico.\n5.  **Revisión del Plan de Estudios:** Identificar previamente los cursos y créditos necesarios para el semestre actual.\n6.  **Acceso y Conectividad:** Asegurarse de contar con sus credenciales activas para el Campus Virtual y utilizar un dispositivo con conexión a internet estable.\n\nLe sugiero recomendar a sus estudiantes que, ante cualquier inconveniente técnico o duda específica sobre su situación académica, utilicen los canales oficiales de atención o se comuniquen a través del **Campus Virtual**.\n\nQuedo a su disposición para cualquier otra consulta académica.",
+    "tiempo_total_ms": 9894.863458997861,
+    "tiempo_busqueda_ms": 5632.0,
+    "tiempo_generacion_ms": 4262.863458997861,
+    "tokens_totales": 230,
+    "citas": [
+      {
+        "documento": "MANUAL DE USUARIO MATRÍCULA EN LÍNEA",
+        "articulo_o_seccion": "MANUAL DE USUARIO MATRÍCULA EN LÍNEA",
+        "url_publica": "https://campus.uss.edu.pe/SeussFile/FileInfSeuss/Manualesdeusuario/_10007200552026_5_16_17.pdf",
+        "similitud": 0.729
+      },
+      {
+        "documento": "MANUAL DE USUARIO MATRÍCULA EN LÍNEA",
+        "articulo_o_seccion": "MANUAL DE USUARIO MATRÍCULA EN LÍNEA > MANUAL DE USUARIO: MATRÍCULA EN LÍNEA (Parte 1/2)",
+        "url_publica": "https://campus.uss.edu.pe/SeussFile/FileInfSeuss/Manualesdeusuario/_10007200552026_5_16_17.pdf",
+        "similitud": 0.726
+      },
+      {
+        "documento": "MANUAL DE USUARIO DE PAGOS VIRTUALES",
+        "articulo_o_seccion": "MANUAL DE USUARIO DE PAGOS VIRTUALES",
+        "url_publica": "https://campus.uss.edu.pe/CampusNet6/PagosVisa.pdf",
+        "similitud": 0.682
+      }
+    ]
+  },
+  {
+    "modelo_nombre": "SipánGPT-RAG-STAIR",
+    "respuesta_generada": "Estimado docente, es un gusto saludarle. Con respecto a la consulta de su egresado, de acuerdo con el **Reglamento de Cobranza (Versión 8, 2026)**, el procedimiento normativo es el siguiente:\n\n1.  **Solicitud del servicio:** El egresado debe ingresar al Campus Virtual (https://campus.uss.edu.pe/CampusNet6/Login.aspx) y dirigirse a la opción **PROCESOS EN LÍNEA / trámites**. Según el **Capítulo IV, Artículo 11°**, al completar y grabar la solicitud, el sistema programará automáticamente la tasa correspondiente, la cual podrá visualizar en su detalle económico.\n2.  **Pago y plazos:** Conforme al mismo **Artículo 11°**, una vez generada la tasa, el usuario dispone de un **plazo máximo de 48 horas** para efectuar el pago.\n3.  **Tarifario:** Es importante recordarle que, según el **Capítulo IV, Artículo 10°**, el monto a cancelar debe estar conforme a lo señalado en el tarifario vigente, el cual figura como anexo al reglamento.\n\nUna vez realizado el pago, el trámite será derivado a la instancia correspondiente para su atención, siempre que se cumplan los requisitos estipulados en el reglamento vigente para dicho servicio.\n\nSi el egresado requiere asistencia técnica adicional o presenta inconvenientes con el acceso a su cuenta, le sugiero orientarlo a comunicarse a través de los canales oficiales de atención o mediante el correo institucional **informes@uss.edu.pe**.",
+    "tiempo_total_ms": 8156.9946669987985,
+    "tiempo_busqueda_ms": 4192.0,
+    "tiempo_generacion_ms": 3964.9946669987985,
+    "tokens_totales": 205,
+    "citas": [
+      {
+        "documento": "REGLAMENTO DE COBRANZA",
+        "articulo_o_seccion": "ARTÍCULO 11°:",
+        "url_publica": "https://www.uss.edu.pe/uss/TransparenciaDoc/RegEstudiantes/cobranzas2026.pdf",
+        "similitud": 0.868
+      },
+      {
+        "documento": "REGLAMENTO DE COBRANZA",
+        "articulo_o_seccion": "REGLAMENTO DE COBRANZA",
+        "url_publica": "https://www.uss.edu.pe/uss/TransparenciaDoc/RegEstudiantes/cobranzas2026.pdf",
+        "similitud": 0.806
+      },
+      {
+        "documento": "REGLAMENTO DE COBRANZA",
+        "articulo_o_seccion": "ARTÍCULO 10°:",
+        "url_publica": "https://www.uss.edu.pe/uss/TransparenciaDoc/RegEstudiantes/cobranzas2026.pdf",
+        "similitud": 0.781
+      }
+    ]
+  },
+  {
+    "modelo_nombre": "SipánGPT-RAG-STAIR",
+    "respuesta_generada": "Estimado docente tutor, es un gusto saludarle. Con respecto a su consulta sobre las restricciones de carga académica para estudiantes que se matriculan por tercera vez en una asignatura, el **Reglamento de Matrícula (Vigencia 2025)**, en su **Título IV, Capítulo IV**, establece lo siguiente:\n\n1.  **Matrícula en un curso por tercera vez:** Según el **Artículo 26°**, el estudiante podrá registrar un máximo de 2 asignaturas en dicho periodo académico, incluyendo el curso desaprobado anteriormente. Para ello, deberá cancelar la tasa administrativa correspondiente.\n2.  **Matrícula en dos o más cursos por tercera vez:** Según el **Artículo 27°**, si el estudiante tiene dos o más cursos desaprobados dos veces, solo podrá matricularse en uno de ellos en el periodo académico vigente, debiendo también cancelar la tasa administrativa correspondiente.\n\nLe sugiero orientar al estudiante a verificar su situación académica a través del **Campus Virtual** o contactar con la oficina de Registro Académico para asegurar el cumplimiento de estos lineamientos.\n\nQuedo a su disposición para cualquier otra consulta académica.",
+    "tiempo_total_ms": 7592.521582999325,
+    "tiempo_busqueda_ms": 4125.0,
+    "tiempo_generacion_ms": 3467.521582999325,
+    "tokens_totales": 165,
+    "citas": [
+      {
+        "documento": "REGLAMENTO DE MATRÍCULA",
+        "articulo_o_seccion": "ARTÍCULO 26°:",
+        "url_publica": "https://www.uss.edu.pe/uss/TransparenciaDoc/RegEstudiantes/REGLAMENTO%20DE%20MATRICULA%20GENERAL%20USS.pdf",
+        "similitud": 0.846
+      },
+      {
+        "documento": "REGLAMENTO DE MATRÍCULA",
+        "articulo_o_seccion": "ARTÍCULO 27°:",
+        "url_publica": "https://www.uss.edu.pe/uss/TransparenciaDoc/RegEstudiantes/REGLAMENTO%20DE%20MATRICULA%20GENERAL%20USS.pdf",
+        "similitud": 0.829
+      },
+      {
+        "documento": "REGLAMENTO DE MATRÍCULA",
+        "articulo_o_seccion": "CAPÍTULO IV: CONDICIONES DE MATRÍCULA POR BAJO DESEMPEÑO ACADÉMICO",
+        "url_publica": "https://www.uss.edu.pe/uss/TransparenciaDoc/RegEstudiantes/REGLAMENTO%20DE%20MATRICULA%20GENERAL%20USS.pdf",
+        "similitud": 0.787
+      }
+    ]
+  },
+  {
+    "modelo_nombre": "SipánGPT-RAG-STAIR",
+    "respuesta_generada": "Hola. Entiendo tu consulta; sin embargo, debo informarte que la información sobre la configuración técnica, edición de archivos o gestión de permisos de descarga dentro del **Aula Virtual** no se encuentra detallada en el *Reglamento de Grados y Títulos* que constituye mi base normativa actual.\n\nPara recibir asistencia técnica específica sobre el manejo de tu Aula Virtual, te sugiero seguir estos pasos:\n\n1. **Soporte Técnico:** Ingresa a tu **Campus Virtual** y busca la sección de \"Soporte\" o \"Mesa de Ayuda\" para reportar tu incidencia.\n2. **Canales Oficiales:** Puedes escribir al correo institucional de soporte técnico o comunicarte con la secretaría académica de tu facultad para recibir orientación sobre el uso de la plataforma.\n\nRecuerda que mi función principal es orientarte sobre reglamentos académicos, trámites de grados y títulos, y servicios institucionales normados. ¡Quedo a tu disposición para cualquier otra consulta académica!",
+    "tiempo_total_ms": 7147.074749998865,
+    "tiempo_busqueda_ms": 4389.0,
+    "tiempo_generacion_ms": 2758.0747499988647,
+    "tokens_totales": 141,
+    "citas": [
+      {
+        "documento": "REGLAMENTO DE GRADOS Y TÍTULOS",
+        "articulo_o_seccion": "REGLAMENTO DE GRADOS Y TÍTULOS",
+        "url_publica": "https://www.uss.edu.pe/uss/TransparenciaDoc/RegEstudiantes/REGLAMENTOGRADOSYTITULOS.pdf",
+        "similitud": 0.647
+      },
+      {
+        "documento": "REGLAMENTO DE GRADOS Y TÍTULOS",
+        "articulo_o_seccion": "REGLAMENTO DE GRADOS Y TÍTULOS > RESOLUCIÓN DE DIRECTORIO N° 052-2025/PD-USS",
+        "url_publica": "https://www.uss.edu.pe/uss/TransparenciaDoc/RegEstudiantes/REGLAMENTOGRADOSYTITULOS.pdf",
+        "similitud": 0.605
+      },
+      {
+        "documento": "REGLAMENTO DE GRADOS Y TÍTULOS",
+        "articulo_o_seccion": "Artículo 4°: Del trámite de las carpetas",
+        "url_publica": "https://www.uss.edu.pe/uss/TransparenciaDoc/RegEstudiantes/REGLAMENTOGRADOSYTITULOS.pdf",
+        "similitud": 0.576
+      }
+    ]
+  },
+  {
+    "modelo_nombre": "SipánGPT-RAG-STAIR",
+    "respuesta_generada": "Hola. Entiendo tu preocupación por acceder a los recursos bibliográficos para tus actividades académicas.\n\nPara acceder a los servicios de biblioteca desde nuestra plataforma, te sugiero seguir estos pasos dentro del **Campus Virtual**:\n\n1. Ingresa a tu cuenta en el Campus Virtual con tus credenciales institucionales.\n2. Busca en el menú principal o en la sección de \"Servicios Académicos\" el enlace directo hacia el **Sistema de Bibliotecas (Biblioteca Virtual)**.\n3. Si no logras visualizar el acceso, te recomiendo verificar que tu navegador no esté bloqueando ventanas emergentes o intentar acceder desde otro navegador.\n\nSi el problema persiste y no logras ubicar el catálogo o los recursos digitales, te sugiero contactar directamente con el área de soporte técnico o biblioteca a través de los canales oficiales:\n\n*   **Correo electrónico:** informes@uss.edu.pe\n*   **Campus Virtual:** Utiliza el módulo de \"Mesa de Ayuda\" para generar un ticket de soporte técnico.\n\nRecuerda que, para consultas sobre procedimientos académicos formales, puedes revisar el **Reglamento de Grados y Títulos (Versión 10)**, aprobado mediante la **Resolución de Directorio N° 052-2025/PD-USS**, el cual establece las normativas vigentes de nuestra institución.\n\n¡Mucho éxito con tu trabajo de investigación!",
+    "tiempo_total_ms": 8176.397374998487,
+    "tiempo_busqueda_ms": 4424.0,
+    "tiempo_generacion_ms": 3752.397374998487,
+    "tokens_totales": 188,
+    "citas": [
+      {
+        "documento": "REGLAMENTO DE GRADOS Y TÍTULOS",
+        "articulo_o_seccion": "REGLAMENTO DE GRADOS Y TÍTULOS",
+        "url_publica": "https://www.uss.edu.pe/uss/TransparenciaDoc/RegEstudiantes/REGLAMENTOGRADOSYTITULOS.pdf",
+        "similitud": 0.656
+      },
+      {
+        "documento": "REGLAMENTO DE GRADOS Y TÍTULOS",
+        "articulo_o_seccion": "REGLAMENTO DE GRADOS Y TÍTULOS > RESOLUCIÓN DE DIRECTORIO N° 052-2025/PD-USS",
+        "url_publica": "https://www.uss.edu.pe/uss/TransparenciaDoc/RegEstudiantes/REGLAMENTOGRADOSYTITULOS.pdf",
+        "similitud": 0.626
+      },
+      {
+        "documento": "REGLAMENTO DE GRADOS Y TÍTULOS",
+        "articulo_o_seccion": "Artículo 1°",
+        "url_publica": "https://www.uss.edu.pe/uss/TransparenciaDoc/RegEstudiantes/REGLAMENTOGRADOSYTITULOS.pdf",
+        "similitud": 0.609
+      }
+    ]
+  },
+  {
+    "modelo_nombre": "SipánGPT-RAG-STAIR",
+    "respuesta_generada": "Estimado estudiante, reciba un cordial saludo. Soy SipánGPT, el asistente virtual de la Universidad Señor de Sipán.\n\nLamento los inconvenientes que presenta para acceder a nuestra plataforma institucional. Al respecto, le informo que la gestión de credenciales y el soporte técnico para el acceso al Campus Virtual no se encuentran detallados en el *Reglamento de Grados y Títulos*.\n\nPara brindarle una solución precisa y segura sobre su autenticación, le sugiero seguir estos pasos:\n\n1. **Canal de Soporte Técnico:** Por favor, comuníquese directamente con el área de Soporte TI a través de su correo institucional o mediante el portal de ayuda disponible en el **Campus Virtual**.\n2. **Atención al Usuario:** Si el problema persiste, puede enviar su consulta detallada (incluyendo sus nombres completos y código de estudiante) al correo oficial de atención: **informes@uss.edu.pe**.\n\nEl personal especializado de nuestra universidad verificará su identidad y le brindará el soporte necesario para restablecer su acceso de manera segura.",
+    "tiempo_total_ms": 7981.874999997672,
+    "tiempo_busqueda_ms": 4523.0,
+    "tiempo_generacion_ms": 3458.8749999976717,
+    "tokens_totales": 154,
+    "citas": [
+      {
+        "documento": "REGLAMENTO DE GRADOS Y TÍTULOS",
+        "articulo_o_seccion": "REGLAMENTO DE GRADOS Y TÍTULOS",
+        "url_publica": "https://www.uss.edu.pe/uss/TransparenciaDoc/RegEstudiantes/REGLAMENTOGRADOSYTITULOS.pdf",
+        "similitud": 0.702
+      },
+      {
+        "documento": "REGLAMENTO DE GRADOS Y TÍTULOS",
+        "articulo_o_seccion": "REGLAMENTO DE GRADOS Y TÍTULOS > RESOLUCIÓN DE DIRECTORIO N° 052-2025/PD-USS",
+        "url_publica": "https://www.uss.edu.pe/uss/TransparenciaDoc/RegEstudiantes/REGLAMENTOGRADOSYTITULOS.pdf",
+        "similitud": 0.661
+      },
+      {
+        "documento": "REGLAMENTO DE GRADOS Y TÍTULOS",
+        "articulo_o_seccion": "Artículo 1°",
+        "url_publica": "https://www.uss.edu.pe/uss/TransparenciaDoc/RegEstudiantes/REGLAMENTOGRADOSYTITULOS.pdf",
+        "similitud": 0.648
+      }
+    ]
+  },
+  {
+    "modelo_nombre": "SipánGPT-RAG-STAIR",
+    "respuesta_generada": "Estimado docente, es un gusto saludarle. Conforme al **Reglamento de Grados y Títulos (Vigencia 2025), Título II, Capítulo I, Artículo 5°**, los requisitos para que el egresado obtenga el grado académico de bachiller son los siguientes:\n\n1. Haber aprobado los estudios de pregrado.\n2. Haber aprobado los cursos extracurriculares.\n3. Acreditar el conocimiento de un idioma extranjero o lengua nativa.\n4. Acreditación en emprendimiento (para ingresantes a partir de 2021-II).\n5. Haber presentado un trabajo de investigación.\n6. No mantener deuda financiera.\n7. No tener pendiente entrega de documentación en Registros Académicos.\n8. No tener pendiente entrega de material bibliográfico.\n9. Pago de “carpeta de bachillerato”.\n10. Pago de “participación en ceremonia de Graduación y Colación”.\n\nEspero que esta información sea de gran utilidad para su labor de asesoría. Si requiere detalles adicionales sobre la documentación técnica, puede consultar el Artículo 6° del mismo reglamento o dirigirse a la oficina de Grados y Títulos de su facultad.",
+    "tiempo_total_ms": 6693.338750003022,
+    "tiempo_busqueda_ms": 2810.0,
+    "tiempo_generacion_ms": 3883.338750003022,
+    "tokens_totales": 157,
+    "citas": [
+      {
+        "documento": "REGLAMENTO DE GRADOS Y TÍTULOS",
+        "articulo_o_seccion": "Artículo 5°",
+        "url_publica": "https://www.uss.edu.pe/uss/TransparenciaDoc/RegEstudiantes/REGLAMENTOGRADOSYTITULOS.pdf",
+        "similitud": 0.875
+      },
+      {
+        "documento": "REGLAMENTO DE GRADOS Y TÍTULOS",
+        "articulo_o_seccion": "CAPÍTULO I: PARA LA OBTENCIÓN DEL GRADO DE BACHILLER",
+        "url_publica": "https://www.uss.edu.pe/uss/TransparenciaDoc/RegEstudiantes/REGLAMENTOGRADOSYTITULOS.pdf",
+        "similitud": 0.826
+      },
+      {
+        "documento": "REGLAMENTO DE GRADOS Y TÍTULOS",
+        "articulo_o_seccion": "Artículo 6°",
+        "url_publica": "https://www.uss.edu.pe/uss/TransparenciaDoc/RegEstudiantes/REGLAMENTOGRADOSYTITULOS.pdf",
+        "similitud": 0.796
+      }
+    ]
+  },
+  {
+    "modelo_nombre": "SipánGPT-RAG-STAIR",
+    "respuesta_generada": "Estimado docente, reciba un cordial saludo. Es un gusto asistirle.\n\nRespecto a su consulta sobre la certificación en computación e inglés, le informo que el **Reglamento de Grados y Títulos (Versión 10)**, vigente para el año 2025, aborda esta materia de manera específica:\n\n*   **Base normativa:** La exigencia y el procedimiento para la acreditación de estas competencias se encuentran detallados en el **Título VI: La Certificación del Programa de Acreditación en Computación e Inglés** del mencionado reglamento.\n\nEste apartado establece el marco normativo que regula cómo los estudiantes deben acreditar dichas competencias como parte de los requisitos para la obtención de sus grados académicos y títulos profesionales.\n\nPara obtener el detalle procedimental o verificar casos específicos, le sugiero consultar el texto completo del reglamento disponible en el repositorio institucional o dirigirse a la oficina de su facultad. Si requiere asistencia administrativa adicional, puede comunicarse a través de los canales oficiales de la universidad o mediante el Campus Virtual.\n\nQuedo a su disposición para cualquier otra consulta académica.",
+    "tiempo_total_ms": 6415.159250005672,
+    "tiempo_busqueda_ms": 4045.0,
+    "tiempo_generacion_ms": 2370.159250005672,
+    "tokens_totales": 167,
+    "citas": [
+      {
+        "documento": "REGLAMENTO DE GRADOS Y TÍTULOS",
+        "articulo_o_seccion": "REGLAMENTO DE GRADOS Y TÍTULOS",
+        "url_publica": "https://www.uss.edu.pe/uss/TransparenciaDoc/RegEstudiantes/REGLAMENTOGRADOSYTITULOS.pdf",
+        "similitud": 0.769
+      },
+      {
+        "documento": "REGLAMENTO DE GRADOS Y TÍTULOS",
+        "articulo_o_seccion": "Artículo 1°",
+        "url_publica": "https://www.uss.edu.pe/uss/TransparenciaDoc/RegEstudiantes/REGLAMENTOGRADOSYTITULOS.pdf",
+        "similitud": 0.768
+      },
+      {
+        "documento": "REGLAMENTO DE GRADOS Y TÍTULOS",
+        "articulo_o_seccion": "REGLAMENTO DE GRADOS Y TÍTULOS > REGLAMENTO DE GRADOS Y TÍTULOS (VERSIÓN 10)",
+        "url_publica": "https://www.uss.edu.pe/uss/TransparenciaDoc/RegEstudiantes/REGLAMENTOGRADOSYTITULOS.pdf",
+        "similitud": 0.744
+      }
+    ]
+  },
+  {
+    "modelo_nombre": "SipánGPT-RAG-STAIR",
+    "respuesta_generada": "Hola. Entiendo tu preocupación respecto al proceso de matrícula. Como asistente oficial, estoy aquí para orientarte basándome en la normativa vigente.\n\nPara poder brindarte una orientación precisa, es necesario que verifiques tu situación académica actual. Según el **Reglamento de Matrícula (Versión 07)**, aprobado mediante la **Resolución de Directorio N°0093-2025/PD-USS**, existen condiciones específicas, tales como las establecidas en el **Título IV, Capítulo IV**, referentes a las condiciones de matrícula por bajo desempeño académico, las cuales podrían estar afectando la visualización de tu pantalla.\n\nPara ayudarte de manera efectiva, te sugiero lo siguiente:\n\n1.  **Revisa tu estado académico:** Verifica en tu **Campus Virtual** si presentas alguna restricción académica o administrativa pendiente.\n2.  **Consulta los canales oficiales:** Si los datos que visualizas persisten y no comprendes su significado, te recomiendo contactar directamente con el área de soporte académico o tu facultad a través de los canales oficiales:\n    *   **Correo electrónico:** informes@uss.edu.pe\n    *   **Campus Virtual:** Utiliza el sistema de tickets o mensajería interna para reportar el error específico que visualizas.\n\nSi deseas compartirme (sin exponer datos personales confidenciales) qué tipo de mensaje o \"dato raro\" aparece, podré indicarte a qué sección del reglamento corresponde para que sepas cómo proceder. ¡Estamos para apoyarte en tu éxito académico!",
+    "tiempo_total_ms": 8075.044499993965,
+    "tiempo_busqueda_ms": 4440.0,
+    "tiempo_generacion_ms": 3635.0444999939646,
+    "tokens_totales": 202,
+    "citas": [
+      {
+        "documento": "REGLAMENTO DE MATRÍCULA",
+        "articulo_o_seccion": "REGLAMENTO DE MATRÍCULA",
+        "url_publica": "https://www.uss.edu.pe/uss/TransparenciaDoc/RegEstudiantes/REGLAMENTO%20DE%20MATRICULA%20GENERAL%20USS.pdf",
+        "similitud": 0.774
+      },
+      {
+        "documento": "REGLAMENTO DE MATRÍCULA",
+        "articulo_o_seccion": "CAPÍTULO IV: CONDICIONES DE MATRÍCULA POR BAJO DESEMPEÑO ACADÉMICO",
+        "url_publica": "https://www.uss.edu.pe/uss/TransparenciaDoc/RegEstudiantes/REGLAMENTO%20DE%20MATRICULA%20GENERAL%20USS.pdf",
+        "similitud": 0.741
+      },
+      {
+        "documento": "REGLAMENTO DE MATRÍCULA",
+        "articulo_o_seccion": "REGLAMENTO DE MATRÍCULA > RESOLUCIÓN DE DIRECTORIO N°0093-2025/PD-USS",
+        "url_publica": "https://www.uss.edu.pe/uss/TransparenciaDoc/RegEstudiantes/REGLAMENTO%20DE%20MATRICULA%20GENERAL%20USS.pdf",
+        "similitud": 0.733
+      }
+    ]
+  },
+  {
+    "modelo_nombre": "SipánGPT-RAG-STAIR",
+    "respuesta_generada": "Hola. Entiendo tu preocupación respecto a los pagos pendientes. Con gusto te informo sobre la normativa vigente al respecto:\n\nConforme al **Reglamento de Cobranza (Versión 8), Capítulo VIII, Artículo 18°**, las pensiones y conceptos de pago que no sean cancelados hasta su fecha de vencimiento generan el cobro de intereses y gastos administrativos.\n\nAsimismo, es importante que consideres lo estipulado en el **Capítulo VII, Artículo 17°** del mismo reglamento, el cual señala que, si bien el incumplimiento de pago no suspende el servicio educativo, sí genera las siguientes restricciones:\n*   Imposibilidad de realizar trámites para la obtención de certificados, constancias, diplomas y documentos similares.\n*   Imposibilidad de registrar una nueva matrícula.\n\nTe recomiendo regularizar tu situación a la brevedad a través de los canales de pago autorizados en tu **Campus Virtual**. Si requieres información detallada sobre el estado de tu deuda o facilidades de pago, puedes contactar al área de Tesorería o escribir al correo oficial **informes@uss.edu.pe**.",
+    "tiempo_total_ms": 6595.481999996991,
+    "tiempo_busqueda_ms": 2589.0,
+    "tiempo_generacion_ms": 4006.4819999969914,
+    "tokens_totales": 157,
+    "citas": [
+      {
+        "documento": "REGLAMENTO DE COBRANZA",
+        "articulo_o_seccion": "ARTÍCULO 18°:",
+        "url_publica": "https://www.uss.edu.pe/uss/TransparenciaDoc/RegEstudiantes/cobranzas2026.pdf",
+        "similitud": 0.74
+      },
+      {
+        "documento": "REGLAMENTO DE COBRANZA",
+        "articulo_o_seccion": "REGLAMENTO DE COBRANZA",
+        "url_publica": "https://www.uss.edu.pe/uss/TransparenciaDoc/RegEstudiantes/cobranzas2026.pdf",
+        "similitud": 0.738
+      },
+      {
+        "documento": "REGLAMENTO DE COBRANZA",
+        "articulo_o_seccion": "ARTÍCULO 17°:",
+        "url_publica": "https://www.uss.edu.pe/uss/TransparenciaDoc/RegEstudiantes/cobranzas2026.pdf",
+        "similitud": 0.72
+      }
+    ]
+  },
+  {
+    "modelo_nombre": "SipánGPT-RAG-STAIR",
+    "respuesta_generada": "Hola. Entiendo tu preocupación por encontrar el material bibliográfico necesario para tu trabajo académico.\n\nSin embargo, debo informarte que, dentro de la base normativa y los documentos oficiales (Reglamento de Grados y Títulos) con los que cuento actualmente, no dispongo de información específica sobre la ubicación o navegación del catálogo de la biblioteca dentro del Campus Virtual.\n\nPara recibir orientación precisa y resolver tu duda de manera inmediata, te sugiero lo siguiente:\n\n1. **Canales oficiales:** Puedes contactar directamente con el área de Biblioteca a través de tu **Campus Virtual** (en la sección de soporte o servicios al estudiante) o escribir al correo institucional de atención al estudiante: **informes@uss.edu.pe**.\n2. **Mesa de ayuda:** Si el problema persiste, el personal de soporte técnico del Campus Virtual podrá guiarte paso a paso para localizar el acceso al catálogo.\n\nLamento no poder brindarte la ruta exacta en este momento, pero los canales mencionados son los indicados para asistirte con prontitud.",
+    "tiempo_total_ms": 8334.674040997925,
+    "tiempo_busqueda_ms": 4653.0,
+    "tiempo_generacion_ms": 3681.6740409979247,
+    "tokens_totales": 156,
+    "citas": [
+      {
+        "documento": "REGLAMENTO DE GRADOS Y TÍTULOS",
+        "articulo_o_seccion": "Artículo 4°: Del trámite de las carpetas",
+        "url_publica": "https://www.uss.edu.pe/uss/TransparenciaDoc/RegEstudiantes/REGLAMENTOGRADOSYTITULOS.pdf",
+        "similitud": 0.63
+      },
+      {
+        "documento": "REGLAMENTO DE GRADOS Y TÍTULOS",
+        "articulo_o_seccion": "REGLAMENTO DE GRADOS Y TÍTULOS > REGLAMENTO DE GRADOS Y TÍTULOS (VERSIÓN 10)",
+        "url_publica": "https://www.uss.edu.pe/uss/TransparenciaDoc/RegEstudiantes/REGLAMENTOGRADOSYTITULOS.pdf",
+        "similitud": 0.623
+      },
+      {
+        "documento": "REGLAMENTO DE GRADOS Y TÍTULOS",
+        "articulo_o_seccion": "REGLAMENTO DE GRADOS Y TÍTULOS",
+        "url_publica": "https://www.uss.edu.pe/uss/TransparenciaDoc/RegEstudiantes/REGLAMENTOGRADOSYTITULOS.pdf",
+        "similitud": 0.597
+      }
+    ]
+  },
+  {
+    "modelo_nombre": "SipánGPT-RAG-STAIR",
+    "respuesta_generada": "Buenos días. Es un gusto saludarte. Soy SipánGPT, el asistente de inteligencia artificial de la Universidad Señor de Sipán.\n\nRespecto a tu consulta sobre la **rectificación de matrícula**, te informo lo siguiente conforme al **Reglamento de Matrícula (Versión 07)**:\n\n1.  **Definición:** La rectificación de matrícula comprende el cambio de sección, retiro o inclusión de uno o más cursos.\n2.  **Condiciones de procedencia:** Según el **Título III, Artículo 15°**, para que tu solicitud sea procedente, debes haber cumplido previamente con el procedimiento de matrícula, contar con una justificación debidamente sustentada y existir disponibilidad de vacantes en la nueva sección o grupo solicitado. Asimismo, el nuevo horario no debe contraponerse con los cursos que ya tienes registrados.\n3.  **Consideraciones importantes:**\n    *   El pago por derecho de rectificación no garantiza automáticamente la aprobación de la solicitud.\n    *   Si la rectificación se debe a un cambio en la programación académica por parte de la universidad, el pago correspondiente queda exceptuado.\n    *   La fecha límite para este trámite es la misma establecida para el registro de matrícula extemporánea.\n\nPara realizar el procedimiento en línea, te sugiero ingresar a tu **Campus Virtual** y verificar las opciones disponibles en el módulo de matrícula. Si requieres asistencia técnica específica o tienes dudas sobre el estado de tu solicitud, te recomiendo contactar a través de los canales oficiales: **informes@uss.edu.pe** o mediante el sistema de tickets de soporte en tu plataforma académica.\n\nQuedo a tu disposición para cualquier otra consulta normativa.",
+    "tiempo_total_ms": 7861.870250002539,
+    "tiempo_busqueda_ms": 4471.0,
+    "tiempo_generacion_ms": 3390.8702500025393,
+    "tokens_totales": 241,
+    "citas": [
+      {
+        "documento": "REGLAMENTO DE MATRÍCULA",
+        "articulo_o_seccion": "REGLAMENTO DE MATRÍCULA",
+        "url_publica": "https://www.uss.edu.pe/uss/TransparenciaDoc/RegEstudiantes/REGLAMENTO%20DE%20MATRICULA%20GENERAL%20USS.pdf",
+        "similitud": 0.778
+      },
+      {
+        "documento": "REGLAMENTO DE MATRÍCULA",
+        "articulo_o_seccion": "ARTÍCULO 15°:",
+        "url_publica": "https://www.uss.edu.pe/uss/TransparenciaDoc/RegEstudiantes/REGLAMENTO%20DE%20MATRICULA%20GENERAL%20USS.pdf",
+        "similitud": 0.76
+      },
+      {
+        "documento": "REGLAMENTO DE MATRÍCULA",
+        "articulo_o_seccion": "REGLAMENTO DE MATRÍCULA > RESOLUCIÓN DE DIRECTORIO N°0093-2025/PD-USS",
+        "url_publica": "https://www.uss.edu.pe/uss/TransparenciaDoc/RegEstudiantes/REGLAMENTO%20DE%20MATRICULA%20GENERAL%20USS.pdf",
+        "similitud": 0.748
+      }
+    ]
+  },
+  {
+    "modelo_nombre": "SipánGPT-RAG-STAIR",
+    "respuesta_generada": "Hola. Es un gusto saludarte. Como docente de la Universidad Señor de Sipán, para gestionar la evaluación de tus estudiantes, debes seguir las indicaciones establecidas en el **Manual de Usuario del Aula Virtual – Docente (Vigencia 2026)**.\n\nPara verificar y configurar la rúbrica de tu Producto Académico 1, te sugiero seguir estos pasos técnicos:\n\n1.  **Acceso al Aula Virtual:** Ingresa con tus credenciales institucionales al portal docente.\n2.  **Gestión de Actividades:** Dirígete a la sección de \"Actividades\" o \"Tareas\" dentro de tu curso asignado.\n3.  **Configuración de Rúbrica:** Selecciona el Producto Académico 1 y verifica la pestaña de \"Calificación\" o \"Rúbrica\". Allí podrás visualizar los criterios, niveles de desempeño y el puntaje asignado a cada uno.\n4.  **Verificación:** Asegúrate de que la suma total de los criterios coincida con la nota máxima establecida para dicha actividad.\n\n**Nota importante:** Si al ingresar al sistema no visualizas la rúbrica o los criterios aparecen incompletos, te recomiendo contactar con el área de soporte técnico de tu facultad o enviar un correo a través de los canales oficiales de la universidad (informes@uss.edu.pe) para que puedan validar la configuración de tu curso en el sistema.\n\n¿Hay algún otro detalle técnico del Aula Virtual en el que pueda asistirte hoy?",
+    "tiempo_total_ms": 7713.343875002465,
+    "tiempo_busqueda_ms": 4020.0,
+    "tiempo_generacion_ms": 3693.343875002465,
+    "tokens_totales": 204,
+    "citas": [
+      {
+        "documento": "MANUAL DE USUARIO DEL AULA VIRTUAL – DOCENTE",
+        "articulo_o_seccion": "MANUAL DE USUARIO DEL AULA VIRTUAL – DOCENTE",
+        "url_publica": "https://campus.uss.edu.pe/SeussFile/FileInfSeuss/Manualesdeusuario/_10007200552026_5_16_14.pdf",
+        "similitud": 0.68
+      },
+      {
+        "documento": "MANUAL DE USUARIO DE PAGOS VIRTUALES",
+        "articulo_o_seccion": "MANUAL DE USUARIO DE PAGOS VIRTUALES",
+        "url_publica": "https://campus.uss.edu.pe/CampusNet6/PagosVisa.pdf",
+        "similitud": 0.664
+      },
+      {
+        "documento": "MANUAL DE USUARIO MATRÍCULA EN LÍNEA",
+        "articulo_o_seccion": "MANUAL DE USUARIO MATRÍCULA EN LÍNEA",
+        "url_publica": "https://campus.uss.edu.pe/SeussFile/FileInfSeuss/Manualesdeusuario/_10007200552026_5_16_17.pdf",
+        "similitud": 0.662
+      }
+    ]
+  },
+  {
+    "modelo_nombre": "SipánGPT-RAG-STAIR",
+    "respuesta_generada": "Estimado estudiante, reciba un cordial saludo. Es un gusto asistirle en su consulta académica.\n\nEn relación con su solicitud sobre la programación de pensiones para la modalidad presencial, le informo que, conforme al **Reglamento de Cobranza (Versión 8), Capítulo II, Artículo 4°**, usted tiene la facultad de programar sus pensiones en una, dos, tres, cuatro, cinco o seis cuotas.\n\nEs importante precisar que dicha elección debe realizarla al momento de registrar su matrícula.\n\nSi requiere realizar alguna modificación o gestión adicional sobre su cronograma de pagos, le sugiero ingresar a su **Campus Virtual** o contactar con las áreas administrativas correspondientes a través de los canales oficiales de la universidad.\n\nQuedo a su disposición para cualquier otra consulta normativa.",
+    "tiempo_total_ms": 5388.086792001559,
+    "tiempo_busqueda_ms": 2421.0,
+    "tiempo_generacion_ms": 2967.086792001559,
+    "tokens_totales": 118,
+    "citas": [
+      {
+        "documento": "REGLAMENTO DE COBRANZA",
+        "articulo_o_seccion": "ARTÍCULO 4°:",
+        "url_publica": "https://www.uss.edu.pe/uss/TransparenciaDoc/RegEstudiantes/cobranzas2026.pdf",
+        "similitud": 0.765
+      },
+      {
+        "documento": "REGLAMENTO DE COBRANZA",
+        "articulo_o_seccion": "REGLAMENTO DE COBRANZA",
+        "url_publica": "https://www.uss.edu.pe/uss/TransparenciaDoc/RegEstudiantes/cobranzas2026.pdf",
+        "similitud": 0.742
+      },
+      {
+        "documento": "REGLAMENTO DE COBRANZA",
+        "articulo_o_seccion": "ARTÍCULO 8°:",
+        "url_publica": "https://www.uss.edu.pe/uss/TransparenciaDoc/RegEstudiantes/cobranzas2026.pdf",
+        "similitud": 0.734
+      }
+    ]
+  },
+  {
+    "modelo_nombre": "SipánGPT-RAG-STAIR",
+    "respuesta_generada": "Estimado estudiante, reciba un cordial saludo. Es un gusto atender su consulta en mi calidad de SipánGPT.\n\nRespecto a su solicitud sobre los costos para la carrera de **Arquitectura**, conforme al **Reglamento de Cobranza (Versión 8), vigente para el año 2026**, le informo lo siguiente:\n\n*   **Costo total por ciclo:** S/ 2,950.00.\n*   **Pago al contado (con descuento del 10%):** S/ 2,655.00.\n*   **Opciones de fraccionamiento:**\n    *   Pago en 5 cuotas: S/ 590.00 por cuota.\n    *   Pago en 6 cuotas: S/ 491.67 por cuota.\n\n**Consideraciones importantes:**\n1.  **Beneficio por pago al contado:** Según el **Capítulo III, Artículo 8°** del reglamento citado, para acceder al descuento del 10%, usted debe realizar la reprogramación a través de su **Campus Virtual** (opción \"reprogramación de pensión a una sola cuota\"). El plazo límite para efectuar este pago es el vencimiento de la primera cuota, según el cronograma académico vigente.\n2.  **Nota sobre descuentos:** El artículo mencionado precisa que el descuento del 10% aplica de forma general, a excepción de las escuelas de FACSA, las cuales cuentan con un descuento del 6%.\n\nSi requiere realizar el trámite de reprogramación o tiene consultas adicionales sobre su estado de cuenta, le sugiero ingresar directamente a su **Campus Virtual** o comunicarse con las oficinas de atención al estudiante.\n\nQuedo a su disposición para cualquier otra consulta académica o administrativa.",
+    "tiempo_total_ms": 6886.233749995881,
+    "tiempo_busqueda_ms": 2381.0,
+    "tiempo_generacion_ms": 4505.233749995881,
+    "tokens_totales": 221,
+    "citas": [
+      {
+        "documento": "REGLAMENTO DE COBRANZA",
+        "articulo_o_seccion": "ARTÍCULO 8°:",
+        "url_publica": "https://www.uss.edu.pe/uss/TransparenciaDoc/RegEstudiantes/cobranzas2026.pdf",
+        "similitud": 0.747
+      },
+      {
+        "documento": "REGLAMENTO DE COBRANZA",
+        "articulo_o_seccion": "REGLAMENTO DE COBRANZA",
+        "url_publica": "https://www.uss.edu.pe/uss/TransparenciaDoc/RegEstudiantes/cobranzas2026.pdf",
+        "similitud": 0.735
+      },
+      {
+        "documento": "REGLAMENTO DE COBRANZA",
+        "articulo_o_seccion": "ARTÍCULO 27°:",
+        "url_publica": "https://www.uss.edu.pe/uss/TransparenciaDoc/RegEstudiantes/cobranzas2026.pdf",
+        "similitud": 0.73
+      }
+    ]
+  },
+  {
+    "modelo_nombre": "SipánGPT-RAG-STAIR",
+    "respuesta_generada": "Estimado docente, reciba un cordial saludo. Es un gusto asistirle en su gestión académica.\n\nDe acuerdo con el **\"Manual de usuario: Sistema de Gestión Docente - Campus Virtual (Versión 06)\"**, usted puede acceder a la información sobre su asistencia siguiendo estos pasos:\n\n1. Ingrese al **Campus Virtual** a través de [https://www.uss.edu.pe](https://www.uss.edu.pe).\n2. En el menú principal, diríjase a la sección **5.2 DATOS ACADÉMICOS**.\n3. Dentro de esta sección, encontrará la opción **5.2.4 Informe mensual asistencia**, donde podrá visualizar el reporte solicitado.\n\nAdicionalmente, el manual indica en el apartado **5.4 HORARIOS** que también dispone de la opción **5.4.1 Asistencia** para la gestión de sus marcaciones.\n\nEspero que esta información le sea de utilidad. Si requiere asistencia técnica adicional, le sugiero contactar con el soporte del Campus Virtual o revisar el manual completo disponible en su plataforma.",
+    "tiempo_total_ms": 6450.548749999143,
+    "tiempo_busqueda_ms": 3844.0,
+    "tiempo_generacion_ms": 2606.548749999143,
+    "tokens_totales": 135,
+    "citas": [
+      {
+        "documento": "Manual de usuario sistema de gestión docente campus virtual",
+        "articulo_o_seccion": "Manual de usuario sistema de gestión docente campus virtual > MANUAL DE USUARIO: SISTEMA DE GESTIÓN DOCENTE - CAMPUS VIRTUAL (Versión 06) (Parte 1/2)",
+        "url_publica": "https://campus.uss.edu.pe/SeussFile/FileInfSeuss/Manualesdeusuario/_10000000582024_12_15_12.pdf",
+        "similitud": 0.777
+      },
+      {
+        "documento": "MANUAL DE USUARIO DEL AULA VIRTUAL – DOCENTE",
+        "articulo_o_seccion": "MANUAL DE USUARIO DEL AULA VIRTUAL – DOCENTE > MANUAL DE USUARIO DEL AULA VIRTUAL – DOCENTE (Parte 1/6)",
+        "url_publica": "https://campus.uss.edu.pe/SeussFile/FileInfSeuss/Manualesdeusuario/_10007200552026_5_16_14.pdf",
+        "similitud": 0.728
+      },
+      {
+        "documento": "MANUAL DE USUARIO DEL AULA VIRTUAL – DOCENTE",
+        "articulo_o_seccion": "MANUAL DE USUARIO DEL AULA VIRTUAL – DOCENTE",
+        "url_publica": "https://campus.uss.edu.pe/SeussFile/FileInfSeuss/Manualesdeusuario/_10007200552026_5_16_14.pdf",
+        "similitud": 0.716
+      }
+    ]
+  },
+  {
+    "modelo_nombre": "SipánGPT-RAG-STAIR",
+    "respuesta_generada": "Estimado docente, reciba un cordial saludo. Es un gusto asistirle en su labor académica.\n\nDe acuerdo con el **\"Manual de usuario: Sistema de gestión de biblioteca – catálogo en línea\" (Vigencia 2026)**, la Universidad Señor de Sipán pone a disposición de la comunidad universitaria (estudiantes, docentes, administrativos y egresados) una amplia gama de bases de datos externas para fortalecer las actividades de investigación.\n\nLas herramientas y bases de datos a las que puede acceder son las siguientes:\n\n*   **E-Libro:** Permite la búsqueda de material bibliográfico según el tipo de lectura requerida (Pág. 10).\n*   **EBSCO:** Base de datos multidisciplinaria que provee textos completos, referencias y resúmenes de publicaciones científicas y académicas (Pág. 11).\n*   **Scopus:** Base de datos bibliográfica de Elsevier para el análisis de citas, métricas de impacto y exploración de literatura académica global (Pág. 11).\n*   **ScienceDirect:** Plataforma de Elsevier con artículos, libros y capítulos revisados por pares en áreas científicas, técnicas y médicas (Pág. 15).\n*   **IOP Science:** Colección de revistas, artículos de investigación, libros y conferencias en física y disciplinas relacionadas (Pág. 15).\n*   **Eureka:** Biblioteca digital especializada en contenidos de salud (Pág. 13).\n*   **Gale / Cengage:** Recursos digitales en humanidades, ciencias sociales y educación (Pág. 14).\n*   **eBooks 7-24:** Libros electrónicos en español sobre negocios, tecnología, ingeniería y ciencias sociales (Pág. 14).\n\n**¿Cómo acceder?**\nPuede orientar a sus estudiantes a ingresar a través del **Campus Virtual** (opción \"Catálogo online\") o directamente desde la página web institucional [https://www.uss.edu.pe](https://www.uss.edu.pe), seleccionando la opción **BIBLIOTECA** e ingresando con sus credenciales institucionales, tal como se detalla en el manual (Págs. 4, 5 y 15).\n\nEspero que esta información sea de gran utilidad para sus cursos de investigación. Quedo a su disposición para cualquier otra consulta.",
+    "tiempo_total_ms": 7572.730833002424,
+    "tiempo_busqueda_ms": 4122.0,
+    "tiempo_generacion_ms": 3450.7308330024243,
+    "tokens_totales": 286,
+    "citas": [
+      {
+        "documento": "Manual de usuario sistema de gestión de biblioteca - catálogo en línea",
+        "articulo_o_seccion": "Manual de usuario sistema de gestión de biblioteca - catálogo en línea > MANUAL DE USUARIO: SISTEMA DE GESTIÓN DE BIBLIOTECA – CATÁLOGO EN LÍNEA (Parte 3/3)",
+        "url_publica": "https://campus.uss.edu.pe/SeussFile/FileInfSeuss/Manualesdeusuario/_10000000582024_12_15_14.pdf",
+        "similitud": 0.764
+      },
+      {
+        "documento": "Manual de usuario sistema de gestión de biblioteca - catálogo en línea",
+        "articulo_o_seccion": "Manual de usuario sistema de gestión de biblioteca - catálogo en línea > MANUAL DE USUARIO: SISTEMA DE GESTIÓN DE BIBLIOTECA – CATÁLOGO EN LÍNEA (Parte 1/3)",
+        "url_publica": "https://campus.uss.edu.pe/SeussFile/FileInfSeuss/Manualesdeusuario/_10000000582024_12_15_14.pdf",
+        "similitud": 0.759
+      },
+      {
+        "documento": "Manual de usuario sistema de gestión de biblioteca - catálogo en línea",
+        "articulo_o_seccion": "Manual de usuario sistema de gestión de biblioteca - catálogo en línea > MANUAL DE USUARIO: SISTEMA DE GESTIÓN DE BIBLIOTECA – CATÁLOGO EN LÍNEA (Parte 2/3)",
+        "url_publica": "https://campus.uss.edu.pe/SeussFile/FileInfSeuss/Manualesdeusuario/_10000000582024_12_15_14.pdf",
+        "similitud": 0.747
+      }
+    ]
+  },
+  {
+    "modelo_nombre": "SipánGPT-RAG-STAIR",
+    "respuesta_generada": "Estimado docente, reciba un cordial saludo.\n\nRespecto a su consulta sobre las herramientas y bases de datos bibliográficas disponibles a través del sistema de la Universidad Señor de Sipán, le informo que, tras revisar la base normativa actual (Reglamento de Grados y Títulos, Versión 10), **no cuento con información detallada sobre el catálogo específico de bases de datos externas o herramientas digitales integradas** en el sistema de biblioteca.\n\nPara brindarle una orientación técnica precisa y actualizada sobre el acceso a los recursos bibliográficos, bases de datos científicas y el uso del catálogo en línea, le sugiero contactar directamente con el **Centro de Información (Biblioteca)** de nuestra universidad. Ellos podrán proporcionarle el listado vigente de convenios, accesos remotos y herramientas de investigación disponibles para sus estudiantes.\n\nPuede canalizar su solicitud a través de los siguientes medios institucionales:\n\n*   **Correo electrónico:** informes@uss.edu.pe\n*   **Campus Virtual:** Accediendo a la sección de servicios bibliotecarios.\n\nQuedo a su disposición para cualquier otra consulta sobre el marco normativo de grados y títulos.",
+    "tiempo_total_ms": 7802.2692500017,
+    "tiempo_busqueda_ms": 4273.0,
+    "tiempo_generacion_ms": 3529.2692500017,
+    "tokens_totales": 166,
+    "citas": [
+      {
+        "documento": "REGLAMENTO DE GRADOS Y TÍTULOS",
+        "articulo_o_seccion": "REGLAMENTO DE GRADOS Y TÍTULOS",
+        "url_publica": "https://www.uss.edu.pe/uss/TransparenciaDoc/RegEstudiantes/REGLAMENTOGRADOSYTITULOS.pdf",
+        "similitud": 0.712
+      },
+      {
+        "documento": "REGLAMENTO DE GRADOS Y TÍTULOS",
+        "articulo_o_seccion": "Artículo 3°",
+        "url_publica": "https://www.uss.edu.pe/uss/TransparenciaDoc/RegEstudiantes/REGLAMENTOGRADOSYTITULOS.pdf",
+        "similitud": 0.637
+      },
+      {
+        "documento": "REGLAMENTO DE GRADOS Y TÍTULOS",
+        "articulo_o_seccion": "REGLAMENTO DE GRADOS Y TÍTULOS > RESOLUCIÓN DE DIRECTORIO N° 052-2025/PD-USS",
+        "url_publica": "https://www.uss.edu.pe/uss/TransparenciaDoc/RegEstudiantes/REGLAMENTOGRADOSYTITULOS.pdf",
+        "similitud": 0.631
+      }
+    ]
+  },
+  {
+    "modelo_nombre": "SipánGPT-RAG-STAIR",
+    "respuesta_generada": "Estimado docente, reciba un cordial saludo. Es un gusto asistirle.\n\nPara acceder a su entorno de aprendizaje **AULAUSS**, por favor siga estos pasos desde la página web oficial de la Universidad Señor de Sipán (www.uss.edu.pe):\n\n1.  **Ruta de acceso:** En la parte superior derecha de la página principal, encontrará el botón denominado **\"Campus Virtual\"**. Al hacer clic, se desplegará un menú donde deberá seleccionar la opción **\"AULAUSS\"**.\n2.  **Navegador recomendado:** Para garantizar una experiencia óptima y la correcta visualización de todas las herramientas de gestión académica, se recomienda utilizar **Google Chrome** o **Mozilla Firefox** en sus versiones más recientes.\n\n**Nota importante:** Respecto a su consulta, le informo que la información técnica sobre navegadores y rutas de acceso no se encuentra detallada en el *Reglamento de Grados y Títulos*. Si presenta algún inconveniente técnico con sus credenciales o el acceso a la plataforma, le sugiero contactar directamente con el área de Soporte Técnico a través de su **Campus Virtual** o mediante el correo institucional de soporte.\n\nQuedo a su disposición para cualquier otra consulta normativa o académica.",
+    "tiempo_total_ms": 7029.95587499754,
+    "tiempo_busqueda_ms": 4218.0,
+    "tiempo_generacion_ms": 2811.9558749975404,
+    "tokens_totales": 176,
+    "citas": [
+      {
+        "documento": "REGLAMENTO DE GRADOS Y TÍTULOS",
+        "articulo_o_seccion": "REGLAMENTO DE GRADOS Y TÍTULOS",
+        "url_publica": "https://www.uss.edu.pe/uss/TransparenciaDoc/RegEstudiantes/REGLAMENTOGRADOSYTITULOS.pdf",
+        "similitud": 0.689
+      },
+      {
+        "documento": "REGLAMENTO DE GRADOS Y TÍTULOS",
+        "articulo_o_seccion": "Artículo 1°",
+        "url_publica": "https://www.uss.edu.pe/uss/TransparenciaDoc/RegEstudiantes/REGLAMENTOGRADOSYTITULOS.pdf",
+        "similitud": 0.62
+      },
+      {
+        "documento": "REGLAMENTO DE GRADOS Y TÍTULOS",
+        "articulo_o_seccion": "Artículo 3°",
+        "url_publica": "https://www.uss.edu.pe/uss/TransparenciaDoc/RegEstudiantes/REGLAMENTOGRADOSYTITULOS.pdf",
+        "similitud": 0.613
+      }
+    ]
+  },
+  {
+    "modelo_nombre": "SipánGPT-RAG-STAIR",
+    "respuesta_generada": "Estimado(a) estudiante, reciba un cordial saludo. Es un gusto asistirle en su consulta sobre el proceso de sustentación en la Universidad Señor de Sipán.\n\nDe acuerdo con el **Reglamento de Grados y Títulos (Versión 10)**, vigente para el año 2025, le informo lo siguiente:\n\n**1. Sobre la conformación del jurado:**\nLa normativa establece la estructura del jurado evaluador en el **Título V: De la Sustentación, Capítulo I: Del Jurado**, el cual es el órgano encargado de evaluar la defensa de su trabajo de investigación o tesis.\n\n**2. Sobre las funciones del jurado:**\nConforme al **Reglamento de Grados y Títulos, Título IV: Del Jurado Evaluador, Artículo 23°**, las funciones principales del jurado son las siguientes:\n*   Emitir las observaciones correspondientes al trabajo en un plazo máximo de 7 días hábiles.\n*   Verificar el correcto levantamiento de las observaciones realizadas.\n*   Asistir obligatoriamente al acto de sustentación.\n*   Evaluar la defensa del trabajo de investigación o tesis presentada por el estudiante.\n\nSi requiere información más detallada sobre los requisitos específicos para la conformación del jurado según su facultad o escuela profesional, le sugiero contactar con su oficina de grados y títulos o revisar el detalle en su **Campus Virtual**. Asimismo, puede elevar sus consultas adicionales a través del correo institucional **informes@uss.edu.pe**.\n\nQuedo a su disposición para cualquier otra consulta académica.",
+    "tiempo_total_ms": 6904.475583003659,
+    "tiempo_busqueda_ms": 3410.0,
+    "tiempo_generacion_ms": 3494.4755830036593,
+    "tokens_totales": 218,
+    "citas": [
+      {
+        "documento": "REGLAMENTO DE GRADOS Y TÍTULOS",
+        "articulo_o_seccion": "REGLAMENTO DE GRADOS Y TÍTULOS",
+        "url_publica": "https://www.uss.edu.pe/uss/TransparenciaDoc/RegEstudiantes/REGLAMENTOGRADOSYTITULOS.pdf",
+        "similitud": 0.803
+      },
+      {
+        "documento": "REGLAMENTO DE GRADOS Y TÍTULOS",
+        "articulo_o_seccion": "CAPÍTULO I: DEL JURADO",
+        "url_publica": "https://www.uss.edu.pe/uss/TransparenciaDoc/RegEstudiantes/REGLAMENTOGRADOSYTITULOS.pdf",
+        "similitud": 0.787
+      },
+      {
+        "documento": "REGLAMENTO DE GRADOS Y TÍTULOS",
+        "articulo_o_seccion": "Artículo 23°",
+        "url_publica": "https://www.uss.edu.pe/uss/TransparenciaDoc/RegEstudiantes/REGLAMENTOGRADOSYTITULOS.pdf",
+        "similitud": 0.785
+      }
+    ]
+  },
+  {
+    "modelo_nombre": "SipánGPT-RAG-STAIR",
+    "respuesta_generada": "Estimado docente, buenos días. Es un gusto saludarle.\n\nEn respuesta a su consulta, le informo que, conforme al **Reglamento de Matrícula (Vigencia 2025), Título II, Artículo 10°**, el estudiante debe matricularse en un número mínimo de **doce (12) créditos** por semestre académico para conservar su condición de estudiante regular.\n\nEsta disposición es aplicable tanto para programas de pregrado como de posgrado, con la única excepción de aquellos estudiantes a quienes les falten menos de doce créditos para culminar su programa de estudios.\n\nEspero que esta información sea de utilidad para orientar a su estudiante. Quedo a su disposición ante cualquier otra consulta normativa.",
+    "tiempo_total_ms": 6387.412292002409,
+    "tiempo_busqueda_ms": 4087.0,
+    "tiempo_generacion_ms": 2300.4122920024092,
+    "tokens_totales": 103,
+    "citas": [
+      {
+        "documento": "REGLAMENTO DE MATRÍCULA",
+        "articulo_o_seccion": "ARTÍCULO 10°:",
+        "url_publica": "https://www.uss.edu.pe/uss/TransparenciaDoc/RegEstudiantes/REGLAMENTO%20DE%20MATRICULA%20GENERAL%20USS.pdf",
+        "similitud": 0.82
+      },
+      {
+        "documento": "REGLAMENTO DE MATRÍCULA",
+        "articulo_o_seccion": "REGLAMENTO DE MATRÍCULA",
+        "url_publica": "https://www.uss.edu.pe/uss/TransparenciaDoc/RegEstudiantes/REGLAMENTO%20DE%20MATRICULA%20GENERAL%20USS.pdf",
+        "similitud": 0.766
+      },
+      {
+        "documento": "REGLAMENTO DE MATRÍCULA",
+        "articulo_o_seccion": "ARTÍCULO 23°:",
+        "url_publica": "https://www.uss.edu.pe/uss/TransparenciaDoc/RegEstudiantes/REGLAMENTO%20DE%20MATRICULA%20GENERAL%20USS.pdf",
+        "similitud": 0.739
+      }
+    ]
+  },
+  {
+    "modelo_nombre": "SipánGPT-RAG-STAIR",
+    "respuesta_generada": "Buenos días. Es un gusto saludarle.\n\nEn relación con su consulta sobre el acceso al **Campus Virtual** de la Universidad Señor de Sipán, le informo que, de acuerdo con la normativa vigente, el acceso a los servicios académicos y trámites (como el de grados y títulos, según el **Reglamento de Grados y Títulos, Versión 10, Título II, Artículo 4°**) se realiza a través de nuestra plataforma institucional.\n\nPara realizar su acceso inicial, por favor siga estas indicaciones:\n\n1.  **Dirección Web:** Ingrese al portal oficial de la universidad: [https://www.uss.edu.pe](https://www.uss.edu.pe)\n2.  **Acceso:** En la parte superior de la página, encontrará el enlace directo denominado **\"Campus Virtual\"**.\n3.  **Credenciales:** Utilice su usuario y contraseña institucional proporcionados al momento de su matrícula.\n\nSi presenta dificultades técnicas con sus credenciales o no logra visualizar el acceso, le sugiero contactar directamente con el área de soporte técnico a través del correo electrónico **soporte@uss.edu.pe** o mediante los canales de atención oficial en el Campus Virtual, donde podrán verificar su estado de cuenta y habilitación de acceso.\n\nQuedo a su disposición para cualquier otra consulta académica.",
+    "tiempo_total_ms": 7513.512541001546,
+    "tiempo_busqueda_ms": 4452.0,
+    "tiempo_generacion_ms": 3061.512541001546,
+    "tokens_totales": 178,
+    "citas": [
+      {
+        "documento": "REGLAMENTO DE GRADOS Y TÍTULOS",
+        "articulo_o_seccion": "REGLAMENTO DE GRADOS Y TÍTULOS",
+        "url_publica": "https://www.uss.edu.pe/uss/TransparenciaDoc/RegEstudiantes/REGLAMENTOGRADOSYTITULOS.pdf",
+        "similitud": 0.687
+      },
+      {
+        "documento": "REGLAMENTO DE GRADOS Y TÍTULOS",
+        "articulo_o_seccion": "REGLAMENTO DE GRADOS Y TÍTULOS > RESOLUCIÓN DE DIRECTORIO N° 052-2025/PD-USS",
+        "url_publica": "https://www.uss.edu.pe/uss/TransparenciaDoc/RegEstudiantes/REGLAMENTOGRADOSYTITULOS.pdf",
+        "similitud": 0.646
+      },
+      {
+        "documento": "REGLAMENTO DE GRADOS Y TÍTULOS",
+        "articulo_o_seccion": "Artículo 4°: Del trámite de las carpetas",
+        "url_publica": "https://www.uss.edu.pe/uss/TransparenciaDoc/RegEstudiantes/REGLAMENTOGRADOSYTITULOS.pdf",
+        "similitud": 0.638
+      }
+    ]
+  },
+  {
+    "modelo_nombre": "SipánGPT-RAG-STAIR",
+    "respuesta_generada": "Estimado docente, reciba un cordial saludo.\n\nRespecto a su consulta sobre la configuración de evaluaciones virtuales en el Aula Virtual, le informo que, de acuerdo con la base normativa institucional proporcionada (**Reglamento de Grados y Títulos, Versión 10**), no se dispone de información técnica específica sobre los procedimientos operativos o configuraciones de herramientas dentro de la plataforma del Aula Virtual.\n\nDicha normativa se centra exclusivamente en los procesos académicos de obtención de grados y títulos. Por lo tanto, para recibir asistencia técnica precisa sobre la configuración de evaluaciones, le sugiero contactar directamente con el área de **Soporte Técnico de la Dirección de Tecnologías de la Información (DTI)** a través de los siguientes canales oficiales:\n\n*   **Correo electrónico:** soporte.aula@uss.edu.pe\n*   **Campus Virtual:** Utilice el botón de \"Ayuda\" o \"Soporte\" disponible en su panel de usuario.\n\nQuedo a su disposición para cualquier otra consulta relacionada con la normativa académica de nuestra universidad.",
+    "tiempo_total_ms": 7392.339541998808,
+    "tiempo_busqueda_ms": 4168.0,
+    "tiempo_generacion_ms": 3224.3395419988083,
+    "tokens_totales": 150,
+    "citas": [
+      {
+        "documento": "REGLAMENTO DE GRADOS Y TÍTULOS",
+        "articulo_o_seccion": "REGLAMENTO DE GRADOS Y TÍTULOS",
+        "url_publica": "https://www.uss.edu.pe/uss/TransparenciaDoc/RegEstudiantes/REGLAMENTOGRADOSYTITULOS.pdf",
+        "similitud": 0.705
+      },
+      {
+        "documento": "REGLAMENTO DE GRADOS Y TÍTULOS",
+        "articulo_o_seccion": "REGLAMENTO DE GRADOS Y TÍTULOS > RESOLUCIÓN DE DIRECTORIO N° 052-2025/PD-USS",
+        "url_publica": "https://www.uss.edu.pe/uss/TransparenciaDoc/RegEstudiantes/REGLAMENTOGRADOSYTITULOS.pdf",
+        "similitud": 0.648
+      },
+      {
+        "documento": "REGLAMENTO DE GRADOS Y TÍTULOS",
+        "articulo_o_seccion": "REGLAMENTO DE GRADOS Y TÍTULOS > REGLAMENTO DE GRADOS Y TÍTULOS (VERSIÓN 10)",
+        "url_publica": "https://www.uss.edu.pe/uss/TransparenciaDoc/RegEstudiantes/REGLAMENTOGRADOSYTITULOS.pdf",
+        "similitud": 0.633
+      }
+    ]
+  },
+  {
+    "modelo_nombre": "SipánGPT-RAG-STAIR",
+    "respuesta_generada": "Estimado/a estudiante/docente, reciba un cordial saludo.\n\nRespecto a su consulta sobre el acceso a la plataforma **eBooks 7-24**, le informo que, aunque mi base normativa actual se centra en el *Reglamento de Grados y Títulos (Versión 10)*, puedo orientarle sobre el procedimiento estándar para acceder a los recursos bibliográficos de la Universidad Señor de Sipán:\n\n1.  **Acceso al Campus Virtual:** Ingrese a través del portal oficial de la universidad (https://www.uss.edu.pe) utilizando sus credenciales institucionales.\n2.  **Biblioteca Virtual:** Dentro del Campus Virtual, diríjase a la sección de **\"Biblioteca\"** o **\"Recursos Digitales\"**.\n3.  **Selección de Base de Datos:** Ubique el enlace directo a **eBooks 7-24** en el listado de bases de datos suscritas.\n4.  **Búsqueda:** Una vez dentro de la plataforma, utilice la barra de búsqueda principal ingresando palabras clave, título del libro o autor. Puede aplicar filtros por área temática (Ingeniería) para optimizar sus resultados.\n\n**Nota importante:** Si presenta dificultades técnicas con sus credenciales o requiere asistencia especializada para la búsqueda avanzada, le sugiero contactar directamente con el área de **Biblioteca Central** o enviar un correo a **informes@uss.edu.pe**, donde el personal especializado podrá brindarle soporte técnico detallado.\n\nQuedo a su disposición para cualquier otra consulta académica basada en nuestra normativa institucional.",
+    "tiempo_total_ms": 7346.394207997946,
+    "tiempo_busqueda_ms": 3448.0,
+    "tiempo_generacion_ms": 3898.394207997946,
+    "tokens_totales": 200,
+    "citas": [
+      {
+        "documento": "REGLAMENTO DE GRADOS Y TÍTULOS",
+        "articulo_o_seccion": "REGLAMENTO DE GRADOS Y TÍTULOS",
+        "url_publica": "https://www.uss.edu.pe/uss/TransparenciaDoc/RegEstudiantes/REGLAMENTOGRADOSYTITULOS.pdf",
+        "similitud": 0.678
+      },
+      {
+        "documento": "REGLAMENTO DE GRADOS Y TÍTULOS",
+        "articulo_o_seccion": "Artículo 1°",
+        "url_publica": "https://www.uss.edu.pe/uss/TransparenciaDoc/RegEstudiantes/REGLAMENTOGRADOSYTITULOS.pdf",
+        "similitud": 0.613
+      },
+      {
+        "documento": "REGLAMENTO DE GRADOS Y TÍTULOS",
+        "articulo_o_seccion": "REGLAMENTO DE GRADOS Y TÍTULOS > REGLAMENTO DE GRADOS Y TÍTULOS (VERSIÓN 10)",
+        "url_publica": "https://www.uss.edu.pe/uss/TransparenciaDoc/RegEstudiantes/REGLAMENTOGRADOSYTITULOS.pdf",
+        "similitud": 0.597
+      }
+    ]
+  },
+  {
+    "modelo_nombre": "SipánGPT-RAG-STAIR",
+    "respuesta_generada": "Estimado estudiante, reciba un cordial saludo. Le informo que, de acuerdo con el **Reglamento de Grados y Títulos (Versión 10), Título VI**, la certificación del programa de acreditación en computación e inglés es un requisito formal para la obtención de grados y títulos en nuestra institución.\n\nRespecto a su consulta sobre el procedimiento de programación y pagos, le informo que la información detallada sobre los pasos específicos dentro del sistema (Campus Virtual) no se encuentra especificada en el reglamento citado.\n\nPara evitar errores en su trámite o en el proceso de pago, le sugiero realizar lo siguiente:\n\n1.  **Canal oficial de atención:** Contacte directamente con la oficina de **Grados y Títulos** de su facultad o a través del correo institucional **informes@uss.edu.pe**, donde podrán guiarlo paso a paso en el entorno del Campus Virtual.\n2.  **Verificación:** Antes de realizar cualquier transacción, asegúrese de estar en la sección correcta de \"Pagos\" o \"Trámites\" dentro de su plataforma oficial, validando siempre el concepto del pago.\n\nLe recomiendo no proceder con ninguna operación hasta haber recibido la confirmación de los canales oficiales mencionados. Quedo a su disposición para cualquier otra consulta normativa.",
+    "tiempo_total_ms": 7720.685041997058,
+    "tiempo_busqueda_ms": 3869.0,
+    "tiempo_generacion_ms": 3851.685041997058,
+    "tokens_totales": 188,
+    "citas": [
+      {
+        "documento": "REGLAMENTO DE GRADOS Y TÍTULOS",
+        "articulo_o_seccion": "REGLAMENTO DE GRADOS Y TÍTULOS > TÍTULO VI: LA CERTIFICACIÓN DEL PROGRAMA DE ACREDITACIÓN EN COMPUTACIÓN E INGLÉS",
+        "url_publica": "https://www.uss.edu.pe/uss/TransparenciaDoc/RegEstudiantes/REGLAMENTOGRADOSYTITULOS.pdf",
+        "similitud": 0.668
+      },
+      {
+        "documento": "REGLAMENTO DE GRADOS Y TÍTULOS",
+        "articulo_o_seccion": "Artículo 1°",
+        "url_publica": "https://www.uss.edu.pe/uss/TransparenciaDoc/RegEstudiantes/REGLAMENTOGRADOSYTITULOS.pdf",
+        "similitud": 0.664
+      },
+      {
+        "documento": "REGLAMENTO DE GRADOS Y TÍTULOS",
+        "articulo_o_seccion": "REGLAMENTO DE GRADOS Y TÍTULOS > REGLAMENTO DE GRADOS Y TÍTULOS (VERSIÓN 10)",
+        "url_publica": "https://www.uss.edu.pe/uss/TransparenciaDoc/RegEstudiantes/REGLAMENTOGRADOSYTITULOS.pdf",
+        "similitud": 0.651
+      }
+    ]
+  },
+  {
+    "modelo_nombre": "SipánGPT-RAG-STAIR",
+    "respuesta_generada": "Hola. Es un gusto saludarte. Comprendo tu inquietud respecto a la modalidad de elaboración de la tesis.\n\nPara brindarte claridad, te informo que, conforme al **Reglamento de Grados y Títulos (Versión 10), Título III, Capítulo III, Artículo 20°**, la normativa establece lo siguiente:\n\n*   **Para Grados Académicos:** La tesis debe ser de carácter **individual**.\n*   **Para Título Profesional:** La tesis puede ser desarrollada de forma **individual o en pares**.\n\nPor lo tanto, si te encuentras en la etapa de obtención de tu título profesional, sí puedes realizarla junto a un compañero. Si tu consulta se refiere a un grado académico, esta debe ser individual.\n\nSi requieres mayor orientación sobre los procesos administrativos para el registro de tu plan de tesis, te sugiero contactar con la secretaría académica de tu facultad o revisar los comunicados disponibles en tu **Campus Virtual**.",
+    "tiempo_total_ms": 5973.57275000104,
+    "tiempo_busqueda_ms": 2282.0,
+    "tiempo_generacion_ms": 3691.57275000104,
+    "tokens_totales": 139,
+    "citas": [
+      {
+        "documento": "REGLAMENTO DE GRADOS Y TÍTULOS",
+        "articulo_o_seccion": "REGLAMENTO DE GRADOS Y TÍTULOS",
+        "url_publica": "https://www.uss.edu.pe/uss/TransparenciaDoc/RegEstudiantes/REGLAMENTOGRADOSYTITULOS.pdf",
+        "similitud": 0.803
+      },
+      {
+        "documento": "REGLAMENTO DE GRADOS Y TÍTULOS",
+        "articulo_o_seccion": "CAPÍTULO III: DE LA TESIS",
+        "url_publica": "https://www.uss.edu.pe/uss/TransparenciaDoc/RegEstudiantes/REGLAMENTOGRADOSYTITULOS.pdf",
+        "similitud": 0.768
+      },
+      {
+        "documento": "REGLAMENTO DE GRADOS Y TÍTULOS",
+        "articulo_o_seccion": "Artículo 20°",
+        "url_publica": "https://www.uss.edu.pe/uss/TransparenciaDoc/RegEstudiantes/REGLAMENTOGRADOSYTITULOS.pdf",
+        "similitud": 0.766
+      }
+    ]
+  },
+  {
+    "modelo_nombre": "SipánGPT-RAG-STAIR",
+    "respuesta_generada": "Estimado estudiante, reciba un cordial saludo. Es un gusto asistirle desde la Universidad Señor de Sipán.\n\nRespecto a su consulta sobre el reembolso por un pago realizado en un semestre en el que no se encontraba matriculado, le informo que este procedimiento se encuentra regulado por el **Reglamento de Cobranza (Versión 8), vigente para el año 2026**.\n\n### 1. Base Normativa\nDe acuerdo con el **Capítulo XI, Artículo 24°, inciso a)**, usted tiene derecho a solicitar el reembolso al configurarse como un pago en un semestre en el que no se encuentra matriculado.\n\n### 2. Procedimiento\nSegún lo establecido en el **Capítulo XI, Artículo 25°** del mismo reglamento, el proceso debe seguir estos pasos:\n*   **Solicitud:** Debe realizarla de forma virtual a través de su **Campus Virtual**, dirigiéndola a su escuela profesional.\n*   **Requisito:** Previo a la solicitud, deberá realizar el pago del derecho correspondiente según el tarifario vigente.\n*   **Plazo:** Una vez presentada la solicitud, esta será derivada a la Gerencia General. El plazo máximo para la emisión de la resolución que autoriza el reembolso es de **10 días hábiles**, contados a partir del día siguiente de realizada su solicitud.\n*   **Notificación:** La respuesta y el estado de su trámite le serán comunicados a través de su correo institucional.\n\nSi requiere asistencia técnica adicional con el acceso a su Campus Virtual o tiene dudas sobre el tarifario vigente, le sugiero contactar a través de los canales oficiales de atención o escribir a informes@uss.edu.pe.\n\nQuedo a su disposición para cualquier otra consulta académica o administrativa.",
+    "tiempo_total_ms": 7532.900707999943,
+    "tiempo_busqueda_ms": 3881.0,
+    "tiempo_generacion_ms": 3651.900707999943,
+    "tokens_totales": 255,
+    "citas": [
+      {
+        "documento": "REGLAMENTO DE COBRANZA",
+        "articulo_o_seccion": "ARTÍCULO 24°:",
+        "url_publica": "https://www.uss.edu.pe/uss/TransparenciaDoc/RegEstudiantes/cobranzas2026.pdf",
+        "similitud": 0.78
+      },
+      {
+        "documento": "REGLAMENTO DE COBRANZA",
+        "articulo_o_seccion": "ARTÍCULO 25°:",
+        "url_publica": "https://www.uss.edu.pe/uss/TransparenciaDoc/RegEstudiantes/cobranzas2026.pdf",
+        "similitud": 0.739
+      },
+      {
+        "documento": "REGLAMENTO DE COBRANZA",
+        "articulo_o_seccion": "REGLAMENTO DE COBRANZA",
+        "url_publica": "https://www.uss.edu.pe/uss/TransparenciaDoc/RegEstudiantes/cobranzas2026.pdf",
+        "similitud": 0.735
+      }
+    ]
+  },
+  {
+    "modelo_nombre": "SipánGPT-RAG-STAIR",
+    "respuesta_generada": "Estimado docente, es un gusto saludarle.\n\nPara acceder a la base de datos **E-Libro** y gestionar la bibliografía para sus estudiantes, debe seguir los pasos detallados en el **\"Manual de usuario: Sistema de gestión de biblioteca – catálogo en línea\" (Pág. 10)**:\n\n1.  **Acceso:** Ingrese a través del **Campus Virtual** (https://www.uss.edu.pe) utilizando sus credenciales institucionales.\n2.  **Ruta:** Dentro del Campus Virtual, diríjase a la sección de **Servicios en línea** y seleccione la opción **Catálogo online**.\n3.  **Base de Datos:** Una vez dentro del sistema, ubique y haga clic en la opción **e-libro**.\n4.  **Búsqueda:** Utilice el buscador de la plataforma para localizar el material bibliográfico de su interés según el tipo de lectura o especialidad que requiera.\n\nAsimismo, le recuerdo que el sistema cuenta con la opción **\"Mis cursos\"**, donde podrá visualizar la bibliografía que usted mismo asigne y que estará directamente relacionada con los cursos en los que sus estudiantes se encuentran matriculados (según el mismo manual, Pág. 9).\n\nSi requiere asistencia técnica adicional o presenta inconvenientes con sus credenciales, le sugiero contactar con el Centro de Información o la Dirección de Tecnologías de la Información a través de los canales oficiales de la universidad.",
+    "tiempo_total_ms": 7787.577416995191,
+    "tiempo_busqueda_ms": 4209.0,
+    "tiempo_generacion_ms": 3578.577416995191,
+    "tokens_totales": 196,
+    "citas": [
+      {
+        "documento": "Manual de usuario sistema de gestión de biblioteca - catálogo en línea",
+        "articulo_o_seccion": "Manual de usuario sistema de gestión de biblioteca - catálogo en línea > MANUAL DE USUARIO: SISTEMA DE GESTIÓN DE BIBLIOTECA – CATÁLOGO EN LÍNEA (Parte 2/3)",
+        "url_publica": "https://campus.uss.edu.pe/SeussFile/FileInfSeuss/Manualesdeusuario/_10000000582024_12_15_14.pdf",
+        "similitud": 0.722
+      },
+      {
+        "documento": "Manual de usuario sistema de gestión de biblioteca - catálogo en línea",
+        "articulo_o_seccion": "Manual de usuario sistema de gestión de biblioteca - catálogo en línea > MANUAL DE USUARIO: SISTEMA DE GESTIÓN DE BIBLIOTECA – CATÁLOGO EN LÍNEA (Parte 1/3)",
+        "url_publica": "https://campus.uss.edu.pe/SeussFile/FileInfSeuss/Manualesdeusuario/_10000000582024_12_15_14.pdf",
+        "similitud": 0.721
+      },
+      {
+        "documento": "Manual de usuario sistema de gestión de biblioteca - catálogo en línea",
+        "articulo_o_seccion": "Manual de usuario sistema de gestión de biblioteca - catálogo en línea > MANUAL DE USUARIO: SISTEMA DE GESTIÓN DE BIBLIOTECA – CATÁLOGO EN LÍNEA (Parte 3/3)",
+        "url_publica": "https://campus.uss.edu.pe/SeussFile/FileInfSeuss/Manualesdeusuario/_10000000582024_12_15_14.pdf",
+        "similitud": 0.717
+      }
+    ]
+  },
+  {
+    "modelo_nombre": "SipánGPT-RAG-STAIR",
+    "respuesta_generada": "Estimado estudiante, reciba un cordial saludo. Soy SipánGPT, el asistente virtual de la Universidad Señor de Sipán.\n\nRespecto a su consulta sobre la visualización de los resultados de la **Evaluación de Desempeño Docente**, le informo que dicha información no se encuentra detallada en el *Reglamento de Grados y Títulos (Versión 10)*, el cual rige los procesos académicos de graduación y titulación.\n\nPara obtener orientación precisa sobre el acceso a esta funcionalidad dentro de nuestra plataforma institucional, le sugiero realizar lo siguiente:\n\n1.  **Campus Virtual:** Ingrese a su cuenta personal en el [Campus Virtual USS](https://campus.uss.edu.pe/), donde se centralizan las gestiones académicas.\n2.  **Canales de Atención:** Si el acceso no se encuentra habilitado en su perfil, le recomiendo contactar directamente con la oficina de **Soporte Técnico** o el área de **Tecnologías de la Información** a través de sus canales oficiales o mediante el correo electrónico institucional **informes@uss.edu.pe**, donde podrán verificar su caso particular con la debida seguridad.\n\nQuedo a su disposición para cualquier otra consulta académica basada en nuestra normativa vigente.",
+    "tiempo_total_ms": 6852.903750004771,
+    "tiempo_busqueda_ms": 3942.0,
+    "tiempo_generacion_ms": 2910.9037500047707,
+    "tokens_totales": 169,
+    "citas": [
+      {
+        "documento": "REGLAMENTO DE GRADOS Y TÍTULOS",
+        "articulo_o_seccion": "REGLAMENTO DE GRADOS Y TÍTULOS",
+        "url_publica": "https://www.uss.edu.pe/uss/TransparenciaDoc/RegEstudiantes/REGLAMENTOGRADOSYTITULOS.pdf",
+        "similitud": 0.705
+      },
+      {
+        "documento": "REGLAMENTO DE GRADOS Y TÍTULOS",
+        "articulo_o_seccion": "REGLAMENTO DE GRADOS Y TÍTULOS > RESOLUCIÓN DE DIRECTORIO N° 052-2025/PD-USS",
+        "url_publica": "https://www.uss.edu.pe/uss/TransparenciaDoc/RegEstudiantes/REGLAMENTOGRADOSYTITULOS.pdf",
+        "similitud": 0.669
+      },
+      {
+        "documento": "REGLAMENTO DE GRADOS Y TÍTULOS",
+        "articulo_o_seccion": "REGLAMENTO DE GRADOS Y TÍTULOS > REGLAMENTO DE GRADOS Y TÍTULOS (VERSIÓN 10)",
+        "url_publica": "https://www.uss.edu.pe/uss/TransparenciaDoc/RegEstudiantes/REGLAMENTOGRADOSYTITULOS.pdf",
+        "similitud": 0.622
+      }
+    ]
+  },
+  {
+    "modelo_nombre": "SipánGPT-RAG-STAIR",
+    "respuesta_generada": "Estimado docente, reciba un cordial saludo. Soy SipánGPT, el asistente de inteligencia artificial de la Universidad Señor de Sipán.\n\nRespecto a su consulta sobre la dificultad para visualizar las participaciones de un estudiante en el Foro de Debate y Argumentación, le informo que, de acuerdo con el **\"Manual de Usuario del Aula Virtual – Docente\" (Vigencia 2026)**, el documento se centra en la gestión de recursos, edición de secciones y acceso a cursos mediante la plataforma Open LMS.\n\nDebido a que el manual citado no detalla procedimientos específicos para la resolución de errores técnicos o incidencias en el sistema de calificación de foros, le sugiero realizar lo siguiente:\n\n1. **Verificación de filtros:** Asegúrese de que en el panel de visualización del foro no se encuentre activo algún filtro de grupo o sección que oculte al estudiante en cuestión.\n2. **Canal de soporte oficial:** Dado que esta incidencia requiere una revisión técnica del comportamiento del sistema en su cuenta, le recomiendo reportar el caso directamente a través de los canales de soporte técnico institucional o mediante el sistema de tickets del **Campus Virtual**, donde el equipo especializado podrá verificar el registro de actividad del estudiante en la base de datos.\n\nSi requiere asistencia adicional sobre el uso de las herramientas pedagógicas descritas en el manual, quedo a su entera disposición.",
+    "tiempo_total_ms": 7971.599333002814,
+    "tiempo_busqueda_ms": 4247.0,
+    "tiempo_generacion_ms": 3724.599333002814,
+    "tokens_totales": 219,
+    "citas": [
+      {
+        "documento": "MANUAL DE USUARIO DEL AULA VIRTUAL – DOCENTE",
+        "articulo_o_seccion": "MANUAL DE USUARIO DEL AULA VIRTUAL – DOCENTE",
+        "url_publica": "https://campus.uss.edu.pe/SeussFile/FileInfSeuss/Manualesdeusuario/_10007200552026_5_16_14.pdf",
+        "similitud": 0.72
+      },
+      {
+        "documento": "MANUAL DE USUARIO DEL AULA VIRTUAL – DOCENTE",
+        "articulo_o_seccion": "MANUAL DE USUARIO DEL AULA VIRTUAL – DOCENTE > RESOLUCIÓN DE DIRECTORIO N°002-2026/PD-USS",
+        "url_publica": "https://campus.uss.edu.pe/SeussFile/FileInfSeuss/Manualesdeusuario/_10007200552026_5_16_14.pdf",
+        "similitud": 0.703
+      },
+      {
+        "documento": "MANUAL DE USUARIO DEL AULA VIRTUAL – DOCENTE",
+        "articulo_o_seccion": "MANUAL DE USUARIO DEL AULA VIRTUAL – DOCENTE > MANUAL DE USUARIO DEL AULA VIRTUAL – DOCENTE (Parte 1/6)",
+        "url_publica": "https://campus.uss.edu.pe/SeussFile/FileInfSeuss/Manualesdeusuario/_10007200552026_5_16_14.pdf",
+        "similitud": 0.703
+      }
+    ]
+  },
+  {
+    "modelo_nombre": "SipánGPT-RAG-STAIR",
+    "respuesta_generada": "Estimado docente, reciba un cordial saludo.\n\nRespecto a su consulta sobre los montos vigentes para la emisión de constancias de estudios y la visación de sílabos, le informo que, tras revisar la base normativa institucional vigente (Resolución de Directorio N°002-2026/PD-USS y los manuales de usuario aprobados para el periodo 2026), **no cuento con el detalle específico del tarifario de servicios administrativos** en los documentos proporcionados.\n\nPara brindarle una orientación precisa y evitar cualquier error en la información que usted proporcionará a sus estudiantes, le sugiero realizar las siguientes acciones:\n\n1.  **Consultar el Portal Institucional:** Acceder a través de [https://www.uss.edu.pe](https://www.uss.edu.pe) al módulo de pagos o servicios académicos.\n2.  **Canales de Atención:** Contactar directamente con la oficina de **Tesorería** o **Secretaría Académica** de su facultad, quienes poseen el tarifario actualizado y oficial para el presente año académico.\n3.  **Campus Virtual:** Verificar en la sección de \"Gestión Financiera\" o \"Procesos en Línea\" de su Campus Virtual, donde suele visualizarse el costo de los trámites disponibles para los estudiantes.\n\nLamento no poder proporcionarle los montos exactos en este momento, ya que mi base de datos actual se centra en los manuales de procedimientos y gestión académica. Quedo a su disposición para cualquier otra consulta sobre el uso de las plataformas institucionales.",
+    "tiempo_total_ms": 5965.8256670009,
+    "tiempo_busqueda_ms": 2387.0,
+    "tiempo_generacion_ms": 3578.8256670008996,
+    "tokens_totales": 207,
+    "citas": [
+      {
+        "documento": "MANUAL DE USUARIO DE PAGOS VIRTUALES",
+        "articulo_o_seccion": "MANUAL DE USUARIO DE PAGOS VIRTUALES",
+        "url_publica": "https://campus.uss.edu.pe/CampusNet6/PagosVisa.pdf",
+        "similitud": 0.752
+      },
+      {
+        "documento": "MANUAL DE USUARIO DE PAGOS VIRTUALES",
+        "articulo_o_seccion": "MANUAL DE USUARIO DE PAGOS VIRTUALES > RESOLUCIÓN DE DIRECTORIO N°002-2026/PD-USS",
+        "url_publica": "https://campus.uss.edu.pe/CampusNet6/PagosVisa.pdf",
+        "similitud": 0.717
+      },
+      {
+        "documento": "Manual de usuario sistema de gestión docente campus virtual",
+        "articulo_o_seccion": "Manual de usuario sistema de gestión docente campus virtual > MANUAL DE USUARIO: SISTEMA DE GESTIÓN DOCENTE - CAMPUS VIRTUAL (Versión 06) (Parte 1/2)",
+        "url_publica": "https://campus.uss.edu.pe/SeussFile/FileInfSeuss/Manualesdeusuario/_10000000582024_12_15_12.pdf",
+        "similitud": 0.713
+      }
+    ]
+  },
+  {
+    "modelo_nombre": "SipánGPT-RAG-STAIR",
+    "respuesta_generada": "Estimado docente, le saludo cordialmente.\n\nLamento informarle que la información técnica detallada sobre la configuración de herramientas específicas dentro del Aula Virtual (como la automatización de marcado de tareas) no se encuentra contemplada en el *Reglamento de Grados y Títulos* que constituye mi base normativa actual.\n\nPara recibir asistencia técnica inmediata y precisa sobre el uso de la plataforma, le sugiero contactar con el área de **Soporte Técnico del Aula Virtual** a través de los canales oficiales de la universidad o mediante el sistema de tickets disponible en su **Campus Virtual**.\n\nAsimismo, puede elevar su consulta a través de su Secretaría Académica de Facultad para recibir la orientación pedagógica o técnica correspondiente.",
+    "tiempo_total_ms": 6747.78412500018,
+    "tiempo_busqueda_ms": 3441.0,
+    "tiempo_generacion_ms": 3306.78412500018,
+    "tokens_totales": 112,
+    "citas": [
+      {
+        "documento": "REGLAMENTO DE GRADOS Y TÍTULOS",
+        "articulo_o_seccion": "Artículo 4°: Del trámite de las carpetas",
+        "url_publica": "https://www.uss.edu.pe/uss/TransparenciaDoc/RegEstudiantes/REGLAMENTOGRADOSYTITULOS.pdf",
+        "similitud": 0.635
+      },
+      {
+        "documento": "REGLAMENTO DE GRADOS Y TÍTULOS",
+        "articulo_o_seccion": "REGLAMENTO DE GRADOS Y TÍTULOS",
+        "url_publica": "https://www.uss.edu.pe/uss/TransparenciaDoc/RegEstudiantes/REGLAMENTOGRADOSYTITULOS.pdf",
+        "similitud": 0.623
+      },
+      {
+        "documento": "REGLAMENTO DE GRADOS Y TÍTULOS",
+        "articulo_o_seccion": "REGLAMENTO DE GRADOS Y TÍTULOS > REGLAMENTO DE GRADOS Y TÍTULOS (VERSIÓN 10)",
+        "url_publica": "https://www.uss.edu.pe/uss/TransparenciaDoc/RegEstudiantes/REGLAMENTOGRADOSYTITULOS.pdf",
+        "similitud": 0.614
+      }
+    ]
+  },
+  {
+    "modelo_nombre": "SipánGPT-RAG-STAIR",
+    "respuesta_generada": "Estimado docente, reciba un cordial saludo.\n\nRespecto a su consulta, le informo que, de acuerdo con el **Reglamento de Cobranza (Versión 8)**, la gestión de pagos y el estado de cuenta de los estudiantes es información de carácter administrativo y financiero.\n\nAl respecto, es importante precisar lo siguiente:\n\n1.  **Restricciones de acceso:** El reglamento no contempla que los docentes tengan acceso directo a los reportes de deuda o situación económica de sus estudiantes. Según el **Capítulo VII, Artículo 17°** del Reglamento de Cobranza, el incumplimiento de pago conlleva restricciones para el estudiante (como la imposibilidad de realizar trámites de certificados o registrar nueva matrícula), pero esta gestión es manejada por las instancias administrativas correspondientes.\n2.  **Canales de atención:** Para obtener reportes oficiales sobre la situación académica o administrativa de sus estudiantes, le sugiero canalizar su solicitud a través de la **Coordinación de su Escuela Profesional** o mediante el sistema de atención interna de la universidad, quienes cuentan con las facultades para gestionar dicha información.\n\nSi requiere asistencia técnica sobre el uso de las plataformas institucionales para fines académicos, le recomiendo contactar con el área de soporte de su facultad o escribir al correo oficial de atención: **informes@uss.edu.pe**.\n\nQuedo a su disposición para cualquier otra consulta académica o normativa.",
+    "tiempo_total_ms": 7661.617249999836,
+    "tiempo_busqueda_ms": 4111.0,
+    "tiempo_generacion_ms": 3550.6172499998356,
+    "tokens_totales": 208,
+    "citas": [
+      {
+        "documento": "REGLAMENTO DE COBRANZA",
+        "articulo_o_seccion": "ARTÍCULO 11°:",
+        "url_publica": "https://www.uss.edu.pe/uss/TransparenciaDoc/RegEstudiantes/cobranzas2026.pdf",
+        "similitud": 0.717
+      },
+      {
+        "documento": "REGLAMENTO DE COBRANZA",
+        "articulo_o_seccion": "ARTÍCULO 17°:",
+        "url_publica": "https://www.uss.edu.pe/uss/TransparenciaDoc/RegEstudiantes/cobranzas2026.pdf",
+        "similitud": 0.708
+      },
+      {
+        "documento": "REGLAMENTO DE COBRANZA",
+        "articulo_o_seccion": "REGLAMENTO DE COBRANZA",
+        "url_publica": "https://www.uss.edu.pe/uss/TransparenciaDoc/RegEstudiantes/cobranzas2026.pdf",
+        "similitud": 0.698
+      }
+    ]
+  },
+  {
+    "modelo_nombre": "SipánGPT-RAG-STAIR",
+    "respuesta_generada": "Estimado docente, es un gusto saludarle.\n\nRespecto a su consulta sobre el procedimiento de registro en línea para los cursos, le informo que, de acuerdo con el **Reglamento de Matrícula (Versión 07)**, el cual rige actualmente según la **Resolución de Directorio N°0093-2025/PD-USS**, la normativa vigente establece las condiciones generales y las disposiciones sobre el desempeño académico, pero no detalla el paso a paso técnico o la interfaz específica del sistema de registro en línea.\n\nPara brindar una orientación precisa a sus estudiantes, le sugiero lo siguiente:\n\n1.  **Canal oficial:** Indique a los alumnos que el procedimiento detallado y los manuales de usuario para el registro de asignaturas se encuentran disponibles directamente en el **Campus Virtual USS**.\n2.  **Soporte técnico:** En caso de dudas sobre el funcionamiento de la plataforma o errores durante el proceso de matrícula, los estudiantes deben contactar a través de los canales de atención oficial o mediante el soporte técnico disponible en el mismo Campus Virtual.\n3.  **Información adicional:** Si requiere asistencia administrativa específica para su labor de tutoría, puede solicitar orientación a través del correo **informes@uss.edu.pe**, donde podrán facilitarle los instructivos actualizados para el proceso de matrícula.\n\nQuedo a su disposición para cualquier otra consulta sobre la normativa académica vigente.",
+    "tiempo_total_ms": 8509.395250002854,
+    "tiempo_busqueda_ms": 4815.0,
+    "tiempo_generacion_ms": 3694.3952500028536,
+    "tokens_totales": 204,
+    "citas": [
+      {
+        "documento": "REGLAMENTO DE MATRÍCULA",
+        "articulo_o_seccion": "REGLAMENTO DE MATRÍCULA",
+        "url_publica": "https://www.uss.edu.pe/uss/TransparenciaDoc/RegEstudiantes/REGLAMENTO%20DE%20MATRICULA%20GENERAL%20USS.pdf",
+        "similitud": 0.743
+      },
+      {
+        "documento": "REGLAMENTO DE MATRÍCULA",
+        "articulo_o_seccion": "CAPÍTULO IV: CONDICIONES DE MATRÍCULA POR BAJO DESEMPEÑO ACADÉMICO",
+        "url_publica": "https://www.uss.edu.pe/uss/TransparenciaDoc/RegEstudiantes/REGLAMENTO%20DE%20MATRICULA%20GENERAL%20USS.pdf",
+        "similitud": 0.705
+      },
+      {
+        "documento": "REGLAMENTO DE MATRÍCULA",
+        "articulo_o_seccion": "REGLAMENTO DE MATRÍCULA > RESOLUCIÓN DE DIRECTORIO N°0093-2025/PD-USS",
+        "url_publica": "https://www.uss.edu.pe/uss/TransparenciaDoc/RegEstudiantes/REGLAMENTO%20DE%20MATRICULA%20GENERAL%20USS.pdf",
+        "similitud": 0.704
+      }
+    ]
+  },
+  {
+    "modelo_nombre": "SipánGPT-RAG-STAIR",
+    "respuesta_generada": "Estimado estudiante, reciba un cordial saludo de parte de SipánGPT.\n\nRespecto a su consulta sobre el acceso al catálogo en línea y la Biblioteca Virtual, le informo que, de acuerdo con la base normativa disponible actualmente, no cuento con el procedimiento detallado para el uso de la plataforma de biblioteca en mis documentos oficiales.\n\nPara brindarle una orientación precisa y técnica, le sugiero realizar lo siguiente:\n\n1. **Acceso al Campus Virtual:** Ingrese a través del portal oficial de la universidad ([www.uss.edu.pe](http://www.uss.edu.pe)) utilizando sus credenciales institucionales.\n2. **Canales de Atención:** Si presenta dificultades técnicas para visualizar el catálogo o acceder a los recursos bibliográficos, le recomiendo contactar directamente con el área de **Soporte Técnico** o el área de **Biblioteca** a través de su correo institucional o mediante el sistema de tickets en el **Campus Virtual**.\n\nAsimismo, puede elevar su consulta al correo **informes@uss.edu.pe**, donde el personal administrativo podrá guiarlo paso a paso en el uso de los servicios digitales de nuestra institución.\n\nQuedo a su disposición para cualquier otra consulta sobre reglamentos académicos o procedimientos institucionales.",
+    "tiempo_total_ms": 7449.272290999943,
+    "tiempo_busqueda_ms": 4672.0,
+    "tiempo_generacion_ms": 2777.272290999943,
+    "tokens_totales": 175,
+    "citas": [
+      {
+        "documento": "REGLAMENTO DE GRADOS Y TÍTULOS",
+        "articulo_o_seccion": "REGLAMENTO DE GRADOS Y TÍTULOS",
+        "url_publica": "https://www.uss.edu.pe/uss/TransparenciaDoc/RegEstudiantes/REGLAMENTOGRADOSYTITULOS.pdf",
+        "similitud": 0.718
+      },
+      {
+        "documento": "REGLAMENTO DE GRADOS Y TÍTULOS",
+        "articulo_o_seccion": "Artículo 1°",
+        "url_publica": "https://www.uss.edu.pe/uss/TransparenciaDoc/RegEstudiantes/REGLAMENTOGRADOSYTITULOS.pdf",
+        "similitud": 0.66
+      },
+      {
+        "documento": "REGLAMENTO DE GRADOS Y TÍTULOS",
+        "articulo_o_seccion": "Artículo 4°: Del trámite de las carpetas",
+        "url_publica": "https://www.uss.edu.pe/uss/TransparenciaDoc/RegEstudiantes/REGLAMENTOGRADOSYTITULOS.pdf",
+        "similitud": 0.647
+      }
+    ]
+  },
+  {
+    "modelo_nombre": "SipánGPT-RAG-STAIR",
+    "respuesta_generada": "Hola. Entiendo que configurar rúbricas puede parecer complejo al inicio, pero con los pasos correctos lograremos que quede correctamente registrada.\n\nDe acuerdo con el **Manual de Usuario del Aula Virtual – Docente (Parte 3/6)**, para asegurar que tu rúbrica se guarde y funcione correctamente, debes seguir estas indicaciones técnicas:\n\n1.  **Verificación inicial:** Asegúrate de que la actividad (Tarea o Foro) tenga configurada la calificación como \"Puntuación\" con una calificación máxima de 20 (Sección 9.1).\n2.  **Acceso:** Dentro de la actividad, selecciona la opción **\"Calificación avanzada\"** y elige **\"Nuevo formulario desde cero\"** (Sección 9.2 y 9.3).\n3.  **Estructura de la matriz:**\n    *   Define los criterios y niveles de indicadores.\n    *   **Importante:** En la primera columna (el nivel de mayor puntaje), la sumatoria total de los criterios debe ser **20**.\n    *   En la última columna (el nivel más bajo), todos los indicadores deben tener una puntuación de **\"0\"** (Sección 9.5).\n4.  **Finalización:** Selecciona el criterio de ordenación de niveles como **\"Descendente\"** y haz clic en el botón **\"Guardar y dejar rúbrica preparada\"** (Sección 9.6).\n\nSi al seguir estos pasos el sistema continúa presentando errores o visualizaciones inesperadas, te sugiero contactar con el área de soporte técnico a través de los canales oficiales de la universidad o mediante el sistema de tickets dentro de tu Campus Virtual para una revisión personalizada de tu curso.\n\n¿Hay algún paso específico en el que el sistema te esté arrojando algún mensaje de error?",
+    "tiempo_total_ms": 7850.1345419936115,
+    "tiempo_busqueda_ms": 3905.0,
+    "tiempo_generacion_ms": 3945.1345419936115,
+    "tokens_totales": 237,
+    "citas": [
+      {
+        "documento": "MANUAL DE USUARIO DEL AULA VIRTUAL – DOCENTE",
+        "articulo_o_seccion": "MANUAL DE USUARIO DEL AULA VIRTUAL – DOCENTE > MANUAL DE USUARIO DEL AULA VIRTUAL – DOCENTE (Parte 3/6)",
+        "url_publica": "https://campus.uss.edu.pe/SeussFile/FileInfSeuss/Manualesdeusuario/_10007200552026_5_16_14.pdf",
+        "similitud": 0.734
+      },
+      {
+        "documento": "MANUAL DE USUARIO DEL AULA VIRTUAL – DOCENTE",
+        "articulo_o_seccion": "MANUAL DE USUARIO DEL AULA VIRTUAL – DOCENTE > MANUAL DE USUARIO DEL AULA VIRTUAL – DOCENTE (Parte 1/6)",
+        "url_publica": "https://campus.uss.edu.pe/SeussFile/FileInfSeuss/Manualesdeusuario/_10007200552026_5_16_14.pdf",
+        "similitud": 0.733
+      },
+      {
+        "documento": "MANUAL DE USUARIO DEL AULA VIRTUAL – DOCENTE",
+        "articulo_o_seccion": "MANUAL DE USUARIO DEL AULA VIRTUAL – DOCENTE",
+        "url_publica": "https://campus.uss.edu.pe/SeussFile/FileInfSeuss/Manualesdeusuario/_10007200552026_5_16_14.pdf",
+        "similitud": 0.732
+      }
+    ]
+  },
+  {
+    "modelo_nombre": "SipánGPT-RAG-STAIR",
+    "respuesta_generada": "Estimado docente, buenas tardes. Es un gusto saludarle.\n\nRespecto a su consulta, le informo que, por razones de seguridad institucional, el acceso a las plataformas académicas debe realizarse exclusivamente a través de los canales oficiales de la universidad.\n\nPara acceder a sus asignaturas, le sugiero seguir estos pasos:\n\n1. Ingrese al portal web oficial de la universidad: **[www.uss.edu.pe](https://www.uss.edu.pe)**.\n2. En la parte superior o en el menú principal, encontrará el acceso directo denominado **\"Campus Virtual\"** o **\"Intranet Docente\"**.\n3. Ingrese sus credenciales institucionales (usuario y contraseña) para gestionar sus actividades académicas.\n\nSi presenta algún inconveniente técnico con su acceso o no logra visualizar el enlace, le recomiendo contactar directamente al área de soporte técnico a través de su correo institucional o mediante los canales de atención del **Campus Virtual**, donde podrán brindarle asistencia personalizada.\n\nQuedo a su disposición para cualquier otra consulta normativa o académica.",
+    "tiempo_total_ms": 6804.121792003571,
+    "tiempo_busqueda_ms": 4168.0,
+    "tiempo_generacion_ms": 2636.1217920035706,
+    "tokens_totales": 145,
+    "citas": [
+      {
+        "documento": "REGLAMENTO DE GRADOS Y TÍTULOS",
+        "articulo_o_seccion": "REGLAMENTO DE GRADOS Y TÍTULOS",
+        "url_publica": "https://www.uss.edu.pe/uss/TransparenciaDoc/RegEstudiantes/REGLAMENTOGRADOSYTITULOS.pdf",
+        "similitud": 0.699
+      },
+      {
+        "documento": "REGLAMENTO DE GRADOS Y TÍTULOS",
+        "articulo_o_seccion": "Artículo 1°",
+        "url_publica": "https://www.uss.edu.pe/uss/TransparenciaDoc/RegEstudiantes/REGLAMENTOGRADOSYTITULOS.pdf",
+        "similitud": 0.631
+      },
+      {
+        "documento": "REGLAMENTO DE GRADOS Y TÍTULOS",
+        "articulo_o_seccion": "REGLAMENTO DE GRADOS Y TÍTULOS > RESOLUCIÓN DE DIRECTORIO N° 052-2025/PD-USS",
+        "url_publica": "https://www.uss.edu.pe/uss/TransparenciaDoc/RegEstudiantes/REGLAMENTOGRADOSYTITULOS.pdf",
+        "similitud": 0.614
+      }
+    ]
+  },
+  {
+    "modelo_nombre": "SipánGPT-RAG-STAIR",
+    "respuesta_generada": "Estimado(a) estudiante, reciba un cordial saludo. Es un gusto asistirle en su consulta sobre los requisitos para la obtención del grado académico de Maestro en la Universidad Señor de Sipán.\n\nDe acuerdo con el **Reglamento de Grados y Títulos (Versión 10)**, vigente para el año 2025, conforme a la Resolución de Directorio N° 052-2025/PD-USS, los requisitos establecidos en el **Título II, Capítulo IV, Artículo 11°** son los siguientes:\n\n1.  Contar con el grado de Bachiller registrado en SUNEDU.\n2.  Haber aprobado el plan de estudios correspondiente.\n3.  Aprobación y sustentación de tesis o trabajo de investigación.\n4.  Acreditar el dominio de un idioma extranjero o lengua nativa.\n5.  No mantener deuda financiera con la institución.\n6.  No tener pendiente la entrega de documentación en Registros Académicos.\n7.  No tener pendiente la entrega de material bibliográfico.\n8.  Realizar el pago por concepto de “carpeta de maestría”.\n9.  Realizar el pago por concepto de “participación en ceremonia de Graduación y Colación”.\n\nPara iniciar su trámite o recibir orientación detallada sobre los procedimientos administrativos, le sugiero ingresar a través de su **Campus Virtual** o contactar con la oficina de Grados y Títulos de su facultad.\n\nQuedo a su disposición para cualquier otra consulta académica.",
+    "tiempo_total_ms": 7835.390374995768,
+    "tiempo_busqueda_ms": 4309.0,
+    "tiempo_generacion_ms": 3526.390374995768,
+    "tokens_totales": 201,
+    "citas": [
+      {
+        "documento": "REGLAMENTO DE GRADOS Y TÍTULOS",
+        "articulo_o_seccion": "Artículo 11°",
+        "url_publica": "https://www.uss.edu.pe/uss/TransparenciaDoc/RegEstudiantes/REGLAMENTOGRADOSYTITULOS.pdf",
+        "similitud": 0.804
+      },
+      {
+        "documento": "REGLAMENTO DE GRADOS Y TÍTULOS",
+        "articulo_o_seccion": "REGLAMENTO DE GRADOS Y TÍTULOS",
+        "url_publica": "https://www.uss.edu.pe/uss/TransparenciaDoc/RegEstudiantes/REGLAMENTOGRADOSYTITULOS.pdf",
+        "similitud": 0.787
+      },
+      {
+        "documento": "REGLAMENTO DE GRADOS Y TÍTULOS",
+        "articulo_o_seccion": "Artículo 1°",
+        "url_publica": "https://www.uss.edu.pe/uss/TransparenciaDoc/RegEstudiantes/REGLAMENTOGRADOSYTITULOS.pdf",
+        "similitud": 0.773
+      }
+    ]
+  },
+  {
+    "modelo_nombre": "SipánGPT-RAG-STAIR",
+    "respuesta_generada": "Hola. Entiendo la importancia de contar con tu uniforme para tus actividades académicas.\n\nSin embargo, te informo que en la documentación oficial de la Universidad Señor de Sipán (Manual de usuario del sistema de registros académicos) **no se encuentra información sobre costos, precios o puntos de venta de uniformes o implementos de enfermería.**\n\nComo asistente, mi función es orientarte sobre procesos académicos y administrativos registrados en nuestros manuales. Para obtener información precisa sobre la adquisición de tu uniforme, te sugiero lo siguiente:\n\n1.  **Consulta en tu Escuela Profesional:** Puedes contactar directamente a la secretaría de la Escuela de Enfermería, donde suelen brindar indicaciones sobre los proveedores autorizados o las especificaciones técnicas requeridas.\n2.  **Canales de atención:** Si requieres asistencia adicional, puedes escribir a **mesadeayuda@uss.edu.pe** o comunicarte al **980931590** para que te deriven con el área correspondiente.\n\nQuedo a tu disposición para cualquier otra consulta sobre tu matrícula, horarios o trámites académicos.",
+    "tiempo_total_ms": 6917.448708001757,
+    "tiempo_busqueda_ms": 4068.0,
+    "tiempo_generacion_ms": 2849.448708001757,
+    "tokens_totales": 151,
+    "citas": [
+      {
+        "documento": "Manual de usuario sistema de registros académicos orientado al estudiante y egresado",
+        "articulo_o_seccion": "Manual de usuario sistema de registros académicos orientado al estudiante y egresado > MANUAL DE USUARIO: SISTEMA DE REGISTROS ACADÉMICOS ORIENTADO AL ESTUDIANTE Y EGRESADO (Parte 5/7)",
+        "url_publica": "https://campus.uss.edu.pe/SeussFile/FileInfSeuss/Manualesdeusuario/_10000000582024_12_15_13.pdf",
+        "similitud": 0.603
+      },
+      {
+        "documento": "Manual de usuario sistema de registros académicos orientado al estudiante y egresado",
+        "articulo_o_seccion": "Manual de usuario sistema de registros académicos orientado al estudiante y egresado > MANUAL DE USUARIO: SISTEMA DE REGISTROS ACADÉMICOS ORIENTADO AL ESTUDIANTE Y EGRESADO (Parte 4/7)",
+        "url_publica": "https://campus.uss.edu.pe/SeussFile/FileInfSeuss/Manualesdeusuario/_10000000582024_12_15_13.pdf",
+        "similitud": 0.6
+      },
+      {
+        "documento": "MANUAL DE USUARIO MATRÍCULA EN LÍNEA",
+        "articulo_o_seccion": "MANUAL DE USUARIO MATRÍCULA EN LÍNEA > MANUAL DE USUARIO: MATRÍCULA EN LÍNEA (Parte 2/2)",
+        "url_publica": "https://campus.uss.edu.pe/SeussFile/FileInfSeuss/Manualesdeusuario/_10007200552026_5_16_17.pdf",
+        "similitud": 0.585
+      }
+    ]
+  },
+  {
+    "modelo_nombre": "SipánGPT-RAG-STAIR",
+    "respuesta_generada": "Hola. Entiendo tu preocupación al realizar pagos en línea. Para tu tranquilidad, te informo cómo funciona el procedimiento según nuestra normativa:\n\nConforme al **Reglamento de Cobranza (Versión 8), Capítulo IV, Artículo 11°**, el proceso para adquirir servicios es el siguiente:\n\n1.  **Programación:** Debes realizar la solicitud a través de tu **Campus Virtual** (opción: *Procesos en Línea / Trámites*).\n2.  **Generación de tasa:** Al grabar la solicitud, el sistema genera automáticamente la tasa del servicio, la cual puedes visualizar en tu \"Detalle Económico\".\n3.  **Plazo de pago:** Una vez generado, cuentas con un plazo de **48 horas** para realizar el pago.\n4.  **Verificación:** Si tienes dudas sobre si la transacción se completó correctamente, te recomiendo no intentar realizar un nuevo pago de inmediato. Primero, verifica el estado de tu deuda en el **\"Detalle Económico\"** dentro de tu Campus Virtual. Si el pago aparece como procesado o el trámite figura como \"en atención\", la operación fue exitosa.\n\n**Recomendación:** Si tras verificar en tu Campus Virtual el pago no aparece reflejado o presentas algún inconveniente técnico con la pasarela de pagos, te sugiero contactar a los canales oficiales de atención para evitar duplicidad de cobros o errores en el sistema. Puedes escribir a **informes@uss.edu.pe** o acudir a las oficinas de atención al estudiante en el campus.\n\n¡Quedo a tu disposición para cualquier otra consulta académica o administrativa!",
+    "tiempo_total_ms": 6865.897000003315,
+    "tiempo_busqueda_ms": 2347.0,
+    "tiempo_generacion_ms": 4518.897000003315,
+    "tokens_totales": 224,
+    "citas": [
+      {
+        "documento": "REGLAMENTO DE COBRANZA",
+        "articulo_o_seccion": "ARTÍCULO 11°:",
+        "url_publica": "https://www.uss.edu.pe/uss/TransparenciaDoc/RegEstudiantes/cobranzas2026.pdf",
+        "similitud": 0.693
+      },
+      {
+        "documento": "REGLAMENTO DE COBRANZA",
+        "articulo_o_seccion": "ARTÍCULO 17°:",
+        "url_publica": "https://www.uss.edu.pe/uss/TransparenciaDoc/RegEstudiantes/cobranzas2026.pdf",
+        "similitud": 0.688
+      },
+      {
+        "documento": "REGLAMENTO DE COBRANZA",
+        "articulo_o_seccion": "REGLAMENTO DE COBRANZA",
+        "url_publica": "https://www.uss.edu.pe/uss/TransparenciaDoc/RegEstudiantes/cobranzas2026.pdf",
+        "similitud": 0.685
+      }
+    ]
+  }
+]

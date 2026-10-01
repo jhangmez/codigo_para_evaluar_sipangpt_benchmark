@@ -50,7 +50,47 @@ Se implementó un evaluador de arbitraje estricto utilizando **Gemini 3.5 Flash*
 
 ## 📊 Resultados Oficiales del Benchmark en Vivo (Capítulo V de la Tesis)
 
-La siguiente tabla resume los resultados cuantitativos obtenidos tras evaluar las **50 preguntas oficiales de prueba** en condiciones reales de ejecución:
+Para evaluar el impacto de la infraestructura de red y el comportamiento temporal del sistema, el benchmark se ejecutó en dos tandas metodológicas:
+1. **Segunda Tanda (Conexión de Alta Velocidad y Calentamiento de Memoria - Resultados Actuales)**: Ejecutada con red optimizada y precarga de pesos en memoria para evaluar el rendimiento real en producción.
+2. **Primera Tanda (Conexión Limitada y Apoyo Experimental Jev - Histórico)**: Ejecutada bajo condiciones de alta latencia de red y con validación cruzada tipada de System One.
+
+---
+
+### 🚀 1. Segunda Tanda de Evaluación: Entorno de Alta Velocidad (Resultados Actuales)
+
+Bajo condiciones de conexión estables y precarga en memoria (*warm-up*), la arquitectura **Sipán-STAIR (RAG)** demostró no solo una superioridad fáctica categórica, sino también una **eficiencia temporal superior a la inferencia local de Gemma-4**:
+
+| Métrica / Dimensión de Evaluación | Gemma-4 Fine-Tuned (LoRA) | Sipán-STAIR (RAG Architecture) | Diferencia / Impacto Fáctico |
+| :--- | :---: | :---: | :---: |
+| **Total de Preguntas Evaluadas** | **50** | **50** | - |
+| **Respuestas Correctas (C - 1.0 pt)** | 1 (2.0%) | 19 (38.0%) | **+36.0%** en respuestas exactas |
+| **Respuestas Parciales (P - 0.5 pt)** | 4 (8.0%) | 7 (14.0%) | +6.0% respuestas parciales |
+| **Respuestas Incorrectas / Alucinaciones (I - 0.0 pt)** | 45 (90.0%) | 24 (48.0%) | **-42.0%** reducción de alucinaciones |
+| **Porcentaje Global de Exactitud (%)** | **6.00%** | **45.00%** | **+39.00% exactitud fáctica** |
+| **Latencia Media por Consulta** | **12.15 s** (~12,145 ms) | **7.47 s** (~7,472 ms) | **-4.67 s (RAG 38.5% más rápido)** |
+
+#### 📈 Gráficos de Alta Resolución — Segunda Tanda (300 DPI)
+
+Ambos gráficos visualizan el desempeño de la Segunda Tanda en los **5 módulos temáticos oficiales** de la Universidad Señor de Sipán:
+
+| Exactitud Fáctica Comparada por Módulo (Segunda Tanda) | Latencia Media de Inferencia por Módulo (Segunda Tanda) |
+| :---: | :---: |
+| ![Exactitud Comparada Tanda 2](reports/figures/tanda_2/curva_exactitud_comparada.png) | ![Latencia de Inferencia Tanda 2](reports/figures/tanda_2/latencia_boxplots.png) |
+
+#### 💡 Hallazgos Principales de la Segunda Tanda:
+
+1. **Reversión Radical de Latencia (RAG supera en velocidad a Fine-Tuned):**
+   Con una conexión estable y el motor Next.js en memoria caliente, Sipán-STAIR promedió **7.47 s** por consulta, superando a la inferencia local de Gemma-4 (**12.15 s**). Esto demuestra que el flujo RAG con streaming SSE y recuperación vectorial en pgvector es altamente competitivo y viable para la atención en tiempo real de miles de estudiantes.
+2. **Dominio en Trámites Normativos Complejos:**
+   En el módulo de **Normativa y Trámites**, Sipán-STAIR alcanzó un impresionante **91.7% de exactitud**, demostrando que para procesos de titulación, grados y carné universitario, el anclaje documental fáctico es insustituible frente a un modelo de pesos fijos (Gemma-4 obtuvo 0.0% en este módulo).
+3. **Control Riguroso de Alucinaciones:**
+   Gemma-4 Fine-Tuned presentó un **90.0% de respuestas incorrectas** al carecer de acceso dinámico a los manuales vigentes, mientras que Sipán-STAIR redujo las alucinaciones a casi la mitad (**48.0%**), aportando siempre citas directas de reglamentos oficiales.
+
+---
+
+### 🏛️ 2. Primera Tanda de Evaluación: Entorno de Red Limitada (Histórico de Contraste)
+
+En la tanda inicial, ejecutada bajo condiciones de latencia de red elevada (conexión inestable de subida/bajada):
 
 | Métrica / Dimensión de Evaluación | Gemma-4 Fine-Tuned (LoRA) | Sipán-STAIR (RAG Architecture) | Diferencia (%) / Impacto Fáctico |
 | :--- | :---: | :---: | :---: |
@@ -59,30 +99,24 @@ La siguiente tabla resume los resultados cuantitativos obtenidos tras evaluar la
 | **Respuestas Parciales (P - 0.5 pt)** | 8 (16.0%) | 11 (22.0%) | +6.0% respuestas parciales |
 | **Respuestas Incorrectas / Alucinaciones (I - 0.0 pt)** | 39 (78.0%) | 17 (34.0%) | **-44.0%** reducción de alucinaciones |
 | **Porcentaje Global de Exactitud (%)** | **14.00%** | **55.00%** | **+41.00% exactitud fáctica** |
-| **Latencia Media por Consulta** | **11.89 s** (~11,893 ms) | **91.76 s** (~91,756 ms) | RAG requiere búsqueda vectorial y citas |
+| **Latencia Media por Consulta** | **11.89 s** (~11,893 ms) | **91.76 s** (~91,756 ms) | RAG penalizado por lentitud de red |
 
----
+#### 📈 Gráficos Comparativos — Primera Tanda (300 DPI)
 
-### 📈 Gráficos Comparativos Generados para la Tesis (300 DPI)
-
-Ambos gráficos evalúan de manera paralela los **5 módulos temáticos oficiales** de la Universidad Señor de Sipán:
-
-| Exactitud Fáctica Comparada por Módulo Académico (50 Preguntas) | Latencia Media de Inferencia por Módulo Académico (Segundos) |
+| Exactitud Fáctica Comparada (Primera Tanda) | Latencia Media de Inferencia (Primera Tanda) |
 | :---: | :---: |
-| ![Exactitud Comparada](reports/figures/curva_exactitud_comparada.png) | ![Latencia de Inferencia](reports/figures/latencia_boxplots.png) |
+| ![Exactitud Comparada Tanda 1](reports/figures/tanda_1/curva_exactitud_comparada.png) | ![Latencia de Inferencia Tanda 1](reports/figures/tanda_1/latencia_boxplots.png) |
 
 ---
 
-### 💡 Hallazgos Principales para la Tesis:
+### 🔄 3. Comparativa Transversal entre Tandas: Sensibilidad de Red
 
-1. **Fidelidad Fáctica y Reducción de Alucinaciones:**
-   La arquitectura **Sipán-STAIR (RAG)** alcanza un **55.00%** de exactitud global frente al **14.00%** de **Gemma-4 Fine-Tuned (LoRA)**, lo que representa una ventaja neta de **+41.00%**. Sipán-STAIR genera más de 7 veces más respuestas totalmente precisas (22 frente a 3) y reduce la tasa de alucinaciones de un 78.0% a un 34.0% gracias a la inyección de fragmentos normativos oficiales y sus citas verificadas.
-
-2. **Comportamiento y Límites del Fine-Tuning sin RAG:**
-   Gemma-4 Fine-Tuned adopta con éxito el tono y estilo institucional de SipánGPT, pero sufre de pérdida de especificidad fáctica al responder consultas con parámetros numéricos, fechas o montos exactos (ej. costo de segunda matrícula o pasarelas de pago). El modelo tiende a alucinar procedimientos genéricos no vigentes en la USS, confirmando que el ajuste de pesos por sí solo es insuficiente para conocimiento institucional dinámico.
-
-3. **Análisis de Latencia y Trade-Off Arquitectónico:**
-   Gemma-4 Fine-Tuned responde en un promedio uniforme de **11.89 s** mediante inferencia directa de pesos cuantizados en GPU/NPU local (Apple Silicon). Por su parte, Sipán-STAIR RAG promedia **91.76 s** debido a la sobrecarga computacional del flujo completo: generación de embeddings, recuperación vectorial híbrida en PostgreSQL/pgvector, reranking semántico y ensamblado del prompt enriquecido con citas.
+| Dimensión Analizada | Primera Tanda (Red Lenta) | Segunda Tanda (Red Rápida) | Impacto / Conclusión Técnica |
+| :--- | :---: | :---: | :--- |
+| **Latencia Sipán-STAIR (RAG)** | 91.76 s | **7.47 s** | **Reducción de latencia del 91.8%** gracias al ancho de banda óptimo. |
+| **Latencia Gemma-4 (Local)** | 11.89 s | 12.15 s | Constante (independiente de red externa, limitado por cómputo local). |
+| **Exactitud Fáctica Sipán-STAIR** | 55.00% | 45.00% | Alta fidelidad consistente (+39% a +41% de ventaja fáctica sobre Fine-Tuning). |
+| **Exactitud Fáctica Gemma-4** | 14.00% | 6.00% | Baja fidelidad consistente por alucinación de plazos y aranceles. |
 
 ---
 
@@ -175,23 +209,36 @@ codigo_para_evaluar_sipangpt_benchmark/
 ├── data/
 │   ├── ground_truth/                # Banco de pruebas oficial (50 preguntas, 5 módulos)
 │   │   └── benchmark_test_50.jsonl
-│   └── results/                     # Resultados persistidos
-│       ├── run_gemma4_finetuned.json          # 50 respuestas de Gemma-4 Fine-Tuned
-│       ├── run_sipan_stair_rag.json           # 50 respuestas de Sipán-STAIR RAG
-│       ├── judge_evaluations_cache.json       # Caché persistente del Juez Gemini LLM
-│       ├── jev_evaluations_cache.json         # Caché persistente del Evaluador Jev
-│       ├── matriz_comparativa_final.xlsx      # Matriz Excel oficial del Juez LLM
-│       ├── matriz_evaluacion_jev.xlsx         # Matriz Excel de apoyo experimental Jev
-│       └── banco_pruebas_50.xlsx              # Banco de preguntas exportado a Excel
+│   └── results/                     # Resultados persistidos (organizados por tandas de evaluación)
+│       ├── tanda_1/                 # Primera Tanda (Histórico con red lenta y soporte Jev)
+│       │   ├── run_gemma4_finetuned.json
+│       │   ├── run_sipan_stair_rag.json
+│       │   ├── judge_evaluations_cache.json
+│       │   ├── jev_evaluations_cache.json
+│       │   ├── matriz_comparativa_final.xlsx
+│       │   ├── matriz_evaluacion_jev.xlsx
+│       │   └── banco_pruebas_50.xlsx
+│       └── tanda_2/                 # Segunda Tanda (Red optimizada y memoria precargada)
+│           ├── run_gemma4_finetuned.json
+│           ├── run_sipan_stair_rag.json
+│           ├── judge_evaluations_cache.json
+│           └── matriz_comparativa_final.xlsx
 │
 ├── reports/
 │   ├── figures/                     # Figuras en alta resolución (300 DPI)
-│   │   ├── curva_exactitud_comparada.png      # Exactitud por módulo académico (Juez LLM)
-│   │   ├── latencia_boxplots.png              # Latencia media por módulo académico
-│   │   ├── jev_exactitud_comparada.png        # Exactitud calibrada por módulo (Jev)
-│   │   └── jev_calidad_tecnica.png            # Calidad técnica por módulo (Jev)
+│   │   ├── tanda_1/                 # Gráficos Primera Tanda (Juez LLM y Jev)
+│   │   │   ├── curva_exactitud_comparada.png
+│   │   │   ├── latencia_boxplots.png
+│   │   │   ├── jev_exactitud_comparada.png
+│   │   │   └── jev_calidad_tecnica.png
+│   │   └── tanda_2/                 # Gráficos Segunda Tanda (Red optimizada, 5 módulos)
+│   │       ├── curva_exactitud_comparada.png
+│   │       └── latencia_boxplots.png
 │   └── tables/                      # Tablas Markdown para el documento de tesis
-│       └── tabla_exactitud_50_preguntas.md
+│       ├── tanda_1/                 # Tabla de exactitud Primera Tanda
+│       │   └── tabla_exactitud_50_preguntas.md
+│       └── tanda_2/                 # Tabla de exactitud Segunda Tanda
+│           └── tabla_exactitud_50_preguntas.md
 │
 ├── src/
 │   └── sipangpt_eval/

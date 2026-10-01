@@ -60,22 +60,35 @@ codigo_para_evaluar_sipangpt_benchmark/
 │   ├── ground_truth/                # Banco de pruebas oficial (50 preguntas, 5 módulos)
 │   │   └── benchmark_test_50.jsonl
 │   └── results/                     # Resultados persistidos y cachés
-│       ├── run_gemma4_finetuned.json          # 50 respuestas de Gemma-4 Fine-Tuned
-│       ├── run_sipan_stair_rag.json           # 50 respuestas de Sipán-STAIR RAG
-│       ├── judge_evaluations_cache.json       # Evaluaciones persistentes del Juez Gemini LLM
-│       ├── jev_evaluations_cache.json         # Evaluaciones persistentes de TypeSafe AI Jev
-│       ├── matriz_comparativa_final.xlsx      # Matriz Excel oficial de Tesis
-│       ├── matriz_evaluacion_jev.xlsx         # Matriz Excel de apoyo experimental Jev
-│       └── banco_pruebas_50.xlsx              # Banco de preguntas exportado a Excel
+│       ├── tanda_1/                 # Primera Tanda (Histórico con red lenta y soporte Jev)
+│       │   ├── run_gemma4_finetuned.json
+│       │   ├── run_sipan_stair_rag.json
+│       │   ├── judge_evaluations_cache.json
+│       │   ├── jev_evaluations_cache.json
+│       │   ├── matriz_comparativa_final.xlsx
+│       │   ├── matriz_evaluacion_jev.xlsx
+│       │   └── banco_pruebas_50.xlsx
+│       └── tanda_2/                 # Segunda Tanda (Red optimizada y memoria precargada)
+│           ├── run_gemma4_finetuned.json
+│           ├── run_sipan_stair_rag.json
+│           ├── judge_evaluations_cache.json
+│           └── matriz_comparativa_final.xlsx
 │
 ├── reports/
 │   ├── figures/                     # Gráficos estadísticos en alta resolución (300 DPI)
-│   │   ├── curva_exactitud_comparada.png      # Exactitud por módulo (Juez LLM Gemini)
-│   │   ├── latencia_boxplots.png              # Latencia media por módulo (Segundos)
-│   │   ├── jev_exactitud_comparada.png        # Exactitud calibrada por módulo (Jev)
-│   │   └── jev_calidad_tecnica.png            # Calidad técnica media por módulo (Jev)
+│   │   ├── tanda_1/                 # Figuras Tanda 1 (Juez LLM y Jev)
+│   │   │   ├── curva_exactitud_comparada.png
+│   │   │   ├── latencia_boxplots.png
+│   │   │   ├── jev_exactitud_comparada.png
+│   │   │   └── jev_calidad_tecnica.png
+│   │   └── tanda_2/                 # Figuras Tanda 2 (Red optimizada, 5 módulos)
+│   │       ├── curva_exactitud_comparada.png
+│   │       └── latencia_boxplots.png
 │   └── tables/                      # Tablas Markdown para el informe de Tesis
-│       └── tabla_exactitud_50_preguntas.md
+│       ├── tanda_1/                 # Tabla de exactitud Tanda 1
+│       │   └── tabla_exactitud_50_preguntas.md
+│       └── tanda_2/                 # Tabla de exactitud Tanda 2
+│           └── tabla_exactitud_50_preguntas.md
 │
 ├── src/
 │   └── sipangpt_eval/
@@ -141,6 +154,11 @@ El banco de pruebas oficial (`data/ground_truth/benchmark_test_50.jsonl`) contie
 | **Normativa y Trámites** | 6 | Grados y títulos, carné universitario Sunedu, reglamentos y mesa de partes virtual. |
 | **Total General** | **50** | **35 preguntas monoturno y 15 diálogos multiturno.** |
 
+### 5.1. Organización por Tandas de Evaluación
+El repositorio conserva los datos de dos tandas experimentales completas:
+* **Primera Tanda (`tanda_1`)**: Evaluación fundacional inicial. Incluyó tanto el Juez Principal Gemini LLM como el evaluador experimental TypeSafe AI Jev. Ejecutada en condiciones de latencia de red variable (~91.76 s media en RAG).
+* **Segunda Tanda (`tanda_2`)**: Evaluación con red de alta velocidad y memoria precargada (*pre-warming*). Evaluó las 50 preguntas completas con el Juez LLM Gemini 3.5 Flash sin Jev (por indisponibilidad de API externa), demostrando una latencia real de ~7.47 s en Sipán-STAIR RAG y ratificando la ventaja fáctica (+39.00% exactitud respecto a Gemma-4).
+
 > [!IMPORTANT]
 > Todos los gráficos comparativos (`curva_exactitud_comparada.png`, `latencia_boxplots.png`, `jev_exactitud_comparada.png`, `jev_calidad_tecnica.png`) DEBEN mostrar sin excepción los **5 módulos académicos**.
 > En el caso de Jev, si Gemma-4 obtiene `0.0%` en alguna categoría, la barra debe figurar con su etiqueta numérica `0.0%` para constatar que el módulo fue evaluado.
@@ -187,8 +205,8 @@ python main.py run
 # 3. Evaluar con Gemini 3.5 Flash (Juez LLM)
 python main.py evaluate
 
-# 4. Generar reportes Markdown, Excel y gráficos 300 DPI
-python main.py report
+# 4. Generar reportes Markdown, Excel y gráficos 300 DPI (soporta subdirectorio opcional)
+python main.py report --output-dir tanda_2
 
 # 5. [Opcional] Ejecutar evaluación con TypeSafe AI Jev
 python main.py evaluate-jev
