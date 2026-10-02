@@ -99,6 +99,8 @@ class SipanRAGClient(BaseLLMClient):
         # Payload para la ruta Next.js /api/chat (Next.js AI SDK)
         payload: Dict[str, Union[str, List[Dict[str, Union[str, List[Dict[str, str]]]]]]] = {
             "message": case.pregunta_usuario,
+            "modelCode": settings.sipan_rag_model_code,
+            "provider": "GEMINI",
             "messages": [
                 {
                     "id": f"msg_{case.id}",

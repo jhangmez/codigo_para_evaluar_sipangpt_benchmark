@@ -157,7 +157,7 @@ def evaluate_jev() -> Tuple[List[EvaluatedPair], JevSummaryMetrics]:
 
 @app.command()
 def report(
-    output_dir: str = typer.Option("tanda_2", help="Subdirectorio de destino para reportes y gráficos (ej. 'tanda_2', 'tanda_1' o '' para raíz)")
+    output_dir: str = typer.Option("tanda_3", help="Subdirectorio de destino para reportes y gráficos (ej. 'tanda_3', 'tanda_2', 'tanda_1' o '' para raíz)")
 ) -> None:
     """Genera gráficos a 300 DPI y tablas Markdown para la Tesis en el subdirectorio especificado."""
     pairs, metrics = evaluate()

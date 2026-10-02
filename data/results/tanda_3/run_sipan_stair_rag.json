@@ -1,0 +1,1402 @@
+[
+  {
+    "modelo_nombre": "SipánGPT-RAG-STAIR",
+    "respuesta_generada": "Estimado(a) docente, buenos días. Es un gusto saludarle y apoyar su labor de orientación a nuestros estudiantes.\n\nRespect",
+    "tiempo_total_ms": 9352.025708998553,
+    "tiempo_busqueda_ms": 4532.0,
+    "tiempo_generacion_ms": 4820.0257089985535,
+    "tokens_totales": 18,
+    "citas": [
+      {
+        "documento": "REGLAMENTO DE COBRANZA",
+        "articulo_o_seccion": "ARTÍCULO 11°:",
+        "url_publica": "https://www.uss.edu.pe/uss/TransparenciaDoc/RegEstudiantes/cobranzas2026.pdf",
+        "similitud": 0.714
+      },
+      {
+        "documento": "REGLAMENTO DE COBRANZA",
+        "articulo_o_seccion": "REGLAMENTO DE COBRANZA",
+        "url_publica": "https://www.uss.edu.pe/uss/TransparenciaDoc/RegEstudiantes/cobranzas2026.pdf",
+        "similitud": 0.703
+      },
+      {
+        "documento": "REGLAMENTO DE COBRANZA",
+        "articulo_o_seccion": "ARTÍCULO 5°:",
+        "url_publica": "https://www.uss.edu.pe/uss/TransparenciaDoc/RegEstudiantes/cobranzas2026.pdf",
+        "similitud": 0.675
+      }
+    ]
+  },
+  {
+    "modelo_nombre": "SipánGPT-RAG-STAIR",
+    "respuesta_generada": "Estimado(a) docente, buen día.\n\nLe informo que en la base normativa e instructivos oficiales disponibles actualmente no se cuenta con la guía técnica específica para la configuración y diseño de rúbricas (adición de criterios, niveles de logro y estructuración de puntajes) dentro de la plataforma del Aula Virtual.\n\nPara recibir la asistencia técnica y pedagógica correspondiente, le sugiero comunicarse con los canales oficiales de soporte institucional:\n\n* **Soporte de Entornos Virtuales / TIC:** A través de los canales de atención y tickets del Campus Virtual.\n* **Dirección de Desarrollo Académico / Coordinación Académica de su Facultad:** Para las pautas pedagógicas e institucionales sobre el diseño y ponderación de rúbricas.\n* **Correo de atención institucional:** informes@uss.edu.pe\n\nQuedo a su disposición para cualquier otra consulta sobre los reglamentos y disposiciones normativas",
+    "tiempo_total_ms": 9407.563124999797,
+    "tiempo_busqueda_ms": 4128.0,
+    "tiempo_generacion_ms": 5279.563124999797,
+    "tokens_totales": 129,
+    "citas": [
+      {
+        "documento": "CÓDIGO DE ÉTICA EN INVESTIGACIÓN DE LA UNIVERSIDAD SEÑOR DE SIPÁN S.A.C.",
+        "articulo_o_seccion": "Artículo 27°: Criterios de gradualidad para imponer sanciones",
+        "url_publica": "https://www.uss.edu.pe/uss/TransparenciaDoc/RegInvestigacion/Código%20de%20Ética.pdf",
+        "similitud": 0.669
+      },
+      {
+        "documento": "CÓDIGO DE ÉTICA EN INVESTIGACIÓN DE LA UNIVERSIDAD SEÑOR DE SIPÁN S.A.C.",
+        "articulo_o_seccion": "CAPÍTULO II: DE LAS SANCIONES",
+        "url_publica": "https://www.uss.edu.pe/uss/TransparenciaDoc/RegInvestigacion/Código%20de%20Ética.pdf",
+        "similitud": 0.663
+      },
+      {
+        "documento": "INSTRUCTIVO CERTIFICACIONES PROGRESIVAS PERFIL ALUMNO 2021",
+        "articulo_o_seccion": "INSTRUCTIVO CERTIFICACIONES PROGRESIVAS PERFIL ALUMNO 2021 > INSTRUCTIVO: CERTIFICACIONES PROGRESIVAS - PERFIL ALUMNO (Parte 1/2)",
+        "url_publica": "https://campus.uss.edu.pe/CampusNet6/ICPA.pdf",
+        "similitud": 0.662
+      }
+    ]
+  },
+  {
+    "modelo_nombre": "SipánGPT-RAG-STAIR",
+    "respuesta_generada": "Estimado(a) estudiante, entiendo su preocupación. \n\nLe informo que, en la normativa oficial disponible (*Reglamento de Matrícula Versión 07*, aprobado mediante Resolución de Directorio N°0093-20",
+    "tiempo_total_ms": 8681.672999999137,
+    "tiempo_busqueda_ms": 4158.0,
+    "tiempo_generacion_ms": 4523.672999999137,
+    "tokens_totales": 24,
+    "citas": [
+      {
+        "documento": "REGLAMENTO DE MATRÍCULA",
+        "articulo_o_seccion": "REGLAMENTO DE MATRÍCULA",
+        "url_publica": "https://www.uss.edu.pe/uss/TransparenciaDoc/RegEstudiantes/REGLAMENTO%20DE%20MATRICULA%20GENERAL%20USS.pdf",
+        "similitud": 0.723
+      },
+      {
+        "documento": "REGLAMENTO DE MATRÍCULA",
+        "articulo_o_seccion": "REGLAMENTO DE MATRÍCULA > RESOLUCIÓN DE DIRECTORIO N°0093-2025/PD-USS",
+        "url_publica": "https://www.uss.edu.pe/uss/TransparenciaDoc/RegEstudiantes/REGLAMENTO%20DE%20MATRICULA%20GENERAL%20USS.pdf",
+        "similitud": 0.684
+      },
+      {
+        "documento": "REGLAMENTO DE MATRÍCULA",
+        "articulo_o_seccion": "ARTÍCULO 19°:",
+        "url_publica": "https://www.uss.edu.pe/uss/TransparenciaDoc/RegEstudiantes/REGLAMENTO%20DE%20MATRICULA%20GENERAL%20USS.pdf",
+        "similitud": 0.682
+      }
+    ]
+  },
+  {
+    "modelo_nombre": "SipánGPT-RAG-STAIR",
+    "respuesta_generada": "Estimado(a) estudiante, buenas tardes.\n\nConforme a lo establecido en el **Reglamento de Cobranza (Versión 8)**, en su sección del **Tarifario de Servicios Educativos de Pregrado**, el costo correspondiente es:\n\n* **Segunda matrícula por curso (modalidad presencial):** **S/ 100.00**\n\nRecuerda que puedes verificar tus conceptos de pago y realizar la transacción a través de las opciones habilitadas en tu **Campus Virtual** o mediante los canales bancarios autorizados.",
+    "tiempo_total_ms": 8021.194249999098,
+    "tiempo_busqueda_ms": 4071.0,
+    "tiempo_generacion_ms": 3950.1942499990982,
+    "tokens_totales": 66,
+    "citas": [
+      {
+        "documento": "REGLAMENTO DE COBRANZA",
+        "articulo_o_seccion": "ARTÍCULO 27°:",
+        "url_publica": "https://www.uss.edu.pe/uss/TransparenciaDoc/RegEstudiantes/cobranzas2026.pdf",
+        "similitud": 0.705
+      },
+      {
+        "documento": "CÓDIGO DE ÉTICA EN INVESTIGACIÓN DE LA UNIVERSIDAD SEÑOR DE SIPÁN S.A.C.",
+        "articulo_o_seccion": "Artículo 26°: Reincidencia",
+        "url_publica": "https://www.uss.edu.pe/uss/TransparenciaDoc/RegInvestigacion/Código%20de%20Ética.pdf",
+        "similitud": 0.679
+      },
+      {
+        "documento": "REGLAMENTO DE COBRANZA",
+        "articulo_o_seccion": "ARTÍCULO 4°:",
+        "url_publica": "https://www.uss.edu.pe/uss/TransparenciaDoc/RegEstudiantes/cobranzas2026.pdf",
+        "similitud": 0.672
+      }
+    ]
+  },
+  {
+    "modelo_nombre": "SipánGPT-RAG-STAIR",
+    "respuesta_generada": "Estimado(a) estudiante, buenos días. Con gusto le brindo la orientación sobre el procedimiento de matrícula regular.\n\nConforme al **Reglamento de Matrícula (Versión 07)**, aprobado mediante la **Resolución de Directorio N°0093-2025/PD-USS**, en su **Título IV, Capítulo III, Artículo 23°**, se establecen las siguientes consideraciones oficiales:\n\n1. **Canal de atención:**\n   * **Pregrado:** El proceso se efectúa directamente a través del **Campus Virtual**, ingresando con su usuario y contraseña institucional.\n   * **Posgrado:** Se gestiona a través de la **Secretaría Académica**.\n\n2. **Carga académica y selección de asignaturas:**\n   * Podrá seleccionar únicamente las asignaturas del plan de estudios vigente para las cuales se encuentre debidamente habilitado(a).\n   *",
+    "tiempo_total_ms": 9365.800833000321,
+    "tiempo_busqueda_ms": 4427.0,
+    "tiempo_generacion_ms": 4938.800833000321,
+    "tokens_totales": 103,
+    "citas": [
+      {
+        "documento": "REGLAMENTO DE MATRÍCULA",
+        "articulo_o_seccion": "REGLAMENTO DE MATRÍCULA",
+        "url_publica": "https://www.uss.edu.pe/uss/TransparenciaDoc/RegEstudiantes/REGLAMENTO%20DE%20MATRICULA%20GENERAL%20USS.pdf",
+        "similitud": 0.768
+      },
+      {
+        "documento": "REGLAMENTO DE MATRÍCULA",
+        "articulo_o_seccion": "ARTÍCULO 23°:",
+        "url_publica": "https://www.uss.edu.pe/uss/TransparenciaDoc/RegEstudiantes/REGLAMENTO%20DE%20MATRICULA%20GENERAL%20USS.pdf",
+        "similitud": 0.717
+      },
+      {
+        "documento": "REGLAMENTO DE MATRÍCULA",
+        "articulo_o_seccion": "REGLAMENTO DE MATRÍCULA > RESOLUCIÓN DE DIRECTORIO N°0093-2025/PD-USS",
+        "url_publica": "https://www.uss.edu.pe/uss/TransparenciaDoc/RegEstudiantes/REGLAMENTO%20DE%20MATRICULA%20GENERAL%20USS.pdf",
+        "similitud": 0.716
+      }
+    ]
+  },
+  {
+    "modelo_nombre": "SipánGPT-RAG-STAIR",
+    "respuesta_generada": "Estimado docente, buenos días.\n\nLe informamos que actualmente no disponemos en nuestra base normativa oficial de la guía técnica específica o manual con los parámetros detallados para la configuración de calificaciones de tareas en el Aula Virtual.\n\nPara recibir la orientación técnica y pedagógica adecuada según los lineamientos vigentes de la universidad, le sugerimos comunicarse con:\n\n* **Soporte de Campus Virtual / Dirección Académica:** a través de los canales de asistencia técnica disponibles en su entorno docente del Campus Virtual.\n* **Correo de atención institucional:** informes@uss.edu.pe o al área de soporte técnico de su respectiva facultad.\n\nQuedamos a su disposición para cualquier otra consulta sobre los reglamentos y procedimientos institucionales de la USS.",
+    "tiempo_total_ms": 8463.603874999535,
+    "tiempo_busqueda_ms": 4304.0,
+    "tiempo_generacion_ms": 4159.603874999535,
+    "tokens_totales": 113,
+    "citas": [
+      {
+        "documento": "CÓDIGO DE ÉTICA EN INVESTIGACIÓN DE LA UNIVERSIDAD SEÑOR DE SIPÁN S.A.C.",
+        "articulo_o_seccion": "Artículo 18°: Calificación y gravedad de la falta",
+        "url_publica": "https://www.uss.edu.pe/uss/TransparenciaDoc/RegInvestigacion/Código%20de%20Ética.pdf",
+        "similitud": 0.693
+      },
+      {
+        "documento": "INSTRUCTIVO CERTIFICACIONES PROGRESIVAS PERFIL ALUMNO 2021",
+        "articulo_o_seccion": "INSTRUCTIVO CERTIFICACIONES PROGRESIVAS PERFIL ALUMNO 2021 > INSTRUCTIVO: CERTIFICACIONES PROGRESIVAS - PERFIL ALUMNO (Parte 1/2)",
+        "url_publica": "https://campus.uss.edu.pe/CampusNet6/ICPA.pdf",
+        "similitud": 0.681
+      },
+      {
+        "documento": "CÓDIGO DE ÉTICA EN INVESTIGACIÓN DE LA UNIVERSIDAD SEÑOR DE SIPÁN S.A.C.",
+        "articulo_o_seccion": "Artículo 17°: Clases de sanciones",
+        "url_publica": "https://www.uss.edu.pe/uss/TransparenciaDoc/RegInvestigacion/Código%20de%20Ética.pdf",
+        "similitud": 0.679
+      }
+    ]
+  },
+  {
+    "modelo_nombre": "SipánGPT-RAG-STAIR",
+    "respuesta_generada": "Estimado(a), buenos días. Conforme al **Reglamento de Grados y Títulos (",
+    "tiempo_total_ms": 7969.288542000868,
+    "tiempo_busqueda_ms": 2902.0,
+    "tiempo_generacion_ms": 5067.288542000868,
+    "tokens_totales": 11,
+    "citas": [
+      {
+        "documento": "REGLAMENTO DE GRADOS Y TÍTULOS",
+        "articulo_o_seccion": "Artículo 7°",
+        "url_publica": "https://www.uss.edu.pe/uss/TransparenciaDoc/RegEstudiantes/REGLAMENTOGRADOSYTITULOS.pdf",
+        "similitud": 0.84
+      },
+      {
+        "documento": "REGLAMENTO DE GRADOS Y TÍTULOS",
+        "articulo_o_seccion": "Artículo 8°",
+        "url_publica": "https://www.uss.edu.pe/uss/TransparenciaDoc/RegEstudiantes/REGLAMENTOGRADOSYTITULOS.pdf",
+        "similitud": 0.802
+      },
+      {
+        "documento": "REGLAMENTO DE GRADOS Y TÍTULOS",
+        "articulo_o_seccion": "REGLAMENTO DE GRADOS Y TÍTULOS",
+        "url_publica": "https://www.uss.edu.pe/uss/TransparenciaDoc/RegEstudiantes/REGLAMENTOGRADOSYTITULOS.pdf",
+        "similitud": 0.802
+      }
+    ]
+  },
+  {
+    "modelo_nombre": "SipánGPT-RAG-STAIR",
+    "respuesta_generada": "Estimado(a) estudiante, buenos días.\n\nLe informamos que, de acuerdo con la base normativa vigente correspondiente",
+    "tiempo_total_ms": 8812.760708999122,
+    "tiempo_busqueda_ms": 4345.0,
+    "tiempo_generacion_ms": 4467.760708999122,
+    "tokens_totales": 15,
+    "citas": [
+      {
+        "documento": "REGLAMENTO DE MATRÍCULA",
+        "articulo_o_seccion": "REGLAMENTO DE MATRÍCULA",
+        "url_publica": "https://www.uss.edu.pe/uss/TransparenciaDoc/RegEstudiantes/REGLAMENTO%20DE%20MATRICULA%20GENERAL%20USS.pdf",
+        "similitud": 0.759
+      },
+      {
+        "documento": "REGLAMENTO DE MATRÍCULA",
+        "articulo_o_seccion": "ARTÍCULO 1°:",
+        "url_publica": "https://www.uss.edu.pe/uss/TransparenciaDoc/RegEstudiantes/REGLAMENTO%20DE%20MATRICULA%20GENERAL%20USS.pdf",
+        "similitud": 0.725
+      },
+      {
+        "documento": "REGLAMENTO DE MATRÍCULA",
+        "articulo_o_seccion": "REGLAMENTO DE MATRÍCULA > RESOLUCIÓN DE DIRECTORIO N°0093-2025/PD-USS",
+        "url_publica": "https://www.uss.edu.pe/uss/TransparenciaDoc/RegEstudiantes/REGLAMENTO%20DE%20MATRICULA%20GENERAL%20USS.pdf",
+        "similitud": 0.723
+      }
+    ]
+  },
+  {
+    "modelo_nombre": "SipánGPT-RAG-STAIR",
+    "respuesta_generada": "Estimado(a) estudiante, buenos días.\n\nPara corroborar que el pago de un concepto o trámite académico se encuentre debidamente registrado en el sistema, debe verificar su estado dentro de la plataforma institucional. \n\nConforme a lo establecido en el **Reglamento de Cobranza (Versión 8), Capítulo IV, Artículo 11°**, el procedimiento es el siguiente:\n\n1. Ingrese a su **Campus Virtual** con sus credenciales instit",
+    "tiempo_total_ms": 8855.814458000168,
+    "tiempo_busqueda_ms": 4006.0,
+    "tiempo_generacion_ms": 4849.814458000168,
+    "tokens_totales": 61,
+    "citas": [
+      {
+        "documento": "REGLAMENTO DE COBRANZA",
+        "articulo_o_seccion": "ARTÍCULO 11°:",
+        "url_publica": "https://www.uss.edu.pe/uss/TransparenciaDoc/RegEstudiantes/cobranzas2026.pdf",
+        "similitud": 0.737
+      },
+      {
+        "documento": "REGLAMENTO DE COBRANZA",
+        "articulo_o_seccion": "REGLAMENTO DE COBRANZA",
+        "url_publica": "https://www.uss.edu.pe/uss/TransparenciaDoc/RegEstudiantes/cobranzas2026.pdf",
+        "similitud": 0.722
+      },
+      {
+        "documento": "REGLAMENTO DE COBRANZA",
+        "articulo_o_seccion": "REGLAMENTO DE COBRANZA > RESOLUCIÓN DE DIRECTORIO N° 078-2026/PD-USS (Parte 1/2)",
+        "url_publica": "https://www.uss.edu.pe/uss/TransparenciaDoc/RegEstudiantes/cobranzas2026.pdf",
+        "similitud": 0.713
+      }
+    ]
+  },
+  {
+    "modelo_nombre": "SipánGPT-RAG-STAIR",
+    "respuesta_generada": "Estimado docente, un cordial saludo.\n\nLe informamos que actualmente no disponemos en nuestra base normativa oficial de los detalles específicos sobre los alcances y funcionalidades del **Sistema de Catálogo en Línea** de",
+    "tiempo_total_ms": 8141.042625000409,
+    "tiempo_busqueda_ms": 3561.0,
+    "tiempo_generacion_ms": 4580.042625000409,
+    "tokens_totales": 32,
+    "citas": [
+      {
+        "documento": "CÓDIGO DE ÉTICA EN INVESTIGACIÓN DE LA UNIVERSIDAD SEÑOR DE SIPÁN S.A.C.",
+        "articulo_o_seccion": "CAPÍTULO I: PRINCIPIOS GENERALES",
+        "url_publica": "https://www.uss.edu.pe/uss/TransparenciaDoc/RegInvestigacion/Código%20de%20Ética.pdf",
+        "similitud": 0.705
+      },
+      {
+        "documento": "CÓDIGO DE ÉTICA EN INVESTIGACIÓN DE LA UNIVERSIDAD SEÑOR DE SIPÁN S.A.C.",
+        "articulo_o_seccion": "Artículo 3°: Alcance",
+        "url_publica": "https://www.uss.edu.pe/uss/TransparenciaDoc/RegInvestigacion/Código%20de%20Ética.pdf",
+        "similitud": 0.699
+      },
+      {
+        "documento": "CÓDIGO DE ÉTICA EN INVESTIGACIÓN DE LA UNIVERSIDAD SEÑOR DE SIPÁN S.A.C.",
+        "articulo_o_seccion": "CAPÍTULO II: PRINCIPIOS ESPECÍFICOS",
+        "url_publica": "https://www.uss.edu.pe/uss/TransparenciaDoc/RegInvestigacion/Código%20de%20Ética.pdf",
+        "similitud": 0.696
+      }
+    ]
+  },
+  {
+    "modelo_nombre": "SipánGPT-RAG-STAIR",
+    "respuesta_generada": "Estimado docente, con gusto le brindo la información oficial para que pueda orientar a sus estudiantes.\n\nConforme al **Reglamento de Matrícula (Vigencia 2025), Título IV, Capítulo I, Artículo 16°**, los estudiantes de pregrado deben cumplir con los siguientes requisitos previos para habilitar su registro y evitar bloqueos en el sistema:\n\n1. **Estado económico:** Cancelación del derecho de matrícula y la primera cuota según el cronograma de pagos. No deben registrar deudas del semestre académico anterior (salvo que cuenten con deuda refinanciada).\n2. **Documentación de admisión:** No tener pendiente la entrega de",
+    "tiempo_total_ms": 8698.60937500016,
+    "tiempo_busqueda_ms": 4287.0,
+    "tiempo_generacion_ms": 4411.60937500016,
+    "tokens_totales": 91,
+    "citas": [
+      {
+        "documento": "REGLAMENTO DE MATRÍCULA",
+        "articulo_o_seccion": "REGLAMENTO DE MATRÍCULA",
+        "url_publica": "https://www.uss.edu.pe/uss/TransparenciaDoc/RegEstudiantes/REGLAMENTO%20DE%20MATRICULA%20GENERAL%20USS.pdf",
+        "similitud": 0.739
+      },
+      {
+        "documento": "REGLAMENTO DE MATRÍCULA",
+        "articulo_o_seccion": "ARTÍCULO 16°:",
+        "url_publica": "https://www.uss.edu.pe/uss/TransparenciaDoc/RegEstudiantes/REGLAMENTO%20DE%20MATRICULA%20GENERAL%20USS.pdf",
+        "similitud": 0.733
+      },
+      {
+        "documento": "REGLAMENTO DE MATRÍCULA",
+        "articulo_o_seccion": "ARTÍCULO 21°:",
+        "url_publica": "https://www.uss.edu.pe/uss/TransparenciaDoc/RegEstudiantes/REGLAMENTO%20DE%20MATRICULA%20GENERAL%20USS.pdf",
+        "similitud": 0.717
+      }
+    ]
+  },
+  {
+    "modelo_nombre": "SipánGPT-RAG-STAIR",
+    "respuesta_generada": ":** Una vez realizado el pago, la instancia académica o administrativa correspondiente atenderá la solicitud según los requisitos de su",
+    "tiempo_total_ms": 9076.967667000645,
+    "tiempo_busqueda_ms": 4427.0,
+    "tiempo_generacion_ms": 4649.967667000645,
+    "tokens_totales": 20,
+    "citas": [
+      {
+        "documento": "REGLAMENTO DE COBRANZA",
+        "articulo_o_seccion": "ARTÍCULO 11°:",
+        "url_publica": "https://www.uss.edu.pe/uss/TransparenciaDoc/RegEstudiantes/cobranzas2026.pdf",
+        "similitud": 0.865
+      },
+      {
+        "documento": "REGLAMENTO DE COBRANZA",
+        "articulo_o_seccion": "REGLAMENTO DE COBRANZA",
+        "url_publica": "https://www.uss.edu.pe/uss/TransparenciaDoc/RegEstudiantes/cobranzas2026.pdf",
+        "similitud": 0.794
+      },
+      {
+        "documento": "REGLAMENTO DE COBRANZA",
+        "articulo_o_seccion": "ARTÍCULO 10°:",
+        "url_publica": "https://www.uss.edu.pe/uss/TransparenciaDoc/RegEstudiantes/cobranzas2026.pdf",
+        "similitud": 0.771
+      }
+    ]
+  },
+  {
+    "modelo_nombre": "SipánGPT-RAG-STAIR",
+    "respuesta_generada": "Estimado docente tutor, un cordial saludo. Conforme al **Reglamento de Matrícula (vigencia 2025)**, en su **Título IV",
+    "tiempo_total_ms": 8782.498374999705,
+    "tiempo_busqueda_ms": 4044.0,
+    "tiempo_generacion_ms": 4738.4983749997045,
+    "tokens_totales": 17,
+    "citas": [
+      {
+        "documento": "REGLAMENTO DE MATRÍCULA",
+        "articulo_o_seccion": "ARTÍCULO 26°:",
+        "url_publica": "https://www.uss.edu.pe/uss/TransparenciaDoc/RegEstudiantes/REGLAMENTO%20DE%20MATRICULA%20GENERAL%20USS.pdf",
+        "similitud": 0.849
+      },
+      {
+        "documento": "REGLAMENTO DE MATRÍCULA",
+        "articulo_o_seccion": "ARTÍCULO 27°:",
+        "url_publica": "https://www.uss.edu.pe/uss/TransparenciaDoc/RegEstudiantes/REGLAMENTO%20DE%20MATRICULA%20GENERAL%20USS.pdf",
+        "similitud": 0.83
+      },
+      {
+        "documento": "REGLAMENTO DE MATRÍCULA",
+        "articulo_o_seccion": "CAPÍTULO IV: CONDICIONES DE MATRÍCULA POR BAJO DESEMPEÑO ACADÉMICO",
+        "url_publica": "https://www.uss.edu.pe/uss/TransparenciaDoc/RegEstudiantes/REGLAMENTO%20DE%20MATRICULA%20GENERAL%20USS.pdf",
+        "similitud": 0.787
+      }
+    ]
+  },
+  {
+    "modelo_nombre": "SipánGPT-RAG-STAIR",
+    "respuesta_generada": "¡Hola! Te saludo cordialmente.\n\nLamentablemente, no dispongo de los manuales de procedimiento técnico",
+    "tiempo_total_ms": 8974.00616699997,
+    "tiempo_busqueda_ms": 4212.0,
+    "tiempo_generacion_ms": 4762.00616699997,
+    "tokens_totales": 13,
+    "citas": [
+      {
+        "documento": "REGLAMENTO DE PROPIEDAD INTELECTUAL DE LA UNIVERSIDAD SEÑOR DE SIPÁN S.A.C.",
+        "articulo_o_seccion": "REGLAMENTO DE PROPIEDAD INTELECTUAL DE LA UNIVERSIDAD SEÑOR DE SIPÁN S.A.C.",
+        "url_publica": "https://www.uss.edu.pe/uss/TransparenciaDoc/RegInvestigacion/Reglamento%20de%20Propiedad%20Intelectual.pdf",
+        "similitud": 0.633
+      },
+      {
+        "documento": "REGLAMENTO DE PROPIEDAD INTELECTUAL DE LA UNIVERSIDAD SEÑOR DE SIPÁN S.A.C.",
+        "articulo_o_seccion": "REGLAMENTO DE PROPIEDAD INTELECTUAL DE LA UNIVERSIDAD SEÑOR DE SIPÁN S.A.C. > RESOLUCIÓN DE DIRECTORIO N° 048-2023/PD-USS",
+        "url_publica": "https://www.uss.edu.pe/uss/TransparenciaDoc/RegInvestigacion/Reglamento%20de%20Propiedad%20Intelectual.pdf",
+        "similitud": 0.626
+      },
+      {
+        "documento": "CÓDIGO DE ÉTICA EN INVESTIGACIÓN DE LA UNIVERSIDAD SEÑOR DE SIPÁN S.A.C.",
+        "articulo_o_seccion": "Artículo 31°: Denuncias",
+        "url_publica": "https://www.uss.edu.pe/uss/TransparenciaDoc/RegInvestigacion/Código%20de%20Ética.pdf",
+        "similitud": 0.614
+      }
+    ]
+  },
+  {
+    "modelo_nombre": "SipánGPT-RAG-STAIR",
+    "respuesta_generada": "Estimado(a) estudiante, comprendo tu urgencia. \n\nActualmente, no dispongo en la base normativa y guías oficiales cargadas con la información específica sobre la ubicación o el procedimiento exacto para el préstamo de libros en la plataforma de biblioteca.\n\nPara acceder al servicio de biblioteca de inmediato, te sugiero seguir estas alternativas oficiales:\n\n1. **Campus Virtual:** Ingresa a tu **Campus Virtual** con tus credenciales institucionales; comúnmente el acceso a la **Biblioteca Virtual** o recursos de investigación se encuentra en el menú principal lateral o en la sección de recursos académicos.\n2. **Atención y Soporte:** Puedes consultar directamente con los canales oficiales de atención:\n   * **Correo electrónico:** `informes@uss.edu.pe`\n   * **Mesa de Ayuda / Soporte del Campus Virtual** para asistencia técnica directa.\n3. **Atención",
+    "tiempo_total_ms": 8868.419750000612,
+    "tiempo_busqueda_ms": 3985.0,
+    "tiempo_generacion_ms": 4883.419750000612,
+    "tokens_totales": 120,
+    "citas": [
+      {
+        "documento": "INSTRUCTIVO CERTIFICACIONES PROGRESIVAS PERFIL ALUMNO 2021",
+        "articulo_o_seccion": "INSTRUCTIVO CERTIFICACIONES PROGRESIVAS PERFIL ALUMNO 2021 > INSTRUCTIVO: CERTIFICACIONES PROGRESIVAS - PERFIL ALUMNO (Parte 1/2)",
+        "url_publica": "https://campus.uss.edu.pe/CampusNet6/ICPA.pdf",
+        "similitud": 0.656
+      },
+      {
+        "documento": "REGLAMENTO DE PROPIEDAD INTELECTUAL DE LA UNIVERSIDAD SEÑOR DE SIPÁN S.A.C.",
+        "articulo_o_seccion": "REGLAMENTO DE PROPIEDAD INTELECTUAL DE LA UNIVERSIDAD SEÑOR DE SIPÁN S.A.C.",
+        "url_publica": "https://www.uss.edu.pe/uss/TransparenciaDoc/RegInvestigacion/Reglamento%20de%20Propiedad%20Intelectual.pdf",
+        "similitud": 0.643
+      },
+      {
+        "documento": "REGLAMENTO DE PROPIEDAD INTELECTUAL DE LA UNIVERSIDAD SEÑOR DE SIPÁN S.A.C.",
+        "articulo_o_seccion": "REGLAMENTO DE PROPIEDAD INTELECTUAL DE LA UNIVERSIDAD SEÑOR DE SIPÁN S.A.C. > RESOLUCIÓN DE DIRECTORIO N° 048-2023/PD-USS",
+        "url_publica": "https://www.uss.edu.pe/uss/TransparenciaDoc/RegInvestigacion/Reglamento%20de%20Propiedad%20Intelectual.pdf",
+        "similitud": 0.633
+      }
+    ]
+  },
+  {
+    "modelo_nombre": "SipánGPT-RAG-STAIR",
+    "respuesta_generada": "Estimado(a) estudiante, buenos días.\n\nLe informamos que en la base normativa oficial disponible no se encuentra detallado el procedimiento técnico específico para el restablecimiento o validación de credenciales de acceso al Campus Virtual.\n\nPor tratarse de un inconveniente técnico y de gestión de cuentas personales, le recomendamos comunicarse directamente con las áreas encargadas de la Universidad Señor de Sipán a través de los siguientes canales oficiales:\n\n* **Soporte Técnico / Mesa de Ayuda:** Puede gestionar el reporte de su incidencia mediante los canales de atención de soporte informático de la universidad o verificar la opción *\"¿Olvidó su contraseña?\"* en la pantalla de inicio del Campus Virtual.\n* **Correo de atención y consultas:** [informes@uss.edu.pe](mailto:informes@uss.edu.pe)\n* **Campus Virtual:** [campus.uss.edu.pe](https://campus.uss.edu.pe)\n\nAl enviar su consulta al soporte técnico, recuerde indicar sus nombres completos, código de estudiante, número de DNI y adjuntar una captura de pantalla del error para agilizar la atención de su caso.",
+    "tiempo_total_ms": 8728.82616700008,
+    "tiempo_busqueda_ms": 4028.0,
+    "tiempo_generacion_ms": 4700.826167000079,
+    "tokens_totales": 150,
+    "citas": [
+      {
+        "documento": "INSTRUCTIVO CERTIFICACIONES PROGRESIVAS PERFIL ALUMNO 2021",
+        "articulo_o_seccion": "INSTRUCTIVO CERTIFICACIONES PROGRESIVAS PERFIL ALUMNO 2021 > INSTRUCTIVO: CERTIFICACIONES PROGRESIVAS - PERFIL ALUMNO (Parte 1/2)",
+        "url_publica": "https://campus.uss.edu.pe/CampusNet6/ICPA.pdf",
+        "similitud": 0.711
+      },
+      {
+        "documento": "REGLAMENTO DE PROPIEDAD INTELECTUAL DE LA UNIVERSIDAD SEÑOR DE SIPÁN S.A.C.",
+        "articulo_o_seccion": "REGLAMENTO DE PROPIEDAD INTELECTUAL DE LA UNIVERSIDAD SEÑOR DE SIPÁN S.A.C.",
+        "url_publica": "https://www.uss.edu.pe/uss/TransparenciaDoc/RegInvestigacion/Reglamento%20de%20Propiedad%20Intelectual.pdf",
+        "similitud": 0.679
+      },
+      {
+        "documento": "INSTRUCTIVO CERTIFICACIONES PROGRESIVAS PERFIL ALUMNO 2021",
+        "articulo_o_seccion": "INSTRUCTIVO CERTIFICACIONES PROGRESIVAS PERFIL ALUMNO 2021 > INSTRUCTIVO: CERTIFICACIONES PROGRESIVAS - PERFIL ALUMNO (Parte 2/2)",
+        "url_publica": "https://campus.uss.edu.pe/CampusNet6/ICPA.pdf",
+        "similitud": 0.668
+      }
+    ]
+  },
+  {
+    "modelo_nombre": "SipánGPT-RAG-STAIR",
+    "respuesta_generada": "Estimado(a), muy buenos días. Con el mayor agrado le brindo la información solicitada para la adecuada orientación de sus egresados.\n\nConforme al **Reglamento de Grados y Títulos (Vigencia 2025)**, **Título II: De las carpetas y requisitos**, **Capítulo I: Para la obtención del grado de bachiller**, **Artículo 5°**, la Universidad otorga el grado académico de bachiller al egresado que cumpla con los siguientes requisitos:\n\n1. Haber aprobado los estudios de pregrado.\n2. Haber aprobado los cursos extracurriculares.\n3. Acreditar el conocimiento de un idioma extranjero o lengua nativa.\n4. Acreditación en emprendimiento (exigible para ingresantes a partir del semestre 2021-II).\n5. Haber presentado un trabajo de investigación.\n6. No mantener deuda financiera con",
+    "tiempo_total_ms": 7557.038334000026,
+    "tiempo_busqueda_ms": 2759.0,
+    "tiempo_generacion_ms": 4798.038334000026,
+    "tokens_totales": 112,
+    "citas": [
+      {
+        "documento": "REGLAMENTO DE GRADOS Y TÍTULOS",
+        "articulo_o_seccion": "Artículo 5°",
+        "url_publica": "https://www.uss.edu.pe/uss/TransparenciaDoc/RegEstudiantes/REGLAMENTOGRADOSYTITULOS.pdf",
+        "similitud": 0.875
+      },
+      {
+        "documento": "REGLAMENTO DE GRADOS Y TÍTULOS",
+        "articulo_o_seccion": "CAPÍTULO I: PARA LA OBTENCIÓN DEL GRADO DE BACHILLER",
+        "url_publica": "https://www.uss.edu.pe/uss/TransparenciaDoc/RegEstudiantes/REGLAMENTOGRADOSYTITULOS.pdf",
+        "similitud": 0.826
+      },
+      {
+        "documento": "REGLAMENTO DE GRADOS Y TÍTULOS",
+        "articulo_o_seccion": "Artículo 6°",
+        "url_publica": "https://www.uss.edu.pe/uss/TransparenciaDoc/RegEstudiantes/REGLAMENTOGRADOSYTITULOS.pdf",
+        "similitud": 0.796
+      }
+    ]
+  },
+  {
+    "modelo_nombre": "SipánGPT-RAG-STAIR",
+    "respuesta_generada": "Estimado(a) docente, un cordial saludo.\n\nConforme a la normativa institucional vigente, la exigencia y validación de estas",
+    "tiempo_total_ms": 8160.647500000778,
+    "tiempo_busqueda_ms": 4054.0,
+    "tiempo_generacion_ms": 4106.647500000778,
+    "tokens_totales": 17,
+    "citas": [
+      {
+        "documento": "REGLAMENTO DE GRADOS Y TÍTULOS",
+        "articulo_o_seccion": "REGLAMENTO DE GRADOS Y TÍTULOS",
+        "url_publica": "https://www.uss.edu.pe/uss/TransparenciaDoc/RegEstudiantes/REGLAMENTOGRADOSYTITULOS.pdf",
+        "similitud": 0.749
+      },
+      {
+        "documento": "REGLAMENTO DE GRADOS Y TÍTULOS",
+        "articulo_o_seccion": "REGLAMENTO DE GRADOS Y TÍTULOS > TÍTULO VI: LA CERTIFICACIÓN DEL PROGRAMA DE ACREDITACIÓN EN COMPUTACIÓN E INGLÉS",
+        "url_publica": "https://www.uss.edu.pe/uss/TransparenciaDoc/RegEstudiantes/REGLAMENTOGRADOSYTITULOS.pdf",
+        "similitud": 0.749
+      },
+      {
+        "documento": "REGLAMENTO DE GRADOS Y TÍTULOS",
+        "articulo_o_seccion": "Artículo 1°",
+        "url_publica": "https://www.uss.edu.pe/uss/TransparenciaDoc/RegEstudiantes/REGLAMENTOGRADOSYTITULOS.pdf",
+        "similitud": 0.741
+      }
+    ]
+  },
+  {
+    "modelo_nombre": "SipánGPT-RAG-STAIR",
+    "respuesta_generada": "¡Hola! Comprendo tu preocupación. Mantén la calma, te orientaré para que puedas verificar si estás habilitado(a) para tu registro de matrícula.\n\nEn la plataforma del Campus Virtual, el sistema evalúa automáticamente una serie de condiciones obligatorias. Conforme al **Reglamento de Matrícula (2025), Título IV, Capítulo I, Artículo 16°**, para que tu matrícula se habilite sin inconvenientes debes cumplir con los siguientes requisitos:\n\n1. **Pagos al día:** Haber cancelado el derecho de matrícula y la primera cuota según el",
+    "tiempo_total_ms": 6769.611249999798,
+    "tiempo_busqueda_ms": 2894.0,
+    "tiempo_generacion_ms": 3875.611249999798,
+    "tokens_totales": 78,
+    "citas": [
+      {
+        "documento": "REGLAMENTO DE MATRÍCULA",
+        "articulo_o_seccion": "ARTÍCULO 16°:",
+        "url_publica": "https://www.uss.edu.pe/uss/TransparenciaDoc/RegEstudiantes/REGLAMENTO%20DE%20MATRICULA%20GENERAL%20USS.pdf",
+        "similitud": 0.72
+      },
+      {
+        "documento": "REGLAMENTO DE MATRÍCULA",
+        "articulo_o_seccion": "ARTÍCULO 24°:",
+        "url_publica": "https://www.uss.edu.pe/uss/TransparenciaDoc/RegEstudiantes/REGLAMENTO%20DE%20MATRICULA%20GENERAL%20USS.pdf",
+        "similitud": 0.72
+      },
+      {
+        "documento": "REGLAMENTO DE MATRÍCULA",
+        "articulo_o_seccion": "ARTÍCULO 6°:",
+        "url_publica": "https://www.uss.edu.pe/uss/TransparenciaDoc/RegEstudiantes/REGLAMENTO%20DE%20MATRICULA%20GENERAL%20USS.pdf",
+        "similitud": 0.708
+      }
+    ]
+  },
+  {
+    "modelo_nombre": "SipánGPT-RAG-STAIR",
+    "respuesta_generada": "Estimado(a) estudiante, comprendo tu preocupación, pero mantén la calma; tu",
+    "tiempo_total_ms": 7239.956874998825,
+    "tiempo_busqueda_ms": 2852.0,
+    "tiempo_generacion_ms": 4387.956874998825,
+    "tokens_totales": 10,
+    "citas": [
+      {
+        "documento": "REGLAMENTO DE COBRANZA",
+        "articulo_o_seccion": "ARTÍCULO 18°:",
+        "url_publica": "https://www.uss.edu.pe/uss/TransparenciaDoc/RegEstudiantes/cobranzas2026.pdf",
+        "similitud": 0.74
+      },
+      {
+        "documento": "REGLAMENTO DE COBRANZA",
+        "articulo_o_seccion": "REGLAMENTO DE COBRANZA",
+        "url_publica": "https://www.uss.edu.pe/uss/TransparenciaDoc/RegEstudiantes/cobranzas2026.pdf",
+        "similitud": 0.738
+      },
+      {
+        "documento": "REGLAMENTO DE COBRANZA",
+        "articulo_o_seccion": "ARTÍCULO 17°:",
+        "url_publica": "https://www.uss.edu.pe/uss/TransparenciaDoc/RegEstudiantes/cobranzas2026.pdf",
+        "similitud": 0.72
+      }
+    ]
+  },
+  {
+    "modelo_nombre": "SipánGPT-RAG-STAIR",
+    "respuesta_generada": "Estimado(a) estudiante, comprendo su urgencia y molestia ante la situación. \n\nLamentablemente, no dispongo de la información sobre la ruta exacta del catálogo de la biblioteca dentro de la base normativa oficial cargada actualmente. \n\nPara recibir orientación inmediata y ubicar el recurso bibliográfico que requiere, le sugiero comunicarse con los canales oficiales de soporte de la universidad:\n\n* **Soporte de Campus Virtual / Mesa de Ayuda:** A través del enlace o ticket de soporte técnico disponible en la pantalla de inicio del propio Campus Virtual.\n* **Correo de atención institucional:** **informes@uss.edu.pe**\n* **Atención al estudiante:** A través de los canales de atención de los Servicios Académicos y Biblioteca de la USS.\n\nLamento los inconvenientes y quedo a su disposición para cualquier consulta académica o reglamentaria disponible.",
+    "tiempo_total_ms": 8669.58645900013,
+    "tiempo_busqueda_ms": 4451.0,
+    "tiempo_generacion_ms": 4218.586459000129,
+    "tokens_totales": 125,
+    "citas": [
+      {
+        "documento": "INSTRUCTIVO CERTIFICACIONES PROGRESIVAS PERFIL ALUMNO 2021",
+        "articulo_o_seccion": "INSTRUCTIVO CERTIFICACIONES PROGRESIVAS PERFIL ALUMNO 2021 > INSTRUCTIVO: CERTIFICACIONES PROGRESIVAS - PERFIL ALUMNO (Parte 1/2)",
+        "url_publica": "https://campus.uss.edu.pe/CampusNet6/ICPA.pdf",
+        "similitud": 0.651
+      },
+      {
+        "documento": "CÓDIGO DE ÉTICA EN INVESTIGACIÓN DE LA UNIVERSIDAD SEÑOR DE SIPÁN S.A.C.",
+        "articulo_o_seccion": "Artículo 31°: Denuncias",
+        "url_publica": "https://www.uss.edu.pe/uss/TransparenciaDoc/RegInvestigacion/Código%20de%20Ética.pdf",
+        "similitud": 0.617
+      },
+      {
+        "documento": "INSTRUCTIVO CERTIFICACIONES PROGRESIVAS PERFIL ALUMNO 2021",
+        "articulo_o_seccion": "INSTRUCTIVO CERTIFICACIONES PROGRESIVAS PERFIL ALUMNO 2021 > INSTRUCTIVO: CERTIFICACIONES PROGRESIVAS - PERFIL ALUMNO (Parte 2/2)",
+        "url_publica": "https://campus.uss.edu.pe/CampusNet6/ICPA.pdf",
+        "similitud": 0.617
+      }
+    ]
+  },
+  {
+    "modelo_nombre": "SipánGPT-RAG-STAIR",
+    "respuesta_generada": "Estimado(a) estudiante, buenos días. Con gusto le brindo la información normativa correspondiente a su consulta.",
+    "tiempo_total_ms": 8752.275249999002,
+    "tiempo_busqueda_ms": 4146.0,
+    "tiempo_generacion_ms": 4606.275249999002,
+    "tokens_totales": 15,
+    "citas": [
+      {
+        "documento": "REGLAMENTO DE MATRÍCULA",
+        "articulo_o_seccion": "ARTÍCULO 15°:",
+        "url_publica": "https://www.uss.edu.pe/uss/TransparenciaDoc/RegEstudiantes/REGLAMENTO%20DE%20MATRICULA%20GENERAL%20USS.pdf",
+        "similitud": 0.75
+      },
+      {
+        "documento": "REGLAMENTO DE MATRÍCULA",
+        "articulo_o_seccion": "REGLAMENTO DE MATRÍCULA",
+        "url_publica": "https://www.uss.edu.pe/uss/TransparenciaDoc/RegEstudiantes/REGLAMENTO%20DE%20MATRICULA%20GENERAL%20USS.pdf",
+        "similitud": 0.747
+      },
+      {
+        "documento": "REGLAMENTO DE MATRÍCULA",
+        "articulo_o_seccion": "REGLAMENTO DE MATRÍCULA > RESOLUCIÓN DE DIRECTORIO N°0093-2025/PD-USS",
+        "url_publica": "https://www.uss.edu.pe/uss/TransparenciaDoc/RegEstudiantes/REGLAMENTO%20DE%20MATRICULA%20GENERAL%20USS.pdf",
+        "similitud": 0.733
+      }
+    ]
+  },
+  {
+    "modelo_nombre": "SipánGPT-RAG-STAIR",
+    "respuesta_generada": "Estimado(a) docente, le saluda SipánGPT.\n\nLe informo que los criterios específicos",
+    "tiempo_total_ms": 9117.91912499939,
+    "tiempo_busqueda_ms": 3980.0,
+    "tiempo_generacion_ms": 5137.919124999389,
+    "tokens_totales": 11,
+    "citas": [
+      {
+        "documento": "MANUAL DE USUARIO DEL AULA VIRTUAL – DOCENTE",
+        "articulo_o_seccion": "MANUAL DE USUARIO DEL AULA VIRTUAL – DOCENTE",
+        "url_publica": "https://campus.uss.edu.pe/SeussFile/FileInfSeuss/Manualesdeusuario/_10007200552026_5_16_14.pdf",
+        "similitud": 0.703
+      },
+      {
+        "documento": "Manual de usuario sistema de gestión docente campus virtual",
+        "articulo_o_seccion": "Manual de usuario sistema de gestión docente campus virtual > MANUAL DE USUARIO: SISTEMA DE GESTIÓN DOCENTE - CAMPUS VIRTUAL (Versión 06) (Parte 1/2)",
+        "url_publica": "https://campus.uss.edu.pe/SeussFile/FileInfSeuss/Manualesdeusuario/_10000000582024_12_15_12.pdf",
+        "similitud": 0.682
+      },
+      {
+        "documento": "MANUAL DE USUARIO DEL AULA VIRTUAL – DOCENTE",
+        "articulo_o_seccion": "MANUAL DE USUARIO DEL AULA VIRTUAL – DOCENTE > RESOLUCIÓN DE DIRECTORIO N°002-2026/PD-USS",
+        "url_publica": "https://campus.uss.edu.pe/SeussFile/FileInfSeuss/Manualesdeusuario/_10007200552026_5_16_14.pdf",
+        "similitud": 0.681
+      }
+    ]
+  },
+  {
+    "modelo_nombre": "SipánGPT-RAG-STAIR",
+    "respuesta_generada": "Estimado(a) estudiante, buenos días.\n\nConforme a lo establecido en el **Reglamento de Cobranza (Versión 8), Capítulo II: De las Pensiones, Artículo 4°**, para la modalidad presencial (pregrado y posgrado) la pensión puede programarse en una, dos, tres, cuatro, cinco o **hasta un máximo de seis (6) cuotas**. \n\nDicha elección la realiza directamente el estudiante al momento de registrar su matrícula a través del Campus Virtual.\n\nSi requiere asistencia adicional durante su proceso de matrícula o pagos, le recordamos que los canales de atención y mesa de ayuda están disponibles a través de su **Campus Virtual**.",
+    "tiempo_total_ms": 6907.4988329994085,
+    "tiempo_busqueda_ms": 2686.0,
+    "tiempo_generacion_ms": 4221.4988329994085,
+    "tokens_totales": 95,
+    "citas": [
+      {
+        "documento": "REGLAMENTO DE COBRANZA",
+        "articulo_o_seccion": "ARTÍCULO 4°:",
+        "url_publica": "https://www.uss.edu.pe/uss/TransparenciaDoc/RegEstudiantes/cobranzas2026.pdf",
+        "similitud": 0.765
+      },
+      {
+        "documento": "REGLAMENTO DE COBRANZA",
+        "articulo_o_seccion": "REGLAMENTO DE COBRANZA",
+        "url_publica": "https://www.uss.edu.pe/uss/TransparenciaDoc/RegEstudiantes/cobranzas2026.pdf",
+        "similitud": 0.742
+      },
+      {
+        "documento": "REGLAMENTO DE COBRANZA",
+        "articulo_o_seccion": "ARTÍCULO 8°:",
+        "url_publica": "https://www.uss.edu.pe/uss/TransparenciaDoc/RegEstudiantes/cobranzas2026.pdf",
+        "similitud": 0.734
+      }
+    ]
+  },
+  {
+    "modelo_nombre": "SipánGPT-RAG-STAIR",
+    "respuesta_generada": "Estimado(a) estudiante, buenos días.\n\nConforme a lo establecido en el **Reglamento de",
+    "tiempo_total_ms": 7913.943499999732,
+    "tiempo_busqueda_ms": 2871.0,
+    "tiempo_generacion_ms": 5042.943499999732,
+    "tokens_totales": 12,
+    "citas": [
+      {
+        "documento": "REGLAMENTO DE COBRANZA",
+        "articulo_o_seccion": "ARTÍCULO 8°:",
+        "url_publica": "https://www.uss.edu.pe/uss/TransparenciaDoc/RegEstudiantes/cobranzas2026.pdf",
+        "similitud": 0.747
+      },
+      {
+        "documento": "REGLAMENTO DE COBRANZA",
+        "articulo_o_seccion": "REGLAMENTO DE COBRANZA",
+        "url_publica": "https://www.uss.edu.pe/uss/TransparenciaDoc/RegEstudiantes/cobranzas2026.pdf",
+        "similitud": 0.735
+      },
+      {
+        "documento": "REGLAMENTO DE COBRANZA",
+        "articulo_o_seccion": "ARTÍCULO 27°:",
+        "url_publica": "https://www.uss.edu.pe/uss/TransparenciaDoc/RegEstudiantes/cobranzas2026.pdf",
+        "similitud": 0.73
+      }
+    ]
+  },
+  {
+    "modelo_nombre": "SipánGPT-RAG-STAIR",
+    "respuesta_generada": "** > **Informe mensual asistencia** (sección 5.2.4) para consultar",
+    "tiempo_total_ms": 8360.970457999429,
+    "tiempo_busqueda_ms": 4289.0,
+    "tiempo_generacion_ms": 4071.9704579994286,
+    "tokens_totales": 9,
+    "citas": [
+      {
+        "documento": "Manual de usuario sistema de gestión docente campus virtual",
+        "articulo_o_seccion": "Manual de usuario sistema de gestión docente campus virtual > MANUAL DE USUARIO: SISTEMA DE GESTIÓN DOCENTE - CAMPUS VIRTUAL (Versión 06) (Parte 1/2)",
+        "url_publica": "https://campus.uss.edu.pe/SeussFile/FileInfSeuss/Manualesdeusuario/_10000000582024_12_15_12.pdf",
+        "similitud": 0.777
+      },
+      {
+        "documento": "MANUAL DE USUARIO DEL AULA VIRTUAL – DOCENTE",
+        "articulo_o_seccion": "MANUAL DE USUARIO DEL AULA VIRTUAL – DOCENTE > MANUAL DE USUARIO DEL AULA VIRTUAL – DOCENTE (Parte 1/6)",
+        "url_publica": "https://campus.uss.edu.pe/SeussFile/FileInfSeuss/Manualesdeusuario/_10007200552026_5_16_14.pdf",
+        "similitud": 0.73
+      },
+      {
+        "documento": "MANUAL DE USUARIO DE PAGOS VIRTUALES",
+        "articulo_o_seccion": "MANUAL DE USUARIO DE PAGOS VIRTUALES",
+        "url_publica": "https://campus.uss.edu.pe/CampusNet6/PagosVisa.pdf",
+        "similitud": 0.719
+      }
+    ]
+  },
+  {
+    "modelo_nombre": "SipánGPT-RAG-STAIR",
+    "respuesta_generada": "Estimado docente, buen día. Conforme a lo establecido en el **Manual de Usuario: Sistema de Gestión de Biblioteca",
+    "tiempo_total_ms": 8000.512250000611,
+    "tiempo_busqueda_ms": 4319.0,
+    "tiempo_generacion_ms": 3681.512250000611,
+    "tokens_totales": 18,
+    "citas": [
+      {
+        "documento": "Manual de usuario sistema de gestión de biblioteca - catálogo en línea",
+        "articulo_o_seccion": "Manual de usuario sistema de gestión de biblioteca - catálogo en línea > MANUAL DE USUARIO: SISTEMA DE GESTIÓN DE BIBLIOTECA – CATÁLOGO EN LÍNEA (Parte 1/3)",
+        "url_publica": "https://campus.uss.edu.pe/SeussFile/FileInfSeuss/Manualesdeusuario/_10000000582024_12_15_14.pdf",
+        "similitud": 0.77
+      },
+      {
+        "documento": "Manual de usuario sistema de gestión de biblioteca - catálogo en línea",
+        "articulo_o_seccion": "Manual de usuario sistema de gestión de biblioteca - catálogo en línea > MANUAL DE USUARIO: SISTEMA DE GESTIÓN DE BIBLIOTECA – CATÁLOGO EN LÍNEA (Parte 3/3)",
+        "url_publica": "https://campus.uss.edu.pe/SeussFile/FileInfSeuss/Manualesdeusuario/_10000000582024_12_15_14.pdf",
+        "similitud": 0.767
+      },
+      {
+        "documento": "Manual de usuario sistema de gestión de biblioteca - catálogo en línea",
+        "articulo_o_seccion": "Manual de usuario sistema de gestión de biblioteca - catálogo en línea > MANUAL DE USUARIO: SISTEMA DE GESTIÓN DE BIBLIOTECA – CATÁLOGO EN LÍNEA (Parte 2/3)",
+        "url_publica": "https://campus.uss.edu.pe/SeussFile/FileInfSeuss/Manualesdeusuario/_10000000582024_12_15_14.pdf",
+        "similitud": 0.754
+      }
+    ]
+  },
+  {
+    "modelo_nombre": "SipánGPT-RAG-STAIR",
+    "respuesta_generada": "Estimado docente, un cordial saludo.\n\nLe informo que en la base normativa y documental actualmente disponible no cuento con el listado específico de las bases de datos bibliográficas y herramientas externas suscritas o integradas al catálogo en línea de la",
+    "tiempo_total_ms": 8442.912917000285,
+    "tiempo_busqueda_ms": 4348.0,
+    "tiempo_generacion_ms": 4094.9129170002852,
+    "tokens_totales": 40,
+    "citas": [
+      {
+        "documento": "CÓDIGO DE ÉTICA EN INVESTIGACIÓN DE LA UNIVERSIDAD SEÑOR DE SIPÁN S.A.C.",
+        "articulo_o_seccion": "CAPÍTULO I: PRINCIPIOS GENERALES",
+        "url_publica": "https://www.uss.edu.pe/uss/TransparenciaDoc/RegInvestigacion/Código%20de%20Ética.pdf",
+        "similitud": 0.685
+      },
+      {
+        "documento": "CÓDIGO DE ÉTICA EN INVESTIGACIÓN DE LA UNIVERSIDAD SEÑOR DE SIPÁN S.A.C.",
+        "articulo_o_seccion": "CAPÍTULO II: PRINCIPIOS ESPECÍFICOS",
+        "url_publica": "https://www.uss.edu.pe/uss/TransparenciaDoc/RegInvestigacion/Código%20de%20Ética.pdf",
+        "similitud": 0.676
+      },
+      {
+        "documento": "CÓDIGO DE ÉTICA EN INVESTIGACIÓN DE LA UNIVERSIDAD SEÑOR DE SIPÁN S.A.C.",
+        "articulo_o_seccion": "Artículo 6°: Principios generales que rigen la actividad de investigación científica",
+        "url_publica": "https://www.uss.edu.pe/uss/TransparenciaDoc/RegInvestigacion/Código%20de%20Ética.pdf",
+        "similitud": 0.674
+      }
+    ]
+  },
+  {
+    "modelo_nombre": "SipánGPT-RAG-STAIR",
+    "respuesta_generada": "Estimado(a) docente, muy buenos días.\n\nLe informo con honestidad que en la base normativa oficial disponible actualmente no",
+    "tiempo_total_ms": 8138.492666999809,
+    "tiempo_busqueda_ms": 3934.0,
+    "tiempo_generacion_ms": 4204.492666999809,
+    "tokens_totales": 18,
+    "citas": [
+      {
+        "documento": "CÓDIGO DE ÉTICA EN INVESTIGACIÓN DE LA UNIVERSIDAD SEÑOR DE SIPÁN S.A.C.",
+        "articulo_o_seccion": "Artículo 31°: Denuncias",
+        "url_publica": "https://www.uss.edu.pe/uss/TransparenciaDoc/RegInvestigacion/Código%20de%20Ética.pdf",
+        "similitud": 0.668
+      },
+      {
+        "documento": "INSTRUCTIVO CERTIFICACIONES PROGRESIVAS PERFIL ALUMNO 2021",
+        "articulo_o_seccion": "INSTRUCTIVO CERTIFICACIONES PROGRESIVAS PERFIL ALUMNO 2021 > INSTRUCTIVO: CERTIFICACIONES PROGRESIVAS - PERFIL ALUMNO (Parte 1/2)",
+        "url_publica": "https://campus.uss.edu.pe/CampusNet6/ICPA.pdf",
+        "similitud": 0.661
+      },
+      {
+        "documento": "CÓDIGO DE ÉTICA EN INVESTIGACIÓN DE LA UNIVERSIDAD SEÑOR DE SIPÁN S.A.C.",
+        "articulo_o_seccion": "Artículo 34°: Órgano sancionador",
+        "url_publica": "https://www.uss.edu.pe/uss/TransparenciaDoc/RegInvestigacion/Código%20de%20Ética.pdf",
+        "similitud": 0.658
+      }
+    ]
+  },
+  {
+    "modelo_nombre": "SipánGPT-RAG-STAIR",
+    "respuesta_generada": "Estimado(a), buenos días. Con gusto le brindo la información respectiva de acuerdo con la normativa vigente.\n\nConforme al **Reglamento de Grados y Títulos (Versión 10)** de la Universidad Señor de Sipán, aprobado mediante Resolución de Directorio N° 052-2025/PD-USS, se establecen las siguientes disposiciones respecto al jurado evaluador:\n\n### **",
+    "tiempo_total_ms": 9443.939959001,
+    "tiempo_busqueda_ms": 4183.0,
+    "tiempo_generacion_ms": 5260.939959001,
+    "tokens_totales": 49,
+    "citas": [
+      {
+        "documento": "REGLAMENTO DE GRADOS Y TÍTULOS",
+        "articulo_o_seccion": "REGLAMENTO DE GRADOS Y TÍTULOS",
+        "url_publica": "https://www.uss.edu.pe/uss/TransparenciaDoc/RegEstudiantes/REGLAMENTOGRADOSYTITULOS.pdf",
+        "similitud": 0.799
+      },
+      {
+        "documento": "REGLAMENTO DE GRADOS Y TÍTULOS",
+        "articulo_o_seccion": "Artículo 23°",
+        "url_publica": "https://www.uss.edu.pe/uss/TransparenciaDoc/RegEstudiantes/REGLAMENTOGRADOSYTITULOS.pdf",
+        "similitud": 0.783
+      },
+      {
+        "documento": "REGLAMENTO DE GRADOS Y TÍTULOS",
+        "articulo_o_seccion": "CAPÍTULO I: DEL JURADO",
+        "url_publica": "https://www.uss.edu.pe/uss/TransparenciaDoc/RegEstudiantes/REGLAMENTOGRADOSYTITULOS.pdf",
+        "similitud": 0.779
+      }
+    ]
+  },
+  {
+    "modelo_nombre": "SipánGPT-RAG-STAIR",
+    "respuesta_generada": "Estimado docente, buenos días. Es un gusto saludarle y colaborar con su labor académica.\n\nConforme a lo estipulado en el **Reglamento de Matrícula (vigente 2025), Título II: De los Estudiantes, Artículo 10°**, la disposición es la siguiente:\n\n* **Créditos mínimos requeridos:** El estudiante debe matricularse en un número mínimo de **doce (12) créditos** por semestre académico para conservar su condición de estudiante regular.\n* **Excepción:** Aplica una excepción únicamente si al estudiante le faltan menos de 12 créditos para culminar la totalidad de su programa de estudios.\n* **Alcance:** Esta disposición es aplicable tanto para los programas de **pregrado** como de **posgrado**.\n\nQuedo a su disposición si requiere alguna precisión adicional sobre la normativa institucional.",
+    "tiempo_total_ms": 9112.956375000067,
+    "tiempo_busqueda_ms": 4212.0,
+    "tiempo_generacion_ms": 4900.956375000067,
+    "tokens_totales": 115,
+    "citas": [
+      {
+        "documento": "REGLAMENTO DE MATRÍCULA",
+        "articulo_o_seccion": "ARTÍCULO 10°:",
+        "url_publica": "https://www.uss.edu.pe/uss/TransparenciaDoc/RegEstudiantes/REGLAMENTO%20DE%20MATRICULA%20GENERAL%20USS.pdf",
+        "similitud": 0.81
+      },
+      {
+        "documento": "REGLAMENTO DE MATRÍCULA",
+        "articulo_o_seccion": "REGLAMENTO DE MATRÍCULA",
+        "url_publica": "https://www.uss.edu.pe/uss/TransparenciaDoc/RegEstudiantes/REGLAMENTO%20DE%20MATRICULA%20GENERAL%20USS.pdf",
+        "similitud": 0.761
+      },
+      {
+        "documento": "REGLAMENTO DE MATRÍCULA",
+        "articulo_o_seccion": "ARTÍCULO 23°:",
+        "url_publica": "https://www.uss.edu.pe/uss/TransparenciaDoc/RegEstudiantes/REGLAMENTO%20DE%20MATRICULA%20GENERAL%20USS.pdf",
+        "similitud": 0.739
+      }
+    ]
+  },
+  {
+    "modelo_nombre": "SipánGPT-RAG-STAIR",
+    "respuesta_generada": "Estimado(a) estudiante, buenos días.\n\nLe informamos que en la base normativa institucional disponible actualmente no se detallan los pasos para la creación de credenciales iniciales ni el enlace web específico de primer acceso al Campus Virtual.\n\nPara recibir asistencia técnica inmediata con sus credenciales y el enlace de acceso",
+    "tiempo_total_ms": 8448.08595900031,
+    "tiempo_busqueda_ms": 3891.0,
+    "tiempo_generacion_ms": 4557.085959000309,
+    "tokens_totales": 49,
+    "citas": [
+      {
+        "documento": "INSTRUCTIVO CERTIFICACIONES PROGRESIVAS PERFIL ALUMNO 2021",
+        "articulo_o_seccion": "INSTRUCTIVO CERTIFICACIONES PROGRESIVAS PERFIL ALUMNO 2021 > INSTRUCTIVO: CERTIFICACIONES PROGRESIVAS - PERFIL ALUMNO (Parte 1/2)",
+        "url_publica": "https://campus.uss.edu.pe/CampusNet6/ICPA.pdf",
+        "similitud": 0.707
+      },
+      {
+        "documento": "CÓDIGO DE ÉTICA EN INVESTIGACIÓN DE LA UNIVERSIDAD SEÑOR DE SIPÁN S.A.C.",
+        "articulo_o_seccion": "Artículo 31°: Denuncias",
+        "url_publica": "https://www.uss.edu.pe/uss/TransparenciaDoc/RegInvestigacion/Código%20de%20Ética.pdf",
+        "similitud": 0.689
+      },
+      {
+        "documento": "CÓDIGO DE ÉTICA EN INVESTIGACIÓN DE LA UNIVERSIDAD SEÑOR DE SIPÁN S.A.C.",
+        "articulo_o_seccion": "Artículo 35°: Inicio (Fase de Instrucción)",
+        "url_publica": "https://www.uss.edu.pe/uss/TransparenciaDoc/RegInvestigacion/Código%20de%20Ética.pdf",
+        "similitud": 0.685
+      }
+    ]
+  },
+  {
+    "modelo_nombre": "SipánGPT-RAG-STAIR",
+    "respuesta_generada": "Estimado(a) docente:\n\nReciba un cordial saludo. Le informamos que en la base normativa y documental oficial disponible actualmente no contamos con la guía o manual técnico específico sobre la configuración de temporalización y opciones de revisión de evaluaciones en el Aula Virtual.\n\nPara recibir asistencia técnica directa y personalizada paso a paso en la plataforma",
+    "tiempo_total_ms": 8924.176624999745,
+    "tiempo_busqueda_ms": 4148.0,
+    "tiempo_generacion_ms": 4776.176624999745,
+    "tokens_totales": 55,
+    "citas": [
+      {
+        "documento": "INSTRUCTIVO CERTIFICACIONES PROGRESIVAS PERFIL ALUMNO 2021",
+        "articulo_o_seccion": "INSTRUCTIVO CERTIFICACIONES PROGRESIVAS PERFIL ALUMNO 2021 > INSTRUCTIVO: CERTIFICACIONES PROGRESIVAS - PERFIL ALUMNO (Parte 1/2)",
+        "url_publica": "https://campus.uss.edu.pe/CampusNet6/ICPA.pdf",
+        "similitud": 0.687
+      },
+      {
+        "documento": "REGLAMENTO DE PROPIEDAD INTELECTUAL DE LA UNIVERSIDAD SEÑOR DE SIPÁN S.A.C.",
+        "articulo_o_seccion": "REGLAMENTO DE PROPIEDAD INTELECTUAL DE LA UNIVERSIDAD SEÑOR DE SIPÁN S.A.C.",
+        "url_publica": "https://www.uss.edu.pe/uss/TransparenciaDoc/RegInvestigacion/Reglamento%20de%20Propiedad%20Intelectual.pdf",
+        "similitud": 0.682
+      },
+      {
+        "documento": "CÓDIGO DE ÉTICA EN INVESTIGACIÓN DE LA UNIVERSIDAD SEÑOR DE SIPÁN S.A.C.",
+        "articulo_o_seccion": "Artículo 42°: Recursos impugnativos",
+        "url_publica": "https://www.uss.edu.pe/uss/TransparenciaDoc/RegInvestigacion/Código%20de%20Ética.pdf",
+        "similitud": 0.669
+      }
+    ]
+  },
+  {
+    "modelo_nombre": "SipánGPT-RAG-STAIR",
+    "respuesta_generada": "Estimado(a) docente,\n\nLe informo que, en la base documental y normativa institucional actualmente disponible, no cuento con la guía técnica ni el instructivo específico sobre los pasos de acceso y búsqueda dentro de la plataforma de biblioteca virtual **eBooks 7-24**.\n\nPara recibir la asistencia técnica correspondiente y acceder a los recursos bibliográficos digitales suscritos por la universidad, le sugiero:\n\n1. **Ingresar a su Campus Virtual:** En el menú principal o sección de **Recursos de Biblioteca / Biblioteca Virtual**, donde suele encontrarse el enlace directo de autenticación y los manuales de usuario.\n2. **Contactar al área de Biblioteca USS:** Puede comunicarse a través",
+    "tiempo_total_ms": 8631.78970899935,
+    "tiempo_busqueda_ms": 4105.0,
+    "tiempo_generacion_ms": 4526.789708999349,
+    "tokens_totales": 102,
+    "citas": [
+      {
+        "documento": "CÓDIGO DE ÉTICA EN INVESTIGACIÓN DE LA UNIVERSIDAD SEÑOR DE SIPÁN S.A.C.",
+        "articulo_o_seccion": "Artículo 31°: Denuncias",
+        "url_publica": "https://www.uss.edu.pe/uss/TransparenciaDoc/RegInvestigacion/Código%20de%20Ética.pdf",
+        "similitud": 0.656
+      },
+      {
+        "documento": "INSTRUCTIVO CERTIFICACIONES PROGRESIVAS PERFIL ALUMNO 2021",
+        "articulo_o_seccion": "INSTRUCTIVO CERTIFICACIONES PROGRESIVAS PERFIL ALUMNO 2021 > INSTRUCTIVO: CERTIFICACIONES PROGRESIVAS - PERFIL ALUMNO (Parte 1/2)",
+        "url_publica": "https://campus.uss.edu.pe/CampusNet6/ICPA.pdf",
+        "similitud": 0.656
+      },
+      {
+        "documento": "CÓDIGO DE ÉTICA EN INVESTIGACIÓN DE LA UNIVERSIDAD SEÑOR DE SIPÁN S.A.C.",
+        "articulo_o_seccion": "CAPÍTULO IV: PRIMERA INSTANCIA",
+        "url_publica": "https://www.uss.edu.pe/uss/TransparenciaDoc/RegInvestigacion/Código%20de%20Ética.pdf",
+        "similitud": 0.646
+      }
+    ]
+  },
+  {
+    "modelo_nombre": "SipánGPT-RAG-STAIR",
+    "respuesta_generada": "Estimado(a) estudiante, con gusto le oriento en el procedimiento.\n\nConforme al **Instructivo: Certificaciones Progresivas - Perfil Alumno** (Sección 3: *Programación del Servicio*), para realizar la programación del pago debe seguir estos pasos en el Campus Virtual:\n\n1. Ingrese a su **Campus Virtual** con su usuario de alumno.\n2. Diríjase a la sección **Procesos en Línea** y seleccione **Trámites**.\n3. Haga clic en la pestaña **Programación de servicios**.\n   *(Nota",
+    "tiempo_total_ms": 8978.798959000414,
+    "tiempo_busqueda_ms": 4074.0,
+    "tiempo_generacion_ms": 4904.7989590004145,
+    "tokens_totales": 68,
+    "citas": [
+      {
+        "documento": "INSTRUCTIVO CERTIFICACIONES PROGRESIVAS PERFIL ALUMNO 2021",
+        "articulo_o_seccion": "INSTRUCTIVO CERTIFICACIONES PROGRESIVAS PERFIL ALUMNO 2021 > INSTRUCTIVO: CERTIFICACIONES PROGRESIVAS - PERFIL ALUMNO (Parte 1/2)",
+        "url_publica": "https://campus.uss.edu.pe/CampusNet6/ICPA.pdf",
+        "similitud": 0.725
+      },
+      {
+        "documento": "INSTRUCTIVO CERTIFICACIONES PROGRESIVAS PERFIL ALUMNO 2021",
+        "articulo_o_seccion": "INSTRUCTIVO CERTIFICACIONES PROGRESIVAS PERFIL ALUMNO 2021 > INSTRUCTIVO: CERTIFICACIONES PROGRESIVAS - PERFIL ALUMNO (Parte 2/2)",
+        "url_publica": "https://campus.uss.edu.pe/CampusNet6/ICPA.pdf",
+        "similitud": 0.716
+      },
+      {
+        "documento": "REGLAMENTO DE GRADOS Y TÍTULOS",
+        "articulo_o_seccion": "REGLAMENTO DE GRADOS Y TÍTULOS",
+        "url_publica": "https://www.uss.edu.pe/uss/TransparenciaDoc/RegEstudiantes/REGLAMENTOGRADOSYTITULOS.pdf",
+        "similitud": 0.696
+      }
+    ]
+  },
+  {
+    "modelo_nombre": "SipánGPT-RAG-STAIR",
+    "respuesta_generada": "Estimado estudiante, comprendo tu inquietud. La posibilidad de realizar la tesis en equipo depende del trámite que estés realizando.\n\nConforme al **Reglamento de Grados y Títulos (Versión 10)**, **Título III, Capítulo III, Artículo 20°**, la normativa establece lo siguiente:\n\n* **Para Título Profesional:** La tesis puede desarrollarse de manera **individual o en pares** (con un compañero).\n* **Para Grados Académicos:** La tesis debe ser de carácter estrictamente **individual**.\n\nPor lo tanto, si tu objetivo es obtener el título profesional, sí puedes elaborarla junto a tu compañero. Si requieres orientación adicional sobre el registro de tu plan de tesis, puedes consultar a través de tu Campus Virtual o con la coordinación académica de tu escuela.",
+    "tiempo_total_ms": 7121.338999999352,
+    "tiempo_busqueda_ms": 2635.0,
+    "tiempo_generacion_ms": 4486.338999999352,
+    "tokens_totales": 114,
+    "citas": [
+      {
+        "documento": "REGLAMENTO DE GRADOS Y TÍTULOS",
+        "articulo_o_seccion": "REGLAMENTO DE GRADOS Y TÍTULOS",
+        "url_publica": "https://www.uss.edu.pe/uss/TransparenciaDoc/RegEstudiantes/REGLAMENTOGRADOSYTITULOS.pdf",
+        "similitud": 0.803
+      },
+      {
+        "documento": "REGLAMENTO DE GRADOS Y TÍTULOS",
+        "articulo_o_seccion": "CAPÍTULO III: DE LA TESIS",
+        "url_publica": "https://www.uss.edu.pe/uss/TransparenciaDoc/RegEstudiantes/REGLAMENTOGRADOSYTITULOS.pdf",
+        "similitud": 0.768
+      },
+      {
+        "documento": "REGLAMENTO DE GRADOS Y TÍTULOS",
+        "articulo_o_seccion": "Artículo 20°",
+        "url_publica": "https://www.uss.edu.pe/uss/TransparenciaDoc/RegEstudiantes/REGLAMENTOGRADOSYTITULOS.pdf",
+        "similitud": 0.766
+      }
+    ]
+  },
+  {
+    "modelo_nombre": "SipánGPT-RAG-STAIR",
+    "respuesta_generada": "Estimado(a) estudiante, buenos días.\n\nEn atención a su consulta, le informamos que su situación se encuentra contemplada en la normativa institucional vigente de la Universidad Señor de Sipán.\n\nDe acuerdo con el",
+    "tiempo_total_ms": 9065.035041998271,
+    "tiempo_busqueda_ms": 4490.0,
+    "tiempo_generacion_ms": 4575.0350419982715,
+    "tokens_totales": 32,
+    "citas": [
+      {
+        "documento": "REGLAMENTO DE COBRANZA",
+        "articulo_o_seccion": "ARTÍCULO 24°:",
+        "url_publica": "https://www.uss.edu.pe/uss/TransparenciaDoc/RegEstudiantes/cobranzas2026.pdf",
+        "similitud": 0.786
+      },
+      {
+        "documento": "REGLAMENTO DE COBRANZA",
+        "articulo_o_seccion": "REGLAMENTO DE COBRANZA",
+        "url_publica": "https://www.uss.edu.pe/uss/TransparenciaDoc/RegEstudiantes/cobranzas2026.pdf",
+        "similitud": 0.759
+      },
+      {
+        "documento": "REGLAMENTO DE COBRANZA",
+        "articulo_o_seccion": "ARTÍCULO 25°:",
+        "url_publica": "https://www.uss.edu.pe/uss/TransparenciaDoc/RegEstudiantes/cobranzas2026.pdf",
+        "similitud": 0.741
+      }
+    ]
+  },
+  {
+    "modelo_nombre": "SipánGPT-RAG-STAIR",
+    "respuesta_generada": "Estimado/a docente, reciba un cordial saludo.\n\nLe informo con total transparencia que el procedimiento específico paso a paso para el acceso a la plataforma **E-Libro** no se encuentra detallado en la base normativa institucional disponible en este momento.\n\nNo obstante, para gestionar el acceso a los recursos bibliográficos y bases de datos digitales institucionales, le sugerimos:\n\n1. **Campus Virtual USS:** Ingrese con sus credenciales institucionales y diríjase a la sección de **Biblioteca Virtual**, donde usualmente se encuentran integrados los accesos directos a las bases de datos suscritas (incluyendo E-Libro).\n2. **Canales de atención:** En caso de requerir asistencia técnica o soporte con sus accesos docentes, puede canalizar su consulta a través de la Dirección de Biblioteca o escribir a los canales oficiales de atención: **informes@uss.edu.pe",
+    "tiempo_total_ms": 8891.666540999722,
+    "tiempo_busqueda_ms": 3880.0,
+    "tiempo_generacion_ms": 5011.666540999722,
+    "tokens_totales": 125,
+    "citas": [
+      {
+        "documento": "CÓDIGO DE ÉTICA EN INVESTIGACIÓN DE LA UNIVERSIDAD SEÑOR DE SIPÁN S.A.C.",
+        "articulo_o_seccion": "Artículo 31°: Denuncias",
+        "url_publica": "https://www.uss.edu.pe/uss/TransparenciaDoc/RegInvestigacion/Código%20de%20Ética.pdf",
+        "similitud": 0.665
+      },
+      {
+        "documento": "CÓDIGO DE ÉTICA EN INVESTIGACIÓN DE LA UNIVERSIDAD SEÑOR DE SIPÁN S.A.C.",
+        "articulo_o_seccion": "Artículo 35°: Inicio (Fase de Instrucción)",
+        "url_publica": "https://www.uss.edu.pe/uss/TransparenciaDoc/RegInvestigacion/Código%20de%20Ética.pdf",
+        "similitud": 0.655
+      },
+      {
+        "documento": "CÓDIGO DE ÉTICA EN INVESTIGACIÓN DE LA UNIVERSIDAD SEÑOR DE SIPÁN S.A.C.",
+        "articulo_o_seccion": "Artículo 30°: Inicio y duración",
+        "url_publica": "https://www.uss.edu.pe/uss/TransparenciaDoc/RegInvestigacion/Código%20de%20Ética.pdf",
+        "similitud": 0.65
+      }
+    ]
+  },
+  {
+    "modelo_nombre": "SipánGPT-RAG-STAIR",
+    "respuesta_generada": "Estimado(a), buenos días.\n\nLe saluda SipánGPT, asistente de la Universidad Señor de Sipán.\n\nLe informamos que actualmente no disponemos del procedimiento normativo específico en nuestra base de datos para la visualización de los resultados de la **Evaluación de Desempeño Docente**.\n\nA fin de brindarle la asistencia técnica oportuna, le sugerimos comunicarse directamente con los canales oficiales de soporte y atención institucional:\n\n* **Soporte Técnico / Campus Virtual:** A través del módulo de incidencias o soporte de su perfil en el [Campus Virtual USS](https://campus.uss.edu.pe/).\n* **Correo de atención institucional:** [informes@uss.edu.pe](mailto:informes@uss.edu.pe)\n* **Dirección Académica / Escuela Profesional:** Según corresponda a su facultad o rol docente.\n\nQuedamos a su disposición para cualquier otra consulta sobre reglamentos o trámites disponibles en nuestra plataforma institucional.",
+    "tiempo_total_ms": 7839.346624999962,
+    "tiempo_busqueda_ms": 3959.0,
+    "tiempo_generacion_ms": 3880.346624999962,
+    "tokens_totales": 120,
+    "citas": [
+      {
+        "documento": "INSTRUCTIVO CERTIFICACIONES PROGRESIVAS PERFIL ALUMNO 2021",
+        "articulo_o_seccion": "INSTRUCTIVO CERTIFICACIONES PROGRESIVAS PERFIL ALUMNO 2021 > INSTRUCTIVO: CERTIFICACIONES PROGRESIVAS - PERFIL ALUMNO (Parte 1/2)",
+        "url_publica": "https://campus.uss.edu.pe/CampusNet6/ICPA.pdf",
+        "similitud": 0.685
+      },
+      {
+        "documento": "CÓDIGO DE ÉTICA EN INVESTIGACIÓN DE LA UNIVERSIDAD SEÑOR DE SIPÁN S.A.C.",
+        "articulo_o_seccion": "Artículo 31°: Denuncias",
+        "url_publica": "https://www.uss.edu.pe/uss/TransparenciaDoc/RegInvestigacion/Código%20de%20Ética.pdf",
+        "similitud": 0.676
+      },
+      {
+        "documento": "CÓDIGO DE ÉTICA EN INVESTIGACIÓN DE LA UNIVERSIDAD SEÑOR DE SIPÁN S.A.C.",
+        "articulo_o_seccion": "CÓDIGO DE ÉTICA EN INVESTIGACIÓN DE LA UNIVERSIDAD SEÑOR DE SIPÁN S.A.C. > RESOLUCIÓN DE DIRECTORIO N° 053-2023/PD-USS (Parte 2/2)",
+        "url_publica": "https://www.uss.edu.pe/uss/TransparenciaDoc/RegInvestigacion/Código%20de%20Ética.pdf",
+        "similitud": 0.674
+      }
+    ]
+  },
+  {
+    "modelo_nombre": "SipánGPT-RAG-STAIR",
+    "respuesta_generada": "Estimado(a) docente, buenos días.\n\nLe informamos que en la base de datos normativa y documental disponible no se cuenta con el manual técnico de incidencias del Aula Virtual para resolver este caso específico. \n\nNo obstante, de manera general en los entornos virtuales, esta alerta suele presentarse cuando el estudiante:\n1. No ha registrado ninguna intervención ni réplica dentro del hilo de discusión asignado.\n2. Publicó su participación en una sección o grupo distinto al configurado para la calificación.\n\nPara una revisión técnica detallada y la verificación del registro de",
+    "tiempo_total_ms": 8633.363082999495,
+    "tiempo_busqueda_ms": 3334.0,
+    "tiempo_generacion_ms": 5299.3630829994945,
+    "tokens_totales": 89,
+    "citas": [
+      {
+        "documento": "INSTRUCTIVO CERTIFICACIONES PROGRESIVAS PERFIL ALUMNO 2021",
+        "articulo_o_seccion": "INSTRUCTIVO CERTIFICACIONES PROGRESIVAS PERFIL ALUMNO 2021 > INSTRUCTIVO: CERTIFICACIONES PROGRESIVAS - PERFIL ALUMNO (Parte 1/2)",
+        "url_publica": "https://campus.uss.edu.pe/CampusNet6/ICPA.pdf",
+        "similitud": 0.652
+      },
+      {
+        "documento": "CÓDIGO DE ÉTICA EN INVESTIGACIÓN DE LA UNIVERSIDAD SEÑOR DE SIPÁN S.A.C.",
+        "articulo_o_seccion": "Artículo 22°: Destitución",
+        "url_publica": "https://www.uss.edu.pe/uss/TransparenciaDoc/RegInvestigacion/Código%20de%20Ética.pdf",
+        "similitud": 0.649
+      },
+      {
+        "documento": "CÓDIGO DE ÉTICA EN INVESTIGACIÓN DE LA UNIVERSIDAD SEÑOR DE SIPÁN S.A.C.",
+        "articulo_o_seccion": "Artículo 21°: Cese Temporal",
+        "url_publica": "https://www.uss.edu.pe/uss/TransparenciaDoc/RegInvestigacion/Código%20de%20Ética.pdf",
+        "similitud": 0.645
+      }
+    ]
+  },
+  {
+    "modelo_nombre": "SipánGPT-RAG-STAIR",
+    "respuesta_generada": "Estimado docente, muy buenos días.\n\nLe informo que, en la base normativa y manuales instit",
+    "tiempo_total_ms": 7807.972750000772,
+    "tiempo_busqueda_ms": 2767.0,
+    "tiempo_generacion_ms": 5040.972750000772,
+    "tokens_totales": 15,
+    "citas": [
+      {
+        "documento": "MANUAL DE USUARIO DE PAGOS VIRTUALES",
+        "articulo_o_seccion": "MANUAL DE USUARIO DE PAGOS VIRTUALES",
+        "url_publica": "https://campus.uss.edu.pe/CampusNet6/PagosVisa.pdf",
+        "similitud": 0.752
+      },
+      {
+        "documento": "MANUAL DE USUARIO DE PAGOS VIRTUALES",
+        "articulo_o_seccion": "MANUAL DE USUARIO DE PAGOS VIRTUALES > RESOLUCIÓN DE DIRECTORIO N°002-2026/PD-USS",
+        "url_publica": "https://campus.uss.edu.pe/CampusNet6/PagosVisa.pdf",
+        "similitud": 0.717
+      },
+      {
+        "documento": "Manual de usuario sistema de gestión docente campus virtual",
+        "articulo_o_seccion": "Manual de usuario sistema de gestión docente campus virtual > MANUAL DE USUARIO: SISTEMA DE GESTIÓN DOCENTE - CAMPUS VIRTUAL (Versión 06) (Parte 1/2)",
+        "url_publica": "https://campus.uss.edu.pe/SeussFile/FileInfSeuss/Manualesdeusuario/_10000000582024_12_15_12.pdf",
+        "similitud": 0.713
+      }
+    ]
+  },
+  {
+    "modelo_nombre": "SipánGPT-RAG-STAIR",
+    "respuesta_generada": "Estimado(a) docente / usuario,\n\nLe informo que no dispongo en este momento",
+    "tiempo_total_ms": 8907.909708999796,
+    "tiempo_busqueda_ms": 4012.0,
+    "tiempo_generacion_ms": 4895.909708999796,
+    "tokens_totales": 12,
+    "citas": [
+      {
+        "documento": "INSTRUCTIVO CERTIFICACIONES PROGRESIVAS PERFIL ALUMNO 2021",
+        "articulo_o_seccion": "INSTRUCTIVO CERTIFICACIONES PROGRESIVAS PERFIL ALUMNO 2021 > INSTRUCTIVO: CERTIFICACIONES PROGRESIVAS - PERFIL ALUMNO (Parte 1/2)",
+        "url_publica": "https://campus.uss.edu.pe/CampusNet6/ICPA.pdf",
+        "similitud": 0.658
+      },
+      {
+        "documento": "CÓDIGO DE ÉTICA EN INVESTIGACIÓN DE LA UNIVERSIDAD SEÑOR DE SIPÁN S.A.C.",
+        "articulo_o_seccion": "Artículo 40°: Fin del proceso",
+        "url_publica": "https://www.uss.edu.pe/uss/TransparenciaDoc/RegInvestigacion/Código%20de%20Ética.pdf",
+        "similitud": 0.649
+      },
+      {
+        "documento": "CÓDIGO DE ÉTICA EN INVESTIGACIÓN DE LA UNIVERSIDAD SEÑOR DE SIPÁN S.A.C.",
+        "articulo_o_seccion": "Artículo 30°: Inicio y duración",
+        "url_publica": "https://www.uss.edu.pe/uss/TransparenciaDoc/RegInvestigacion/Código%20de%20Ética.pdf",
+        "similitud": 0.645
+      }
+    ]
+  },
+  {
+    "modelo_nombre": "SipánGPT-RAG-STAIR",
+    "respuesta_generada": "Estimado(a) docente, le saludo cordialmente.\n\nAl respecto, le informo que en el",
+    "tiempo_total_ms": 8596.929291999913,
+    "tiempo_busqueda_ms": 3504.0,
+    "tiempo_generacion_ms": 5092.929291999913,
+    "tokens_totales": 12,
+    "citas": [
+      {
+        "documento": "REGLAMENTO DE COBRANZA",
+        "articulo_o_seccion": "ARTÍCULO 17°:",
+        "url_publica": "https://www.uss.edu.pe/uss/TransparenciaDoc/RegEstudiantes/cobranzas2026.pdf",
+        "similitud": 0.706
+      },
+      {
+        "documento": "REGLAMENTO DE COBRANZA",
+        "articulo_o_seccion": "REGLAMENTO DE COBRANZA",
+        "url_publica": "https://www.uss.edu.pe/uss/TransparenciaDoc/RegEstudiantes/cobranzas2026.pdf",
+        "similitud": 0.704
+      },
+      {
+        "documento": "REGLAMENTO DE COBRANZA",
+        "articulo_o_seccion": "ARTÍCULO 11°:",
+        "url_publica": "https://www.uss.edu.pe/uss/TransparenciaDoc/RegEstudiantes/cobranzas2026.pdf",
+        "similitud": 0.702
+      }
+    ]
+  },
+  {
+    "modelo_nombre": "SipánGPT-RAG-STAIR",
+    "respuesta_generada": "Estimado(a) colega,\n\nLe informo que, en la base normativa oficial disponible actualmente (*Reg",
+    "tiempo_total_ms": 6997.445166998659,
+    "tiempo_busqueda_ms": 3459.0,
+    "tiempo_generacion_ms": 3538.4451669986593,
+    "tokens_totales": 13,
+    "citas": [
+      {
+        "documento": "REGLAMENTO DE MATRÍCULA",
+        "articulo_o_seccion": "REGLAMENTO DE MATRÍCULA",
+        "url_publica": "https://www.uss.edu.pe/uss/TransparenciaDoc/RegEstudiantes/REGLAMENTO%20DE%20MATRICULA%20GENERAL%20USS.pdf",
+        "similitud": 0.743
+      },
+      {
+        "documento": "REGLAMENTO DE MATRÍCULA",
+        "articulo_o_seccion": "CAPÍTULO IV: CONDICIONES DE MATRÍCULA POR BAJO DESEMPEÑO ACADÉMICO",
+        "url_publica": "https://www.uss.edu.pe/uss/TransparenciaDoc/RegEstudiantes/REGLAMENTO%20DE%20MATRICULA%20GENERAL%20USS.pdf",
+        "similitud": 0.705
+      },
+      {
+        "documento": "REGLAMENTO DE MATRÍCULA",
+        "articulo_o_seccion": "REGLAMENTO DE MATRÍCULA > RESOLUCIÓN DE DIRECTORIO N°0093-2025/PD-USS",
+        "url_publica": "https://www.uss.edu.pe/uss/TransparenciaDoc/RegEstudiantes/REGLAMENTO%20DE%20MATRICULA%20GENERAL%20USS.pdf",
+        "similitud": 0.704
+      }
+    ]
+  },
+  {
+    "modelo_nombre": "SipánGPT-RAG-STAIR",
+    "respuesta_generada": "Estimado(a) estudiante, buenos días. Con gusto le brindo la orientación requerida.\n\nConforme a",
+    "tiempo_total_ms": 8965.150792000713,
+    "tiempo_busqueda_ms": 4292.0,
+    "tiempo_generacion_ms": 4673.150792000713,
+    "tokens_totales": 13,
+    "citas": [
+      {
+        "documento": "Manual de usuario sistema de gestión de biblioteca - catálogo en línea",
+        "articulo_o_seccion": "Manual de usuario sistema de gestión de biblioteca - catálogo en línea > MANUAL DE USUARIO: SISTEMA DE GESTIÓN DE BIBLIOTECA – CATÁLOGO EN LÍNEA (Parte 1/3)",
+        "url_publica": "https://campus.uss.edu.pe/SeussFile/FileInfSeuss/Manualesdeusuario/_10000000582024_12_15_14.pdf",
+        "similitud": 0.794
+      },
+      {
+        "documento": "Manual de usuario sistema de gestión de biblioteca - catálogo en línea",
+        "articulo_o_seccion": "Manual de usuario sistema de gestión de biblioteca - catálogo en línea > MANUAL DE USUARIO: SISTEMA DE GESTIÓN DE BIBLIOTECA – CATÁLOGO EN LÍNEA (Parte 2/3)",
+        "url_publica": "https://campus.uss.edu.pe/SeussFile/FileInfSeuss/Manualesdeusuario/_10000000582024_12_15_14.pdf",
+        "similitud": 0.745
+      },
+      {
+        "documento": "MANUAL DE USUARIO DE PAGOS VIRTUALES",
+        "articulo_o_seccion": "MANUAL DE USUARIO DE PAGOS VIRTUALES",
+        "url_publica": "https://campus.uss.edu.pe/CampusNet6/PagosVisa.pdf",
+        "similitud": 0.739
+      }
+    ]
+  },
+  {
+    "modelo_nombre": "SipánGPT-RAG-STAIR",
+    "respuesta_generada": "Estimado(a), entiendo tu preocupación al configurar este instrumento en la plataforma.\n\nLamentablemente, no dispongo en este momento de la guía técnica específica para la creación y guardado de rúbricas en el Aula Virtual dentro de mi base normativa oficial actual.\n\nPara brindarte una solución rápida y adecuada a este inconveniente técnico en la plataforma, te sugiero comunicarte con el área de soporte técnico del Campus Virtual o elevar tu consulta a través de los canales oficiales institucionales",
+    "tiempo_total_ms": 8299.021082999388,
+    "tiempo_busqueda_ms": 3767.0,
+    "tiempo_generacion_ms": 4532.021082999388,
+    "tokens_totales": 77,
+    "citas": [
+      {
+        "documento": "INSTRUCTIVO CERTIFICACIONES PROGRESIVAS PERFIL ALUMNO 2021",
+        "articulo_o_seccion": "INSTRUCTIVO CERTIFICACIONES PROGRESIVAS PERFIL ALUMNO 2021 > INSTRUCTIVO: CERTIFICACIONES PROGRESIVAS - PERFIL ALUMNO (Parte 1/2)",
+        "url_publica": "https://campus.uss.edu.pe/CampusNet6/ICPA.pdf",
+        "similitud": 0.659
+      },
+      {
+        "documento": "INSTRUCTIVO CERTIFICACIONES PROGRESIVAS PERFIL ALUMNO 2021",
+        "articulo_o_seccion": "INSTRUCTIVO CERTIFICACIONES PROGRESIVAS PERFIL ALUMNO 2021 > INSTRUCTIVO: CERTIFICACIONES PROGRESIVAS - PERFIL ALUMNO (Parte 2/2)",
+        "url_publica": "https://campus.uss.edu.pe/CampusNet6/ICPA.pdf",
+        "similitud": 0.638
+      },
+      {
+        "documento": "REGLAMENTO DE PROPIEDAD INTELECTUAL DE LA UNIVERSIDAD SEÑOR DE SIPÁN S.A.C.",
+        "articulo_o_seccion": "REGLAMENTO DE PROPIEDAD INTELECTUAL DE LA UNIVERSIDAD SEÑOR DE SIPÁN S.A.C.",
+        "url_publica": "https://www.uss.edu.pe/uss/TransparenciaDoc/RegInvestigacion/Reglamento%20de%20Propiedad%20Intelectual.pdf",
+        "similitud": 0.624
+      }
+    ]
+  },
+  {
+    "modelo_nombre": "SipánGPT-RAG-STAIR",
+    "respuesta_generada": "Estimado docente, buenas tardes.\n\nLe informo que, en la base normativa y documental oficial disponible actualmente, no figura el enlace web directo o URL específica para el acceso al perfil docente.\n\nPara ingresar a la plataforma institucional y gestionar sus asignaturas, se le sugiere acceder a través del portal web oficial de la Universidad Señor de Sipán seleccionando la opción de **Campus Virtual** (accediendo con sus credenciales institucionales de docente). \n\nSi presenta dificultades técnicas o requiere el enlace directo actualizado, le recomiendo comunicarse con los canales oficiales de soporte:\n* **Mesa de Ayuda / Soporte de Campus Virtual**\n* **Correo de atención institucional:** informes@uss.edu.pe\n\nQuedo a su disposición para cualquier otra consulta sobre la normativa académica de la universidad.",
+    "tiempo_total_ms": 7962.564667001061,
+    "tiempo_busqueda_ms": 3853.0,
+    "tiempo_generacion_ms": 4109.564667001061,
+    "tokens_totales": 119,
+    "citas": [
+      {
+        "documento": "INSTRUCTIVO CERTIFICACIONES PROGRESIVAS PERFIL ALUMNO 2021",
+        "articulo_o_seccion": "INSTRUCTIVO CERTIFICACIONES PROGRESIVAS PERFIL ALUMNO 2021 > INSTRUCTIVO: CERTIFICACIONES PROGRESIVAS - PERFIL ALUMNO (Parte 1/2)",
+        "url_publica": "https://campus.uss.edu.pe/CampusNet6/ICPA.pdf",
+        "similitud": 0.637
+      },
+      {
+        "documento": "CÓDIGO DE ÉTICA EN INVESTIGACIÓN DE LA UNIVERSIDAD SEÑOR DE SIPÁN S.A.C.",
+        "articulo_o_seccion": "CAPÍTULO I: DEL COMITÉ INSTITUCIONAL DE ÉTICA EN INVESTIGACIÓN",
+        "url_publica": "https://www.uss.edu.pe/uss/TransparenciaDoc/RegInvestigacion/Código%20de%20Ética.pdf",
+        "similitud": 0.631
+      },
+      {
+        "documento": "CÓDIGO DE ÉTICA EN INVESTIGACIÓN DE LA UNIVERSIDAD SEÑOR DE SIPÁN S.A.C.",
+        "articulo_o_seccion": "CÓDIGO DE ÉTICA EN INVESTIGACIÓN DE LA UNIVERSIDAD SEÑOR DE SIPÁN S.A.C. > RESOLUCIÓN DE DIRECTORIO N° 053-2023/PD-USS (Parte 2/2)",
+        "url_publica": "https://www.uss.edu.pe/uss/TransparenciaDoc/RegInvestigacion/Código%20de%20Ética.pdf",
+        "similitud": 0.626
+      }
+    ]
+  },
+  {
+    "modelo_nombre": "SipánGPT-RAG-STAIR",
+    "respuesta_generada": "Estimado(a) graduando(a), reciba un cordial saludo institucional.\n\nConforme al **Reglamento de Grados y Títulos (Versión 10)** de la Universidad Señor de Sipán, **Título II: De las Carpetas y Requisitos, Capítulo IV, Artículo 11°**, los requisitos normativos vigentes para la obtención del grado académico de Maestro son los siguientes:\n\n1. Grado de Bachiller registrado en la SUNEDU.\n2. Aprobación y sustentación de tesis o trabajo de investigación.\n3. Haber aprobado la totalidad del plan de estudios correspondiente.\n4. Acreditar el conocimiento de un idioma extranjero o lengua nativa.\n5. No mantener deuda financiera con la institución.\n6. No tener pendiente la entrega de documentación en la Dirección de Registros Académicos.\n7. No tener pendiente la entrega de",
+    "tiempo_total_ms": 8324.172458000248,
+    "tiempo_busqueda_ms": 4107.0,
+    "tiempo_generacion_ms": 4217.172458000248,
+    "tokens_totales": 116,
+    "citas": [
+      {
+        "documento": "REGLAMENTO DE GRADOS Y TÍTULOS",
+        "articulo_o_seccion": "Artículo 11°",
+        "url_publica": "https://www.uss.edu.pe/uss/TransparenciaDoc/RegEstudiantes/REGLAMENTOGRADOSYTITULOS.pdf",
+        "similitud": 0.804
+      },
+      {
+        "documento": "REGLAMENTO DE GRADOS Y TÍTULOS",
+        "articulo_o_seccion": "REGLAMENTO DE GRADOS Y TÍTULOS",
+        "url_publica": "https://www.uss.edu.pe/uss/TransparenciaDoc/RegEstudiantes/REGLAMENTOGRADOSYTITULOS.pdf",
+        "similitud": 0.787
+      },
+      {
+        "documento": "REGLAMENTO DE GRADOS Y TÍTULOS",
+        "articulo_o_seccion": "Artículo 1°",
+        "url_publica": "https://www.uss.edu.pe/uss/TransparenciaDoc/RegEstudiantes/REGLAMENTOGRADOSYTITULOS.pdf",
+        "similitud": 0.773
+      }
+    ]
+  },
+  {
+    "modelo_nombre": "SipánGPT-RAG-STAIR",
+    "respuesta_generada": "Estimada estudiante,\n\nLe informo que en la base de datos normativa y oficial actual no dispongo de los precios específicos de las prendas de uniforme (chaqueta y pantalón) para la Escuela de Enfermería, ya que los costos de indumentaria no están contemplados en los manuales académicos o reglamentos vigentes.\n\nPara consultar los costos y la disponibilidad de forma inmediata antes del cierre, le sugiero acercarse directamente a la tienda institucional en el campus o comunicarse mediante los canales oficiales de atención:\n\n* **Campus Virtual:** Módulo de atención al estudiante / Trámites.\n* **Correo de atención:** informes@uss.edu.pe",
+    "tiempo_total_ms": 8390.053582999826,
+    "tiempo_busqueda_ms": 3676.0,
+    "tiempo_generacion_ms": 4714.053582999826,
+    "tokens_totales": 96,
+    "citas": [
+      {
+        "documento": "MANUAL DE USUARIO DE PAGOS VIRTUALES",
+        "articulo_o_seccion": "MANUAL DE USUARIO DE PAGOS VIRTUALES",
+        "url_publica": "https://campus.uss.edu.pe/CampusNet6/PagosVisa.pdf",
+        "similitud": 0.678
+      },
+      {
+        "documento": "MANUAL DE USUARIO MATRÍCULA EN LÍNEA",
+        "articulo_o_seccion": "MANUAL DE USUARIO MATRÍCULA EN LÍNEA",
+        "url_publica": "https://campus.uss.edu.pe/SeussFile/FileInfSeuss/Manualesdeusuario/_10007200552026_5_16_17.pdf",
+        "similitud": 0.641
+      },
+      {
+        "documento": "CÓDIGO DE ÉTICA EN INVESTIGACIÓN DE LA UNIVERSIDAD SEÑOR DE SIPÁN S.A.C.",
+        "articulo_o_seccion": "CÓDIGO DE ÉTICA EN INVESTIGACIÓN DE LA UNIVERSIDAD SEÑOR DE SIPÁN S.A.C. > TÍTULO I: GENERALIDADES",
+        "url_publica": "https://www.uss.edu.pe/uss/TransparenciaDoc/RegInvestigacion/Código%20de%20Ética.pdf",
+        "similitud": 0.637
+      }
+    ]
+  },
+  {
+    "modelo_nombre": "SipánGPT-RAG-STAIR",
+    "respuesta_generada": "Estimado(a) estudiante, comprendo su inquietud. \n\nAl realizar pagos en línea con tarjeta a través",
+    "tiempo_total_ms": 8153.0671670007,
+    "tiempo_busqueda_ms": 2817.0,
+    "tiempo_generacion_ms": 5336.0671670007,
+    "tokens_totales": 14,
+    "citas": [
+      {
+        "documento": "REGLAMENTO DE COBRANZA",
+        "articulo_o_seccion": "ARTÍCULO 11°:",
+        "url_publica": "https://www.uss.edu.pe/uss/TransparenciaDoc/RegEstudiantes/cobranzas2026.pdf",
+        "similitud": 0.693
+      },
+      {
+        "documento": "REGLAMENTO DE COBRANZA",
+        "articulo_o_seccion": "ARTÍCULO 17°:",
+        "url_publica": "https://www.uss.edu.pe/uss/TransparenciaDoc/RegEstudiantes/cobranzas2026.pdf",
+        "similitud": 0.688
+      },
+      {
+        "documento": "REGLAMENTO DE COBRANZA",
+        "articulo_o_seccion": "REGLAMENTO DE COBRANZA",
+        "url_publica": "https://www.uss.edu.pe/uss/TransparenciaDoc/RegEstudiantes/cobranzas2026.pdf",
+        "similitud": 0.685
+      }
+    ]
+  }
+]

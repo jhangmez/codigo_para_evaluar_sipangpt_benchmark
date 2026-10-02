@@ -45,6 +45,10 @@ class Settings(BaseSettings):
         default="",
         description="Cookie de sesión de NextAuth para autenticación en /api/chat"
     )
+    sipan_rag_model_code: str = Field(
+        default="gemini-3.8-flash",
+        description="Código del modelo LLM a invocar en SipánGPT RAG (/api/chat)"
+    )
     hf_dataset_name: str = Field(
         default="ussipan/sipangpt-V2",
         description="Identificador del dataset oficial en HuggingFace Hub"
@@ -66,7 +70,7 @@ class Settings(BaseSettings):
         description="API Key de Google Gemini para el Juez LLM-as-a-Judge"
     )
     judge_model_name: str = Field(
-        default="gemini-3.5-flash",
+        default="gemini-3.8-flash",
         description="Modelo de Gemini a utilizar como Juez Evaluador (Zheng et al., NeurIPS 2023)"
     )
     vercel_ai_gateway_key: str = Field(

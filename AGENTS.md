@@ -68,11 +68,18 @@ codigo_para_evaluar_sipangpt_benchmark/
 │       │   ├── matriz_comparativa_final.xlsx
 │       │   ├── matriz_evaluacion_jev.xlsx
 │       │   └── banco_pruebas_50.xlsx
-│       └── tanda_2/                 # Segunda Tanda (Red optimizada y memoria precargada)
+│       ├── tanda_2/                 # Segunda Tanda (Red optimizada con Gemini 3.5 Flash)
+│       │   ├── run_gemma4_finetuned.json
+│       │   ├── run_sipan_stair_rag.json
+│       │   ├── judge_evaluations_cache.json
+│       │   ├── matriz_comparativa_final.xlsx
+│       │   └── banco_pruebas_50.xlsx
+│       └── tanda_3/                 # Tercera Tanda (Gemini 3.8 Flash en SipánGPT y Juez LLM)
 │           ├── run_gemma4_finetuned.json
 │           ├── run_sipan_stair_rag.json
 │           ├── judge_evaluations_cache.json
-│           └── matriz_comparativa_final.xlsx
+│           ├── matriz_comparativa_final.xlsx
+│           └── banco_pruebas_50.xlsx
 │
 ├── reports/
 │   ├── figures/                     # Gráficos estadísticos en alta resolución (300 DPI)
@@ -81,13 +88,18 @@ codigo_para_evaluar_sipangpt_benchmark/
 │   │   │   ├── latencia_boxplots.png
 │   │   │   ├── jev_exactitud_comparada.png
 │   │   │   └── jev_calidad_tecnica.png
-│   │   └── tanda_2/                 # Figuras Tanda 2 (Red optimizada, 5 módulos)
+│   │   ├── tanda_2/                 # Figuras Tanda 2 (Red optimizada, 5 módulos)
+│   │   │   ├── curva_exactitud_comparada.png
+│   │   │   └── latencia_boxplots.png
+│   │   └── tanda_3/                 # Figuras Tercera Tanda (Gemini 3.8 Flash, 5 módulos)
 │   │       ├── curva_exactitud_comparada.png
 │   │       └── latencia_boxplots.png
 │   └── tables/                      # Tablas Markdown para el informe de Tesis
 │       ├── tanda_1/                 # Tabla de exactitud Tanda 1
 │       │   └── tabla_exactitud_50_preguntas.md
-│       └── tanda_2/                 # Tabla de exactitud Tanda 2
+│       ├── tanda_2/                 # Tabla de exactitud Tanda 2
+│       │   └── tabla_exactitud_50_preguntas.md
+│       └── tanda_3/                 # Tabla de exactitud Tercera Tanda
 │           └── tabla_exactitud_50_preguntas.md
 │
 ├── src/
@@ -155,13 +167,14 @@ El banco de pruebas oficial (`data/ground_truth/benchmark_test_50.jsonl`) contie
 | **Total General** | **50** | **35 preguntas monoturno y 15 diálogos multiturno.** |
 
 ### 5.1. Organización por Tandas de Evaluación
-El repositorio conserva los datos de dos tandas experimentales completas:
+El repositorio conserva los datos de tres tandas experimentales completas:
 * **Primera Tanda (`tanda_1`)**: Evaluación fundacional inicial. Incluyó tanto el Juez Principal Gemini LLM como el evaluador experimental TypeSafe AI Jev. Ejecutada en condiciones de latencia de red variable (~91.76 s media en RAG).
 * **Segunda Tanda (`tanda_2`)**: Evaluación con red de alta velocidad y memoria precargada (*pre-warming*). Evaluó las 50 preguntas completas con el Juez LLM Gemini 3.5 Flash sin Jev (por indisponibilidad de API externa), demostrando una latencia real de ~7.47 s en Sipán-STAIR RAG y ratificando la ventaja fáctica (+39.00% exactitud respecto a Gemma-4).
+* **Tercera Tanda (`tanda_3`)**: Evaluación avanzada integrando **`gemini-3.8-flash`** tanto en la inferencia del asistente RAG SipánGPT (con razonamiento medium y recuperación vectorial) como en el Juez LLM Reference-Guided (NeurIPS 2023), alcanzando una latencia media de ~8.43 s en RAG frente a ~11.47 s en Gemma-4 (+7.00% exactitud fáctica bajo el estándar más estricto del evaluador).
 
 > [!IMPORTANT]
 > Todos los gráficos comparativos (`curva_exactitud_comparada.png`, `latencia_boxplots.png`, `jev_exactitud_comparada.png`, `jev_calidad_tecnica.png`) DEBEN mostrar sin excepción los **5 módulos académicos**.
-> En el caso de Jev, si Gemma-4 obtiene `0.0%` en alguna categoría, la barra debe figurar con su etiqueta numérica `0.0%` para constatar que el módulo fue evaluado.
+> En el caso de Jev o de módulos con exactitud cero, si un modelo obtiene `0.0%` en alguna categoría, la barra debe figurar con su etiqueta numérica `0.0%` para constatar que el módulo fue evaluado.
 
 ---
 
@@ -174,13 +187,14 @@ GEMMA_MODEL_NAME=unsloth_gemma-4-E2B-it_1789791679-GGUF
 
 SIPAN_RAG_API_URL=http://localhost:3000/api/chat
 SIPAN_RAG_API_KEY="sipangpt-local-perf-key"
+SIPAN_RAG_MODEL_CODE=gemini-3.8-flash
 
 # Hugging Face Hub
 HF_DATASET_NAME=ussipan/sipangpt-V2
 
-# Juez Principal: Gemini 3.5 Flash
+# Juez Principal: Gemini 3.8 Flash
 GEMINI_API_KEY="AIzaSy..."
-JUDGE_MODEL_NAME=gemini-3.5-flash
+JUDGE_MODEL_NAME=gemini-3.8-flash
 
 # Evaluador Experimental: TypeSafe AI Jev
 VERCEL_AI_GATEWAY_KEY="vck_..."
@@ -202,11 +216,11 @@ python main.py extract
 # 2. Ejecutar inferencia en ambos modelos (aprovecha checkpoints en disco)
 python main.py run
 
-# 3. Evaluar con Gemini 3.5 Flash (Juez LLM)
+# 3. Evaluar con Gemini 3.8 Flash (Juez LLM)
 python main.py evaluate
 
 # 4. Generar reportes Markdown, Excel y gráficos 300 DPI (soporta subdirectorio opcional)
-python main.py report --output-dir tanda_2
+python main.py report --output-dir tanda_3
 
 # 5. [Opcional] Ejecutar evaluación con TypeSafe AI Jev
 python main.py evaluate-jev
