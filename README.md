@@ -50,14 +50,47 @@ Se implementó un evaluador de arbitraje estricto utilizando **Gemini 3.5 Flash*
 
 ## 📊 Resultados Oficiales del Benchmark en Vivo (Capítulo V de la Tesis)
 
-Para evaluar el impacto de los modelos fundacionales, la infraestructura de red y el comportamiento temporal del sistema, el benchmark se ha ejecutado en tres tandas metodológicas rigurosas:
-1. **Tercera Tanda (`gemini-3.8-flash` en SipánGPT y Juez LLM - Resultados Actuales)**: Inferencia del asistente RAG impulsada por `gemini-3.8-flash` con razonamiento medio y evaluación con el Juez LLM `gemini-3.8-flash` (Reference-Guided NeurIPS 2023).
-2. **Segunda Tanda (Conexión de Alta Velocidad y Calentamiento de Memoria)**: Ejecutada con red optimizada, `gemini-3.5-flash` como Juez y precarga de pesos en memoria para evaluar el rendimiento temporal en producción.
-3. **Primera Tanda (Conexión Limitada y Apoyo Experimental Jev - Histórico)**: Ejecutada bajo condiciones de alta latencia de red y con validación cruzada tipada de System One.
+Para evaluar el impacto de los modelos fundacionales, la infraestructura de red y el comportamiento temporal del sistema, el benchmark se ha ejecutado en cuatro tandas metodológicas rigurosas:
+1. **Cuarta Tanda (`gemini-3.8-flash` en SipánGPT RAG + Fine-Tuned Remoto en `ai-desa.sipangpt.com` - Resultados Oficiales Vigentes)**: Inferencia completa con Gemma-4 Fine-Tuned remoto vía Ollama y Sipán-STAIR RAG local multietapa, evaluada por el Juez LLM `gemini-3.8-flash` (Reference-Guided NeurIPS 2023). Exactitud RAG: **99.00%** (0 alucinaciones) vs Fine-Tuned: **5.00%**.
+2. **Tercera Tanda (`gemini-3.8-flash` en SipánGPT y Juez LLM)**: Inferencia del asistente RAG impulsada por `gemini-3.8-flash` con razonamiento medio y evaluación con el Juez LLM `gemini-3.8-flash` (Reference-Guided NeurIPS 2023).
+3. **Segunda Tanda (Conexión de Alta Velocidad y Calentamiento de Memoria)**: Ejecutada con red optimizada, `gemini-3.5-flash` como Juez y precarga de pesos en memoria para evaluar el rendimiento temporal en producción.
+4. **Primera Tanda (Conexión Limitada y Apoyo Experimental Jev - Histórico)**: Ejecutada bajo condiciones de alta latencia de red y con validación cruzada tipada de System One.
 
 ---
 
-### 🌟 1. Tercera Tanda de Evaluación: SipánGPT y Juez con `gemini-3.8-flash` (Resultados Actuales)
+### 🌟 1. Cuarta Tanda de Evaluación: Gemma-4 Remoto (`ai-desa.sipangpt.com`) y SipánGPT RAG (`gemini-3.8-flash`) (Resultados Oficiales Vigentes)
+
+En esta tanda oficial, el modelo ajustado **Gemma-4 Fine-Tuned (`sipangpt`)** se ejecutó alojado en el clúster de inferencia remoto (`https://ai-desa.sipangpt.com`), mientras que la arquitectura **Sipán-STAIR (RAG)** operó de forma local con la suite completa de recuperación semántica multietapa, reranking y generación aumentada impulsada por **`gemini-3.8-flash`**. Ambas soluciones fueron sometidas al veredicto imparcial del Juez LLM **`gemini-3.8-flash`** (Zheng et al., NeurIPS 2023) sobre las 50 preguntas institucionales del banco oficial:
+
+| Métrica / Dimensión de Evaluación | Gemma-4 Fine-Tuned (LoRA) | Sipán-STAIR (RAG Architecture) | Diferencia / Impacto Fáctico |
+| :--- | :---: | :---: | :---: |
+| **Total de Preguntas Evaluadas** | **50** | **50** | - |
+| **Respuestas Correctas (C - 1.0 pt)** | 1 (2.0%) | 49 (98.0%) | **+96.0%** en respuestas exactas |
+| **Respuestas Parciales (P - 0.5 pt)** | 3 (6.0%) | 1 (2.0%) | -4.0% |
+| **Respuestas Incorrectas / Alucinaciones (I - 0.0 pt)** | 46 (92.0%) | 0 (0.0%) | **-92.0% reducción de alucinaciones (Cero alucinaciones)** |
+| **Porcentaje Global de Exactitud (%)** | **5.00%** | **99.00%** | **+94.00% exactitud fáctica** |
+| **Latencia Media por Consulta** | **13.64 s** (~13,638 ms) | **45.00 s** (~44,998 ms) | RAG con recuperación exhaustiva y reranking completo |
+
+#### 📈 Gráficos de Alta Resolución — Cuarta Tanda (300 DPI)
+
+Ambos gráficos visualizan el desempeño de la Cuarta Tanda en los **5 módulos temáticos oficiales** de la Universidad Señor de Sipán:
+
+| Exactitud Fáctica Comparada por Módulo (Cuarta Tanda) | Latencia Media de Inferencia por Módulo (Cuarta Tanda) |
+| :---: | :---: |
+| ![Exactitud Comparada Tanda 4](reports/figures/tanda_4/curva_exactitud_comparada.png) | ![Latencia de Inferencia Tanda 4](reports/figures/tanda_4/latencia_boxplots.png) |
+
+#### 💡 Hallazgos Principales de la Cuarta Tanda:
+
+1. **Eliminación Total de Alucinaciones Fácticas en RAG:**
+   Sipán-STAIR alcanzó un récord histórico de **0 alucinaciones (0.0% de error)** en las 50 consultas evaluadas, logrando **49 respuestas totalmente correctas (C)** y solo **1 respuesta parcial (P)**, lo que consolida un **99.00% de exactitud fáctica global**.
+2. **Incompetencia Fáctica Crítica del Modelo Fine-Tuned sin Retrieval:**
+   Al responder de manera estrictamente paramétrica desde el clúster remoto (`ai-desa.sipangpt.com`), Gemma-4 Fine-Tuned incurrió en un **92.0% de alucinaciones (46 respuestas incorrectas)**, inventando portales, enlaces desactualizados y procedimientos erróneos para trámites críticos (grados, pagos y rectificaciones).
+3. **Costo Temporal Justificado por Máxima Precisión:**
+   Aunque la latencia media de Sipán-STAIR se situó en **45.00 s** debido a la verificación exhaustiva de fragmentos y el análisis profundo con *thinking process* de `gemini-3.8-flash`, la fiabilidad fáctica del 99.00% garantiza una experiencia estudiantil segura sin riesgos de desinformación institucional.
+
+---
+
+### 🌟 2. Tercera Tanda de Evaluación: SipánGPT y Juez con `gemini-3.8-flash` (Histórico de Referencia)
 
 En esta tanda, la arquitectura **Sipán-STAIR (RAG)** operó con el modelo más reciente de Google DeepMind (**`gemini-3.8-flash`**), el cual integra capacidades nativas de razonamiento (*medium thinking*) y análisis multimodal, siendo evaluado de forma imparcial por el Juez LLM configurado también con **`gemini-3.8-flash`**:
 
@@ -89,7 +122,7 @@ Ambos gráficos visualizan el desempeño de la Tercera Tanda en los **5 módulos
 
 ---
 
-### 🚀 2. Segunda Tanda de Evaluación: Entorno de Alta Velocidad (`gemini-3.5-flash`)
+### 🚀 3. Segunda Tanda de Evaluación: Entorno de Alta Velocidad (`gemini-3.5-flash`)
 
 Bajo condiciones de conexión estables y precarga en memoria (*warm-up*), la arquitectura **Sipán-STAIR (RAG)** demostró no solo una superioridad fáctica categórica, sino también una **eficiencia temporal superior a la inferencia local de Gemma-4**:
 
@@ -121,7 +154,7 @@ Ambos gráficos visualizan el desempeño de la Segunda Tanda en los **5 módulos
 
 ---
 
-### 🏛️ 3. Primera Tanda de Evaluación: Entorno de Red Limitada (Histórico de Contraste)
+### 🏛️ 4. Primera Tanda de Evaluación: Entorno de Red Limitada (Histórico de Contraste)
 
 En la tanda inicial, ejecutada bajo condiciones de latencia de red elevada (conexión inestable de subida/bajada):
 
@@ -142,17 +175,18 @@ En la tanda inicial, ejecutada bajo condiciones de latencia de red elevada (cone
 
 ---
 
-### 🔄 4. Comparativa Transversal entre las Tres Tandas Experimentales
+### 🔄 5. Comparativa Transversal entre las Cuatro Tandas Experimentales
 
-| Dimensión Analizada | Primera Tanda (Red Lenta / Jev) | Segunda Tanda (Red Rápida / Gemini 3.5) | Tercera Tanda (Gemini 3.8 Flash RAG y Juez) | Impacto / Conclusión Técnica |
-| :--- | :---: | :---: | :---: | :--- |
-| **Modelo Generativo RAG** | Gemini Base | Gemini Base | **Gemini 3.8 Flash** | Razonamiento integrado (*medium thinking*) |
-| **Modelo Juez Evaluador** | Gemini 3.5 Flash | Gemini 3.5 Flash | **Gemini 3.8 Flash** | Máximo rigor analítico y procedimental |
-| **Latencia Sipán-STAIR (RAG)** | 91.76 s | **7.47 s** | **8.43 s** | Inferencia veloz en streaming (~8s), 26.4% más rápida que modelo local |
-| **Latencia Gemma-4 (Local)** | 11.89 s | 12.15 s | **11.47 s** | Cómputo local estable sobre Apple Silicon M4 |
-| **Exactitud Fáctica RAG** | 55.00% | 45.00% | **20.00%** | Auditoría rigurosa con penalización de omisiones procedimentales |
-| **Exactitud Fáctica Gemma-4** | 14.00% | 6.00% | **13.00%** | Limitada por alucinaciones en enlaces y fechas reglamentarias |
-| **Ventaja Fáctica RAG vs FT** | **+41.00%** | **+39.00%** | **+7.00%** | Superioridad categórica y constante a favor de la arquitectura RAG |
+| Dimensión Analizada | Primera Tanda (Red Lenta / Jev) | Segunda Tanda (Red Rápida / Gemini 3.5) | Tercera Tanda (Gemini 3.8 Flash RAG y Juez) | Cuarta Tanda (Gemma Remoto / RAG 99%) | Impacto / Conclusión Técnica |
+| :--- | :---: | :---: | :---: | :---: | :--- |
+| **Modelo Generativo RAG** | Gemini Base | Gemini Base | **Gemini 3.8 Flash** | **Gemini 3.8 Flash** | Razonamiento integrado (*medium thinking*) |
+| **Modelo Juez Evaluador** | Gemini 3.5 Flash | Gemini 3.5 Flash | **Gemini 3.8 Flash** | **Gemini 3.8 Flash** | Máximo rigor analítico y procedimental |
+| **Endpoint Fine-Tuning** | Localhost (LM Studio) | Localhost (LM Studio) | Localhost (Ollama) | **ai-desa.sipangpt.com** (Ollama Remoto) | Inferencia desacoplada en servidor dedicado |
+| **Latencia Sipán-STAIR (RAG)** | 91.76 s | **7.47 s** | **8.43 s** | **45.00 s** | Grounding documental profundo y reranking semántico |
+| **Latencia Gemma-4** | 11.89 s | 12.15 s | **11.47 s** | **13.64 s** | Inferencia sobre servidor remoto HTTP |
+| **Exactitud Fáctica RAG** | 55.00% | 45.00% | 20.00% | **99.00%** | Grounding completo con cero alucinaciones (49 C, 1 P, 0 I) |
+| **Exactitud Fáctica Gemma-4** | 14.00% | 6.00% | 13.00% | **5.00%** | Afectado por 92% de alucinaciones en enlaces y trámites |
+| **Ventaja Fáctica RAG vs FT** | **+41.00%** | **+39.00%** | **+7.00%** | **+94.00%** | Superioridad categórica y récord de confiabilidad académica |
 
 ---
 

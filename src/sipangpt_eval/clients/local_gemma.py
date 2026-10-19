@@ -26,6 +26,9 @@ class LocalGemmaClient(BaseLLMClient):
 
         # Determinar si es un endpoint OpenAI-compatible (ej. LM Studio /v1/chat/completions) o Ollama (/api/generate)
         is_openai_format: bool = "v1/chat/completions" in self.api_url
+        target_url: str = self.api_url
+        if not is_openai_format and not target_url.endswith("/api/generate"):
+            target_url = f"{target_url.rstrip('/')}/api/generate"
 
         if is_openai_format:
             payload: Dict[str, Union[str, float, List[Dict[str, str]]]] = {
@@ -49,7 +52,7 @@ class LocalGemmaClient(BaseLLMClient):
             for attempt in range(3):
                 try:
                     with httpx.Client(timeout=180.0) as client:
-                        response: httpx.Response = client.post(self.api_url, json=payload)
+                        response: httpx.Response = client.post(target_url, json=payload)
                         elapsed_ms: float = (time.perf_counter() - start_time) * 1000.0
 
                         if response.status_code == 200:

@@ -80,6 +80,8 @@ class BenchmarkRunner:
 
         console.print(f"[bold yellow]Iniciando inferencia (Total: {total_cases} preguntas de prueba)...[/bold yellow]")
 
+        from concurrent.futures import ThreadPoolExecutor
+
         for idx, case in enumerate(cases, 1):
             out_gemma: Optional[InferenceOutput] = cached_gemma.get(case.id)
             out_rag: Optional[InferenceOutput] = cached_rag.get(case.id)
@@ -88,9 +90,16 @@ class BenchmarkRunner:
             if out_gemma is not None and out_rag is not None:
                 is_from_cache = True
             else:
-                out_gemma = self.gemma_client.query(case)
-                out_rag = self.rag_client.query(case)
+                with ThreadPoolExecutor(max_workers=2) as executor:
+                    fut_g = executor.submit(self.gemma_client.query, case) if out_gemma is None else None
+                    fut_r = executor.submit(self.rag_client.query, case) if out_rag is None else None
+                    if fut_g is not None:
+                        out_gemma = fut_g.result()
+                    if fut_r is not None:
+                        out_rag = fut_r.result()
 
+            assert out_gemma is not None
+            assert out_rag is not None
             gemma_outputs.append(out_gemma)
             rag_outputs.append(out_rag)
 

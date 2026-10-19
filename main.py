@@ -1,8 +1,18 @@
+import sys
 from pathlib import Path
 from typing import List, Tuple
 from rich.console import Console
 from rich.table import Table
 import typer
+
+if sys.platform == "win32":
+    try:
+        if sys.stdout is not None and hasattr(sys.stdout, "reconfigure"):
+            sys.stdout.reconfigure(encoding="utf-8", errors="replace")
+        if sys.stderr is not None and hasattr(sys.stderr, "reconfigure"):
+            sys.stderr.reconfigure(encoding="utf-8", errors="replace")
+    except Exception:
+        pass
 
 from sipangpt_eval.clients.local_gemma import LocalGemmaClient
 from sipangpt_eval.clients.sipan_rag import SipanRAGClient
@@ -28,7 +38,7 @@ app = typer.Typer(
     name="codigo-para-evaluar-sipangpt-benchmark",
     help="Suite de Evaluación Comparativa de Rigor Científico: Gemma-4 Fine-Tuned vs Sipán-STAIR RAG",
 )
-console = Console()
+console = Console(legacy_windows=False) if sys.platform == "win32" else Console()
 
 
 @app.command()
@@ -37,7 +47,7 @@ def extract() -> None:
     console.print("[bold blue]Descargando / Extrayendo 50 preguntas de prueba...[/bold blue]")
     cases: List[BenchmarkCase] = load_or_generate_test_benchmark()
     console.print(
-        f"[bold green]✓ Exitosamente extraídas {len(cases)} preguntas de prueba.[/bold green]"
+        f"[bold green][OK] Exitosamente extraídas {len(cases)} preguntas de prueba.[/bold green]"
     )
     console.print(f"-> Guardado en: {settings.ground_truth_dir / 'benchmark_test_50.jsonl'}")
     console.print(f"-> Excel generado: {settings.results_dir / 'banco_pruebas_50.xlsx'}")
@@ -64,7 +74,7 @@ def run() -> Tuple[List[InferenceOutput], List[InferenceOutput]]:
 
     console.print("[bold yellow]Iniciando ejecución de inferencia en ambos modelos...[/bold yellow]")
     outs_ft, outs_rag = runner.run_benchmark(cases)
-    console.print("[bold green]✓ Inferencia completada con éxito.[/bold green]")
+    console.print("[bold green][OK] Inferencia completada con éxito.[/bold green]")
     console.print(f"-> Outputs Gemma-4: {settings.results_dir / 'run_gemma4_finetuned.json'}")
     console.print(f"-> Outputs RAG: {settings.results_dir / 'run_sipan_stair_rag.json'}")
     return outs_ft, outs_rag
@@ -108,7 +118,7 @@ def evaluate() -> Tuple[List[EvaluatedPair], BenchmarkSummaryMetrics]:
     table.add_row("Latencia Media (ms)", f"{metrics.latencia_media_finetuned_ms:.2f} ms", f"{metrics.latencia_media_rag_ms:.2f} ms")
 
     console.print(table)
-    console.print(f"[bold green]✓ Matriz Excel generada:[/bold green] {excel_path}")
+    console.print(f"[bold green][OK] Matriz Excel generada:[/bold green] {excel_path}")
     return pairs, metrics
 
 
@@ -151,13 +161,13 @@ def evaluate_jev() -> Tuple[List[EvaluatedPair], JevSummaryMetrics]:
     table.add_row("Latencia Media de Evaluación (ms)", f"{j_metrics.latencia_media_ms:.2f} ms", f"{j_metrics.latencia_media_ms:.2f} ms")
 
     console.print(table)
-    console.print(f"[bold green]✓ Matriz Excel Jev generada:[/bold green] {excel_path}")
+    console.print(f"[bold green][OK] Matriz Excel Jev generada:[/bold green] {excel_path}")
     return pairs, j_metrics
 
 
 @app.command()
 def report(
-    output_dir: str = typer.Option("tanda_3", help="Subdirectorio de destino para reportes y gráficos (ej. 'tanda_3', 'tanda_2', 'tanda_1' o '' para raíz)")
+    output_dir: str = typer.Option("tanda_4", help="Subdirectorio de destino para reportes y gráficos (ej. 'tanda_4', 'tanda_3', 'tanda_2', 'tanda_1' o '' para raíz)")
 ) -> None:
     """Genera gráficos a 300 DPI y tablas Markdown para la Tesis en el subdirectorio especificado."""
     pairs, metrics = evaluate()
@@ -183,6 +193,23 @@ def report(
         jev_accuracy_path=jev_acc_path,
         jev_quality_path=jev_qual_path,
     )
+
+    if output_dir:
+        import shutil
+        sub_res_dir = settings.results_dir / output_dir
+        sub_res_dir.mkdir(parents=True, exist_ok=True)
+        for fname in [
+            "run_gemma4_finetuned.json",
+            "run_sipan_stair_rag.json",
+            "judge_evaluations_cache.json",
+            "matriz_comparativa_final.xlsx",
+            "banco_pruebas_50.xlsx",
+        ]:
+            src_f = settings.results_dir / fname
+            if src_f.exists():
+                shutil.copy2(src_f, sub_res_dir / fname)
+        console.print(f"-> Datos de la tanda respaldados en: {sub_res_dir}")
+
     console.print(f"-> Gráficos guardados en: {sub_fig_dir}")
     console.print(f"-> Tabla Markdown para Tesis: {tab_path}")
 

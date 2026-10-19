@@ -74,7 +74,13 @@ codigo_para_evaluar_sipangpt_benchmark/
 │       │   ├── judge_evaluations_cache.json
 │       │   ├── matriz_comparativa_final.xlsx
 │       │   └── banco_pruebas_50.xlsx
-│       └── tanda_3/                 # Tercera Tanda (Gemini 3.8 Flash en SipánGPT y Juez LLM)
+│       ├── tanda_3/                 # Tercera Tanda (Gemini 3.8 Flash en SipánGPT y Juez LLM)
+│       │   ├── run_gemma4_finetuned.json
+│       │   ├── run_sipan_stair_rag.json
+│       │   ├── judge_evaluations_cache.json
+│       │   ├── matriz_comparativa_final.xlsx
+│       │   └── banco_pruebas_50.xlsx
+│       └── tanda_4/                 # Cuarta Tanda (Endpoint remoto ai-desa.sipangpt.com, RAG 99% exactitud)
 │           ├── run_gemma4_finetuned.json
 │           ├── run_sipan_stair_rag.json
 │           ├── judge_evaluations_cache.json
@@ -91,7 +97,10 @@ codigo_para_evaluar_sipangpt_benchmark/
 │   │   ├── tanda_2/                 # Figuras Tanda 2 (Red optimizada, 5 módulos)
 │   │   │   ├── curva_exactitud_comparada.png
 │   │   │   └── latencia_boxplots.png
-│   │   └── tanda_3/                 # Figuras Tercera Tanda (Gemini 3.8 Flash, 5 módulos)
+│   │   ├── tanda_3/                 # Figuras Tercera Tanda (Gemini 3.8 Flash, 5 módulos)
+│   │   │   ├── curva_exactitud_comparada.png
+│   │   │   └── latencia_boxplots.png
+│   │   └── tanda_4/                 # Figuras Cuarta Tanda (Endpoint remoto, 5 módulos)
 │   │       ├── curva_exactitud_comparada.png
 │   │       └── latencia_boxplots.png
 │   └── tables/                      # Tablas Markdown para el informe de Tesis
@@ -99,7 +108,9 @@ codigo_para_evaluar_sipangpt_benchmark/
 │       │   └── tabla_exactitud_50_preguntas.md
 │       ├── tanda_2/                 # Tabla de exactitud Tanda 2
 │       │   └── tabla_exactitud_50_preguntas.md
-│       └── tanda_3/                 # Tabla de exactitud Tercera Tanda
+│       ├── tanda_3/                 # Tabla de exactitud Tercera Tanda
+│       │   └── tabla_exactitud_50_preguntas.md
+│       └── tanda_4/                 # Tabla de exactitud Cuarta Tanda
 │           └── tabla_exactitud_50_preguntas.md
 │
 ├── src/
@@ -167,10 +178,11 @@ El banco de pruebas oficial (`data/ground_truth/benchmark_test_50.jsonl`) contie
 | **Total General** | **50** | **35 preguntas monoturno y 15 diálogos multiturno.** |
 
 ### 5.1. Organización por Tandas de Evaluación
-El repositorio conserva los datos de tres tandas experimentales completas:
+El repositorio conserva los datos de cuatro tandas experimentales completas:
 * **Primera Tanda (`tanda_1`)**: Evaluación fundacional inicial. Incluyó tanto el Juez Principal Gemini LLM como el evaluador experimental TypeSafe AI Jev. Ejecutada en condiciones de latencia de red variable (~91.76 s media en RAG).
 * **Segunda Tanda (`tanda_2`)**: Evaluación con red de alta velocidad y memoria precargada (*pre-warming*). Evaluó las 50 preguntas completas con el Juez LLM Gemini 3.5 Flash sin Jev (por indisponibilidad de API externa), demostrando una latencia real de ~7.47 s en Sipán-STAIR RAG y ratificando la ventaja fáctica (+39.00% exactitud respecto a Gemma-4).
 * **Tercera Tanda (`tanda_3`)**: Evaluación avanzada integrando **`gemini-3.8-flash`** tanto en la inferencia del asistente RAG SipánGPT (con razonamiento medium y recuperación vectorial) como en el Juez LLM Reference-Guided (NeurIPS 2023), alcanzando una latencia media de ~8.43 s en RAG frente a ~11.47 s en Gemma-4 (+7.00% exactitud fáctica bajo el estándar más estricto del evaluador).
+* **Cuarta Tanda (`tanda_4`)**: Evaluación integral con modelo Fine-Tuned remoto en `https://ai-desa.sipangpt.com/api/generate` (`sipangpt` sobre Ollama) y asistente RAG SipánGPT con pipeline multietapa completo (`gemini-3.8-flash`). Evaluado con el Juez LLM `gemini-3.8-flash` (NeurIPS 2023). Resultados categóricos: Sipán-STAIR RAG alcanzó **99.00%** de exactitud global (49 C, 1 P, 0 I) con **0 alucinaciones fácticas**, frente al **5.00%** de exactitud de Gemma-4 Fine-Tuned (1 C, 3 P, 46 I).
 
 > [!IMPORTANT]
 > Todos los gráficos comparativos (`curva_exactitud_comparada.png`, `latencia_boxplots.png`, `jev_exactitud_comparada.png`, `jev_calidad_tecnica.png`) DEBEN mostrar sin excepción los **5 módulos académicos**.
@@ -182,8 +194,8 @@ El repositorio conserva los datos de tres tandas experimentales completas:
 
 ```env
 # Endpoints de Inferencia
-GEMMA_API_URL=http://localhost:11434/api/generate
-GEMMA_MODEL_NAME=unsloth_gemma-4-E2B-it_1789791679-GGUF
+GEMMA_API_URL=https://ai-desa.sipangpt.com/api/generate
+GEMMA_MODEL_NAME=sipangpt
 
 SIPAN_RAG_API_URL=http://localhost:3000/api/chat
 SIPAN_RAG_API_KEY="sipangpt-local-perf-key"
@@ -220,7 +232,7 @@ python main.py run
 python main.py evaluate
 
 # 4. Generar reportes Markdown, Excel y gráficos 300 DPI (soporta subdirectorio opcional)
-python main.py report --output-dir tanda_3
+python main.py report --output-dir tanda_4
 
 # 5. [Opcional] Ejecutar evaluación con TypeSafe AI Jev
 python main.py evaluate-jev
